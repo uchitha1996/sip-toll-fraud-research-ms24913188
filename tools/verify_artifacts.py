@@ -8,6 +8,10 @@ import sys
 def main():
     root = Path(__file__).resolve().parents[1]
     records = json.loads((root / "FILE_MANIFEST.json").read_text(encoding="utf-8-sig"))
+    imported_count = len(records)
+    thesis_manifest = root / "documents/final/FILES.json"
+    if thesis_manifest.is_file():
+        records.extend(json.loads(thesis_manifest.read_text(encoding="utf-8-sig")))
     failures = []
     seen = set()
     for record in records:
@@ -29,7 +33,7 @@ def main():
         print("\n".join(failures))
         print(f"FAILED: {len(failures)} integrity checks")
         return 1
-    print(f"PASS: {len(records)} imported artifacts match their recorded sizes and SHA-256 hashes.")
+    print(f"PASS: {imported_count} imported artifacts and {len(records)-imported_count} current thesis files match their recorded sizes and SHA-256 hashes.")
     return 0
 
 

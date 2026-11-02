@@ -10,6 +10,8 @@ The source locations are `/home/astrix/sip-fraud-research` and `/home/astrix/sip
 
 ## Documents and initial supplied evidence
 
+`documents/final/` contains the current revised Word/PDF pair. Their identities are recorded separately in `documents/final/FILES.json`, and navigation checks in `documents/final/VALIDATION.json`. The funding narrative is removed, the laboratory history is stated neutrally, and reference 19 identifies the immutable GitHub evidence snapshot.
+
 - `documents/baseline/`: thesis retained before the next editorial revision.
 - `documents/drafts/`: supplied earlier thesis versions with original filenames.
 - `documents/proposal/` and `documents/template/`: supplied approved proposal and SLIIT thesis template.

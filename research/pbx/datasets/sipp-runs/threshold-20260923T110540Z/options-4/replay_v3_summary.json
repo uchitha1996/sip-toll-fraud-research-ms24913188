@@ -1,0 +1,46 @@
+{
+  "replayed_utc": "2026-09-23T11:13:08.695082+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-runs/threshold-20260923T110540Z/options-4",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "OPT4",
+      "label": "RECONNAISSANCE",
+      "method": "OPTIONS",
+      "attempts": "4",
+      "unique_targets": "4",
+      "start_utc": "4",
+      "end_utc": "2026-09-23T11:05:42.897638860Z"
+    },
+    {
+      "scenario_id": "scenario_id",
+      "label": "label",
+      "method": "method",
+      "attempts": "attempts",
+      "unique_targets": "unique_targets",
+      "start_utc": "start_utc",
+      "end_utc": "end_utc"
+    },
+    {
+      "scenario_id": "OPT2026-09-23T11:05:43.355638767Z",
+      "label": "RECONNAISSANCE",
+      "method": "OPTIONS",
+      "attempts": "",
+      "unique_targets": "",
+      "start_utc": "",
+      "end_utc": ""
+    }
+  ],
+  "packet_rows": 8,
+  "request_events": 4,
+  "predicted_stages": {
+    "NORMAL": 4
+  },
+  "first_alert_stage": null,
+  "first_alert_event": null,
+  "time_to_first_alert_seconds": null,
+  "new_cdr_rows": 0,
+  "pcap_sha256": "3156a711f62853bd1c2b94dbdfcc7065420df5a687600e284837f18a9d7dbb6c",
+  "packet_csv_sha256": "be752968791de4ad775c8f70c002d13528303f9ae403061c258ec422584b1b03",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

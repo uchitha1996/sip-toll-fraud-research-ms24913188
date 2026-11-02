@@ -1,0 +1,88 @@
+{
+  "timestamp_utc": "2026-10-10T05:50:40.363508+00:00",
+  "mode": "secondary offline archival re-analysis, NOT new model/holdout/traffic",
+  "archive_pcap_hashes_verified": 34,
+  "f_series": {
+    "V3": {
+      "TP": 4,
+      "FP": 2,
+      "TN": 4,
+      "FN": 2,
+      "precision": 0.6667,
+      "recall": 0.6667,
+      "FPR": 0.3333,
+      "balanced_accuracy": 0.6667
+    },
+    "V5": {
+      "TP": 5,
+      "FP": 1,
+      "TN": 5,
+      "FN": 1,
+      "precision": 0.8333,
+      "recall": 0.8333,
+      "FPR": 0.1667,
+      "balanced_accuracy": 0.8333
+    },
+    "V6": {
+      "TP": 6,
+      "FP": 1,
+      "TN": 5,
+      "FN": 0,
+      "precision": 0.8571,
+      "recall": 1.0,
+      "FPR": 0.1667,
+      "balanced_accuracy": 0.9167
+    }
+  },
+  "heldout": {
+    "ML": {
+      "TP": 1,
+      "FP": 0,
+      "TN": 5,
+      "FN": 4,
+      "precision": 1.0,
+      "recall": 0.2,
+      "FPR": 0.0,
+      "balanced_accuracy": 0.6
+    },
+    "V6_any": {
+      "TP": 3,
+      "FP": 2,
+      "TN": 3,
+      "FN": 2,
+      "precision": 0.6,
+      "recall": 0.6,
+      "FPR": 0.4,
+      "balanced_accuracy": 0.6
+    },
+    "V6_answered": {
+      "TP": 2,
+      "FP": 1,
+      "TN": 4,
+      "FN": 3,
+      "precision": 0.6667,
+      "recall": 0.4,
+      "FPR": 0.2,
+      "balanced_accuracy": 0.6
+    }
+  },
+  "matched_opposite_intent_pairs": [
+    "H003/H007",
+    "H004/H008"
+  ],
+  "cdr_answered_heldout": {
+    "BENIGN": 3,
+    "SIMULATED_ABUSE": 3
+  },
+  "f_first_alert_common_onset_comparisons": 5,
+  "v6_versus_v3_first_alert": {
+    "later": 3,
+    "same": 2
+  },
+  "causal_ML_review_priorities": {
+    "LOWER": 2,
+    "REVIEW": 6,
+    "HIGHER": 2
+  },
+  "native_external_verified_cases": 7
+}

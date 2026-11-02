@@ -1,0 +1,36 @@
+{
+  "id": "B036",
+  "mode": "OFF",
+  "verified": true,
+  "event_counts": {
+    "OPTIONS_REQUEST": 5,
+    "AUTH_REJECTION": 10,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 3
+  },
+  "expected_stages": [
+    "RECONNAISSANCE",
+    "AUTHENTICATION_ATTACK",
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "CALL_BURST"
+  ],
+  "timings": [],
+  "call_setup": [
+    {
+      "call_id": "1-8998@172.16.200.68",
+      "invite_to_200_ms": 15.018939971923828
+    },
+    {
+      "call_id": "1-9009@172.16.200.68",
+      "invite_to_200_ms": 12.900114059448242
+    },
+    {
+      "call_id": "1-9021@172.16.200.68",
+      "invite_to_200_ms": 12.078046798706055
+    }
+  ],
+  "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+}

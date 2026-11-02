@@ -1,0 +1,79 @@
+{
+  "scope": "C port regression on previously inspected frozen holdout, not new ML evaluation",
+  "runs_matched": 10,
+  "events": 142,
+  "alerts": 52,
+  "rows": [
+    {
+      "id": "B006",
+      "events": 12,
+      "alerts": 5,
+      "events_sha256": "7286f557c7a233e88778390476fd16e83c672ebbedb3b9fa32b49ee896e30db8"
+    },
+    {
+      "id": "B007",
+      "events": 13,
+      "alerts": 5,
+      "events_sha256": "6cda87bfb93205d44e3ca2e3b23c96790e8b85fa9530b58fd605bd7172cb5d6c"
+    },
+    {
+      "id": "B008",
+      "events": 14,
+      "alerts": 5,
+      "events_sha256": "db1fc7aadd7750a2af2eb6bf870fc2f47646d1eb02f708490534f91af0c35849"
+    },
+    {
+      "id": "B009",
+      "events": 15,
+      "alerts": 5,
+      "events_sha256": "0d0c8332bb57d0752d11ad1b17dcbe8115eb028df48efc78e31bf8efd4efa460"
+    },
+    {
+      "id": "B010",
+      "events": 17,
+      "alerts": 6,
+      "events_sha256": "4c65c9c752d44586f63624f7abe6979d2229899e81700c3f8de60f53bd2ce6fe"
+    },
+    {
+      "id": "B011",
+      "events": 12,
+      "alerts": 5,
+      "events_sha256": "2b02bbc0aaf1f664009e98aab3cce2d0dbaafa0546abfd6f6c81f24110813440"
+    },
+    {
+      "id": "B012",
+      "events": 13,
+      "alerts": 5,
+      "events_sha256": "39fcaa1dc31b02f010aca46b713e18280ec9a4e03120731c7fab33bfc4ac0eab"
+    },
+    {
+      "id": "B013",
+      "events": 14,
+      "alerts": 5,
+      "events_sha256": "3e600f62f871a2c2f67e0618e12e919ff087039f1d2d8b4c9fe567f46fcb4c97"
+    },
+    {
+      "id": "B014",
+      "events": 15,
+      "alerts": 5,
+      "events_sha256": "8d03c2cb6566e215013713c5b43f29c8ec3bbddc36ae0f4e48e7e8ba3539cbb8"
+    },
+    {
+      "id": "B015",
+      "events": 17,
+      "alerts": 6,
+      "events_sha256": "3e1aa2f1f02bea6eb341c8d342c6bd1377745a33e6ce3781ab6261cabe69b11b"
+    }
+  ],
+  "source_sha256": {
+    "res_sipfraud_full_lab.c": "4dd67845c5b6f3ddd6588f39b29b44ab1db090b54ded1a61238c61db05844d78",
+    "libprogression_core.so": "db623e0ca70bc06a79a18688d2649c96cf6e8dd80bab3e5d4b2c8e17da85861f",
+    "core_bridge.c": "5107d4767ceb97cc754ff434282ee339c6d50832bccd26e870261a38f8cb2210",
+    "progression_core.h": "6c405c324cc6b14a23171a06bd3fc42ee804c6f2729ddc8f74ca7f3ec5ca1d96",
+    "audit_native_core.py": "fae2cbf77b13d75df65b9b6cd5be3024c2cd1008183e38742da08759e631605d",
+    "audit_native_holdout.py": "081bed0abe78fe5ef058c139b84e57d3cac2577b8738eda0a535c043700f5a0f",
+    "progression_core.c": "634b16ce451b8a9bc0d5cefec5efbb549cd3eeb71513b26a95598ecd2a4651de",
+    "native_core.py": "4dc65079b7fb73a84fa2d9cc91ad446af9083ea8f7726139e053523ffcddbe26",
+    "res_sipfraud_full_lab.so": "84c30bcaf2d9f1db5336b06a91a3244752659239d6dd2ac56ea04431d84bb712"
+  }
+}

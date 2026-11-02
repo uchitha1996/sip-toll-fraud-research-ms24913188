@@ -1,0 +1,3 @@
+{"account": "1002", "call_id": "1-22726@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:52:25.383960Z"}
+{"account": "1002", "call_id": "1-22737@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:52:27.337614Z"}
+{"account": "1002", "call_id": "1-22748@172.16.200.68", "event_id": "v5:15", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:52:29.086926Z"}

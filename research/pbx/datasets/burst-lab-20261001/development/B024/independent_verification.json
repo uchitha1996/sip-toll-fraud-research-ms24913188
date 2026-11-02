@@ -1,0 +1,28 @@
+{
+  "id": "B024",
+  "checks": {
+    "capture_hash": true,
+    "captured_and_clean": true,
+    "three_distinct_invites": true,
+    "three_sip_completed": true,
+    "cdr_prefix": true,
+    "three_answered_cdr": true,
+    "expected_auth_log_count": false,
+    "zero_active_calls": true,
+    "route_removed": true
+  },
+  "call_ids": [
+    "1-6293@172.16.200.68",
+    "1-6304@172.16.200.68",
+    "1-6315@172.16.200.68"
+  ],
+  "sip_completed_count": 3,
+  "answered_cdr_count": 3,
+  "billsec": [
+    6,
+    6,
+    6
+  ],
+  "auth_log_count": 7,
+  "verified": false
+}

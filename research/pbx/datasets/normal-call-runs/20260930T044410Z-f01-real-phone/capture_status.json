@@ -1,0 +1,43 @@
+{
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260930T044410Z-f01-real-phone",
+  "case": "F01",
+  "start_utc": "2026-09-30T04:44:10.073846Z",
+  "end_utc": "2026-09-30T04:49:11.106656Z",
+  "pcap_sha256": "3d25a4edb3b362b6db4fdb90e77c910e368a6dc3b4536e883964331ec6de5b5d",
+  "verified": {
+    "valid": true,
+    "case": "F01",
+    "answered_cdr_count": 2,
+    "answered_cdrs": [
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 12
+      },
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 10
+      }
+    ],
+    "complete_client_calls": [
+      {
+        "call_id": "Wp-Olb1qLFV9FTAh9aCcBw..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790743462.867764,
+        "last_bye_epoch": 1790743478.155376
+      },
+      {
+        "call_id": "tB5iTjnl0XEsQQX65If1-Q..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790743507.48926,
+        "last_bye_epoch": 1790743520.374339
+      }
+    ],
+    "new_cdr_rows": 2,
+    "decoded_sip_packets": 46
+  },
+  "errors": []
+}

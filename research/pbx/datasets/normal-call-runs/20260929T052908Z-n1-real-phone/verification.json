@@ -1,0 +1,33 @@
+{
+  "valid": true,
+  "verified": [
+    {
+      "caller": "1001",
+      "destination": "1002",
+      "answered_cdr_count": 1,
+      "billsec": [
+        12
+      ],
+      "complete_client_call_ids": [
+        "6RmB33mhYtMq1lrXAg1PBA.."
+      ]
+    },
+    {
+      "caller": "1002",
+      "destination": "1001",
+      "answered_cdr_count": 2,
+      "billsec": [
+        13,
+        10
+      ],
+      "complete_client_call_ids": [
+        "db20ca972e3445c59a0613681a81f81f",
+        "1f3f2759f9ac41858236ef5f39a04ebf"
+      ]
+    }
+  ],
+  "new_cdr_rows": 3,
+  "decoded_sip_packets": 77,
+  "pcap_sha256": "32036f72988364392e7262ad372134b4dfff40fd939bb93d88338a4137664998",
+  "note": "One capture contains three answered calls in two directions; SIP packets are not independent scenarios."
+}

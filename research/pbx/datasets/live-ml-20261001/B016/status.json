@@ -1,0 +1,19 @@
+{
+  "error": null,
+  "counts": {
+    "AUTH_REJECTION": 6,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 3,
+    "OPTIONS_REQUEST": 0
+  },
+  "alerts": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "CALL_BURST"
+  ],
+  "events_sha256": "ccc5bd5a41854b5a16633b17bc0f91d6ed73fc34f3f96773deb3cf3426fb24ea",
+  "alerts_sha256": "f99998cf95723c01de6b15ed166b1e2c1ca1f1a645dfd81ff466f962748b44fd",
+  "finished_utc": "2026-10-01T09:14:38.798851+00:00"
+}

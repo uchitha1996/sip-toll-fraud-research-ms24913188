@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "SUSPECTED_COMPROMISE",
+    "risk": "REVIEW",
+    "event_time_utc": "2026-10-02T00:11:06.618542Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "destination": "",
+    "destination_group": "",
+    "trunk": "",
+    "call_id": "1-3453@172.16.200.68",
+    "event_id": "v5:34",
+    "evidence_event_ids": [
+      "v5:5",
+      "v5:10",
+      "v5:15",
+      "v5:20",
+      "v5:25",
+      "v5:30",
+      "v5:34"
+    ],
+    "policy": "UNKNOWN",
+    "reason": "ambiguous_recovery",
+    "ml_probability": 0.6060894647447382,
+    "ml_priority": "HIGHER",
+    "ml_feature_values": [
+      6,
+      2,
+      30.0291,
+      33.0252
+    ],
+    "ml_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+  }
+]

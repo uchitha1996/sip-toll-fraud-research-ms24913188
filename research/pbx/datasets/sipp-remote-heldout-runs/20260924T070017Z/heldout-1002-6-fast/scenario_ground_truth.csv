@@ -1,0 +1,2 @@
+scenario_id,label,method,attempts,unique_targets,start_utc,end_utc,source_ip,pbx_ip
+heldout-1002-6-fast,AUTHENTICATION_ATTACK,REGISTER,6,1,2026-09-24T07:00:48.938993Z,2026-09-24T07:00:53.962933Z,172.16.200.68,172.16.200.81

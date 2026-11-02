@@ -1,0 +1,14 @@
+{
+  "error": null,
+  "counts": {
+    "OPTIONS_REQUEST": 5,
+    "AUTH_REJECTION": 10,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 3
+  },
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "collector_sha256": "297598a23bd8b766589bf9c6771c4740f1944e13814d1bf45c0d2ade223f0c5e",
+  "adapter_sha256": "fe2312027ae8c5aeb3a804689fde7578ffb78d0d7455e13ea6727e5437037057",
+  "service_sha256": "d4526afbe59722419779d2f7c89f20caf1644fe4a5ad5f0180717661bbe28d6f",
+  "finished_utc": "2026-10-02T07:39:28.246543+00:00"
+}

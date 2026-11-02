@@ -1,0 +1,24 @@
+{
+  "case": "F06",
+  "label": "BENIGN_REAL_PHONE",
+  "registered_role": "one fresh negative scenario",
+  "declared_utc": "2026-09-30T05:04:20.310229Z",
+  "runner_sha256": "d1d6f68b7a70f1e0785a1f36c6b04f42647545d8dc77acca5bc73a53630e5b46",
+  "detector_sha256": {
+    "v3": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+    "v5": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "v6": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4"
+  },
+  "generator": "two live real softphones; client software binary hash unavailable",
+  "phone_contact_hosts": {
+    "1001": "172.16.200.32:59183",
+    "1002": "172.16.200.33:58152"
+  },
+  "pbx": "172.16.200.81",
+  "duration_s": 180,
+  "planned_call_schedule": "Five separate answered calls between 1001 and 1002, first INVITE through final BYE within 120 seconds",
+  "source_account": "either",
+  "destination": "other",
+  "capture_filter": "udp and port 5060 and not host 172.16.200.68",
+  "invalid_if": "Registration absent, insufficient complete answered calls, wrong direction/timing, CDR/SIP mismatch, capture loss or unexpected source"
+}

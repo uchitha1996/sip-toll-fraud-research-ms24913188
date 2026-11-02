@@ -1,0 +1,27 @@
+{
+  "replayed_utc": "2026-09-30T04:49:31.201700+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260930T044410Z-f01-real-phone",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "F01",
+      "label": "BENIGN_REAL_PHONE",
+      "answered_cdr_count": "2",
+      "complete_client_calls": "2",
+      "evaluation_unit": "one_full_session",
+      "source": "real_softphones"
+    }
+  ],
+  "packet_rows": 46,
+  "request_events": 12,
+  "predicted_stages": {
+    "NORMAL": 12
+  },
+  "first_alert_stage": null,
+  "first_alert_event": null,
+  "time_to_first_alert_seconds": null,
+  "new_cdr_rows": 2,
+  "pcap_sha256": "3d25a4edb3b362b6db4fdb90e77c910e368a6dc3b4536e883964331ec6de5b5d",
+  "packet_csv_sha256": "dbeb4376433d8685cff5752d2e6e1cde8612011c7e79fd90813d18bbb9521c41",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

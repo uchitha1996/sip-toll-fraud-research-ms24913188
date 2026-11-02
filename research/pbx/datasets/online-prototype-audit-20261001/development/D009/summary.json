@@ -1,0 +1,21 @@
+{
+  "id": "D009",
+  "split": "development",
+  "event_count": 12,
+  "stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "v6_stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "stage_match": true,
+  "processing_ns": 3555536,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "4ed37868036ef8e1d2c39195710b5e8f6e4c10e193f1aacd5a9a1a331a8aa5be",
+  "events_sha256": "b6466392d23b8c24a3e9e6014b5ff9e5b52af6d5ceaf4178fdea8644c0c6b531",
+  "alerts_sha256": "a4cf645ae6da09eb7cc55d579a42a19f7209f784d411276250de4fb12ff61799"
+}

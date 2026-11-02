@@ -1,0 +1,2 @@
+account=1001 failures_window=0 auth_alerts=0 review_alerts=0
+account=1002 failures_window=6 auth_alerts=0 review_alerts=1

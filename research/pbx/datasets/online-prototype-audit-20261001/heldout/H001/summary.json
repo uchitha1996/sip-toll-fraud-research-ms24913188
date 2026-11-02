@@ -1,0 +1,13 @@
+{
+  "id": "H001",
+  "split": "heldout",
+  "event_count": 4,
+  "stages": [],
+  "v6_stages": [],
+  "stage_match": true,
+  "processing_ns": 2953573,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576",
+  "events_sha256": "83e25bb76131ae6fbe4c78d9e7e345270e79ba92ed745d24a98d229460747715",
+  "alerts_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

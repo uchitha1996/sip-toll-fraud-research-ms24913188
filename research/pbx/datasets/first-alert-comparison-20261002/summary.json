@@ -1,0 +1,99 @@
+{
+  "results": [
+    {
+      "case": "F05",
+      "truth": "BENIGN",
+      "v3_first_stage": "AUTHENTICATION_ATTACK",
+      "v3_first_alert_s": 9.784668922424316,
+      "v5_first_stage": null,
+      "v5_first_alert_s": null,
+      "v6_first_stage": "SUSPECTED_COMPROMISE",
+      "v6_first_alert_s": 16.29775595664978,
+      "v6_minus_v3_first_alert_s": 6.513087034225464,
+      "review_before_first_linked_invite_s": 1.7243118286132812,
+      "pcap_sha256": "46fcd2b819f31ce984de72bc45a159ef52fa6392be136be179d20ada027a64e8"
+    },
+    {
+      "case": "F07",
+      "truth": "ATTACK",
+      "v3_first_stage": "RECONNAISSANCE",
+      "v3_first_alert_s": 4.003670930862427,
+      "v5_first_stage": "RECONNAISSANCE",
+      "v5_first_alert_s": 4.003670930862427,
+      "v6_first_stage": "RECONNAISSANCE",
+      "v6_first_alert_s": 4.003670930862427,
+      "v6_minus_v3_first_alert_s": 0.0,
+      "review_before_first_linked_invite_s": null,
+      "pcap_sha256": "d4130d42dec7d3bbe8852ecac3509b3d56975c2f86729643edcde96d27bfe1ad"
+    },
+    {
+      "case": "F08",
+      "truth": "ATTACK",
+      "v3_first_stage": "RECONNAISSANCE",
+      "v3_first_alert_s": 5.242908954620361,
+      "v5_first_stage": "RECONNAISSANCE",
+      "v5_first_alert_s": 5.242908954620361,
+      "v6_first_stage": "RECONNAISSANCE",
+      "v6_first_alert_s": 5.242908954620361,
+      "v6_minus_v3_first_alert_s": 0.0,
+      "review_before_first_linked_invite_s": null,
+      "pcap_sha256": "3f7fe5026e4d4decc25f8e31f231f5b47aa2f0c5ce4b048e16b724b0732f4d31"
+    },
+    {
+      "case": "F09",
+      "truth": "ATTACK",
+      "v3_first_stage": "AUTHENTICATION_ATTACK",
+      "v3_first_alert_s": 4.0067198276519775,
+      "v5_first_stage": "AUTHENTICATION_ATTACK",
+      "v5_first_alert_s": 10.006255865097046,
+      "v6_first_stage": "AUTHENTICATION_ATTACK",
+      "v6_first_alert_s": 10.006255865097046,
+      "v6_minus_v3_first_alert_s": 5.999536037445068,
+      "review_before_first_linked_invite_s": null,
+      "pcap_sha256": "6ac332545b0237c9215ef985ebfe5e02405b1111baab71d7b015439158a0bbf2"
+    },
+    {
+      "case": "F10",
+      "truth": "ATTACK",
+      "v3_first_stage": null,
+      "v3_first_alert_s": null,
+      "v5_first_stage": "AUTHENTICATION_ATTACK",
+      "v5_first_alert_s": 29.853475093841553,
+      "v6_first_stage": "AUTHENTICATION_ATTACK",
+      "v6_first_alert_s": 29.853475093841553,
+      "v6_minus_v3_first_alert_s": null,
+      "review_before_first_linked_invite_s": null,
+      "pcap_sha256": "67f614b547553523f61922ac69348625d9ce24b5bd9d48734d3726f6c67e2059"
+    },
+    {
+      "case": "F11",
+      "truth": "ATTACK",
+      "v3_first_stage": "AUTHENTICATION_ATTACK",
+      "v3_first_alert_s": 8.057111024856567,
+      "v5_first_stage": null,
+      "v5_first_alert_s": null,
+      "v6_first_stage": "SUSPECTED_COMPROMISE",
+      "v6_first_alert_s": 13.61850619316101,
+      "v6_minus_v3_first_alert_s": 5.561395168304443,
+      "review_before_first_linked_invite_s": 1.7027888298034668,
+      "pcap_sha256": "b77488e852c1e8ddc009b101c393d9b5b101e9b8a11ad132b4e5da6cf312b618"
+    },
+    {
+      "case": "F12",
+      "truth": "ATTACK",
+      "v3_first_stage": null,
+      "v3_first_alert_s": null,
+      "v5_first_stage": "AUTHENTICATION_ATTACK",
+      "v5_first_alert_s": 29.76958203315735,
+      "v6_first_stage": "AUTHENTICATION_ATTACK",
+      "v6_first_alert_s": 29.76958203315735,
+      "v6_minus_v3_first_alert_s": null,
+      "review_before_first_linked_invite_s": 1.7051610946655273,
+      "pcap_sha256": "99cfec70185fd02633c5b3b9f5f7f56fe1b8c6864eaeaba42e564730f6691d84"
+    }
+  ],
+  "source_table_sha256": "f5155a5073035b660dce4de4f9296266ce86f04678bbd44a8d6cd83c49aac3a1",
+  "scope": "Seven inspected registered cases, common first-request onset; first-any-alert endpoints can name different stages and risks. Archived event-time comparison, not live computational latency or a new holdout.",
+  "interpretation": "Earlier first alert is not always better: V3 counts normal challenges, while V5/V6 require confirmed rejections. Review before a linked INVITE does not prove unauthorized use and also occurs in benign recovery.",
+  "h1_status": "Do not claim universally earlier detection; assess coverage and timing together."
+}

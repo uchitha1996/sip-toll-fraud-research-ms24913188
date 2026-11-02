@@ -1,0 +1,20 @@
+{
+  "case": "B016",
+  "verified": true,
+  "event_counts": {
+    "AUTH_REJECTION": 6,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 3,
+    "OPTIONS_REQUEST": 0
+  },
+  "score_probability": 0.4732518114250732,
+  "score_priority": "REVIEW",
+  "packet_to_decision_ms": {
+    "min": 112.71286010742188,
+    "median": 362.62989044189453,
+    "max": 942.5399303436279
+  },
+  "service_processing_ms_median": 0.122834,
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "limitation": "One live integration case; no PBX overhead baseline or in-process comparison."
+}

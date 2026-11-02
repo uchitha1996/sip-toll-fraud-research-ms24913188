@@ -1,0 +1,2 @@
+scenario_id,label,method,attempts,unique_targets,start_utc,end_utc,source_ip,pbx_ip
+auth-10-slow,AUTHENTICATION_ATTACK,REGISTER,10,1,2026-09-24T06:28:22.357606Z,2026-09-24T06:29:12.019229Z,172.16.200.68,172.16.200.81

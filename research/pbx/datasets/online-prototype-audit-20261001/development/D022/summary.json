@@ -1,0 +1,23 @@
+{
+  "id": "D022",
+  "split": "development",
+  "event_count": 14,
+  "stages": [
+    "AUTHENTICATION_ATTACK",
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "v6_stages": [
+    "AUTHENTICATION_ATTACK",
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "stage_match": true,
+  "processing_ns": 3516720,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "0b21108cfdd5f18ad635cd33f3873a83b33fcc22ab4d3c5c6368a068ee23c184",
+  "events_sha256": "239327eaad53dbcc889e77c9ef391115b8fdfa984988ba88d999afb1a0893cb7",
+  "alerts_sha256": "6295d42d7563dbb91075ec3cb00e2931e451cc4e25edc1de0786cd956f8f4848"
+}

@@ -1,0 +1,34 @@
+{
+  "candidate_rule": "V5 development: exact CSeq, digest+terminal rejection, 1 s grace, 10 in 60 s",
+  "capture": "/home/astrix/sip-fraud-research/accelerated-20261012/runs/fresh/C010/traffic.pcap",
+  "source_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "frozen_v3_sha256": null,
+  "pcap_sha256": "ef698c61e53dbbfdfc930602c2093b50929e5ee654dd5762873fd57a25a6fe32",
+  "observation_end_utc": "2026-10-12T03:57:48.888607Z",
+  "first_request_utc": "2026-10-12T03:57:26.588976Z",
+  "first_alert_stage": "AUTHENTICATION_ATTACK",
+  "first_alert_event_type": "CONFIRMED_REJECTION",
+  "first_alert_utc": "2026-10-12T03:57:45.643121Z",
+  "time_to_first_alert_seconds": 19.054145,
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "C010",
+      "label": "SIMULATED_ABUSE",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81",
+      "extension": "1002",
+      "destination": "88002",
+      "expected_wrong_password_dialogs": "10",
+      "expected_register_success": "0",
+      "expected_answered_call": "0"
+    }
+  ],
+  "counts": {
+    "request_events": 20,
+    "initial_unauthenticated_challenges_ignored": 10,
+    "authenticated_rejections_pending": 10,
+    "confirmed_rejected_digest_dialogs": 10,
+    "unresolved_at_observation_end": 0
+  },
+  "note": "Selected scenario labels are not independent event-level accuracy metrics. A pending rejection counts only after an observed one-second retry grace."
+}

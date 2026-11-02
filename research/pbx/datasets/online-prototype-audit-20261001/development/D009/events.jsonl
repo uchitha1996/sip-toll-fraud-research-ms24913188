@@ -1,0 +1,12 @@
+{"account": "1002", "call_id": "1-22250@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:41.455283Z"}
+{"account": "1002", "call_id": "1-22261@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:43.107395Z"}
+{"account": "1002", "call_id": "1-22272@172.16.200.68", "event_id": "v5:15", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:44.893630Z"}
+{"account": "1002", "call_id": "1-22283@172.16.200.68", "event_id": "v5:20", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:46.576078Z"}
+{"account": "1002", "call_id": "1-22294@172.16.200.68", "event_id": "v5:25", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:48.316034Z"}
+{"account": "1002", "call_id": "1-22305@172.16.200.68", "event_id": "v5:30", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:50.008051Z"}
+{"account": "1002", "call_id": "1-22316@172.16.200.68", "event_id": "v5:35", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:51.706711Z"}
+{"account": "1002", "call_id": "1-22327@172.16.200.68", "event_id": "v5:40", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:53.438179Z"}
+{"account": "1002", "call_id": "1-22338@172.16.200.68", "event_id": "v5:44", "kind": "REGISTER_SUCCESS", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:56.348685Z"}
+{"account": "1002", "call_id": "1-22349@172.16.200.68", "destination": "88002", "event_id": "v5:45", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:50:58.772830Z"}
+{"account": "1002", "call_id": "1-22349@172.16.200.68", "event_id": "sipbye:1-22349@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:51:04.885620Z"}
+{"account": "1002", "billsec": 6, "call_id": "1-22349@172.16.200.68", "destination": "88002", "event_id": "cdr:1-22349@172.16.200.68", "kind": "CDR_ANSWERED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:51:12.007587Z"}

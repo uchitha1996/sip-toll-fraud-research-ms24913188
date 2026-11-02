@@ -1,0 +1,10 @@
+[Sep 28 15:41:41] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 1-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:41] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 2-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:41] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 3-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:42] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 4-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:42] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 5-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:42] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 6-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:43] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 7-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:43] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 8-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:43] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 9-15475@172.16.200.68) - Failed to authenticate
+[Sep 28 15:41:44] NOTICE[70315] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5133' (callid: 10-15475@172.16.200.68) - Failed to authenticate

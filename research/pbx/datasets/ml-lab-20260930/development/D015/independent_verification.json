@@ -1,0 +1,11 @@
+{
+  "scenario_id": "D015",
+  "verified": true,
+  "packets": 20,
+  "failed_auth_lines": 5,
+  "cdr_delta": 0,
+  "cdr_billsec": 0,
+  "v5_first_alert": null,
+  "v6_stages": [],
+  "pcap_sha256": "340f5b201dc1e69ab8e5f938025a0ea8af93d055f9b1d44e43adb4e6b51dc793"
+}

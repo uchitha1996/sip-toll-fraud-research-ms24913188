@@ -1,0 +1,2 @@
+stage,time_utc,source_ip,account,destination,call_id,evidence
+SUSPECTED_COMPROMISE,2026-10-02T00:01:37.272751Z,172.16.200.68,1002,,,5 confirmed rejections then REGISTER 200

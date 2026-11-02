@@ -1,0 +1,15 @@
+{
+  "error": null,
+  "counts": {
+    "AUTH_REJECTION": 6,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 0,
+    "OPTIONS_REQUEST": 0
+  },
+  "alerts": [
+    "SUSPECTED_COMPROMISE"
+  ],
+  "events_sha256": "82d599acd132d21b4c51b92d7f26d20947845935cf70afaf4aa7fa8d81d73155",
+  "alerts_sha256": "c7904c00f78130c7c90a62e79d3485ef5700f6b3872236e03f33d03755702716",
+  "finished_utc": "2026-10-02T05:16:03.964241+00:00"
+}

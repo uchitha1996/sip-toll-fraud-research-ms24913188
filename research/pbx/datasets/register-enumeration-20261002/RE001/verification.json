@@ -1,0 +1,19 @@
+{
+  "id": "RE001",
+  "label": "MISCONFIGURATION_CONTROL",
+  "verified": true,
+  "unique_register_targets": 1,
+  "request_dialogs": 6,
+  "response_codes": [
+    "401"
+  ],
+  "pcap_sha256": "70b928980d4b6d0742f1a5a45da7d291021b23ab9cae617c6dc82afa7f3b60d4",
+  "v5_counts": {
+    "request_events": 6,
+    "initial_unauthenticated_challenges_ignored": 6,
+    "unresolved_at_observation_end": 0
+  },
+  "current_progression_stages": [],
+  "cdr_delta": 0,
+  "limitation": "Unauthenticated unused-account probe; no confirmed guessing, compromise, DoS or demonstrated valid-ID discovery."
+}

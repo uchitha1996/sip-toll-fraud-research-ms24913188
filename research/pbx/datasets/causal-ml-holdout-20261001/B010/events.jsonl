@@ -1,0 +1,17 @@
+{"account": "1001", "call_id": "1-3227@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:12.695291Z"}
+{"account": "1001", "call_id": "1-3238@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:15.660757Z"}
+{"account": "1001", "call_id": "1-3249@172.16.200.68", "event_id": "v5:15", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:18.778503Z"}
+{"account": "1001", "call_id": "1-3260@172.16.200.68", "event_id": "v5:20", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:21.736567Z"}
+{"account": "1001", "call_id": "1-3271@172.16.200.68", "event_id": "v5:25", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:24.702781Z"}
+{"account": "1001", "call_id": "1-3282@172.16.200.68", "event_id": "v5:30", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:27.684496Z"}
+{"account": "1001", "call_id": "1-3293@172.16.200.68", "event_id": "v5:35", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:30.712502Z"}
+{"account": "1001", "call_id": "1-3304@172.16.200.68", "event_id": "v5:40", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:33.726157Z"}
+{"account": "1001", "call_id": "1-3315@172.16.200.68", "event_id": "v5:45", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:36.796248Z"}
+{"account": "1001", "call_id": "1-3326@172.16.200.68", "event_id": "v5:50", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:39.801601Z"}
+{"account": "1001", "call_id": "1-3337@172.16.200.68", "event_id": "v5:54", "kind": "REGISTER_SUCCESS", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:42.797339Z"}
+{"account": "1001", "call_id": "1-3348@172.16.200.68", "destination": "88001", "destination_group": "lab-uas", "event_id": "v5:55", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:45.757860Z", "trunk": "lab-trunk"}
+{"account": "1001", "call_id": "1-3348@172.16.200.68", "event_id": "sipbye:1-3348@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:51.846706Z"}
+{"account": "1001", "call_id": "1-3360@172.16.200.68", "destination": "88001", "destination_group": "lab-uas", "event_id": "v5:58", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:53.603143Z", "trunk": "lab-trunk"}
+{"account": "1001", "call_id": "1-3360@172.16.200.68", "event_id": "sipbye:1-3360@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:18:59.647175Z"}
+{"account": "1001", "call_id": "1-3371@172.16.200.68", "destination": "88001", "destination_group": "lab-uas", "event_id": "v5:61", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:19:01.327783Z", "trunk": "lab-trunk"}
+{"account": "1001", "call_id": "1-3371@172.16.200.68", "event_id": "sipbye:1-3371@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-10-01T05:19:07.406307Z"}

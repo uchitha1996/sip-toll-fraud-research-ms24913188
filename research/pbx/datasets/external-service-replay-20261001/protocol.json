@@ -1,0 +1,8 @@
+{
+  "archive_summary_sha256": "b0fe8589fd2feb2a1e26f21964a6f0325fa83371107d30a3bb827e3a2aa6cfc7",
+  "service_sha256": "85ecb057c0364e2e1e709dee3cdb4743242d2dc234aa8cfa406868590647c2d3",
+  "source": "archived events, not live SIP",
+  "bind": "127.0.0.1",
+  "port": 19056,
+  "active_calls_before": "0 active channels\n0 active calls\n12 calls processed"
+}

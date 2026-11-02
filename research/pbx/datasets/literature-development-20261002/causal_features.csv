@@ -1,0 +1,9 @@
+id,intent,profile_group,session_group,eligible,score,priority,failures_120s,peak_failures_10s,failure_span_s,first_failure_to_success_s
+DL001,AUTHORIZED,slow_recovery,literature20261002,True,0.6060894647447382,HIGHER,6,2,30.0291,33.0252
+DL002,SIMULATED_ABUSE,slow_recovery,literature20261002,True,0.6051902480974846,HIGHER,6,2,30.0186,32.8972
+DL003,AUTHORIZED,slow_no_success,literature20261002,False,,,,,,
+DL004,SIMULATED_ABUSE,slow_no_success,literature20261002,False,,,,,,
+DL005,AUTHORIZED,paced_success,literature20261002,True,0.7326879165481885,HIGHER,10,4,26.9896,30.0227
+DL006,SIMULATED_ABUSE,paced_success,literature20261002,True,0.7325338329480691,HIGHER,10,4,26.991,29.993
+DL007,AUTHORIZED,gate_boundary,literature20261002,True,0.39251826296394315,LOWER,5,5,6.7573,9.8517
+DL008,SIMULATED_ABUSE,gate_boundary,literature20261002,True,0.39302889599207574,LOWER,5,5,6.8517,9.8517

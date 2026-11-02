@@ -1,0 +1,18 @@
+{
+  "id": "B001",
+  "assigned_intent": "authorized",
+  "account": "1001",
+  "wrong": 0,
+  "event_count": 7,
+  "stage_sequence": [
+    "CALL_BURST"
+  ],
+  "burst_event_span_s": 15.922205924987793,
+  "burst_risk": "REVIEW",
+  "analysis_ns": 1569137,
+  "pcap_sha256": "90ac887e45d61d8a12fa592a3391d79b72a3bd8df91b2c49fb03ef8643b6c957",
+  "events_sha256": "169f8eaa7929e12d98634c07cc0581a67ae90d27ea377851ebdb2aba83b89d33",
+  "alerts_sha256": "4157e0722d2c84582ee2a675265b4b1deb86ef41e234212195e835d2c919c2c2",
+  "cdr_count_independently_verified": 3,
+  "cdr_stage": "omitted because SIP Call-ID cannot be uniquely linked to three same-account CDRs"
+}

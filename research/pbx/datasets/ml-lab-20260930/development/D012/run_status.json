@@ -1,0 +1,13 @@
+{
+  "case": "D012",
+  "start_utc": "2026-09-30T10:52:09.203567Z",
+  "end_utc": "2026-09-30T10:52:19.995988Z",
+  "wrong_dialog_starts_utc": [
+    "2026-09-30T10:52:10.204341Z",
+    "2026-09-30T10:52:13.204350Z"
+  ],
+  "capture_sha256": "1d906c9301e767bf2b1b2b76d2d4311f067da239c5f23d6f471a85fc1ead506a",
+  "error": null,
+  "cleanup_errors": [],
+  "status": "captured"
+}

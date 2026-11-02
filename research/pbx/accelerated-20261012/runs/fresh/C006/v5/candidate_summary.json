@@ -1,0 +1,34 @@
+{
+  "candidate_rule": "V5 development: exact CSeq, digest+terminal rejection, 1 s grace, 10 in 60 s",
+  "capture": "/home/astrix/sip-fraud-research/accelerated-20261012/runs/fresh/C006/traffic.pcap",
+  "source_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "frozen_v3_sha256": null,
+  "pcap_sha256": "8f2aa48883ce0db6a23692b6236e59339b39abbd04b9cb7e3491654e281f3a6c",
+  "observation_end_utc": "2026-10-12T03:55:39.921748Z",
+  "first_request_utc": "2026-10-12T03:55:33.431593Z",
+  "first_alert_stage": null,
+  "first_alert_event_type": null,
+  "first_alert_utc": null,
+  "time_to_first_alert_seconds": null,
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "C006",
+      "label": "BENIGN",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81",
+      "extension": "1002",
+      "destination": "88002",
+      "expected_wrong_password_dialogs": "2",
+      "expected_register_success": "0",
+      "expected_answered_call": "0"
+    }
+  ],
+  "counts": {
+    "request_events": 4,
+    "initial_unauthenticated_challenges_ignored": 2,
+    "authenticated_rejections_pending": 2,
+    "confirmed_rejected_digest_dialogs": 2,
+    "unresolved_at_observation_end": 0
+  },
+  "note": "Selected scenario labels are not independent event-level accuracy metrics. A pending rejection counts only after an observed one-second retry grace."
+}

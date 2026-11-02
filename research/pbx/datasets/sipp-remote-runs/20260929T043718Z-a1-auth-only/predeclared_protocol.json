@@ -1,0 +1,20 @@
+{
+  "scenario_id": "A1-20260929-rejected-only",
+  "declared_at_utc": "2026-09-29T04:37:18Z",
+  "label": "AUTHENTICATION_ATTACK_NO_CALL",
+  "entity": "1001 from 172.16.200.68",
+  "pbx": "172.16.200.81:5060",
+  "stimulus": "10 independent SIPp REGISTER digest dialogs with wrong password from the separate generator Pi",
+  "expected_wrong_password_rejections": 10,
+  "expected_successful_registrations": 0,
+  "expected_invites": 0,
+  "expected_new_cdrs": 0,
+  "comparison": "Frozen V3, frozen V5; later V6 progression should distinguish authentication attack from suspected compromise and answered call",
+  "evaluation_role": "development control, not unseen final holdout",
+  "exclusion_rule": "Missing or mismatched PCAP, Asterisk failed-auth logs, source IP, or CDR snapshot makes the run invalid; retain evidence and rerun under a new ID",
+  "source_hashes": {
+    "V3": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+    "V5": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "wrong_xml": "ee3fe537e7ae7f991e8fc78490c12781ba6d69a83e025f4afe41d8ba89905e4e"
+  }
+}

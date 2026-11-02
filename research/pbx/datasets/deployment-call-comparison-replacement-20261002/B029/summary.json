@@ -1,0 +1,53 @@
+{
+  "id": "B029",
+  "mode": "OFF",
+  "block": 2,
+  "setup": [
+    {
+      "call_id": "1-6860@172.16.200.68",
+      "first_invite_epoch": 1790918477.830815,
+      "first_invite_200_epoch": 1790918477.885299,
+      "setup_ms": 54.483890533447266
+    },
+    {
+      "call_id": "1-6871@172.16.200.68",
+      "first_invite_epoch": 1790918485.564836,
+      "first_invite_200_epoch": 1790918485.581586,
+      "setup_ms": 16.749858856201172
+    },
+    {
+      "call_id": "1-6882@172.16.200.68",
+      "first_invite_epoch": 1790918493.276679,
+      "first_invite_200_epoch": 1790918493.333056,
+      "setup_ms": 56.37693405151367
+    }
+  ],
+  "setup_ms_median": 54.483890533447266,
+  "checks": {
+    "independent_evidence": true,
+    "capture_zero_drops": true,
+    "three_setup_values": true,
+    "module_unloaded": true,
+    "no_native_alert": true
+  },
+  "verified": true,
+  "pcap_sha256": "54248769a187805e8b82c30f4bc37e53a91eebbf12e57dee3514c8f17e364eb1",
+  "resource_onset_epoch": 1790918460.523621,
+  "resource_end_epoch": 1790918499.853562,
+  "resources": {
+    "sample_count": 148,
+    "sampled_window_s": 38.964646057997015,
+    "cpu_seconds_sampled": {
+      "pbx": 0.09,
+      "capture": 0.0
+    },
+    "cpu_core_percent": {
+      "pbx": 0.2309786155019586,
+      "capture": 0.0
+    },
+    "peak_rss_kib_by_role": {
+      "pbx": 98544.0,
+      "capture": 6736.0
+    }
+  }
+}

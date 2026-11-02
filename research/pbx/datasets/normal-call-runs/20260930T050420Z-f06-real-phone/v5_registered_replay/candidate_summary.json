@@ -1,0 +1,32 @@
+{
+  "candidate_rule": "V5 development: exact CSeq, digest+terminal rejection, 1 s grace, 10 in 60 s",
+  "capture": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260930T050420Z-f06-real-phone/traffic.pcap",
+  "source_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "frozen_v3_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "pcap_sha256": "aaee948873636a41fb5491db6ac7421bb6818ee374e624e63c92fd795dea49fe",
+  "observation_end_utc": "2026-09-30T05:07:21.343372Z",
+  "first_request_utc": "2026-09-30T05:04:36.086935Z",
+  "first_alert_stage": null,
+  "first_alert_event_type": null,
+  "first_alert_utc": null,
+  "time_to_first_alert_seconds": null,
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "F06",
+      "label": "BENIGN_REAL_PHONE",
+      "answered_cdr_count": "6",
+      "complete_client_calls": "6",
+      "evaluation_unit": "one_full_session",
+      "source": "real_softphones"
+    }
+  ],
+  "counts": {
+    "request_events": 30,
+    "stale_digest_challenges_ignored": 3,
+    "successful_register_200": 5,
+    "initial_unauthenticated_challenges_ignored": 1,
+    "retransmitted_requests_skipped": 2,
+    "unresolved_at_observation_end": 0
+  },
+  "note": "Selected scenario labels are not independent event-level accuracy metrics. A pending rejection counts only after an observed one-second retry grace."
+}

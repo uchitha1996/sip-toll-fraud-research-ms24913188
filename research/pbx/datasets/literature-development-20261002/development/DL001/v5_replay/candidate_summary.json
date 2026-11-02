@@ -1,0 +1,35 @@
+{
+  "candidate_rule": "V5 development: exact CSeq, digest+terminal rejection, 1 s grace, 10 in 60 s",
+  "capture": "/home/astrix/sip-fraud-research/datasets/literature-development-20261002/development/DL001/traffic.pcap",
+  "source_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "frozen_v3_sha256": null,
+  "pcap_sha256": "f32ac7749421576b501c41a122721e6830e148e3f31138090381feca205d57e0",
+  "observation_end_utc": "2026-10-02T00:11:09.630292Z",
+  "first_request_utc": "2026-10-02T00:10:32.585688Z",
+  "first_alert_stage": null,
+  "first_alert_event_type": null,
+  "first_alert_utc": null,
+  "time_to_first_alert_seconds": null,
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "DL001",
+      "label": "AUTHORIZED",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81",
+      "extension": "1002",
+      "destination": "88002",
+      "expected_wrong_password_dialogs": "6",
+      "expected_register_success": "1",
+      "expected_answered_call": "0"
+    }
+  ],
+  "counts": {
+    "request_events": 14,
+    "initial_unauthenticated_challenges_ignored": 7,
+    "authenticated_rejections_pending": 6,
+    "confirmed_rejected_digest_dialogs": 6,
+    "successful_register_200": 1,
+    "unresolved_at_observation_end": 0
+  },
+  "note": "Selected scenario labels are not independent event-level accuracy metrics. A pending rejection counts only after an observed one-second retry grace."
+}

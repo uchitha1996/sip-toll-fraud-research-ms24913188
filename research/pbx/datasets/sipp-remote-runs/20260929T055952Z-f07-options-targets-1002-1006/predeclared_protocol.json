@@ -1,0 +1,24 @@
+{
+  "case": "F07",
+  "declared_utc": "2026-09-29T05:59:52.704790Z",
+  "role": "registered F07 whole-scenario reconnaissance",
+  "label": "SCRIPTED_VARIED_TARGET_RECONNAISSANCE",
+  "stimulus": "Five OPTIONS to distinct lab targets 1002-1006, no authentication/call",
+  "generator_sha256": "986bcb1853443330dd3a68acaacb8f693ab6ff52075ac871599ec50d93961a29",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "planned_start_interval_seconds": 1.0,
+  "target_sequence": [
+    1002,
+    1003,
+    1004,
+    1005,
+    1006
+  ],
+  "expected_requests": 5,
+  "expected_401": 5,
+  "expected_failed_auth": 0,
+  "expected_register_200": 0,
+  "expected_invites": 0,
+  "expected_cdr_delta": 0,
+  "invalid_if": "Counts, source, target, PCAP, logs or CDR mismatch"
+}

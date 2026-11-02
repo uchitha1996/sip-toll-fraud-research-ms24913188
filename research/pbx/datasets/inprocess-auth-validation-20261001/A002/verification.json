@@ -1,0 +1,31 @@
+{
+  "id": "A002",
+  "checks": {
+    "no_error": true,
+    "register_request_count": true,
+    "challenge_and_rejection_count": true,
+    "success_dialog_count": true,
+    "failed_auth_log_count": true,
+    "inprocess_counters": true,
+    "no_new_cdr": true,
+    "no_invites": true,
+    "zero_calls": true,
+    "other_account_unaffected": true
+  },
+  "verified": true,
+  "error": null,
+  "module_events": [
+    "[Oct  1 16:46:08] NOTICE[2487] res_sipfraud_lab.c: SIPFRAUDLAB stage=SUSPECTED_COMPROMISE risk=REVIEW account=1002 failures=6 source=172.16.200.68"
+  ],
+  "pcap_sha256": "d6ef78b6767af9025fa96abdc0d02e5b9f5df7644b50ee944537110fa27a9fd1",
+  "status": "account=1001 failures_window=0 auth_alerts=0 review_alerts=0\naccount=1002 failures_window=6 auth_alerts=0 review_alerts=1\n",
+  "sipp_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

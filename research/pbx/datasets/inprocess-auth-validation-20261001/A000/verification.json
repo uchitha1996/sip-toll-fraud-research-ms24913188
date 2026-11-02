@@ -1,0 +1,23 @@
+{
+  "id": "A000",
+  "checks": {
+    "no_error": true,
+    "register_request_count": true,
+    "challenge_and_rejection_count": true,
+    "success_dialog_count": true,
+    "failed_auth_log_count": true,
+    "inprocess_counters": true,
+    "no_new_cdr": true,
+    "no_invites": true,
+    "zero_calls": true,
+    "other_account_unaffected": true
+  },
+  "verified": true,
+  "error": null,
+  "module_events": [],
+  "pcap_sha256": "3af04b532da141d260a88fc2f3d38dc367dd85331cb4a5a5bbce4b112ed3da23",
+  "status": "account=1001 failures_window=0 auth_alerts=0 review_alerts=0\naccount=1002 failures_window=0 auth_alerts=0 review_alerts=0\n",
+  "sipp_exits": [
+    0
+  ]
+}

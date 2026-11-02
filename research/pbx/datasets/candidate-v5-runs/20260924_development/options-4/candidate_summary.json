@@ -1,0 +1,31 @@
+{
+  "candidate_rule": "V5 development: exact CSeq, digest+terminal rejection, 1 s grace, 10 in 60 s",
+  "capture": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260924T062325Z/options-4/traffic.pcap",
+  "source_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "frozen_v3_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "pcap_sha256": "5005424f72eb73971595ab057aab594b2a650354f7ed16914eab8bc7792a2ec7",
+  "observation_end_utc": "2026-09-24T06:28:03.378756Z",
+  "first_request_utc": "2026-09-24T06:27:56.712801Z",
+  "first_alert_stage": null,
+  "first_alert_event_type": null,
+  "first_alert_utc": null,
+  "time_to_first_alert_seconds": null,
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "options-4",
+      "label": "RECONNAISSANCE",
+      "method": "OPTIONS",
+      "attempts": "4",
+      "unique_targets": "4",
+      "start_utc": "2026-09-24T06:27:53.765573Z",
+      "end_utc": "2026-09-24T06:28:03.378756Z",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81"
+    }
+  ],
+  "counts": {
+    "request_events": 4,
+    "unresolved_at_observation_end": 0
+  },
+  "note": "Selected scenario labels are not independent event-level accuracy metrics. A pending rejection counts only after an observed one-second retry grace."
+}

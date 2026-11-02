@@ -1,0 +1,25 @@
+{
+  "method": "V6 development; same source IP and account",
+  "rule": ">=5 confirmed rejections/120s, REGISTER 200, outbound INVITE/120s, independent SIP/CDR confirmation",
+  "case": "20260929T023356Z-a4-slow-fail-then-call",
+  "lab_destinations": [
+    "88001"
+  ],
+  "counts": {
+    "confirmed_rejections": 10,
+    "register_200": 1,
+    "new_cdr_rows": 1,
+    "linked_outbound_attempts": 1,
+    "answered_linked_calls": 1,
+    "v5_timeline_sha256": "1ecdd0f992f2fc750ae70dd4d37ad4260be401ede97bc3dba7b75e07449b1051",
+    "pcap_sha256": "28a39ccd66585fac824111650827125176a0f715f829dcceaf301e00cc953869"
+  },
+  "stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "first_suspected_utc": "2026-09-29T02:34:34.086346Z",
+  "first_attempt_utc": "2026-09-29T02:34:35.790146Z",
+  "note": "Development cases are previously inspected. Suspected does not prove theft; CDR stage is retrospective and its write latency was not measured."
+}

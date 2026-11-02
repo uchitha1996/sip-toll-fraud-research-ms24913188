@@ -1,0 +1,12 @@
+{
+  "case": "C005",
+  "verified": true,
+  "pcap_sha256": "18d6714f446397693d2b2b06df838bb50d8912d43e7b7b70eecafb28986855d6",
+  "v5_timeline_sha256": "e990ecd5f0052c5f5434daf3b13934b11c81ecb22ccc349c5c0a8acb679e107b",
+  "confirmed_rejections": 2,
+  "successful_register": 1,
+  "answered_cdr_delta": 0,
+  "call_ids": [],
+  "capture_end_utc": "2026-10-12T03:55:27.855768Z",
+  "cleanup": "idle and both temporary routes absent"
+}

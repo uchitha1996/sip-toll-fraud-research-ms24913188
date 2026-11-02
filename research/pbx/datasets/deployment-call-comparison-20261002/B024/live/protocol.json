@@ -1,0 +1,13 @@
+{
+  "source": "172.16.200.68",
+  "pbx": "172.16.200.81",
+  "account": "1002",
+  "destination": "88002",
+  "service_sha256": "85ecb057c0364e2e1e709dee3cdb4743242d2dc234aa8cfa406868590647c2d3",
+  "collector_sha256": "98655f86c9dff426d887c9c876b9b0a312624078d695e6f996950dd32d041087",
+  "model_scope": "No ML; shared auth-stage rule comparison",
+  "scope": "live SIP fields from isolated generator, no CDR or call control",
+  "rejection_grace_s": 1.0,
+  "max_duration_s": 120,
+  "idle_after_third_invite_s": 10
+}

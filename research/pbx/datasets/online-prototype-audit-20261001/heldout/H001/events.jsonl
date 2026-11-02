@@ -1,0 +1,4 @@
+{"account": "1001", "call_id": "1-24408@172.16.200.68", "event_id": "v5:4", "kind": "REGISTER_SUCCESS", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:01:07.040000Z"}
+{"account": "1001", "call_id": "1-24419@172.16.200.68", "destination": "88001", "event_id": "v5:5", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:01:09.711268Z"}
+{"account": "1001", "call_id": "1-24419@172.16.200.68", "event_id": "sipbye:1-24419@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:01:15.742550Z"}
+{"account": "1001", "billsec": 6, "call_id": "1-24419@172.16.200.68", "destination": "88001", "event_id": "cdr:1-24419@172.16.200.68", "kind": "CDR_ANSWERED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:01:22.795639Z"}

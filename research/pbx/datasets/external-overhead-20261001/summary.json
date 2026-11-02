@@ -1,0 +1,180 @@
+{
+  "manifest_sha256": "270bc7b8700d31002472a470a5377fc595d4584f379e1ea79905db77ec0bff3b",
+  "results": [
+    {
+      "id": "B017",
+      "detector_enabled": false,
+      "pair": 1,
+      "runner_window_s": 54.31863717500164,
+      "setup": [
+        {
+          "call_id": "1-5026@172.16.200.68",
+          "setup_ms": 72.39890098571777
+        },
+        {
+          "call_id": "1-5037@172.16.200.68",
+          "setup_ms": 80.84392547607422
+        },
+        {
+          "call_id": "1-5048@172.16.200.68",
+          "setup_ms": 32.0889949798584
+        }
+      ],
+      "setup_ms_median": 72.39890098571777,
+      "sampled_cpu_seconds": {
+        "pbx": 0.09,
+        "capture": 0.0,
+        "decoder": 0.12
+      },
+      "cpu_core_percent": {
+        "pbx": 0.16568898757537226,
+        "capture": 0.0,
+        "decoder": 0.22091865010049633
+      },
+      "peak_summed_rss_kib_by_role": {
+        "pbx": 104992.0,
+        "capture": 6720.0,
+        "decoder": 151504.0
+      },
+      "verified": true,
+      "pcap_sha256": "b67f66e033f31691dbb4c737bc4105560758c2561da0fd24b173d23f9762d045"
+    },
+    {
+      "id": "B018",
+      "detector_enabled": true,
+      "pair": 1,
+      "runner_window_s": 53.979811861998314,
+      "setup": [
+        {
+          "call_id": "1-5215@172.16.200.68",
+          "setup_ms": 19.16217803955078
+        },
+        {
+          "call_id": "1-5226@172.16.200.68",
+          "setup_ms": 30.557870864868164
+        },
+        {
+          "call_id": "1-5237@172.16.200.68",
+          "setup_ms": 25.7570743560791
+        }
+      ],
+      "setup_ms_median": 25.7570743560791,
+      "sampled_cpu_seconds": {
+        "pbx": 0.11,
+        "collector": 0.05,
+        "service": 0.04,
+        "capture": 0.0,
+        "decoder": 0.33
+      },
+      "cpu_core_percent": {
+        "pbx": 0.2037798877128725,
+        "collector": 0.09262722168766932,
+        "service": 0.07410177735013546,
+        "capture": 0.0,
+        "decoder": 0.6113396631386175
+      },
+      "peak_summed_rss_kib_by_role": {
+        "pbx": 104992.0,
+        "collector": 17808.0,
+        "service": 17888.0,
+        "capture": 13424.0,
+        "decoder": 155584.0
+      },
+      "verified": true,
+      "pcap_sha256": "7828756150905c6fce993aa097accc8048c2f3db847ecd3d7c905ed0b9e2e873"
+    },
+    {
+      "id": "B019",
+      "detector_enabled": true,
+      "pair": 2,
+      "runner_window_s": 53.755489548002515,
+      "setup": [
+        {
+          "call_id": "1-5402@172.16.200.68",
+          "setup_ms": 20.82681655883789
+        },
+        {
+          "call_id": "1-5413@172.16.200.68",
+          "setup_ms": 24.37305450439453
+        },
+        {
+          "call_id": "1-5424@172.16.200.68",
+          "setup_ms": 32.67502784729004
+        }
+      ],
+      "setup_ms_median": 24.37305450439453,
+      "sampled_cpu_seconds": {
+        "pbx": 0.11,
+        "collector": 0.05,
+        "service": 0.03,
+        "capture": 0.0,
+        "decoder": 0.14
+      },
+      "cpu_core_percent": {
+        "pbx": 0.2046302636715313,
+        "collector": 0.09301375621433242,
+        "service": 0.05580825372859945,
+        "capture": 0.0,
+        "decoder": 0.2604385174001308
+      },
+      "peak_summed_rss_kib_by_role": {
+        "pbx": 104992.0,
+        "collector": 17808.0,
+        "service": 17888.0,
+        "capture": 13440.0,
+        "decoder": 156624.0
+      },
+      "verified": true,
+      "pcap_sha256": "db9c1f726dbaabeaf58cbc52072129d0b26b6ae18c6a9337c929a3c6423681b3"
+    },
+    {
+      "id": "B020",
+      "detector_enabled": false,
+      "pair": 2,
+      "runner_window_s": 53.52737212300053,
+      "setup": [
+        {
+          "call_id": "1-5590@172.16.200.68",
+          "setup_ms": 16.194820404052734
+        },
+        {
+          "call_id": "1-5601@172.16.200.68",
+          "setup_ms": 18.09096336364746
+        },
+        {
+          "call_id": "1-5612@172.16.200.68",
+          "setup_ms": 35.4459285736084
+        }
+      ],
+      "setup_ms_median": 18.09096336364746,
+      "sampled_cpu_seconds": {
+        "pbx": 0.1,
+        "capture": 0.0,
+        "decoder": 0.07
+      },
+      "cpu_core_percent": {
+        "pbx": 0.1868203052640246,
+        "capture": 0.0,
+        "decoder": 0.13077421368481723
+      },
+      "peak_summed_rss_kib_by_role": {
+        "pbx": 104992.0,
+        "capture": 6720.0,
+        "decoder": 138192.0
+      },
+      "verified": true,
+      "pcap_sha256": "a94b074ad9c7f3a484b6663cd81fcae2113d6c29096958e093b652fb8562bcfd"
+    }
+  ],
+  "paired_setup_deltas": [
+    {
+      "pair": 1,
+      "on_minus_off_median_setup_ms": -46.64182662963867
+    },
+    {
+      "pair": 2,
+      "on_minus_off_median_setup_ms": 6.28209114074707
+    }
+  ],
+  "limitations": "CPU counters sampled; short-lived process tails may be missed. RSS sum counts shared pages more than once. Same evidence capture in both arms; on adds detector capture and decoder. No in-process comparison."
+}

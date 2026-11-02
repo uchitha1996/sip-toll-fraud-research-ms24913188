@@ -1,0 +1,11 @@
+{
+  "scenario_id": "DV2001",
+  "verified": true,
+  "packets": 4,
+  "failed_auth_lines": 0,
+  "cdr_delta": 0,
+  "cdr_billsec": 0,
+  "v5_first_alert": null,
+  "v6_stages": [],
+  "pcap_sha256": "e51cf55ccba4f15cefb7b99bdb66a5ddb2ba451e622bcb97a97e81feadbb3d13"
+}

@@ -1,0 +1,13 @@
+{
+  "scenario_id": "D017",
+  "verified": true,
+  "packets": 40,
+  "failed_auth_lines": 10,
+  "cdr_delta": 0,
+  "cdr_billsec": 0,
+  "v5_first_alert": "AUTHENTICATION_ATTACK",
+  "v6_stages": [
+    "AUTHENTICATION_ATTACK"
+  ],
+  "pcap_sha256": "e6db403d8630211e884ecef64815b3aad7e523a05ab5fce88b3add0eae8286ff"
+}

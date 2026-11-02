@@ -1,0 +1,24 @@
+{
+  "case": "a1-rejected-only",
+  "source_ip": "172.16.200.68",
+  "pbx_ip": "172.16.200.81",
+  "expected_requests": 20,
+  "captured_requests": 20,
+  "captured_401_replies": 20,
+  "failed_auth_log_entries": 10,
+  "sipp_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "xml_sha256": "ee3fe537e7ae7f991e8fc78490c12781ba6d69a83e025f4afe41d8ba89905e4e",
+  "pcap_sha256": "80a6766386c658c1f44950d5d8e643744ed5688f641367f72032e31825f2198c",
+  "valid_capture": true
+}

@@ -1,0 +1,12 @@
+{
+  "case": "N4",
+  "declared_utc": "2026-09-29T05:47:57.726326Z",
+  "role": "predeclared falsification challenge; not an unbiased final sample",
+  "label": "SCRIPTED_BENIGN_RECOVERY_WITH_CALL",
+  "stimulus": "6 wrong digest REGISTER dialogs spaced 3 seconds, then valid REGISTER and one answered isolated call",
+  "expected_failed_auth_logs": 6,
+  "expected_register_200": 1,
+  "expected_answered_cdr": 1,
+  "predicted_v6_suspected": true,
+  "invalid_if": "Missing or mismatched PCAP, failed-auth logs, SIP leg, CDR, or cleanup"
+}

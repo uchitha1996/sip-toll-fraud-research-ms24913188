@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-30T09:53:39.605907Z",
+  "rows": 12,
+  "purpose": "Feature/schema development only; do not fit final ML on only these 12 rows.",
+  "excluded_as_features": [
+    "V3 prediction",
+    "V5 predicted_stage/risk_score",
+    "V6 prediction"
+  ],
+  "safe_protocol_features": [
+    "transaction-confirmed rejection counts",
+    "successful REGISTER count",
+    "OPTIONS/INVITE counts and target diversity",
+    "timing/window counts",
+    "CDR delta, answered count and billsec"
+  ],
+  "next": "Generate a larger development set, freeze preprocessing/model, then collect a fresh held-out set."
+}

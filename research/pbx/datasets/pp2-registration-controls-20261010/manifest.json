@@ -1,0 +1,86 @@
+{
+  "protocol_version": 1,
+  "scope": "PP2 controlled REGISTER only, policy-observable condition not fraud intent",
+  "source_ip": "172.16.200.68",
+  "pbx_ip": "172.16.200.81",
+  "port": 5060,
+  "requests_per_case": 6,
+  "spacing_seconds": 0.8,
+  "allowed_configured_accounts": [
+    "1001",
+    "1002"
+  ],
+  "unused_identities": [
+    "9001",
+    "9002",
+    "9003",
+    "9004",
+    "9005",
+    "9006"
+  ],
+  "absolute_max_register_requests": 24,
+  "no_credentials": true,
+  "no_invites": true,
+  "no_calls": true,
+  "no_pbxdialplan_change": true,
+  "case_descriptions": [
+    {
+      "id": "P001",
+      "profile": "known_single_account_repeated",
+      "targets": [
+        "1001",
+        "1001",
+        "1001",
+        "1001",
+        "1001",
+        "1001"
+      ],
+      "policy": "allowed_account"
+    },
+    {
+      "id": "P002",
+      "profile": "known_two_accounts_shared_source",
+      "targets": [
+        "1001",
+        "1002",
+        "1001",
+        "1002",
+        "1001",
+        "1002"
+      ],
+      "policy": "allowed_accounts_shared_source"
+    },
+    {
+      "id": "P003",
+      "profile": "unused_single_identity_repeated",
+      "targets": [
+        "9001",
+        "9001",
+        "9001",
+        "9001",
+        "9001",
+        "9001"
+      ],
+      "policy": "unknown_identity"
+    },
+    {
+      "id": "P004",
+      "profile": "unused_six_identity_probe",
+      "targets": [
+        "9001",
+        "9002",
+        "9003",
+        "9004",
+        "9005",
+        "9006"
+      ],
+      "policy": "unknown_identities"
+    }
+  ],
+  "limitations": [
+    "Known accounts may still receive 401 challenge since tests omit credentials",
+    "Two configured accounts cannot validate five legitimate accounts behind NAT",
+    "Policy violation or target diversity is not proof of malicious intent",
+    "No new ML training or prospective fraud-label accuracy is established"
+  ]
+}

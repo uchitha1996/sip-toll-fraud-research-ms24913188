@@ -1,0 +1,79 @@
+{
+  "id": "B033",
+  "mode": "EXTERNAL",
+  "verified": true,
+  "event_counts": {
+    "OPTIONS_REQUEST": 5,
+    "AUTH_REJECTION": 10,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 3
+  },
+  "expected_stages": [
+    "RECONNAISSANCE",
+    "AUTHENTICATION_ATTACK",
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "CALL_BURST"
+  ],
+  "timings": [
+    {
+      "stage": "RECONNAISSANCE",
+      "call_id": "1-8001@172.16.200.68",
+      "packet_to_decision_ms": 628.5912990570068,
+      "packet_to_observation_ms": 628.7350654602051
+    },
+    {
+      "stage": "AUTHENTICATION_ATTACK",
+      "call_id": "1-8112@172.16.200.68",
+      "packet_to_decision_ms": 1992.1159744262695,
+      "packet_to_observation_ms": 1992.253065109253
+    },
+    {
+      "stage": "SUSPECTED_COMPROMISE",
+      "call_id": "1-8123@172.16.200.68",
+      "packet_to_decision_ms": 47.68848419189453,
+      "packet_to_observation_ms": 47.84870147705078
+    },
+    {
+      "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+      "call_id": "1-8135@172.16.200.68",
+      "packet_to_decision_ms": 609.8496913909912,
+      "packet_to_observation_ms": 609.9846363067627
+    },
+    {
+      "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+      "call_id": "1-8146@172.16.200.68",
+      "packet_to_decision_ms": 686.6741180419922,
+      "packet_to_observation_ms": 686.8174076080322
+    },
+    {
+      "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+      "call_id": "1-8157@172.16.200.68",
+      "packet_to_decision_ms": 846.9550609588623,
+      "packet_to_observation_ms": 847.1081256866455
+    },
+    {
+      "stage": "CALL_BURST",
+      "call_id": "1-8157@172.16.200.68",
+      "packet_to_decision_ms": 846.9550609588623,
+      "packet_to_observation_ms": 847.1081256866455
+    }
+  ],
+  "call_setup": [
+    {
+      "call_id": "1-8135@172.16.200.68",
+      "invite_to_200_ms": 38.099050521850586
+    },
+    {
+      "call_id": "1-8146@172.16.200.68",
+      "invite_to_200_ms": 15.050888061523438
+    },
+    {
+      "call_id": "1-8157@172.16.200.68",
+      "invite_to_200_ms": 56.964874267578125
+    }
+  ],
+  "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+}

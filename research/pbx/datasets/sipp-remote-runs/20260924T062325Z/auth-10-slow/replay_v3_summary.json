@@ -1,0 +1,30 @@
+{
+  "replayed_utc": "2026-09-24T06:29:12.275240+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260924T062325Z/auth-10-slow",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "auth-10-slow",
+      "label": "AUTHENTICATION_ATTACK",
+      "method": "REGISTER",
+      "attempts": "10",
+      "unique_targets": "1",
+      "start_utc": "2026-09-24T06:28:22.357606Z",
+      "end_utc": "2026-09-24T06:29:12.019229Z",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81"
+    }
+  ],
+  "packet_rows": 40,
+  "request_events": 20,
+  "predicted_stages": {
+    "NORMAL": 20
+  },
+  "first_alert_stage": null,
+  "first_alert_event": null,
+  "time_to_first_alert_seconds": null,
+  "new_cdr_rows": 0,
+  "pcap_sha256": "1fe267dfd1da332bc7059d151e17466b8d745cfd1de3ec3f4cea6ea7d8c80f6b",
+  "packet_csv_sha256": "c7e81de15d3d916d101922897115b387aa52d701854736a7e707b69abe4a3537",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

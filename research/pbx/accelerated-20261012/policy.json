@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "created_utc": "2026-10-12T03:51:16.672401+00:00",
+  "origin": "Predeclared lab administrator account/destination permissions",
+  "lab_source_ip": "172.16.200.68",
+  "lab_pbx_ip": "172.16.200.81",
+  "lab_destinations": [
+    "88001",
+    "88002"
+  ],
+  "accounts": {
+    "1001": {
+      "sources": [
+        "172.16.200.68"
+      ],
+      "registration_allowed": true,
+      "allowed_destinations": [
+        "88001"
+      ]
+    },
+    "1002": {
+      "sources": [
+        "172.16.200.68"
+      ],
+      "registration_allowed": true,
+      "allowed_destinations": [
+        "88002"
+      ]
+    }
+  },
+  "recovery_permissions": [
+    {
+      "permission_reference": "LAB-MAINT-20261012-A",
+      "source_ip": "172.16.200.68",
+      "account": "1001",
+      "valid_from_utc": "2026-10-12T03:51:16.672401+00:00",
+      "valid_until_utc": "2026-10-12T05:51:16.672401+00:00",
+      "max_confirmed_failures": 8
+    }
+  ],
+  "unknown_rule": "Missing identity/source/recovery evidence remains unknown; it does not become benign",
+  "output_rule": "Preserve every V6 stage; contextual review may reduce actionable alerts only for allowed recovery",
+  "boundary": "Same-account attacker using allowed destination during maintenance remains indistinguishable; no proven fraud intent"
+}

@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "event_id": "v5:5",
+      "time_utc": "2026-10-02T00:01:07.105752Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2829@172.16.200.68"
+    },
+    {
+      "event_id": "v5:10",
+      "time_utc": "2026-10-02T00:01:09.098751Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2840@172.16.200.68"
+    },
+    {
+      "event_id": "v5:15",
+      "time_utc": "2026-10-02T00:01:11.034064Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2851@172.16.200.68"
+    },
+    {
+      "event_id": "v5:20",
+      "time_utc": "2026-10-02T00:01:13.087596Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2862@172.16.200.68"
+    },
+    {
+      "event_id": "v5:24",
+      "time_utc": "2026-10-02T00:01:16.079241Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "REGISTER_SUCCESS",
+      "call_id": "1-2873@172.16.200.68"
+    }
+  ],
+  "alerts": [],
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+}

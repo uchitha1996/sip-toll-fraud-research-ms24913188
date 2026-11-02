@@ -1,0 +1,15 @@
+{
+  "scenario_id": "D009",
+  "verified": true,
+  "packets": 52,
+  "failed_auth_lines": 8,
+  "cdr_delta": 1,
+  "cdr_billsec": 6,
+  "v5_first_alert": null,
+  "v6_stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "pcap_sha256": "4ed37868036ef8e1d2c39195710b5e8f6e4c10e193f1aacd5a9a1a331a8aa5be"
+}

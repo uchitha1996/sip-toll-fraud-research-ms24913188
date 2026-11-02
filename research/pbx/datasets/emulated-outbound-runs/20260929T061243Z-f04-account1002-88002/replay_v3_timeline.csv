@@ -1,0 +1,6 @@
+event_number,request_epoch,decision_epoch,entity,method,target,response_status,options_count,failed_register_count,invite_count,outside_invite_count,predicted_stage,risk_score,reason
+1,1790662369.789991,1790662369.790366,172.16.200.68,REGISTER,1002,401,0,1,0,0,NORMAL,0,Thresholds not reached
+2,1790662369.794955,1790662369.795613,172.16.200.68,REGISTER,1002,200,0,1,0,0,NORMAL,0,Thresholds not reached
+3,1790662371.469674,1790662371.469674,172.16.200.68,INVITE,88002,401,0,1,1,0,NORMAL,0,Thresholds not reached
+4,1790662371.488655,1790662371.488655,172.16.200.68,INVITE,88002,100,0,1,2,0,NORMAL,0,Thresholds not reached
+5,1790662371.491583,1790662371.491583,172.16.200.81,INVITE,88002,180,0,0,1,0,NORMAL,0,Thresholds not reached

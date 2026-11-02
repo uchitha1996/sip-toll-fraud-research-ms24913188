@@ -1,0 +1,64 @@
+[
+  {
+    "stage": "AUTHENTICATION_ATTACK",
+    "risk": "HIGH_SUSPICION",
+    "event_time_utc": "2026-10-02T00:14:34.121051Z",
+    "source_ip": "172.16.200.68",
+    "account": "1001",
+    "destination": "",
+    "destination_group": "",
+    "trunk": "",
+    "call_id": "1-4062@172.16.200.68",
+    "event_id": "v5:50",
+    "evidence_event_ids": [
+      "v5:5",
+      "v5:10",
+      "v5:15",
+      "v5:20",
+      "v5:25",
+      "v5:30",
+      "v5:35",
+      "v5:40",
+      "v5:45",
+      "v5:50"
+    ],
+    "policy": "UNKNOWN",
+    "reason": "10 confirmed digest rejections in 60 s"
+  },
+  {
+    "stage": "SUSPECTED_COMPROMISE",
+    "risk": "REVIEW",
+    "event_time_utc": "2026-10-02T00:14:37.154132Z",
+    "source_ip": "172.16.200.68",
+    "account": "1001",
+    "destination": "",
+    "destination_group": "",
+    "trunk": "",
+    "call_id": "1-4073@172.16.200.68",
+    "event_id": "v5:54",
+    "evidence_event_ids": [
+      "v5:5",
+      "v5:10",
+      "v5:15",
+      "v5:20",
+      "v5:25",
+      "v5:30",
+      "v5:35",
+      "v5:40",
+      "v5:45",
+      "v5:50",
+      "v5:54"
+    ],
+    "policy": "UNKNOWN",
+    "reason": "ambiguous_recovery",
+    "ml_probability": 0.7326879165481885,
+    "ml_priority": "HIGHER",
+    "ml_feature_values": [
+      10,
+      4,
+      26.9896,
+      30.0227
+    ],
+    "ml_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+  }
+]

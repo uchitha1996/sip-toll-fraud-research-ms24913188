@@ -1,0 +1,22 @@
+{
+  "method": "V6 development; same source IP and account",
+  "source_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "rule": "5 distinct OPTIONS targets/10s; 10 confirmed rejections/60s; >=5 rejections/120s + REGISTER 200, outbound INVITE/120s, independent SIP/CDR confirmation",
+  "case": "H002",
+  "lab_destinations": [
+    "88002"
+  ],
+  "counts": {
+    "confirmed_rejections": 4,
+    "register_200": 1,
+    "new_cdr_rows": 1,
+    "linked_outbound_attempts": 0,
+    "answered_linked_calls": 0,
+    "v5_timeline_sha256": "b95a76e0098093f4395062d1883da973752fc8a0a8fa06e5f4572dd92eda1f92",
+    "pcap_sha256": "feeee14ba5ed29f0a25a6c8973b6be319f7cb9fb604165cfdc99e88aab64c049"
+  },
+  "stages": [],
+  "first_suspected_utc": null,
+  "first_attempt_utc": null,
+  "note": "Development cases are previously inspected. Suspected does not prove theft; CDR stage is retrospective and its write latency was not measured. Asterisk CDR wall times are interpreted as UTC for this lab, checked against capture timestamps. Isolated runs prevent concurrent CDR ambiguity."
+}

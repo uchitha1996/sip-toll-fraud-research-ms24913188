@@ -1,0 +1,9 @@
+{
+  "declared_utc": "2026-10-01T04:36:29.929465+00:00",
+  "purpose": "read-only event-time replay; not a live detector or new holdout",
+  "manifest_sha256": "3377f6ce41df2a224db214d7d56498b51355592312210c80f8cb58a0dedcc915",
+  "evidence_index_sha256": "befb7d6d96cc7a75baf629d5023fc4c3098b119a2217b244918cfbdc7fab8604",
+  "adapter_sha256": "84456185994ef2db90c00eb3df3d0671622d397e65d20af968caca167e7de88a",
+  "engine_sha256": "4d202c3ed1bcbd8edfa567b8f2a4383d7d912ca8dc34e7a7db38b5ff1a3f1d68",
+  "active_calls_before": "0 active channels\n0 active calls\n0 calls processed"
+}

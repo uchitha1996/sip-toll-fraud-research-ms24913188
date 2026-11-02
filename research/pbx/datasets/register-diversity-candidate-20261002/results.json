@@ -1,0 +1,109 @@
+{
+  "protocol": {
+    "script_sha256": "21d9fc92a91ff37cb83d2ab289e33dbaff48728e1211186ad823250d489e4b79",
+    "window_s": 60,
+    "minimum_distinct_register_targets": 5,
+    "status": "Exploratory candidate after seeing development gap; not frozen prospective validation.",
+    "excludes": "No use of scenario labels, response success, future CDRs, or existing ML scores.",
+    "limitation": "Shared NAT/proxy sources may legitimately represent many accounts; such live benign controls pending."
+  },
+  "cases": [
+    {
+      "case": "DL001",
+      "capture_fields_sha256": "1cbab66ca6be75fc209b8aeb8c738fbdf893049c2a24961032d74826336ca738",
+      "alerts": []
+    },
+    {
+      "case": "DL002",
+      "capture_fields_sha256": "37207a55ec9d894add95b48ece43f18b92e189a6294c83458e1849d04a272ead",
+      "alerts": []
+    },
+    {
+      "case": "DL003",
+      "capture_fields_sha256": "3e4d040b8f9cb95b1365279a58b4fefb2013cad4f14ccddb22660f12a8fc8ad1",
+      "alerts": []
+    },
+    {
+      "case": "DL004",
+      "capture_fields_sha256": "f713f028ee1f405aebaaaf82399f440150182f45b79546f73d7fd15a2ac7b965",
+      "alerts": []
+    },
+    {
+      "case": "DL005",
+      "capture_fields_sha256": "b2842c376050baa7e2bd883cd8c4928ca87e16f72ab29a8dd9866cf4c2e90856",
+      "alerts": []
+    },
+    {
+      "case": "DL006",
+      "capture_fields_sha256": "317fcb1e9333f02f4d6a72f8d166711d958f016f4d8058e52dd7423c6d04846d",
+      "alerts": []
+    },
+    {
+      "case": "DL007",
+      "capture_fields_sha256": "199ff0dc5628042dedffab171a41772ba1966e8866909e6feaa77f1a2146c576",
+      "alerts": []
+    },
+    {
+      "case": "DL008",
+      "capture_fields_sha256": "ca9fd45d9e19cdc0f1c4c037d8e62068bf0e4ee38a610aca450d858b64c937ab",
+      "alerts": []
+    },
+    {
+      "case": "DV2001",
+      "capture_fields_sha256": "82fb3813aeeb69cf2e6e3fbc4e6063255c547180af0ff73dd56e4f5985e99f15",
+      "alerts": []
+    },
+    {
+      "case": "DV2002",
+      "capture_fields_sha256": "d10589d2618b63e17f875103b0189b962f67621df56489b2b5a2bd3ca4331059",
+      "alerts": []
+    },
+    {
+      "case": "DV2003",
+      "capture_fields_sha256": "5a976accdeb176f549f0cfa8a1511530cf2c81dcbe473516e8855aeff75662e8",
+      "alerts": []
+    },
+    {
+      "case": "DV2004",
+      "capture_fields_sha256": "525697cbf21a397f2125f64522bd3e6718c5f0e98900990305f216aaecedc5ac",
+      "alerts": []
+    },
+    {
+      "case": "DV2005",
+      "capture_fields_sha256": "02f84f112e54362dc3c3fdfaedda83f647d805841be1fd947454706e5c149d6a",
+      "alerts": []
+    },
+    {
+      "case": "DV2006",
+      "capture_fields_sha256": "a618db9e469f91b83e482bd8aaebaace796cf251d888cbc31de201a1c5b35075",
+      "alerts": []
+    },
+    {
+      "case": "RE001",
+      "capture_fields_sha256": "16689bc47edc0ef2641a5aae89ef2f786ffca33d1e44706ec17da449d23cd1fb",
+      "alerts": []
+    },
+    {
+      "case": "RE002",
+      "capture_fields_sha256": "7a4cc247bead871a9a3765e8b5936dc962a13565e75e03c968d59007c1d57e68",
+      "alerts": [
+        {
+          "stage": "REGISTER_TARGET_DIVERSITY_REVIEW",
+          "source": "172.16.200.68",
+          "decisive_epoch": 1790900203.171782,
+          "window_s": 60,
+          "unique_targets": 5,
+          "targets": [
+            "9001",
+            "9002",
+            "9003",
+            "9004",
+            "9005"
+          ],
+          "elapsed_from_first_window_request_s": 4.002101,
+          "meaning": "Many attempted REGISTER identities; not verified valid IDs or proven attack."
+        }
+      ]
+    }
+  ]
+}

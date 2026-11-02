@@ -1,0 +1,54 @@
+{
+  "declared_utc": "2026-10-02T04:06:55.852169+00:00",
+  "script_sha256": "2c09b6a6f58ff60ad30e9950768b608f7d124dfdfc3f3fe962b53f851d91decf",
+  "module_sha256": "02160968346541cc7ca45b848758a269275567707dd1fb54fb1c31c518f3bb26",
+  "cases": [
+    {
+      "id": "T001",
+      "mode": "OFF",
+      "block": 1
+    },
+    {
+      "id": "T002",
+      "mode": "INTERNAL",
+      "block": 1
+    },
+    {
+      "id": "T003",
+      "mode": "EXTERNAL",
+      "block": 1
+    },
+    {
+      "id": "T004",
+      "mode": "EXTERNAL",
+      "block": 2
+    },
+    {
+      "id": "T005",
+      "mode": "INTERNAL",
+      "block": 2
+    },
+    {
+      "id": "T006",
+      "mode": "OFF",
+      "block": 2
+    }
+  ],
+  "profile": {
+    "account": "1002",
+    "wrong": 6,
+    "success": 1,
+    "paced_interval_s": 2.1,
+    "calls": 0
+  },
+  "external_collector_hashes": {
+    "T003": "c70e48830865658472480b545bf9dfa195da87a659b6a03301c92fe37ffd3b4c",
+    "T004": "c6c590a1e4ee5e4784097344bbc83e31f5d816f974be31634ddaeb838ee3cf30"
+  },
+  "shared_endpoint": "SUSPECTED_COMPROMISE review after six failed registrations then valid registration",
+  "timing_onset": "Authenticated REGISTER request matched to its successful 200 response using Call-ID and CSeq",
+  "internal_endpoint": "Observer timestamps first matching Asterisk module log line; 2ms polling, logger delay included; not internal decision timestamp",
+  "external_endpoint": "Collector timestamps service alert reply; capture/decoder/IPC delay included; no ML",
+  "resource_window": "Traffic onset through 3s after valid REGISTER completes; startup and offline extraction excluded",
+  "limits": "Two blocks, one account/device/PBX. Measured alert availability through different acquisition interfaces, not identical internal algorithms. Module-only memory not isolated. Sampled CPU can miss tails; summed RSS double-counts shared pages. No full-stage equivalence, stress or population claim."
+}

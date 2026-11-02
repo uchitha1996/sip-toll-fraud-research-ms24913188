@@ -1,0 +1,103 @@
+{
+  "results": [
+    {
+      "id": "DV2001",
+      "profile": "valid_registration_control",
+      "wrong": 0,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [],
+      "ml": []
+    },
+    {
+      "id": "DV2002",
+      "profile": "two_mistakes_recovery",
+      "wrong": 2,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [],
+      "ml": []
+    },
+    {
+      "id": "DV2003",
+      "profile": "below_gate_recovery",
+      "wrong": 4,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [],
+      "ml": []
+    },
+    {
+      "id": "DV2004",
+      "profile": "at_gate_recovery",
+      "wrong": 5,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "ml": [
+        {
+          "priority": "REVIEW",
+          "score": 0.40728350925102547,
+          "features": [
+            5,
+            5,
+            8.0361,
+            11.0323
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DV2005",
+      "profile": "extended_recovery",
+      "wrong": 8,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "ml": [
+        {
+          "priority": "HIGHER",
+          "score": 0.6173336258034904,
+          "features": [
+            8,
+            4,
+            20.9908,
+            23.966
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DV2006",
+      "profile": "stale_password_emulation",
+      "wrong": 8,
+      "success": 0,
+      "verified": true,
+      "v6_stages": [],
+      "ml": []
+    }
+  ],
+  "postflight": {
+    "calls": "0 active channels\n0 active calls\n0 calls processed\n",
+    "route1": "There is no existence of 88001@internal extension\nCommand 'dialplan show 88001@internal' failed.\n",
+    "route2": "There is no existence of 88002@internal extension\nCommand 'dialplan show 88002@internal' failed.\n"
+  },
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "limitations": [
+    "Development controls only, no model training performed",
+    "One account/source/session, not physical reconnect tests",
+    "Frozen ML eligibility only two of six cases",
+    "Offline replay on newly collected live traffic, not live ML latency"
+  ],
+  "next": [
+    "Retransmission deduplication",
+    "Mixed-account traffic attribution",
+    "Window boundary timing",
+    "Independent source and destination policy context",
+    "Balanced grouped development then freeze and fresh heldout"
+  ]
+}

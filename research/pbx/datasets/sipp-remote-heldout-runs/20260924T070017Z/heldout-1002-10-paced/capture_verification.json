@@ -1,0 +1,25 @@
+{
+  "case": "heldout-1002-10-paced",
+  "source_ip": "172.16.200.68",
+  "pbx_ip": "172.16.200.81",
+  "expected_requests": 20,
+  "captured_requests": 20,
+  "captured_401_replies": 20,
+  "failed_auth_log_entries": 10,
+  "sipp_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "xml_sha256": "610d5dce70125a4c3ed5b2acbe19bc17bd840ce2f0f204c1c872cf8889432de7",
+  "runner_sha256": "218254f0681308119b2f3da118b56f976dcd9f03e1eca4e6fd3ae31f7a612e81",
+  "pcap_sha256": "4cfeb544ea7e64e802956f09434ed358cdf20f97b77daf8589d85499efee5576",
+  "valid_capture": true
+}

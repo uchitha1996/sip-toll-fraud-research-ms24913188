@@ -1,0 +1,2 @@
+scenario_id,label,method,attempts,unique_targets,start_utc,end_utc,source_ip,pbx_ip
+a1-rejected-only,AUTHENTICATION_ATTACK_NO_CALL,REGISTER,10,1,2026-09-29T04:37:49.580208Z,2026-09-29T04:38:10.687462Z,172.16.200.68,172.16.200.81

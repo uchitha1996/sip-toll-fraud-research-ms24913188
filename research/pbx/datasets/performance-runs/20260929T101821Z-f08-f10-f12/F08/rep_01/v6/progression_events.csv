@@ -1,0 +1,2 @@
+stage,time_utc,source_ip,account,destination,call_id,evidence
+RECONNAISSANCE,2026-09-29T10:05:21.229038Z,172.16.200.68,,,1-18599@172.16.200.68,5 distinct OPTIONS targets in 10 s

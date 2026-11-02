@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "measurement_count": 27,
+  "load_after": "0.15 0.20 0.22 1/581 79011",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12",
+  "measurement_csv_sha256": "cd50599ab3da4ef382cf886470ba403827d9021a4b6d10084dd5eff1a84ddf74"
+}

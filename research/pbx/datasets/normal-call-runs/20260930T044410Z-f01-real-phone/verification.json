@@ -1,0 +1,35 @@
+{
+  "valid": true,
+  "case": "F01",
+  "answered_cdr_count": 2,
+  "answered_cdrs": [
+    {
+      "src": "1001",
+      "dst": "1002",
+      "billsec": 12
+    },
+    {
+      "src": "1001",
+      "dst": "1002",
+      "billsec": 10
+    }
+  ],
+  "complete_client_calls": [
+    {
+      "call_id": "Wp-Olb1qLFV9FTAh9aCcBw..",
+      "src": "1001",
+      "dst": "1002",
+      "invite_epoch": 1790743462.867764,
+      "last_bye_epoch": 1790743478.155376
+    },
+    {
+      "call_id": "tB5iTjnl0XEsQQX65If1-Q..",
+      "src": "1001",
+      "dst": "1002",
+      "invite_epoch": 1790743507.48926,
+      "last_bye_epoch": 1790743520.374339
+    }
+  ],
+  "new_cdr_rows": 2,
+  "decoded_sip_packets": 46
+}

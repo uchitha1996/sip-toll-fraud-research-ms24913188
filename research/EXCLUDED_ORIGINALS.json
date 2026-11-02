@@ -1,0 +1,1698 @@
+[
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/common_evaluator.cpython-313.pyc",
+    "bytes": 15436,
+    "sha256": "a1aab8afab44b97e005fb44e89212e9f036413ecb48db1a33a42e27c96c4c4de",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/prepare_protocol.cpython-313.pyc",
+    "bytes": 8195,
+    "sha256": "e6de96ba47b83374a3927bb926ee273295c982b9db1e1c76616b8e9f597f0869",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/register_sender.cpython-313.pyc",
+    "bytes": 2055,
+    "sha256": "92ba38ccf1324a794c0a036a25a4df3125f4c555f3649c94805ba6984f1ff102",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/run_batch.cpython-313.pyc",
+    "bytes": 16842,
+    "sha256": "c88640cf53e40b21d448c0af4fac0c1153b369f55052a8cb705ef269e70723bd",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/run_lab_case.cpython-313.pyc",
+    "bytes": 19570,
+    "sha256": "5c33653ed98109f63c78157cfb2cd787a307df697c1bb9d44a01e1ac4cce02d6",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/run_registration_controls.cpython-313.pyc",
+    "bytes": 10280,
+    "sha256": "7ebef9873b21469c1304bc20747a5ea9c81a780a44d020d0d5680e1090c94d32",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/__pycache__/test_common_evaluator.cpython-313.pyc",
+    "bytes": 9531,
+    "sha256": "652fd2bfac978f14169674cc338ad39064496d83bd36c88e8e073593f77c3cfb",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/frozen/__pycache__/progression_v6_development.cpython-313.pyc",
+    "bytes": 15301,
+    "sha256": "735c757c35edba199db34c67679915f86e2453ee55ca9bc0180584a4b29c6920",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C001/traffic.pcap",
+    "bytes": 10244,
+    "sha256": "481e40d9bd0ac816942bce3ea817a1e8355bb044b54ad0b3e3e6077bb1ba809b",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C002/traffic.pcap",
+    "bytes": 10245,
+    "sha256": "9431a10b8eb9613a38fd9e1de05667596328e74bb165f729706810872206c5ff",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C003/traffic.pcap",
+    "bytes": 22401,
+    "sha256": "cf87b64ec50b54fb25f3d7b0f3af494b44f1d8f981347ee42ef2a424c99ced66",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C004/traffic.pcap",
+    "bytes": 22401,
+    "sha256": "d829b23534b2faf2181b03e3785419dcf17a4d9cf8b57d3b732d1300d1547406",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C005/traffic.pcap",
+    "bytes": 6046,
+    "sha256": "18d6714f446397693d2b2b06df838bb50d8912d43e7b7b70eecafb28986855d6",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C006/traffic.pcap",
+    "bytes": 4074,
+    "sha256": "8f2aa48883ce0db6a23692b6236e59339b39abbd04b9cb7e3491654e281f3a6c",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C007/traffic.pcap",
+    "bytes": 22400,
+    "sha256": "17db4648ff38bc22bedfca56b675512faf989f0d5646481aa4a9453ab9e92d10",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C008/traffic.pcap",
+    "bytes": 22399,
+    "sha256": "463eb0b12a1b24cf6a7aa12e73b469575b9f33e0f6219c649a738a8f49800756",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C009/traffic.pcap",
+    "bytes": 10244,
+    "sha256": "c68dc0587df9c0163eb5310fad77971126bd3c508db5346c7dc52efe1fb126a8",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C010/traffic.pcap",
+    "bytes": 20281,
+    "sha256": "ef698c61e53dbbfdfc930602c2093b50929e5ee654dd5762873fd57a25a6fe32",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C011/traffic.pcap",
+    "bytes": 22397,
+    "sha256": "90eb35ac1d3c22fc9e7d96cf3bc3d6dbe7355e39ca183d641e5fa7ea8790912a",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-20261012/runs/fresh/C012/traffic.pcap",
+    "bytes": 22398,
+    "sha256": "5ee2c54de923ba0edd1f1404cbaced3a36d73b1b6051cc4a60ff8c7ed179a083",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/accelerated-evidence-20261012.zip",
+    "bytes": 401321,
+    "sha256": "db7902f41ee8359d7d8e03020a347ae0cc0828c7c06bb323c447b62513cd4186",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B001/traffic.pcap",
+    "bytes": 26737,
+    "sha256": "90ac887e45d61d8a12fa592a3391d79b72a3bd8df91b2c49fb03ef8643b6c957",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B002/traffic.pcap",
+    "bytes": 26739,
+    "sha256": "e0aa0feb015cfa8b2b4f5030c9cc5a3a633d0a7acadf670858c277ae120640d8",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B003/traffic.pcap",
+    "bytes": 39783,
+    "sha256": "9e36bf32877a84e227e95787bd2ba00e3dce6dc5a5f9ec77542cc1dd8f86dcbb",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B004/traffic.pcap",
+    "bytes": 38880,
+    "sha256": "40ec4efd2382c3cb4ae1ceadbbf4d8812ff20ba3b5c31317fde858c0a67d4f17",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B005/traffic.pcap",
+    "bytes": 38902,
+    "sha256": "0a6bacda27c0a4394513b434255f092b1a5c079ea4f5fbcda56c76727b965a65",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B016/traffic.pcap",
+    "bytes": 38892,
+    "sha256": "4028eae5427e67513804ccbff5a716ef8a11bcffc6539a9bdf68d7805c03c879",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B017/traffic.pcap",
+    "bytes": 38900,
+    "sha256": "b67f66e033f31691dbb4c737bc4105560758c2561da0fd24b173d23f9762d045",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B018/traffic.pcap",
+    "bytes": 38886,
+    "sha256": "7828756150905c6fce993aa097accc8048c2f3db847ecd3d7c905ed0b9e2e873",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B019/traffic.pcap",
+    "bytes": 38889,
+    "sha256": "db9c1f726dbaabeaf58cbc52072129d0b26b6ae18c6a9337c929a3c6423681b3",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B020/traffic.pcap",
+    "bytes": 38897,
+    "sha256": "a94b074ad9c7f3a484b6663cd81fcae2113d6c29096958e093b652fb8562bcfd",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B021/traffic.pcap",
+    "bytes": 38893,
+    "sha256": "fce5ddfbd1df35c8b69ec2cfc70eaa76d8d5c9b0d2901e59a9ebc199ba7a4000",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B022/traffic.pcap",
+    "bytes": 38896,
+    "sha256": "b0b3b5ea1e610647671819418cc6ead2b0b56e8fe0913551b49e86fb510281f3",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B023/traffic.pcap",
+    "bytes": 38902,
+    "sha256": "77b5763fd7f4fae7682c74d601952273dfbb78c58a8dc425685d0420ff4b43db",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B024/traffic.pcap",
+    "bytes": 40040,
+    "sha256": "77f1c2fc5688a593f340043da16ab6f6bc50b9fc4af7b942a95d4bdd23f547f1",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B027/traffic.pcap",
+    "bytes": 38900,
+    "sha256": "5c3d1686ed62ca3d856f53dc4d416dad4b3da370f45a0ebe58e11ad442f2c12c",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B028/traffic.pcap",
+    "bytes": 38893,
+    "sha256": "feeaa5fecae98176d2a43b7b3a765bc482d523d8ea547dda2c177bb3d7d61005",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B029/traffic.pcap",
+    "bytes": 38893,
+    "sha256": "54248769a187805e8b82c30f4bc37e53a91eebbf12e57dee3514c8f17e364eb1",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B030/traffic.pcap",
+    "bytes": 31147,
+    "sha256": "b38f8f7e8183f369fa28420d38acb0f67da155d888cae6d37385cf7562c826ab",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B031/traffic.pcap",
+    "bytes": 51397,
+    "sha256": "d847fcaa6305e2a1e80de7d208ec5bc3dd9e95be5f5e8808ee3fa8410e46b8db",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B032/traffic.pcap",
+    "bytes": 51400,
+    "sha256": "1e47d0a2ec6ddc4ec2d7be2110144469a194f7bd5aea0c4faa0df2f2a75eb0fe",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B033/traffic.pcap",
+    "bytes": 51400,
+    "sha256": "271f0749e7fff24f2618c955e1a3626d58c979adf1cc3115bee2cd2164ccc4d0",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B034/traffic.pcap",
+    "bytes": 51395,
+    "sha256": "493a31ab17a761a9fd4fe3415786587db45b3337a38ee7b519c0813994f20953",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B035/traffic.pcap",
+    "bytes": 51402,
+    "sha256": "4ba6b4f2e9dd96e8baf21a3dc165c8e2caca28ecdd5145d72e0e85c0d551dde1",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/development/B036/traffic.pcap",
+    "bytes": 51399,
+    "sha256": "cc03fede26ecfebe79e19fe73e0779405976188b250bfe72085e152ae2371133",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B006/traffic.pcap",
+    "bytes": 36863,
+    "sha256": "1fd1f7690617ddffce875e63313c1d32e82b61e49bb6aed78c75f06835ab6b27",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B007/traffic.pcap",
+    "bytes": 39785,
+    "sha256": "3b3beb2ec995fa1f2d172aeabc567be8de2c6adc2537cecb2e13d85426474caf",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B008/traffic.pcap",
+    "bytes": 40923,
+    "sha256": "cbb01987613c454e39f740c610e5705f74bf83f8370ef8618382943dae84ec52",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B009/traffic.pcap",
+    "bytes": 42948,
+    "sha256": "e0285670f7dd26840bdd51030af0dae9434913f4b3e87afc5f1a683ab8a3659a",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B010/traffic.pcap",
+    "bytes": 46998,
+    "sha256": "9b23292bf490d743a4ba800a062eca335f4fb96165b2b0780a8edc074c0625d0",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B011/traffic.pcap",
+    "bytes": 36875,
+    "sha256": "c78560a0c0a27abce73996b494b8bd90019223e982e8007b79f18df5358b81b4",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B012/traffic.pcap",
+    "bytes": 38899,
+    "sha256": "c3b725a3caa75beeea93f319ccb15fd3b2df3428c6cfd23333154327a1ccbf27",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B013/traffic.pcap",
+    "bytes": 40918,
+    "sha256": "cfa828c780a38635a49b5e6c93a8c4e8a3dfa95bc4044be081e008c635f00e0e",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B014/traffic.pcap",
+    "bytes": 42944,
+    "sha256": "cac698d2dcc43730fe541e8b2d17fb1b9243fce915b33a232a5744c3fccab96a",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/burst-lab-20261001/heldout/B015/traffic.pcap",
+    "bytes": 47000,
+    "sha256": "fcc5e2d8876bc0064765483602017c6e53f6771d751e5e6755c2926ed3f64d58",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/deployment-auth-comparison-20261002/T001/traffic.pcap",
+    "bytes": 14151,
+    "sha256": "5bc320af477ca4df5885e50f445c47cd2cd082013f5d08a875ad6be26cc2f8cd",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/deployment-auth-comparison-20261002/T002/traffic.pcap",
+    "bytes": 14151,
+    "sha256": "44124109373dcddfdf20d5c4d4ba026c629a5d2715d11b4423cd2940fe8854f5",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/deployment-auth-comparison-20261002/T003/traffic.pcap",
+    "bytes": 14150,
+    "sha256": "0defd21fe96fb508d1fc50981141a1a9ea06ee311299db752c105c9ad62d2887",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/deployment-auth-comparison-20261002/T004/traffic.pcap",
+    "bytes": 14151,
+    "sha256": "ea178b6b76ea7622c806764a8302566d9ff22f1903a0904a58e907c11759ae1d",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/deployment-auth-comparison-20261002/T005/traffic.pcap",
+    "bytes": 14151,
+    "sha256": "0b51c036c8bb6e6b890c1b52f5b9f4ab488187c598d12bf03a28abded72d4396",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/deployment-auth-comparison-20261002/T006/traffic.pcap",
+    "bytes": 14151,
+    "sha256": "4db58b509a20a4c1b952f332c2042e9cd52b5cf7066bc79b723f0755e0538dad",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260928T095841Z-valid-register/traffic.pcap",
+    "bytes": 2763,
+    "sha256": "eab6c8dec80038c03b806967867f4ac0e42c4f9c602f2dedfe65517753f03e61",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260928T095959Z-valid-register-corrected/traffic.pcap",
+    "bytes": 2005,
+    "sha256": "82f03030e5e838bcf90625bc5133afe24dfe8d60b196dda1a3d7c818850e76df",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260928T100311Z-auth-invite-dev/traffic.pcap",
+    "bytes": 9146,
+    "sha256": "8ade670533a1be30c71abcb8a574c3eaebc263230a79bd61b75d5b0b6cde4352",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260928T100505Z-normal-outbound-control/traffic.pcap",
+    "bytes": 10269,
+    "sha256": "0fdfba1add2130a6b9280d5734f863c4080e86a41bd8b0db6e88b5a26acdebd8",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260928T100747Z-six-fail-then-call/traffic.pcap",
+    "bytes": 22497,
+    "sha256": "b6089c0bcaf2dd8bf8667b38c6c05fa5eb9ef1f99443bd0d7e4faac5e4aacf2b",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260928T101038Z-ten-fail-then-call/traffic.pcap",
+    "bytes": 30647,
+    "sha256": "0483b0e8c8058b1ef3521f76c2c11aaed2bdd84fcdbc818678666e063fce5fc6",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T023356Z-a4-slow-fail-then-call/traffic.pcap",
+    "bytes": 30627,
+    "sha256": "28a39ccd66585fac824111650827125176a0f715f829dcceaf301e00cc953869",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T044347Z-n3-four-mistypes-then-call/traffic.pcap",
+    "bytes": 19203,
+    "sha256": "b7d6f2c4b0de44055caa9778c01668a629bbd53cf0acf5184d940e7a26883fb9",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T054757Z-n4-six-mistypes-then-call/traffic.pcap",
+    "bytes": 22497,
+    "sha256": "4130437a7cbdf6486cf85aa8489e6c29429c7a8f0e741da66d18968110c8581c",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T061243Z-f04-account1002-88002/traffic.pcap",
+    "bytes": 10283,
+    "sha256": "d7b2f3f59b3db469f5799c9faac51afb7638ec514216edcf1a305aeea9e4d14e",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T061334Z-f05-account1002-88002/traffic.pcap",
+    "bytes": 22497,
+    "sha256": "46fcd2b819f31ce984de72bc45a159ef52fa6392be136be179d20ada027a64e8",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T061506Z-f11-account1002-88002/traffic.pcap",
+    "bytes": 22478,
+    "sha256": "b77488e852c1e8ddc009b101c393d9b5b101e9b8a11ad132b4e5da6cf312b618",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260929T100901Z-f12-account1001-88001-slow/traffic.pcap",
+    "bytes": 30641,
+    "sha256": "99cfec70185fd02633c5b3b9f5f7f56fe1b8c6864eaeaba42e564730f6691d84",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260930T101526Z-f05-account1002-88002/traffic.pcap",
+    "bytes": 22487,
+    "sha256": "50df36c7dfbf47b39b0e786d34897f2c439027723360dfcf5dee96728559c395",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/emulated-outbound-runs/20260930T101605Z-f11-account1002-88002/traffic.pcap",
+    "bytes": 22497,
+    "sha256": "ae3458545cc71dab145a5edf6c625058185f07845c0696de189722b427cd1db2",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/inprocess-auth-validation-20261001/A000/traffic.pcap",
+    "bytes": 1995,
+    "sha256": "3af04b532da141d260a88fc2f3d38dc367dd85331cb4a5a5bbce4b112ed3da23",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/inprocess-auth-validation-20261001/A001/traffic.pcap",
+    "bytes": 20284,
+    "sha256": "61d06f993bca04dee0a895efdda1452d08b3366ecd394cd77ae2759486f6b8ac",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/inprocess-auth-validation-20261001/A002/traffic.pcap",
+    "bytes": 14149,
+    "sha256": "d6ef78b6767af9025fa96abdc0d02e5b9f5df7644b50ee944537110fa27a9fd1",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL001/traffic.pcap",
+    "bytes": 14149,
+    "sha256": "f32ac7749421576b501c41a122721e6830e148e3f31138090381feca205d57e0",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL002/traffic.pcap",
+    "bytes": 14151,
+    "sha256": "e944e50aa6933d57feb15f8bcdfba08181b28d76d573131dfc24a942d97d9659",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL003/traffic.pcap",
+    "bytes": 20284,
+    "sha256": "e4e672d09201509bf4aee0fd761721204508f030fe10212fc226d0d163aaa1cb",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL004/traffic.pcap",
+    "bytes": 20283,
+    "sha256": "0f90e6730c1f5539a07954eb5fd2696d5762f62c012fcaca2c39276a33900ff4",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL005/traffic.pcap",
+    "bytes": 22255,
+    "sha256": "1f1093e3369c77cada6f766a610c2b791fea40b8c3b6331a3400ef44008d8102",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL006/traffic.pcap",
+    "bytes": 22251,
+    "sha256": "f7b2872db7aab7597b5af466c36adb062a293ebdecf6a247b09e686f63777a88",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL007/traffic.pcap",
+    "bytes": 12125,
+    "sha256": "328f3fd09938ade3ea22b9031d8eebfec602322d97580faedf094b1dd200b199",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature-development-20261002/development/DL008/traffic.pcap",
+    "bytes": 12123,
+    "sha256": "09d82ee063863e6e2a15b8eb8c9d787acff5f412dcc8b9f76278758b185e8f7b",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/literature_evidence_20261002.zip",
+    "bytes": 304796,
+    "sha256": "424b7b79cccf7f8f5bb81f4bbb8a9e0d65fc62bdf31f5bae84998eaa9affc173",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D001/traffic.pcap",
+    "bytes": 10275,
+    "sha256": "651b72ef476bbe97f7607aad462761f66b87c63343e85730393b9a741f23b413",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D002/traffic.pcap",
+    "bytes": 10273,
+    "sha256": "33454d96fa09c0abfaf079529aef590ec64568297016fbb011f7b97055ae4f04",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D003/traffic.pcap",
+    "bytes": 12319,
+    "sha256": "52924b14552c64be3c01c27cec0f60a73ed3e4ca36e650ef018233c6f7b89f05",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D004/traffic.pcap",
+    "bytes": 14355,
+    "sha256": "45e86b17b11f12629282db72834b0922e893b6dae8f7c0abe3f4e0722fa79cf8",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D005/traffic.pcap",
+    "bytes": 16381,
+    "sha256": "61a566c2d06342168c0155fb74fcfe51a5809ab2f6224aedf15cce5d4829a324",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D006/traffic.pcap",
+    "bytes": 18418,
+    "sha256": "6860ead6a00f30470f68235a2e71ddf5913e9847dc6bed5ba3cfc58d0722f19a",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D007/traffic.pcap",
+    "bytes": 20454,
+    "sha256": "a6a8f9f65c1dae713901945a708f9a487c84c72382dd40b5a3d66324db6c6962",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D008/traffic.pcap",
+    "bytes": 22498,
+    "sha256": "e4847ddec9d058d683db6d5f4644b7c0d868a48bf77fd72922592f6a68ddc5e2",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D009/traffic.pcap",
+    "bytes": 26569,
+    "sha256": "4ed37868036ef8e1d2c39195710b5e8f6e4c10e193f1aacd5a9a1a331a8aa5be",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D010/traffic.pcap",
+    "bytes": 12185,
+    "sha256": "940a6e18df8a18c13dcf7ad8820f7981b415c1d84a97d17b5f161f5ddf82ce6e",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D011/traffic.pcap",
+    "bytes": 14220,
+    "sha256": "8c1289d398262dda1de99572e5f2a4ac8b5b4fa8a99609a71a4c060dd92b9ec9",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D012/traffic.pcap",
+    "bytes": 4096,
+    "sha256": "1d906c9301e767bf2b1b2b76d2d4311f067da239c5f23d6f471a85fc1ead506a",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D013/traffic.pcap",
+    "bytes": 6132,
+    "sha256": "3bc4df67032a67c188a025b2afe8c3c762592bbe343cff93caf8a8cd2ba5ef96",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D014/traffic.pcap",
+    "bytes": 8168,
+    "sha256": "f998ef887c90d31f8bba2abf7752b7bb702121b2b8181e88dbea178d3857615b",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D015/traffic.pcap",
+    "bytes": 10203,
+    "sha256": "340f5b201dc1e69ab8e5f938025a0ea8af93d055f9b1d44e43adb4e6b51dc793",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D016/traffic.pcap",
+    "bytes": 16311,
+    "sha256": "e897e6448f6ac95421505051d40a03c8a21bda94d65ef41f0430c8f1cfcd1311",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D017/traffic.pcap",
+    "bytes": 20384,
+    "sha256": "e6db403d8630211e884ecef64815b3aad7e523a05ab5fce88b3add0eae8286ff",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D018/traffic.pcap",
+    "bytes": 18420,
+    "sha256": "a492971352f394ef76ee185c5d3a611a88c0015e4918a0d96a3902f8303aadd6",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D019/traffic.pcap",
+    "bytes": 21453,
+    "sha256": "eeddc95e125e0e53421ab799bba0bdfb8c0deaf39a537ce9c852a1173c43d2a4",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D020/traffic.pcap",
+    "bytes": 22499,
+    "sha256": "856a069caedf4fa8983acdf72856f3be71492d9063ce36ac7a05ee4010b92537",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D021/traffic.pcap",
+    "bytes": 26571,
+    "sha256": "a0e4891495bd71c8c6ad4e94d96a221d5988ce5139e0199ca7345e82e81ba1c7",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D022/traffic.pcap",
+    "bytes": 30629,
+    "sha256": "0b21108cfdd5f18ad635cd33f3873a83b33fcc22ab4d3c5c6368a068ee23c184",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D023/traffic.pcap",
+    "bytes": 14220,
+    "sha256": "85a1d9ee27d53b851a6b91f3411b8617963f792d038454edfd575f6eacc96021",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/development/D024/traffic.pcap",
+    "bytes": 16388,
+    "sha256": "1a1c46ec54820ec21fdc9394b14fe8c04a522197becd1ce74960676dfb32f8b4",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H001/traffic.pcap",
+    "bytes": 10271,
+    "sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H002/traffic.pcap",
+    "bytes": 18423,
+    "sha256": "feeee14ba5ed29f0a25a6c8973b6be319f7cb9fb604165cfdc99e88aab64c049",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H003/traffic.pcap",
+    "bytes": 24534,
+    "sha256": "8db626eb7ad30def383ca2935c2312ed4382fb2aa9128dcb9fd0c621b7e9b5a7",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H004/traffic.pcap",
+    "bytes": 16255,
+    "sha256": "3b89a348d76b58e19ab9de93e00f72a0e2f345359b888eae779e036dcf676f1e",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H005/traffic.pcap",
+    "bytes": 4096,
+    "sha256": "06d26b0ebeb123d2f200a3bcecd7fe0c5d4b63a8cdbda8ae3e442d5cc3bfb323",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H006/traffic.pcap",
+    "bytes": 10204,
+    "sha256": "f2fa2194c3577ff863cf7c9c318871054f31d09d5a744f3ac6e6b0ab5456111f",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H007/traffic.pcap",
+    "bytes": 24520,
+    "sha256": "15014e82559ea32b624d6d9496cc454d13813096f7aa540a0456dbb728dfc1c9",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H008/traffic.pcap",
+    "bytes": 16257,
+    "sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H009/traffic.pcap",
+    "bytes": 28606,
+    "sha256": "bb7f77e8c2f4621cb09c1da95e6bfe76fe8366de4f7546b218a5c3ddc28dbf62",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-lab-20260930/heldout/H010/traffic.pcap",
+    "bytes": 14352,
+    "sha256": "3ce2946468ae707ef5a294032e79c648bd63692ed6008568b0c234aec0f34d15",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-v2-development-20261002/development/DV2001/traffic.pcap",
+    "bytes": 1994,
+    "sha256": "e51cf55ccba4f15cefb7b99bdb66a5ddb2ba451e622bcb97a97e81feadbb3d13",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-v2-development-20261002/development/DV2002/traffic.pcap",
+    "bytes": 6047,
+    "sha256": "7e66438d55e9bfb6ef1c5807c521eac053d5aa6a245c85a564ae3de888b972f7",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-v2-development-20261002/development/DV2003/traffic.pcap",
+    "bytes": 10099,
+    "sha256": "a6d6aa273d7e616c8c2dafdc6bf3bd9be6ee27cf0007708fcd45376a8adfb801",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-v2-development-20261002/development/DV2004/traffic.pcap",
+    "bytes": 12124,
+    "sha256": "ab2e0304c656f09dd5c2d5c7d9535fb089bf09cb2bdcf074d867ee0baf001ff7",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-v2-development-20261002/development/DV2005/traffic.pcap",
+    "bytes": 18203,
+    "sha256": "734e85ba215c6fcf8fff367221196a6bfc1a0acb74244397640065420cb76d79",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/ml-v2-development-20261002/development/DV2006/traffic.pcap",
+    "bytes": 16230,
+    "sha256": "065fc492e65cbda0d134c9831c6a7fbda55e06a5c62ed0587c03ff51c1d11432",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260923T104221Z/normal_calls.pcap",
+    "bytes": 29589,
+    "sha256": "f9ebf51d780fa0673658a69bd3a90a73edb6ec427611176030901e47a76c8c18",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260924T091428Z/normal_calls.pcap",
+    "bytes": 3963,
+    "sha256": "02089563ef0cbcbc0b587a120f153cdb57fac1fb8397723d9832982e05b5fb44",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260924T093525Z/normal_calls.pcap",
+    "bytes": 97807,
+    "sha256": "0c78d98d7d6dc3ae110a8c2afbdac6b9e9f93171500100397cb032a2748ed1a3",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260929T052908Z-n1-real-phone/traffic.pcap",
+    "bytes": 56742,
+    "sha256": "32036f72988364392e7262ad372134b4dfff40fd939bb93d88338a4137664998",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260930T043607Z-f01-real-phone/traffic.pcap",
+    "bytes": 15744,
+    "sha256": "a6200c59e55e99d1e40ef57500373021b08e4b2ffdf14fa3aff059552ff3a351",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260930T044410Z-f01-real-phone/traffic.pcap",
+    "bytes": 33202,
+    "sha256": "3d25a4edb3b362b6db4fdb90e77c910e368a6dc3b4536e883964331ec6de5b5d",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260930T045220Z-f02-real-phone/traffic.pcap",
+    "bytes": 4023,
+    "sha256": "364a991dec9fd0125ee1d495109a3a9726637bb3e7be3c1f7ed260c4dfa57c21",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260930T045839Z-f02-real-phone/traffic.pcap",
+    "bytes": 143565,
+    "sha256": "00d011b75f8dfd0c8bbb66d140af99624e2e516929c9061c634a5f61cabae178",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260930T050420Z-f06-real-phone/traffic.pcap",
+    "bytes": 97457,
+    "sha256": "aaee948873636a41fb5491db6ac7421bb6818ee374e624e63c92fd795dea49fe",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/normal-call-runs/20260930T051058Z-f02-real-phone/traffic.pcap",
+    "bytes": 53043,
+    "sha256": "bc4e3c6f54e74738984d6c4f15c9c19df576d6fe824c7a4cfd1ff9f9e67973ff",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F10/rep_01/v3_input/traffic.pcap",
+    "bytes": 20382,
+    "sha256": "67f614b547553523f61922ac69348625d9ce24b5bd9d48734d3726f6c67e2059",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F10/rep_02/v3_input/traffic.pcap",
+    "bytes": 20382,
+    "sha256": "67f614b547553523f61922ac69348625d9ce24b5bd9d48734d3726f6c67e2059",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F10/rep_03/v3_input/traffic.pcap",
+    "bytes": 20382,
+    "sha256": "67f614b547553523f61922ac69348625d9ce24b5bd9d48734d3726f6c67e2059",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F12/rep_01/v3_input/traffic.pcap",
+    "bytes": 30641,
+    "sha256": "99cfec70185fd02633c5b3b9f5f7f56fe1b8c6864eaeaba42e564730f6691d84",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F12/rep_02/v3_input/traffic.pcap",
+    "bytes": 30641,
+    "sha256": "99cfec70185fd02633c5b3b9f5f7f56fe1b8c6864eaeaba42e564730f6691d84",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F12/rep_03/v3_input/traffic.pcap",
+    "bytes": 30641,
+    "sha256": "99cfec70185fd02633c5b3b9f5f7f56fe1b8c6864eaeaba42e564730f6691d84",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/runs/20260923T094044Z/__pycache__/stage_detector_v3.cpython-313.pyc",
+    "bytes": 19660,
+    "sha256": "941612b9cabe0982d6cd8f220f70b62a5fe56447b5bc4321e1ccfc9eb4b3d960",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-heldout-runs/20260924T070017Z/heldout-1002-10-paced/traffic.pcap",
+    "bytes": 20283,
+    "sha256": "4cfeb544ea7e64e802956f09434ed358cdf20f97b77daf8589d85499efee5576",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-heldout-runs/20260924T070017Z/heldout-1002-6-fast/traffic.pcap",
+    "bytes": 12180,
+    "sha256": "930c8e4c4a764c28a266e001ca5cbfc62a61587e8d85acab26cd2ca5e4e26782",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-runs/20260924T062325Z/auth-10-fast/traffic.pcap",
+    "bytes": 20296,
+    "sha256": "5b73335ec91bc1c3e2a4728d50152e53412ce1a8adfbf17860f3620d895ec2e1",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-runs/20260924T062325Z/auth-10-slow/traffic.pcap",
+    "bytes": 20283,
+    "sha256": "1fe267dfd1da332bc7059d151e17466b8d745cfd1de3ec3f4cea6ea7d8c80f6b",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-runs/20260929T043718Z-a1-auth-only/a1-rejected-only/traffic.pcap",
+    "bytes": 20383,
+    "sha256": "80a6766386c658c1f44950d5d8e643744ed5688f641367f72032e31825f2198c",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-runs/20260929T060228Z-f09-auth-only-1002/traffic.pcap",
+    "bytes": 20397,
+    "sha256": "6ac332545b0237c9215ef985ebfe5e02405b1111baab71d7b015439158a0bbf2",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-remote-runs/20260929T100727Z-f10-slow-auth-only-1001/traffic.pcap",
+    "bytes": 20382,
+    "sha256": "67f614b547553523f61922ac69348625d9ce24b5bd9d48734d3726f6c67e2059",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-runs/slow-20260923T110803Z/auth-10-slow/traffic.pcap",
+    "bytes": 19462,
+    "sha256": "f9051c23485f4d57d95e709ad4117af85b327c59f6598ab534ed3bf19f131715",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-runs/smoke-auth-20260923T110157Z/traffic.pcap",
+    "bytes": 3958,
+    "sha256": "807b0cba1e37b8e816fe4271f84a5689b75cb8d4ee7db3547800e1af5a3c548b",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-runs/smoke-auth-captured-20260923T110436Z/traffic.pcap",
+    "bytes": 1968,
+    "sha256": "0846b25888187b4266a3de3341bd372a5a168e9ac925b1f7a886a7ee5f970113",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/datasets/sipp-runs/threshold-20260923T110646Z/auth-10/traffic.pcap",
+    "bytes": 19477,
+    "sha256": "26586ebe8575f506c7ce5ad8d5fb596af4e017a07be69bf4c866c6c9bff4b96f",
+    "reasons": [
+      "sip_digest_authenticator"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/analyze_comparison.cpython-313.pyc",
+    "bytes": 8845,
+    "sha256": "c52cf40a0c14605166e28e77bd8a39bb7e3463ddc00820e0550a88556a39ad97",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/audit_native_core.cpython-313.pyc",
+    "bytes": 8294,
+    "sha256": "02fc56f6158329099f487521c7228a43df6c5b39d33bd778518cec390502f67c",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/audit_native_holdout.cpython-313.pyc",
+    "bytes": 2477,
+    "sha256": "0b94b7fa5dca83278cab124dbd4611330f643aaa14b89cf2e981124da450b718",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/audit_packet_adapter.cpython-313.pyc",
+    "bytes": 6361,
+    "sha256": "39c136c1f2071f5dd3b83dcd6f86246b32b5cd73c18d999e625be58747279af5",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/full_external_collector.cpython-313.pyc",
+    "bytes": 11233,
+    "sha256": "fa3be3d069db75abe746d08d450fc9f420e67e683d27de14cf8fe6d01b5381e2",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/native_core.cpython-313.pyc",
+    "bytes": 3313,
+    "sha256": "c216b06235ab2541e081227e584b246a0a87829e986bd406975936103111fb29",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/packet_adapter.cpython-313.pyc",
+    "bytes": 5521,
+    "sha256": "e14fa2ed86aa36ef10cd4611d12e9a9fd6b8ff1240b0b08a0e2f4c31fef2d8bb",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/run_comparison.cpython-313.pyc",
+    "bytes": 15728,
+    "sha256": "0d9064e59e58cc21b6acd87a306c08521d2ee76c2bcc0c3c3b4e25b4b76f3a5a",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/run_full_case.cpython-313.pyc",
+    "bytes": 4119,
+    "sha256": "cb77c05831cea5e48210b85ca53e7649250fd473e7fa61ab912bde4ab709548d",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/inprocess-full-lab/__pycache__/verify_full_case.cpython-313.pyc",
+    "bytes": 9461,
+    "sha256": "27032f3fdd788564f509272eeec7f73023fcca7213ce5c3c693eaddafce4a189",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/adapt_checkpoint_events.cpython-313.pyc",
+    "bytes": 8432,
+    "sha256": "daa309b3457a1f897f160698b0cb4e0a2a424a85df7a4b8c96a63dd44edf6a29",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/aggregate_f_series.cpython-313.pyc",
+    "bytes": 10700,
+    "sha256": "2af38b6be32d7f8918957dd02d5520f30bd51f62922b9879e1b90f3cf2e0b2ad",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/analyze_burst_runs.cpython-313.pyc",
+    "bytes": 6992,
+    "sha256": "c8cdcdef4554be4d7c83f41f8edb23740de447568c0d6af80e32f04225da12ea",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/audit_online_replay.cpython-313.pyc",
+    "bytes": 6229,
+    "sha256": "7f749ddbea07c384d7e813ee00b2b32d05e48667885c9da912c86ef14c238311",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/candidate_v5_replay.cpython-313.pyc",
+    "bytes": 17153,
+    "sha256": "c3e705a80f5bf9a2d6560d095874c984abbda8c4fe0b926a2ae1d4695e0d2b68",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/capture_registered_phone_f.cpython-313.pyc",
+    "bytes": 18006,
+    "sha256": "ece4b0ceef28401a3742bfc6366945b09bb5b059fa8b693837e23c9f76117b35",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/causal_review_score.cpython-313.pyc",
+    "bytes": 4767,
+    "sha256": "4b602dd156b6d725653a1e2d8bf2bf0e7264622584700d1cd7093117b12ad947",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/controlled_log_attacks.cpython-313.pyc",
+    "bytes": 6142,
+    "sha256": "745dbf03e8220a097db42b3af55cca0c01c07a5907ca7001159cf87c4c321b1a",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/evaluate_causal_ml_holdout.cpython-313.pyc",
+    "bytes": 8515,
+    "sha256": "d69a0d2baa8029b4f9d1c3d7d2f102bdbb5281bafd9f5a9bfda79439440ad5ec",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/generate_robustness_v4.cpython-313.pyc",
+    "bytes": 5861,
+    "sha256": "ffb6938cf4d1093f126a069b31d8e1779275195e53f2e53ac7a72e0835e82eb6",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/generate_sip_traffic.cpython-313.pyc",
+    "bytes": 4758,
+    "sha256": "15915f9854655bd056767925d5ba590029a9764c142900d21272864075d2c90d",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/lab_batch_runner.cpython-313.pyc",
+    "bytes": 18941,
+    "sha256": "00f4a25f33b0248a3f4499b6650c758ca75276943f8aae0cd9a4c6192d525464",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/lab_burst_runner.cpython-313.pyc",
+    "bytes": 19344,
+    "sha256": "37cb5004f9245c80f5274f0c26c4a5e80cc6ad72ef920e68f09195113900720b",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/lab_process_batch.cpython-313.pyc",
+    "bytes": 11841,
+    "sha256": "7edd9aabce5fd79eaeab7f9b42fc7a7bd80b7d65c569e83d729dfbb6ea9b1291",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/literature_development_20261002.cpython-313.pyc",
+    "bytes": 9263,
+    "sha256": "153eb88b2cb1e2e61c03a78a15927ae88b70e2a591808c2777103d2e4beb4af7",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/live_external_collector.cpython-313.pyc",
+    "bytes": 14487,
+    "sha256": "b2f6945b0fb7fac21e3db2bddd4be764c6ce1048f929b285b7e970e7f4fbba61",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/measure_deployment_auth_20261002.cpython-313.pyc",
+    "bytes": 25562,
+    "sha256": "c2f361bd668b4cc19952fe8d6310cd0144ad368226ee1336510331978daa30f6",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/measure_deployment_calls_20261002.cpython-313.pyc",
+    "bytes": 21201,
+    "sha256": "189fa8c07df6b251e4b8e12fa763a015acf5a0a2e6b9970dbffa08eaef5ab659",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/measure_deployment_calls_replacement_20261002.cpython-313.pyc",
+    "bytes": 21725,
+    "sha256": "759e99c84ebf1ac843c1d7ce12cd1702fca2adc15a3dcc0cd17860ef41d1a8b1",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/measure_external_overhead_20261001.cpython-313.pyc",
+    "bytes": 14881,
+    "sha256": "97ffe0382e183fb8db154b46d0a1eb32d994ab2688c48e1d3d87a5dadd810eaa",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/overhead_collector_B023.cpython-313.pyc",
+    "bytes": 14438,
+    "sha256": "b729f4d4773286fbde4b5112d1c0a7e32ead1b0eac65f1d241be1d5c054e52f0",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/overhead_collector_B024.cpython-313.pyc",
+    "bytes": 14438,
+    "sha256": "8eebba884f6585d9273c74344505b8220bf3d0097fea95195efc9b8478582ca8",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/overhead_collector_B027.cpython-313.pyc",
+    "bytes": 14450,
+    "sha256": "8ed89244ddad67edca1001d49d8600160972d2aec385d389ef6cbe0862ec2fee",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/overhead_collector_BT003.cpython-313.pyc",
+    "bytes": 14678,
+    "sha256": "445a6f45f4f7ba60b149a408a6f887ac0fa312b5d8b0929eedd3946458a272e8",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/overhead_collector_BT004.cpython-313.pyc",
+    "bytes": 14678,
+    "sha256": "83538724a7a95113850173d7ad9fe187e990af105b8dc8e34e1347260769cf9a",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/prepare_valid_register_1002.cpython-313.pyc",
+    "bytes": 3082,
+    "sha256": "a98537ce0caba757a4adcd93aeb21a63c09024b873827747db95186cee4cdd03",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/progression_v6_development.cpython-313.pyc",
+    "bytes": 15281,
+    "sha256": "ac4ad01cab7207f067741d9ae6ce3aa64b1c679fc7e8930a219cd5e02d586f9d",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/register_diversity_candidate_20261002.cpython-313.pyc",
+    "bytes": 5283,
+    "sha256": "2e2a9ce23d0b99c0a069b93cfb8973848dc00745391fabb6f4bb1b21af33cd48",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/register_enumeration_20261002.cpython-313.pyc",
+    "bytes": 12851,
+    "sha256": "382886e79b0dcd6b9944a55ea809a699b466a49a0ac746764a9cbae24c42dba0",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/replay_v3_capture.cpython-313.pyc",
+    "bytes": 9177,
+    "sha256": "7f0cec9be949f6aaea3ec148a955417a9b316b956e9826e61cb05892229c2d45",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_a4_emulated_outbound.cpython-313.pyc",
+    "bytes": 17015,
+    "sha256": "455b91a94315d940749827a0fc73b577e3c9a073544bc790b36ba585e14c9726",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_f03_benign_options_1002.cpython-313.pyc",
+    "bytes": 12001,
+    "sha256": "d001ef642608b20a6a96c9cdaecabd20a65d08a4cced10303145d96afd6d7ab2",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_f04_f05_f11_emulated_1002.cpython-313.pyc",
+    "bytes": 19382,
+    "sha256": "f0df2ccd30984da6613f03518cc7ff302795917a906bc8c19df36d883d4648f8",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_f07_varied_target_options.cpython-313.pyc",
+    "bytes": 13635,
+    "sha256": "3246f597e57a107296b4b7bddb6b036efe2d5715f17e1ea70753cd207c0d3531",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_f09_auth_only_1002.cpython-313.pyc",
+    "bytes": 11838,
+    "sha256": "6ed4934d8cb5d8f978c4eed1ae244b7e752420a976e1a68c8312ef455f4534b7",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_heldout_sipp_challenges.cpython-313.pyc",
+    "bytes": 11870,
+    "sha256": "46863f37035382799a0d7a339de60f23256e71b95213933d2431f9631c06674a",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_n4_six_mistype_challenge.cpython-313.pyc",
+    "bytes": 17655,
+    "sha256": "e727f307d463f0d09eaca9c56f9af1fb06576589f5e338f913ed0acf462cf7aa",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/run_remote_sipp_challenges.cpython-313.pyc",
+    "bytes": 12200,
+    "sha256": "d7aeb46ae8a99e5681e6777601a8f8676db194a0fe98f199eb31b4c631ebdfac",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/stage_detector_v3.cpython-313.pyc",
+    "bytes": 19637,
+    "sha256": "0037e3a513bca7e1951a7c03b807d1182052728fa7e6405fb88ad32ce494f849",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/stage_detector_v4.cpython-313.pyc",
+    "bytes": 19683,
+    "sha256": "1bf9a65dd599097ec8e92cd0f1162a8fb6f53d7a36817e14b964b4ff1bdb3bab",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/stream_progression_prototype.cpython-313.pyc",
+    "bytes": 13924,
+    "sha256": "26d9ec898c73709c80ab147e46cd8f68960369b868a3f46dce85641400c06d45",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/validate_inprocess_auth_20261001.cpython-313.pyc",
+    "bytes": 12016,
+    "sha256": "ab537c13f78247d69708b1fc10a9c11844f92a7c1af83b0d0e28c1a7bb9136ab",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/verify_burst_run.cpython-313.pyc",
+    "bytes": 6438,
+    "sha256": "c527df2002e773fb997e8741df09f17b5a400f5b1c8edecf340858d015f70450",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/verify_emulated_outbound.cpython-313.pyc",
+    "bytes": 5307,
+    "sha256": "c0604923360e71828339a141ad591b4ae4c44e88060bc95ef822db31608c3bc0",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/__pycache__/verify_emulated_outbound_1002.cpython-313.pyc",
+    "bytes": 5748,
+    "sha256": "10ed2211c0db21fa2c9c765bd2edb022c1b3b43f539c0f65e98280fdb5ad66a8",
+    "reasons": [
+      "generated_cache_excluded"
+    ]
+  },
+  {
+    "path": "pbx-research/scripts/invite_auth_1001_template.xml",
+    "bytes": 2291,
+    "sha256": "a817f8d8dc96c81dbf3fa461d4c532cfeb88b56318ab1c154b311c758bc70e1e",
+    "reasons": [
+      "literal_sipp_authentication_password"
+    ]
+  }
+]

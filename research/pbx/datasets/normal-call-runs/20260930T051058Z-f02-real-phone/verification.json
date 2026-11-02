@@ -1,0 +1,47 @@
+{
+  "valid": true,
+  "case": "F02",
+  "answered_cdr_count": 3,
+  "answered_cdrs": [
+    {
+      "src": "1002",
+      "dst": "1001",
+      "billsec": 3
+    },
+    {
+      "src": "1002",
+      "dst": "1001",
+      "billsec": 4
+    },
+    {
+      "src": "1002",
+      "dst": "1001",
+      "billsec": 4
+    }
+  ],
+  "complete_client_calls": [
+    {
+      "call_id": "8fc7af106ced4e028486a31ae23144a8",
+      "src": "1002",
+      "dst": "1001",
+      "invite_epoch": 1790745063.445189,
+      "last_bye_epoch": 1790745068.871195
+    },
+    {
+      "call_id": "391e61b17df24e559e49d3906c70e022",
+      "src": "1002",
+      "dst": "1001",
+      "invite_epoch": 1790745092.743593,
+      "last_bye_epoch": 1790745099.338379
+    },
+    {
+      "call_id": "b8d28ae92a844e56ac1510cf41361c96",
+      "src": "1002",
+      "dst": "1001",
+      "invite_epoch": 1790745105.703225,
+      "last_bye_epoch": 1790745115.441057
+    }
+  ],
+  "new_cdr_rows": 3,
+  "decoded_sip_packets": 73
+}

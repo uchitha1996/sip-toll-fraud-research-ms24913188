@@ -1,0 +1,2 @@
+{"account": "1001", "call_id": "1-22671@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:52:12.899206Z"}
+{"account": "1001", "call_id": "1-22682@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:52:15.875136Z"}

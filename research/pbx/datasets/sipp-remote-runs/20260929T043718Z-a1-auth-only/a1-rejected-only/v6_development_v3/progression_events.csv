@@ -1,0 +1,2 @@
+stage,time_utc,source_ip,account,destination,call_id,evidence
+AUTHENTICATION_ATTACK,2026-09-29T04:38:10.485384Z,172.16.200.68,1001,,1-17138@172.16.200.68,10 confirmed authenticated rejections in 60 s

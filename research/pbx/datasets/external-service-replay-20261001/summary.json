@@ -1,0 +1,218 @@
+{
+  "cases": 34,
+  "events": 253,
+  "stage_matches": 34,
+  "median_loopback_roundtrip_ms": 0.059149,
+  "p95_loopback_roundtrip_ms": 0.085501,
+  "median_service_processing_ms": 0.013963,
+  "p95_service_processing_ms": 0.02213,
+  "service_child_cpu_s": 0.068911,
+  "service_child_max_rss_kib": 17888,
+  "warning": "Archived local TCP replay excludes live capture and PBX call impact.",
+  "results": [
+    {
+      "id": "D001",
+      "split": "development",
+      "events": 4,
+      "stage_match": true
+    },
+    {
+      "id": "D002",
+      "split": "development",
+      "events": 4,
+      "stage_match": true
+    },
+    {
+      "id": "D003",
+      "split": "development",
+      "events": 5,
+      "stage_match": true
+    },
+    {
+      "id": "D004",
+      "split": "development",
+      "events": 6,
+      "stage_match": true
+    },
+    {
+      "id": "D005",
+      "split": "development",
+      "events": 7,
+      "stage_match": true
+    },
+    {
+      "id": "D006",
+      "split": "development",
+      "events": 8,
+      "stage_match": true
+    },
+    {
+      "id": "D007",
+      "split": "development",
+      "events": 9,
+      "stage_match": true
+    },
+    {
+      "id": "D008",
+      "split": "development",
+      "events": 10,
+      "stage_match": true
+    },
+    {
+      "id": "D009",
+      "split": "development",
+      "events": 12,
+      "stage_match": true
+    },
+    {
+      "id": "D010",
+      "split": "development",
+      "events": 6,
+      "stage_match": true
+    },
+    {
+      "id": "D011",
+      "split": "development",
+      "events": 7,
+      "stage_match": true
+    },
+    {
+      "id": "D012",
+      "split": "development",
+      "events": 2,
+      "stage_match": true
+    },
+    {
+      "id": "D013",
+      "split": "development",
+      "events": 3,
+      "stage_match": true
+    },
+    {
+      "id": "D014",
+      "split": "development",
+      "events": 4,
+      "stage_match": true
+    },
+    {
+      "id": "D015",
+      "split": "development",
+      "events": 5,
+      "stage_match": true
+    },
+    {
+      "id": "D016",
+      "split": "development",
+      "events": 8,
+      "stage_match": true
+    },
+    {
+      "id": "D017",
+      "split": "development",
+      "events": 10,
+      "stage_match": true
+    },
+    {
+      "id": "D018",
+      "split": "development",
+      "events": 8,
+      "stage_match": true
+    },
+    {
+      "id": "D019",
+      "split": "development",
+      "events": 9,
+      "stage_match": true
+    },
+    {
+      "id": "D020",
+      "split": "development",
+      "events": 10,
+      "stage_match": true
+    },
+    {
+      "id": "D021",
+      "split": "development",
+      "events": 12,
+      "stage_match": true
+    },
+    {
+      "id": "D022",
+      "split": "development",
+      "events": 14,
+      "stage_match": true
+    },
+    {
+      "id": "D023",
+      "split": "development",
+      "events": 7,
+      "stage_match": true
+    },
+    {
+      "id": "D024",
+      "split": "development",
+      "events": 7,
+      "stage_match": true
+    },
+    {
+      "id": "H001",
+      "split": "heldout",
+      "events": 4,
+      "stage_match": true
+    },
+    {
+      "id": "H002",
+      "split": "heldout",
+      "events": 8,
+      "stage_match": true
+    },
+    {
+      "id": "H003",
+      "split": "heldout",
+      "events": 11,
+      "stage_match": true
+    },
+    {
+      "id": "H004",
+      "split": "heldout",
+      "events": 8,
+      "stage_match": true
+    },
+    {
+      "id": "H005",
+      "split": "heldout",
+      "events": 2,
+      "stage_match": true
+    },
+    {
+      "id": "H006",
+      "split": "heldout",
+      "events": 5,
+      "stage_match": true
+    },
+    {
+      "id": "H007",
+      "split": "heldout",
+      "events": 11,
+      "stage_match": true
+    },
+    {
+      "id": "H008",
+      "split": "heldout",
+      "events": 8,
+      "stage_match": true
+    },
+    {
+      "id": "H009",
+      "split": "heldout",
+      "events": 13,
+      "stage_match": true
+    },
+    {
+      "id": "H010",
+      "split": "heldout",
+      "events": 6,
+      "stage_match": true
+    }
+  ]
+}

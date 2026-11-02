@@ -1,0 +1,21 @@
+{
+  "id": "C011",
+  "split": "fresh",
+  "intent": "SIMULATED_ABUSE",
+  "account": "1001",
+  "wrong": 6,
+  "success": 1,
+  "call": 1,
+  "destination": "88001",
+  "interval": 1.8,
+  "post_register_pause": 1.2,
+  "profile": "matched_hidden_role_within_allowed_policy",
+  "declared_utc": "2026-10-12T03:57:51.373819Z",
+  "manifest_sha256": "bfd3280811832398c729e3f1ff24aa3f8e0df04df7fd05bb158f31f55d392c48",
+  "runner_sha256": "5fe07c4fe6925d4913ddb8e8856fea1ac20d972e9a20478d4a03ca433ab937ec",
+  "prep_sha256": "d0779f3116b4a81ef96e992fe28cebe44ce899549cda4e9645700c7a06daa8d7",
+  "wrong_template_sha256": "ee3fe537e7ae7f991e8fc78490c12781ba6d69a83e025f4afe41d8ba89905e4e",
+  "v5_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "invalid_if": "Any missing or mismatched SIP, CDR, log, or cleanup evidence"
+}

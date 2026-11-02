@@ -1,0 +1,1 @@
+{"capture": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260929T100727Z-f10-slow-auth-only-1001/traffic.pcap", "alert": "AUTHENTICATION_ATTACK", "ttd_s": 29.853475, "counts": {"request_events": 20, "initial_unauthenticated_challenges_ignored": 10, "authenticated_rejections_pending": 10, "confirmed_rejected_digest_dialogs": 10, "unresolved_at_observation_end": 0}}

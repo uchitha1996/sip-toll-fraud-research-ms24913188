@@ -1,0 +1,33 @@
+{
+  "declared_utc": "2026-10-02T00:16:26.608544Z",
+  "wrapper_sha256": "49bc866c77229bdb6cd226152d5897dfc55707a5b96df4924126a4bf62cbe2a3",
+  "cases": [
+    {
+      "id": "RE001",
+      "targets": [
+        "9001",
+        "9001",
+        "9001",
+        "9001",
+        "9001",
+        "9001"
+      ],
+      "label": "MISCONFIGURATION_CONTROL"
+    },
+    {
+      "id": "RE002",
+      "targets": [
+        "9001",
+        "9002",
+        "9003",
+        "9004",
+        "9005",
+        "9006"
+      ],
+      "label": "RECONNAISSANCE_PROBE"
+    }
+  ],
+  "limits": "Six unauthenticated REGISTER queries per case to unused lab IDs; one per second; no password guess or INVITE.",
+  "grouping": "Same generator/session. Development gap test, not held-out fraud classification.",
+  "source": "https://doi.org/10.1007/978-3-319-60774-0_9"
+}

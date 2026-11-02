@@ -1,0 +1,9 @@
+{"account": "1002", "call_id": "1-23409@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:40.261337Z"}
+{"account": "1002", "call_id": "1-23420@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:42.198392Z"}
+{"account": "1002", "call_id": "1-23431@172.16.200.68", "event_id": "v5:15", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:44.237650Z"}
+{"account": "1002", "call_id": "1-23442@172.16.200.68", "event_id": "v5:20", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:46.252888Z"}
+{"account": "1002", "call_id": "1-23453@172.16.200.68", "event_id": "v5:25", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:48.273642Z"}
+{"account": "1002", "call_id": "1-23464@172.16.200.68", "event_id": "v5:29", "kind": "REGISTER_SUCCESS", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:51.236325Z"}
+{"account": "1002", "call_id": "1-23475@172.16.200.68", "destination": "88002", "event_id": "v5:30", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:54:53.701028Z"}
+{"account": "1002", "call_id": "1-23475@172.16.200.68", "event_id": "sipbye:1-23475@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:55:00.585309Z"}
+{"account": "1002", "billsec": 6, "call_id": "1-23475@172.16.200.68", "destination": "88002", "event_id": "cdr:1-23475@172.16.200.68", "kind": "CDR_ANSWERED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T10:55:07.606953Z"}

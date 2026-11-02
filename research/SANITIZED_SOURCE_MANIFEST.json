@@ -1,0 +1,9 @@
+[
+  {
+    "path": "research/sanitized/pbx-research/scripts/invite_auth_1001_template.xml",
+    "original_path": "pbx-research/scripts/invite_auth_1001_template.xml",
+    "original_sha256": "a817f8d8dc96c81dbf3fa461d4c532cfeb88b56318ab1c154b311c758bc70e1e",
+    "published_sha256": "3438e39f7d8c1929708fd4f40cb5c0824c7fc60136c63af20dd0a37980a0ada5",
+    "changed": "Authentication password literal replaced with REDACTED_LAB_PASSWORD; original remains outside GitHub."
+  }
+]

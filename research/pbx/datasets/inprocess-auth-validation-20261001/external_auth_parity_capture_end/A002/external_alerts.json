@@ -1,0 +1,25 @@
+[
+  {
+    "stage": "SUSPECTED_COMPROMISE",
+    "risk": "REVIEW",
+    "event_time_utc": "2026-10-01T11:16:08.961666Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "destination": "",
+    "destination_group": "",
+    "trunk": "",
+    "call_id": "1-1761@172.16.200.68",
+    "event_id": "v5:34",
+    "evidence_event_ids": [
+      "v5:5",
+      "v5:10",
+      "v5:15",
+      "v5:20",
+      "v5:25",
+      "v5:30",
+      "v5:34"
+    ],
+    "policy": "UNKNOWN",
+    "reason": "ambiguous_recovery"
+  }
+]

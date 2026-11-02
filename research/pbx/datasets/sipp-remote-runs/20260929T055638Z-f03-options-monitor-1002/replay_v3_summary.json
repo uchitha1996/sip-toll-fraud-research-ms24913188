@@ -1,0 +1,31 @@
+{
+  "replayed_utc": "2026-09-29T05:56:53.149012+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260929T055638Z-f03-options-monitor-1002",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "F03",
+      "label": "SCRIPTED_BENIGN_OPTIONS_HEALTH_CHECK",
+      "method": "OPTIONS",
+      "attempts": "9",
+      "unique_targets": "1",
+      "start_utc": "2026-09-29T05:56:38.626840Z",
+      "end_utc": "2026-09-29T05:56:44.698791Z",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81"
+    }
+  ],
+  "packet_rows": 18,
+  "request_events": 9,
+  "predicted_stages": {
+    "NORMAL": 4,
+    "RECONNAISSANCE": 5
+  },
+  "first_alert_stage": "RECONNAISSANCE",
+  "first_alert_event": 5,
+  "time_to_first_alert_seconds": 0.810607,
+  "new_cdr_rows": 0,
+  "pcap_sha256": "f5f318378d82617e98117ab190dae52a5f5f995d9f6fdfbc6603bffc4b89a72c",
+  "packet_csv_sha256": "a51445bdb040c29fcddd3b7e8d228d305cd78c5466833c2633176e84303e802c",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

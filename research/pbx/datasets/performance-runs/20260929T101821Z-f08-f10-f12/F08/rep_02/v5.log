@@ -1,0 +1,1 @@
+{"capture": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260929T100512Z-f08-options-targets-1001-1006/traffic.pcap", "alert": "RECONNAISSANCE", "ttd_s": 5.242909, "counts": {"request_events": 6, "unresolved_at_observation_end": 0}}

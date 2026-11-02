@@ -1,0 +1,38 @@
+{
+  "id": "B020",
+  "detector_enabled": false,
+  "pair": 2,
+  "runner_window_s": 53.52737212300053,
+  "setup": [
+    {
+      "call_id": "1-5590@172.16.200.68",
+      "setup_ms": 16.194820404052734
+    },
+    {
+      "call_id": "1-5601@172.16.200.68",
+      "setup_ms": 18.09096336364746
+    },
+    {
+      "call_id": "1-5612@172.16.200.68",
+      "setup_ms": 35.4459285736084
+    }
+  ],
+  "setup_ms_median": 18.09096336364746,
+  "sampled_cpu_seconds": {
+    "pbx": 0.1,
+    "capture": 0.0,
+    "decoder": 0.07
+  },
+  "cpu_core_percent": {
+    "pbx": 0.1868203052640246,
+    "capture": 0.0,
+    "decoder": 0.13077421368481723
+  },
+  "peak_summed_rss_kib_by_role": {
+    "pbx": 104992.0,
+    "capture": 6720.0,
+    "decoder": 138192.0
+  },
+  "verified": true,
+  "pcap_sha256": "a94b074ad9c7f3a484b6663cd81fcae2113d6c29096958e093b652fb8562bcfd"
+}

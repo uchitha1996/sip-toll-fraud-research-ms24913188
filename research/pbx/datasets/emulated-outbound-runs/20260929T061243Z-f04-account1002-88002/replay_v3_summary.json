@@ -1,0 +1,30 @@
+{
+  "replayed_utc": "2026-09-29T06:13:13.999057+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/emulated-outbound-runs/20260929T061243Z-f04-account1002-88002",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "F04",
+      "label": "AUTHORIZED_EMULATED_CALL",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81",
+      "extension": "1002",
+      "destination": "88002",
+      "expected_wrong_password_dialogs": "0",
+      "expected_register_success": "1",
+      "expected_answered_call": "1"
+    }
+  ],
+  "packet_rows": 20,
+  "request_events": 5,
+  "predicted_stages": {
+    "NORMAL": 5
+  },
+  "first_alert_stage": null,
+  "first_alert_event": null,
+  "time_to_first_alert_seconds": null,
+  "new_cdr_rows": 1,
+  "pcap_sha256": "d7b2f3f59b3db469f5799c9faac51afb7638ec514216edcf1a305aeea9e4d14e",
+  "packet_csv_sha256": "00a00f8bf874041f67fbfe96641d3dbf54121a0b65f63ba9b363c79a7e0b831f",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

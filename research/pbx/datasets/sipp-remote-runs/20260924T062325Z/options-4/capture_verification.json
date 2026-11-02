@@ -1,0 +1,18 @@
+{
+  "case": "options-4",
+  "source_ip": "172.16.200.68",
+  "pbx_ip": "172.16.200.81",
+  "expected_requests": 4,
+  "captured_requests": 4,
+  "captured_401_replies": 4,
+  "failed_auth_log_entries": 0,
+  "sipp_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "xml_sha256": "5e074eb194b110f95a65c3d210c6e4eeda2ea3402e6f0225b3ad53f15e2fddda",
+  "pcap_sha256": "5005424f72eb73971595ab057aab594b2a650354f7ed16914eab8bc7792a2ec7",
+  "valid_capture": true
+}

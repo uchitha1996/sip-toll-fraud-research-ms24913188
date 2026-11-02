@@ -1,0 +1,19 @@
+{
+  "case": "F11",
+  "declared_utc": "2026-09-30T10:16:05.219349Z",
+  "label": "SIMULATED_CREDENTIAL_ABUSE_WITH_CALL",
+  "source_ip": "172.16.200.68",
+  "pbx_ip": "172.16.200.81",
+  "account": "1002",
+  "destination": "88002",
+  "expected_wrong_password_dialogs": 6,
+  "planned_wrong_start_interval_seconds": 2.0,
+  "expected_register_200": 1,
+  "expected_answered_cdr": 1,
+  "generator_sha256": "94c5a000c07fb2619ad91ed1e9dcca38dfa698bc5aedf39d11e8d6d9be7ef90d",
+  "prep_sha256": "a02593b2f09b7ea657b178ea551b059f6c9381880f91b8e42d3b251dca98d28d",
+  "v3_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "v5_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "invalid_if": "Missing or mismatched PCAP, failed-auth logs, SIP leg, CDR, or cleanup"
+}

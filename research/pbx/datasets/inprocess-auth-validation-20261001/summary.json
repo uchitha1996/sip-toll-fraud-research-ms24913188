@@ -1,0 +1,95 @@
+{
+  "manifest_sha256": "781d9b9bcf8766a8f207df0bed547727ada0eca19581e1c07d4ea6e211d01455",
+  "reports": [
+    {
+      "id": "A000",
+      "checks": {
+        "no_error": true,
+        "register_request_count": true,
+        "challenge_and_rejection_count": true,
+        "success_dialog_count": true,
+        "failed_auth_log_count": true,
+        "inprocess_counters": true,
+        "no_new_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "other_account_unaffected": true
+      },
+      "verified": true,
+      "error": null,
+      "module_events": [],
+      "pcap_sha256": "3af04b532da141d260a88fc2f3d38dc367dd85331cb4a5a5bbce4b112ed3da23",
+      "status": "account=1001 failures_window=0 auth_alerts=0 review_alerts=0\naccount=1002 failures_window=0 auth_alerts=0 review_alerts=0\n",
+      "sipp_exits": [
+        0
+      ]
+    },
+    {
+      "id": "A001",
+      "checks": {
+        "no_error": true,
+        "register_request_count": true,
+        "challenge_and_rejection_count": true,
+        "success_dialog_count": true,
+        "failed_auth_log_count": true,
+        "inprocess_counters": true,
+        "no_new_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "other_account_unaffected": true
+      },
+      "verified": true,
+      "error": null,
+      "module_events": [
+        "[Oct  1 16:45:43] NOTICE[2452] res_sipfraud_lab.c: SIPFRAUDLAB stage=AUTHENTICATION_ATTACK risk=HIGH_SUSPICION account=1002 failures_60s=10 source=172.16.200.68"
+      ],
+      "pcap_sha256": "61d06f993bca04dee0a895efdda1452d08b3366ecd394cd77ae2759486f6b8ac",
+      "status": "account=1001 failures_window=0 auth_alerts=0 review_alerts=0\naccount=1002 failures_window=10 auth_alerts=1 review_alerts=0\n",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "A002",
+      "checks": {
+        "no_error": true,
+        "register_request_count": true,
+        "challenge_and_rejection_count": true,
+        "success_dialog_count": true,
+        "failed_auth_log_count": true,
+        "inprocess_counters": true,
+        "no_new_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "other_account_unaffected": true
+      },
+      "verified": true,
+      "error": null,
+      "module_events": [
+        "[Oct  1 16:46:08] NOTICE[2487] res_sipfraud_lab.c: SIPFRAUDLAB stage=SUSPECTED_COMPROMISE risk=REVIEW account=1002 failures=6 source=172.16.200.68"
+      ],
+      "pcap_sha256": "d6ef78b6767af9025fa96abdc0d02e5b9f5df7644b50ee944537110fa27a9fd1",
+      "status": "account=1001 failures_window=0 auth_alerts=0 review_alerts=0\naccount=1002 failures_window=6 auth_alerts=0 review_alerts=1\n",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "all_verified": true,
+  "limitation": "Auth-event subset only; log timestamps not used as detection latency."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "D017",
+  "split": "development",
+  "event_count": 10,
+  "stages": [
+    "AUTHENTICATION_ATTACK"
+  ],
+  "v6_stages": [
+    "AUTHENTICATION_ATTACK"
+  ],
+  "stage_match": true,
+  "processing_ns": 3525683,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "e6db403d8630211e884ecef64815b3aad7e523a05ab5fce88b3add0eae8286ff",
+  "events_sha256": "57af63c87432937e01f0641023afb49ad2c5100a097912c2ae9a6eeee2e85160",
+  "alerts_sha256": "53781f9443565a3e5c77da1ce5f9043649cc5bedc16eeb735d7bfeb17d1a3511"
+}

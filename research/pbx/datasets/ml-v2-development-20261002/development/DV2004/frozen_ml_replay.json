@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "event_id": "v5:5",
+      "time_utc": "2026-10-02T00:01:26.240435Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2950@172.16.200.68"
+    },
+    {
+      "event_id": "v5:10",
+      "time_utc": "2026-10-02T00:01:28.244829Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2961@172.16.200.68"
+    },
+    {
+      "event_id": "v5:15",
+      "time_utc": "2026-10-02T00:01:30.203835Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2972@172.16.200.68"
+    },
+    {
+      "event_id": "v5:20",
+      "time_utc": "2026-10-02T00:01:32.245685Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2983@172.16.200.68"
+    },
+    {
+      "event_id": "v5:25",
+      "time_utc": "2026-10-02T00:01:34.276572Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2994@172.16.200.68"
+    },
+    {
+      "event_id": "v5:29",
+      "time_utc": "2026-10-02T00:01:37.272751Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "REGISTER_SUCCESS",
+      "call_id": "1-3005@172.16.200.68"
+    }
+  ],
+  "alerts": [
+    {
+      "stage": "SUSPECTED_COMPROMISE",
+      "risk": "REVIEW",
+      "event_time_utc": "2026-10-02T00:01:37.272751Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "destination": "",
+      "destination_group": "",
+      "trunk": "",
+      "call_id": "1-3005@172.16.200.68",
+      "event_id": "v5:29",
+      "evidence_event_ids": [
+        "v5:5",
+        "v5:10",
+        "v5:15",
+        "v5:20",
+        "v5:25",
+        "v5:29"
+      ],
+      "policy": "UNKNOWN",
+      "reason": "ambiguous_recovery",
+      "ml_probability": 0.40728350925102547,
+      "ml_priority": "REVIEW",
+      "ml_feature_values": [
+        5,
+        5,
+        8.0361,
+        11.0323
+      ],
+      "ml_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+    }
+  ],
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+}

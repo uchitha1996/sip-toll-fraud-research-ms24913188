@@ -1,0 +1,5 @@
+{"account": "1001", "call_id": "1-24997@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:03:21.128496Z"}
+{"account": "1001", "call_id": "1-25008@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:03:22.799188Z"}
+{"account": "1001", "call_id": "1-25019@172.16.200.68", "event_id": "v5:15", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:03:24.525453Z"}
+{"account": "1001", "call_id": "1-25030@172.16.200.68", "event_id": "v5:20", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:03:26.762172Z"}
+{"account": "1001", "call_id": "1-25041@172.16.200.68", "event_id": "v5:25", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:03:28.544971Z"}

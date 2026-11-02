@@ -1,0 +1,13 @@
+{
+  "id": "D002",
+  "split": "development",
+  "event_count": 4,
+  "stages": [],
+  "v6_stages": [],
+  "stage_match": true,
+  "processing_ns": 2910702,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "33454d96fa09c0abfaf079529aef590ec64568297016fbb011f7b97055ae4f04",
+  "events_sha256": "ef79bb176372162f4150125ec24ec55adbd295b78446e9142c85bb7e2159374e",
+  "alerts_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

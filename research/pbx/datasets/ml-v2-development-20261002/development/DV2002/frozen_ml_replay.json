@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "event_id": "v5:5",
+      "time_utc": "2026-10-02T00:00:51.676280Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2728@172.16.200.68"
+    },
+    {
+      "event_id": "v5:10",
+      "time_utc": "2026-10-02T00:00:53.725160Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-2740@172.16.200.68"
+    },
+    {
+      "event_id": "v5:14",
+      "time_utc": "2026-10-02T00:00:56.772004Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "REGISTER_SUCCESS",
+      "call_id": "1-2752@172.16.200.68"
+    }
+  ],
+  "alerts": [],
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/emulated-outbound-runs/20260930T101526Z-f05-account1002-88002",
+    "error": null,
+    "cleanup_errors": [],
+    "wrong_dialogs": 6,
+    "verification": {
+      "case": "F05",
+      "packets": 44,
+      "failed_auth_lines": 6,
+      "cdr_delta": 1,
+      "answered_billsec": "6",
+      "client_legs": 1,
+      "outbound_legs": 1
+    },
+    "v6": {
+      "method": "V6 development; same source IP and account",
+      "source_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+      "rule": "5 distinct OPTIONS targets/10s; 10 confirmed rejections/60s; >=5 rejections/120s + REGISTER 200, outbound INVITE/120s, independent SIP/CDR confirmation",
+      "case": "20260930T101526Z-f05-account1002-88002",
+      "lab_destinations": [
+        "88002"
+      ],
+      "counts": {
+        "confirmed_rejections": 6,
+        "register_200": 1,
+        "new_cdr_rows": 1,
+        "linked_outbound_attempts": 1,
+        "answered_linked_calls": 1,
+        "v5_timeline_sha256": "db1cb6381baa4050a9716906130251728024bec940533bf34dedd0fe94b13f52",
+        "pcap_sha256": "50df36c7dfbf47b39b0e786d34897f2c439027723360dfcf5dee96728559c395"
+      },
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "first_suspected_utc": "2026-09-30T10:15:49.017989Z",
+      "first_attempt_utc": "2026-09-30T10:15:50.772322Z",
+      "note": "Development cases are previously inspected. Suspected does not prove theft; CDR stage is retrospective and its write latency was not measured. Asterisk CDR wall times are interpreted as UTC for this lab, checked against capture timestamps. Isolated runs prevent concurrent CDR ambiguity."
+    }
+  },
+  {
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/emulated-outbound-runs/20260930T101605Z-f11-account1002-88002",
+    "error": null,
+    "cleanup_errors": [],
+    "wrong_dialogs": 6,
+    "verification": {
+      "case": "F11",
+      "packets": 44,
+      "failed_auth_lines": 6,
+      "cdr_delta": 1,
+      "answered_billsec": "6",
+      "client_legs": 1,
+      "outbound_legs": 1
+    },
+    "v6": {
+      "method": "V6 development; same source IP and account",
+      "source_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+      "rule": "5 distinct OPTIONS targets/10s; 10 confirmed rejections/60s; >=5 rejections/120s + REGISTER 200, outbound INVITE/120s, independent SIP/CDR confirmation",
+      "case": "20260930T101605Z-f11-account1002-88002",
+      "lab_destinations": [
+        "88002"
+      ],
+      "counts": {
+        "confirmed_rejections": 6,
+        "register_200": 1,
+        "new_cdr_rows": 1,
+        "linked_outbound_attempts": 1,
+        "answered_linked_calls": 1,
+        "v5_timeline_sha256": "58386e9275f3f8b9bc6af270d813103dda17aada6b3ee6c040ec69aca957ec21",
+        "pcap_sha256": "ae3458545cc71dab145a5edf6c625058185f07845c0696de189722b427cd1db2"
+      },
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "first_suspected_utc": "2026-09-30T10:16:26.361215Z",
+      "first_attempt_utc": "2026-09-30T10:16:28.087517Z",
+      "note": "Development cases are previously inspected. Suspected does not prove theft; CDR stage is retrospective and its write latency was not measured. Asterisk CDR wall times are interpreted as UTC for this lab, checked against capture timestamps. Isolated runs prevent concurrent CDR ambiguity."
+    }
+  }
+]

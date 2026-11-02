@@ -1,0 +1,2 @@
+scenario_id,label,method,attempts,unique_targets,start_utc,end_utc,source_ip,pbx_ip
+F08,SCRIPTED_VARIED_TARGET_RECONNAISSANCE,OPTIONS,6,6,2026-09-29T10:05:12.633447Z,2026-09-29T10:05:24.294919Z,172.16.200.68,172.16.200.81

@@ -1,0 +1,13 @@
+{
+  "verified_scenarios": 34,
+  "new_answered_call_rows": 21,
+  "called_pairs": {
+    "1002->88002": 11,
+    "1001->88001": 10
+  },
+  "all_isolated_routes": true,
+  "all_6_second_answered": true,
+  "unique_cdr_ids": true,
+  "implication": "Completed isolated lab calls corroborated retrospectively; not fraud status or real-world baseline",
+  "forbidden_in_early_ml": "answered outcome and billsec were available only after call completion"
+}

@@ -1,0 +1,1 @@
+{"observed_epoch": 1790918421.0647633, "observed_monotonic_ns": 68474199130227, "line": "[Oct  2 10:50:21] NOTICE[6664] res_sipfraud_lab.c: SIPFRAUDLAB stage=SUSPECTED_COMPROMISE risk=REVIEW account=1002 failures=6 source=172.16.200.68"}

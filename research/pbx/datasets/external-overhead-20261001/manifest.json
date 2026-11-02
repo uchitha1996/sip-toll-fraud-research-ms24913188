@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-10-01T09:35:32.650998+00:00",
+  "scenarios": [
+    {
+      "id": "B017",
+      "split": "development",
+      "intent": "authorized",
+      "account": "1002",
+      "wrong": 6,
+      "interval": 2.1,
+      "success": 1,
+      "call": 3,
+      "post_register_pause": 1.0,
+      "destination_group": "lab-uas",
+      "trunk": "lab-trunk",
+      "detector_enabled": false,
+      "pair": 1
+    },
+    {
+      "id": "B018",
+      "split": "development",
+      "intent": "authorized",
+      "account": "1002",
+      "wrong": 6,
+      "interval": 2.1,
+      "success": 1,
+      "call": 3,
+      "post_register_pause": 1.0,
+      "destination_group": "lab-uas",
+      "trunk": "lab-trunk",
+      "detector_enabled": true,
+      "pair": 1
+    },
+    {
+      "id": "B019",
+      "split": "development",
+      "intent": "authorized",
+      "account": "1002",
+      "wrong": 6,
+      "interval": 2.1,
+      "success": 1,
+      "call": 3,
+      "post_register_pause": 1.0,
+      "destination_group": "lab-uas",
+      "trunk": "lab-trunk",
+      "detector_enabled": true,
+      "pair": 2
+    },
+    {
+      "id": "B020",
+      "split": "development",
+      "intent": "authorized",
+      "account": "1002",
+      "wrong": 6,
+      "interval": 2.1,
+      "success": 1,
+      "call": 3,
+      "post_register_pause": 1.0,
+      "destination_group": "lab-uas",
+      "trunk": "lab-trunk",
+      "detector_enabled": false,
+      "pair": 2
+    }
+  ],
+  "frozen_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "runner_sha256": "3d4c2b3f7938051c74d9fecddb43a8a1ffbe55558ec40519a98b0326696c8cbe",
+  "collector_source_sha256": "dc2bb9590c1593f2a1eb4a687922687ef36e2155482fbb5ca1f837e31831c312",
+  "measurement": "First generator INVITE to first PBX INVITE 200 OK, per Call-ID; sampled process CPU/RSS during traffic runner only.",
+  "order": "OFF ON ON OFF; two matched pairs; no significance/population claim.",
+  "sampling_s": 0.25,
+  "cpu_unit": "core-equivalent percent; 100% equals one busy core",
+  "limits": "CPU counters sampled; short-lived process tails may be missed. RSS sum counts shared pages more than once. Same evidence capture in both arms; on adds detector capture and decoder. No in-process comparison."
+}

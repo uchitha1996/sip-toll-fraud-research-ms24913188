@@ -1,0 +1,112 @@
+{
+  "tests_passed": [
+    "initial_challenge_ignored",
+    "digest_retry_success_cancels_rejection",
+    "response_retransmission_deduplicated",
+    "stale_challenge_ignored",
+    "one_second_grace"
+  ],
+  "archived_cases": [
+    {
+      "id": "B005",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "0a6bacda27c0a4394513b434255f092b1a5c079ea4f5fbcda56c76727b965a65",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B016",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "4028eae5427e67513804ccbff5a716ef8a11bcffc6539a9bdf68d7805c03c879",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B021",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "fce5ddfbd1df35c8b69ec2cfc70eaa76d8d5c9b0d2901e59a9ebc199ba7a4000",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B022",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "b0b3b5ea1e610647671819418cc6ead2b0b56e8fe0913551b49e86fb510281f3",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B023",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "77b5763fd7f4fae7682c74d601952273dfbb78c58a8dc425685d0420ff4b43db",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B024",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "77f1c2fc5688a593f340043da16ab6f6bc50b9fc4af7b942a95d4bdd23f547f1",
+      "scope": "Retained failed B024 remains excluded from pilot; adapter dedup regression only"
+    },
+    {
+      "id": "B027",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "5c3d1686ed62ca3d856f53dc4d416dad4b3da370f45a0ebe58e11ad442f2c12c",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B028",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "feeaa5fecae98176d2a43b7b3a765bc482d523d8ea547dda2c177bb3d7d61005",
+      "scope": "Archived protocol regression"
+    },
+    {
+      "id": "B029",
+      "counts": {
+        "AUTH_REJECTION": 6,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "alerts": 5,
+      "pcap_sha256": "54248769a187805e8b82c30f4bc37e53a91eebbf12e57dee3514c8f17e364eb1",
+      "scope": "Archived protocol regression"
+    }
+  ],
+  "new_calls": 0,
+  "adapter_sha256": "fe2312027ae8c5aeb3a804689fde7578ffb78d0d7455e13ea6727e5437037057"
+}

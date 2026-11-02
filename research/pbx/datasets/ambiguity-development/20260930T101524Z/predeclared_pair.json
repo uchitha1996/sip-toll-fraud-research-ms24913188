@@ -1,0 +1,12 @@
+{
+  "purpose": "Exploratory matched-stimulus ambiguity audit, excluded from final ML holdout",
+  "cases": [
+    "F05",
+    "F11"
+  ],
+  "wrong_dialogs": 6,
+  "interval_s": 2.0,
+  "account": "1002",
+  "destination": "88002",
+  "limit": "Labels describe scripted intent; identical SIP/CDR stimuli cannot establish intent. Timing jitter is not a defensible discriminator."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "B006",
+  "assigned_intent": "authorized",
+  "label": 0,
+  "probability": 0.39691372468319835,
+  "priority": "LOWER",
+  "features": [
+    5,
+    5,
+    7.1756,
+    10.1751
+  ],
+  "stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "CALL_BURST"
+  ],
+  "answered_cdr_count_independently_verified": 3,
+  "pcap_sha256": "1fd1f7690617ddffce875e63313c1d32e82b61e49bb6aed78c75f06835ab6b27",
+  "events_sha256": "7286f557c7a233e88778390476fd16e83c672ebbedb3b9fa32b49ee896e30db8",
+  "alerts_sha256": "a290110cebc5e6c32a34b918915d94759b36f447bd2cb5101fc008c8ef9a2923"
+}

@@ -1,0 +1,10 @@
+{
+  "case": "H001",
+  "start_utc": "2026-09-30T11:01:00.195163Z",
+  "end_utc": "2026-09-30T11:01:22.795639Z",
+  "wrong_dialog_starts_utc": [],
+  "capture_sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576",
+  "error": null,
+  "cleanup_errors": [],
+  "status": "captured"
+}

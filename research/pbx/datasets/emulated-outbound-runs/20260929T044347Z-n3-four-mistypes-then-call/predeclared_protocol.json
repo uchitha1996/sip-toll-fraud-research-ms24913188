@@ -1,0 +1,12 @@
+{
+  "case": "N3",
+  "declared_utc": "2026-09-29T04:43:47.750451Z",
+  "role": "development boundary control",
+  "label": "SCRIPTED_BENIGN_RECOVERY_WITH_CALL",
+  "stimulus": "4 wrong digest REGISTER dialogs, then valid REGISTER and one answered isolated call",
+  "expected_failed_auth_logs": 4,
+  "expected_register_200": 1,
+  "expected_answered_cdr": 1,
+  "expected_v6_suspected": false,
+  "invalid_if": "Missing or mismatched PCAP, failed-auth logs, SIP leg, CDR, or cleanup"
+}

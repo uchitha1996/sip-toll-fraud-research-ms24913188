@@ -1,0 +1,11 @@
+{"account": "1001", "call_id": "1-24653@172.16.200.68", "event_id": "v5:5", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:06.613796Z"}
+{"account": "1001", "call_id": "1-24664@172.16.200.68", "event_id": "v5:10", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:08.900520Z"}
+{"account": "1001", "call_id": "1-24675@172.16.200.68", "event_id": "v5:15", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:11.194458Z"}
+{"account": "1001", "call_id": "1-24686@172.16.200.68", "event_id": "v5:20", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:13.685492Z"}
+{"account": "1001", "call_id": "1-24697@172.16.200.68", "event_id": "v5:25", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:15.447893Z"}
+{"account": "1001", "call_id": "1-24708@172.16.200.68", "event_id": "v5:30", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:17.640561Z"}
+{"account": "1001", "call_id": "1-24719@172.16.200.68", "event_id": "v5:35", "kind": "AUTH_REJECTION", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:19.823191Z"}
+{"account": "1001", "call_id": "1-24730@172.16.200.68", "event_id": "v5:39", "kind": "REGISTER_SUCCESS", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:22.909912Z"}
+{"account": "1001", "call_id": "1-24741@172.16.200.68", "destination": "88001", "event_id": "v5:40", "kind": "OUTBOUND_INVITE", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:25.542670Z"}
+{"account": "1001", "call_id": "1-24741@172.16.200.68", "event_id": "sipbye:1-24741@172.16.200.68", "kind": "CALL_SIP_COMPLETED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:31.583302Z"}
+{"account": "1001", "billsec": 6, "call_id": "1-24741@172.16.200.68", "destination": "88001", "event_id": "cdr:1-24741@172.16.200.68", "kind": "CDR_ANSWERED", "source_ip": "172.16.200.68", "time_utc": "2026-09-30T11:02:38.955479Z"}

@@ -1,0 +1,25 @@
+{
+  "id": "B010",
+  "assigned_intent": "authorized",
+  "label": 0,
+  "probability": 0.7336331747123357,
+  "priority": "HIGHER",
+  "features": [
+    10,
+    4,
+    27.1063,
+    30.102
+  ],
+  "stages": [
+    "AUTHENTICATION_ATTACK",
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "CALL_BURST"
+  ],
+  "answered_cdr_count_independently_verified": 3,
+  "pcap_sha256": "9b23292bf490d743a4ba800a062eca335f4fb96165b2b0780a8edc074c0625d0",
+  "events_sha256": "4c65c9c752d44586f63624f7abe6979d2229899e81700c3f8de60f53bd2ce6fe",
+  "alerts_sha256": "915ccbc8e38a01fb87d5f246548d644978ac4f48657ee17cf630c50de1a436ea"
+}

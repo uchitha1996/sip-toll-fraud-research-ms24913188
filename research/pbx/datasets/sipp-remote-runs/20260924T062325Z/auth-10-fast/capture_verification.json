@@ -1,0 +1,15 @@
+{
+  "case": "auth-10-fast",
+  "source_ip": "172.16.200.68",
+  "pbx_ip": "172.16.200.81",
+  "expected_requests": 20,
+  "captured_requests": 20,
+  "captured_401_replies": 20,
+  "failed_auth_log_entries": 10,
+  "sipp_exit_codes": [
+    0
+  ],
+  "xml_sha256": "ee3fe537e7ae7f991e8fc78490c12781ba6d69a83e025f4afe41d8ba89905e4e",
+  "pcap_sha256": "5b73335ec91bc1c3e2a4728d50152e53412ce1a8adfbf17860f3620d895ec2e1",
+  "valid_capture": true
+}

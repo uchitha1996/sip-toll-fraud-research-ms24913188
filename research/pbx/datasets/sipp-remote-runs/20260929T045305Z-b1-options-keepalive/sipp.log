@@ -1,0 +1,38 @@
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Call rate (length)   Port   Total-time  Total-calls  Remote-host
+  8.0(0 ms)/1.000s   5122       1.04 s            8  172.16.200.81:5060(UDP)
+
+  Call limit 8 hit, 0.0 s period          0 ms scheduler resolution            
+  0 calls (limit 1)                       Peak was 1 calls, after 0 s
+  0 Running, 11 Paused, 11 Woken up
+  0 dead call msg (discarded)             0 out-of-call msg (discarded)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+0 :     OPTIONS ---------->         8         0         0                            
+1 :         401 <----------         8         0         0         0                  
+------------------------------ Test Terminated --------------------------------
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2026-09-29	10:23:07.920360	1790657587.920360         
+  Last Reset Time        | 2026-09-29	10:23:08.976129	1790657588.976129         
+  Current Time           | 2026-09-29	10:23:08.976347	1790657588.976347         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:01:055000           | 00:00:01:055000          
+  Call Rate              |    0.000 cps              |    7.583 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming calls created |        0                  |        0                 
+  Outgoing calls created |        0                  |        8                 
+  Total Calls created    |                           |        8                 
+  Current Calls          |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |        8                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Call Length            | 00:00:00:036000           | 00:00:00:036000          
+------------------------------ Test Terminated --------------------------------
+
+STDERR:
+Resolving remote host '172.16.200.81'... Done.

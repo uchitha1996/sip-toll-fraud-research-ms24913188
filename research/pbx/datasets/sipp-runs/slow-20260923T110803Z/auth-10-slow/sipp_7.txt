@@ -1,0 +1,38 @@
+Resolving remote host '127.0.0.1'... Done.
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Call rate (length)   Port   Total-time  Total-calls  Remote-host
+  10.0(0 ms)/1.000s   5113       0.10 s            1  127.0.0.1:5060(UDP)
+
+  Call limit 1 hit, 0.0 s period          0 ms scheduler resolution            
+  0 calls (limit 30)                      Peak was 1 calls, after 0 s
+  1 Running, 3 Paused, 1 Woken up
+  0 dead call msg (discarded)             0 out-of-call msg (discarded)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+0 :    REGISTER ---------->         1         0         0                            
+1 :         401 <----------         1         0         0         0                  
+2 :    REGISTER ---------->         1         0         0                            
+3 :         401 <----------         1         0         0         0                  
+------------------------------ Test Terminated --------------------------------
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2026-09-23	16:38:24.279141	1790161704.279141         
+  Last Reset Time        | 2026-09-23	16:38:24.383653	1790161704.383653         
+  Current Time           | 2026-09-23	16:38:24.383719	1790161704.383719         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:00:104000           | 00:00:00:104000          
+  Call Rate              |    0.000 cps              |    9.615 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming calls created |        0                  |        0                 
+  Outgoing calls created |        0                  |        1                 
+  Total Calls created    |                           |        1                 
+  Current Calls          |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |        1                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Call Length            | 00:00:00:003000           | 00:00:00:003000          
+------------------------------ Test Terminated --------------------------------

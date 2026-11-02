@@ -1,0 +1,2592 @@
+[
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!baseline_freeze.json",
+    "sha256": "89877b8500e32a12f2603aad6df1f0dd6952e8cbadc4ca052752fbc09970cb6e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/baseline_freeze.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!common_evaluator.py",
+    "sha256": "a05f9b8e1e541a09b559207d79544cc58c89e63af54db23188fd45ef542a2888",
+    "identical_repository_path": "research/pbx/accelerated-20261012/common_evaluator.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!evaluation_freeze.json",
+    "sha256": "a20d8f48608346c3aa2e52fec6ba639358354bbac102319e5a6ab949e5052158",
+    "identical_repository_path": "research/pbx/accelerated-20261012/evaluation_freeze.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!final_results.json",
+    "sha256": "7a4fa96227bce13788f8c1ecb7efea0261b63764b232160849db1ca9debe812e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/final_results.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/candidate_v5_replay.py",
+    "sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "identical_repository_path": "research/pbx/scripts/candidate_v5_replay.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/evidence_index.json",
+    "sha256": "befb7d6d96cc7a75baf629d5023fc4c3098b119a2217b244918cfbdc7fab8604",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/evidence_index.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/freeze.json",
+    "sha256": "dceed239a6316d5c76eb4153eb0e82925755cc91fdb82173eb0ff4cc3c173268",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/freeze.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/ml_protocol_manifest.json",
+    "sha256": "3377f6ce41df2a224db214d7d56498b51355592312210c80f8cb58a0dedcc915",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/ml_protocol_manifest.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/model.joblib",
+    "sha256": "092e7b025e871ff111e135d139747d62187de8e1655edaad250b3f1ab9e0cad4",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/model.joblib"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/progression_v6_development.py",
+    "sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+    "identical_repository_path": "research/pbx/scripts/progression_v6_development.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!frozen/summary.json",
+    "sha256": "442d5bb558858b53c30184174a202d642c5deeb02a1e454e668943082a58dcd3",
+    "identical_repository_path": "research/pbx/datasets/causal-ml-holdout-20261001/summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!historical_H007_progression.csv",
+    "sha256": "cad0fc1deafe98f94ebccbea79c3db917ea00d2ea2b27d779d0947284ee083b6",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/heldout/H007/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!interim_results.json",
+    "sha256": "04e5af6c6c79081a5f0d3423d61a4da25ea90835c0d58172093bd025f3c08347",
+    "identical_repository_path": "research/pbx/accelerated-20261012/interim_results.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!per_case_metrics.csv",
+    "sha256": "1db1970132de1ff1277fbc228efcafdcc216d6f4fb90421d83b750d74d96fc8f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/per_case_metrics.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!policy.json",
+    "sha256": "132b451889a61478ac0618ad48d4e6ce2755544b613475ec1217719c6457ed3c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/policy.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!prepare_protocol.py",
+    "sha256": "799446a1c51bbf4c633fae234d4af207bca15d7821aa279e0ca23029e4447a4e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/prepare_protocol.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!prospective_manifest.json",
+    "sha256": "bfd3280811832398c729e3f1ff24aa3f8e0df04df7fd05bb158f31f55d392c48",
+    "identical_repository_path": "research/pbx/accelerated-20261012/prospective_manifest.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!register_sender.py",
+    "sha256": "1eaa37550ac0e4a3c5ef952bc050aaf6994de621c8c589ce820bc7a874ed2743",
+    "identical_repository_path": "research/pbx/scripts/pp2_bounded_register_sender_v2_20261010.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/cdr_after.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/cdr_before.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/sender_records.json",
+    "sha256": "23508b2537b1295808030bf3855801fa6f557eaf36d2c20511b79d806fda7092",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P101/sender_records.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/sip_packets.csv",
+    "sha256": "428cfa169ac4fbab40440579bde6a12620f66e68b5e1d181061dd14db0125899",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P101/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/traffic.pcap",
+    "sha256": "144e0401cbfc2a7a5694a5fefacfcbb54c5ec0d19c626e9b0b44b8a1bd8200a5",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P101/traffic.pcap"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P101/verification.json",
+    "sha256": "a2e892f7981fcd4f446098fd13ab7a7b5e0fa4a454f8253e6c1a962abd507fe9",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P101/verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/cdr_after.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/cdr_before.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/sender_records.json",
+    "sha256": "f2dd08779ce38a638ab7d7560fd4ab48583dba827f2589bc759cb2296977d16c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P102/sender_records.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/sip_packets.csv",
+    "sha256": "ba0020cfea8206459cba314c30ab6cd752b3ed14ebe36f3343b49326269d94da",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P102/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/traffic.pcap",
+    "sha256": "4d0b8e6efcb9064290198b8f7eea5e5e7ca77e8032fae0294734e9ff7d110de7",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P102/traffic.pcap"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P102/verification.json",
+    "sha256": "9d42c5d950df188d2dc4e2576c1193af12108c7d5a1ab5fa6c6a10d7ea22e217",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P102/verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/cdr_after.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/cdr_before.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/sender_records.json",
+    "sha256": "38b7bc68782209ff645474a93de11fa1fce1ced0167e85368e21ee261632a7bc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P103/sender_records.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/sip_packets.csv",
+    "sha256": "d05a97735e1e2c606ff00dd64edab971ca9128772005a29e1026099766b3e916",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P103/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/traffic.pcap",
+    "sha256": "6a50f29a5e51c12d5a3ed1dca4bf1c5b153883d1b911bff9afa500bb20153f0d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P103/traffic.pcap"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P103/verification.json",
+    "sha256": "1bc278b7807c33baeabcdc5b9bd018197b0f1854f8a49877d8e632b412cb6d32",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P103/verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/cdr_after.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/cdr_before.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/sender_records.json",
+    "sha256": "3560f83e75a55119c7e908afb0830f37330128dd7d9594cf3a5abf27184dfc11",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P104/sender_records.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/sip_packets.csv",
+    "sha256": "372fcaa75e52ec30e788f1019cd0f3fd0a9385e67bfb553809ca10f8052c4db4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P104/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/traffic.pcap",
+    "sha256": "70833575e2617f059e189da9089bc64271d4cfee0e6ba27dda2276ef0bc61f22",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P104/traffic.pcap"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/P104/verification.json",
+    "sha256": "079c68b622ad0c16835ffc519e0eafd2bd85791239954a06de8d9da12d6aa2db",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/P104/verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!registration_controls/summary.json",
+    "sha256": "6028c2c95fe7bf1521beb5c7b0ebea8254a7b5b1cc68b183a0e6fb69f8d60f5a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/registration_controls/summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!results_freeze.json",
+    "sha256": "a798cae2f2ad4eb84ddd1108d920545b53c7c4e5164c4a1901482b8716e11c60",
+    "identical_repository_path": "research/pbx/accelerated-20261012/results_freeze.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!run_batch.py",
+    "sha256": "7372c5027643edb390564b10c8486143f3ebc65d6da4efa4ec90340dc39b86f4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/run_batch.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!run_lab_case.py",
+    "sha256": "5fe07c4fe6925d4913ddb8e8856fea1ac20d972e9a20478d4a03ca433ab937ec",
+    "identical_repository_path": "research/pbx/accelerated-20261012/run_lab_case.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!run_registration_controls.py",
+    "sha256": "033c1b43533e054334646c4a95611d4e542a11b004f225e3ca7e0eeac86d3f3d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/run_registration_controls.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C001.log",
+    "sha256": "3a25c79c1555f59cdb754affbe59a1ebc4e49feb3be40ce83175b9e01272eba7",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C001.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C002.log",
+    "sha256": "729944b40899e270e1dee9f0d732e89ba1a4feb44d5ebe84c8d571702e029086",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C002.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C003.log",
+    "sha256": "e21c022512d7905b96c2ded34eea62f095ef3a29b300cdc0e2015ed24005b439",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C003.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C004.log",
+    "sha256": "bd55f39a70790ab881af12e24602e5f014e5274dc4a92ecc021e2a90187f6745",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C004.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C005.log",
+    "sha256": "d75997133a725d344920210bdef71229fa0b4a54a3564951b47f7c5ea2b06440",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C005.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C006.log",
+    "sha256": "8c6c97c4c38885c57a3b05ae0b9549560a3b45ea3a55abe422a05ad6bef41076",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C006.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C007.log",
+    "sha256": "015d20f9ad5d92a5a00dd3ca6abfc71352324da68318e512ccd81216c60e4dbf",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C007.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C008.log",
+    "sha256": "7c612a08631f36d81aaba75aceac7eaef250530663c7ed682869b5ed6dd01de5",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C008.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C009.log",
+    "sha256": "fb8e34f0b2edddd4ef65b733feb55214391ac214afa3963bbb4aa83534f02842",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C009.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C010.log",
+    "sha256": "32cb5e95457ce6475f69afe2dfdeb256248d8749b6cf8239649ba7d71fbd252f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C010.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C011.log",
+    "sha256": "dcf392eee7c6c1e205ed86e5fb976724eb2435434151a3fdc7caa69472bcf6f5",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C011.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runner_C012.log",
+    "sha256": "91c9cf83be11a49236ac36b8e5bafeae2a63c5998c080c9ce55af2fd54921e95",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runner_C012.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/asterisk_failed_auth_evidence.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100512Z-f08-options-targets-1001-1006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/cdr_after.csv",
+    "sha256": "8690ae757b8b6e612c4ee161b1a6922153692226742de2d850abed8ab56b820e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/cdr_before.csv",
+    "sha256": "e8964b78a5d30b7314f411613d92cb7f548b698be5604fe60b65f8ed71155197",
+    "identical_repository_path": "research/pbx/datasets/pp2-registration-controls-20261010/P002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/independent_verification.json",
+    "sha256": "bf3e29e8a6882b3536d6abfc1a34498a97c826a9053508f352d17e61396f9c44",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/label_blind_predictions.json",
+    "sha256": "addcd30167b21beec281772ee64c1e8a3734e935adb646e6e9d155dee898dc97",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/predeclared_protocol.json",
+    "sha256": "ae21c72f47909c88254b9bcb26177932ae95179e6375c2b0d595e153231f0029",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/run_status.json",
+    "sha256": "770a68f3b5fdcae6e18e5613457abf9833cb3c210f0c6b5420bde78001504b72",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/scenario_ground_truth.csv",
+    "sha256": "6775a9a03613243832beb4b9d2abbcda9246880a2506c732628692d4aa18c6af",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/sip_packets.csv",
+    "sha256": "702f87f33470e8d188404ecf4e827c94535d840512b7ab27ee404d99ee7fde88",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/sipp_invite.log",
+    "sha256": "7ccf414dabf793c8ffa123c5007cbfaa2b88a576eb14a4b2a48cc98d24ca709d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/sipp_register.log",
+    "sha256": "870db534f5e44e748b673b7a7cb820d71a61144cc9dd7d5cf4d50b1d0f569f18",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/sipp_uas.log",
+    "sha256": "fa2f1fb4547331f8376f3b4cd752b9676327513b492fa58b9563884cda9551bc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/tcpdump.log",
+    "sha256": "808588ac3c2787606fec3be56968818f58c1f70ac341a4166c6b1c234d901b3c",
+    "identical_repository_path": "research/pbx/datasets/ml-v2-development-20261002/development/DV2003/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/v5/candidate_summary.json",
+    "sha256": "4498390426caa7b4896f62fd9d6094421b72d995e248515ffa24a6d0f9f61ea7",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C001/v5/candidate_timeline.csv",
+    "sha256": "a495f1d226d52d2d24d261a223b9209b73a4d7df376b27786da113f52c8e963e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C001/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/asterisk_failed_auth_evidence.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100512Z-f08-options-targets-1001-1006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/cdr_after.csv",
+    "sha256": "1efb211b754c35c1a6b33832788bb78dba7dbd3e492c81fd9c45fd00e29c8118",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/cdr_before.csv",
+    "sha256": "8690ae757b8b6e612c4ee161b1a6922153692226742de2d850abed8ab56b820e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/independent_verification.json",
+    "sha256": "d83a7241596c86183c188838b70b64936acf4502662f99a7c98e49332cf2e972",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/label_blind_predictions.json",
+    "sha256": "67fe1a3da091b4a2c77ca9be657106e5607d1f469d7aa9996ac78e8b2bf06ea4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/predeclared_protocol.json",
+    "sha256": "d2f7b4fea19f8618c3181aba76c07059c351a5c241061a0b0f7c474bfdb02885",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/run_status.json",
+    "sha256": "51a3bcf16389aebfee4754ed8babeac6be5edcfbedfa31d816a7738b44535d3f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/scenario_ground_truth.csv",
+    "sha256": "1c6ffd54c334127eec27f3daa3da32e7664b2dccd6fba7e2829e1da531ecc975",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/sip_packets.csv",
+    "sha256": "3582ea69ee19f574f406a4d1da13175a20ad5ffcd3416ed2e6881ca9ceb38bdc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/sipp_invite.log",
+    "sha256": "b0c04819f6bba39f94d51ee5f637eb71b181380667963b70480563aeb2cf0888",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/sipp_register.log",
+    "sha256": "6f5681cb7606ae3d6dcaa15055e1abad3654dddc452d9878fa78b41f2adbc7a4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/sipp_uas.log",
+    "sha256": "d7893c04428a7469270691e0411cf04c60ccd9bfed36a01a53d6c678941a4654",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/tcpdump.log",
+    "sha256": "808588ac3c2787606fec3be56968818f58c1f70ac341a4166c6b1c234d901b3c",
+    "identical_repository_path": "research/pbx/datasets/ml-v2-development-20261002/development/DV2003/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/v5/candidate_summary.json",
+    "sha256": "a46243463e6ec5f55a5d22d41d1e830aac67e9e73d8fc53e80101df2bd1041dd",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C002/v5/candidate_timeline.csv",
+    "sha256": "62d689c5f2fc353954134160f2ae2917709df73fad04f4d439006e4830fba6ce",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C002/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/asterisk_failed_auth_evidence.txt",
+    "sha256": "bad69ea077d4c55586a1cda69dd45c14310dcc50bb476601855bdd77cf569dba",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/cdr_after.csv",
+    "sha256": "faa25e494fa8a74d528a63a75a74c60665d0438fcac848fcd2992bc36deb79dd",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/cdr_before.csv",
+    "sha256": "1efb211b754c35c1a6b33832788bb78dba7dbd3e492c81fd9c45fd00e29c8118",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/independent_verification.json",
+    "sha256": "c9a4726f45a78f0243ad9444e821547752b9273a7501b08eb5bc59899ddb6fb0",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/label_blind_predictions.json",
+    "sha256": "581f46a0c005b51a9972f09e27cbb80bc000bf582521faa40af0aeae5adceeae",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/predeclared_protocol.json",
+    "sha256": "54ef6f05262db0b0ba123fbead14bfb43b08de7f71f057ac9241be79faba154a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/run_status.json",
+    "sha256": "02d190575374b1140214b95944bbd69b242e66a84b9e538d5ca61a5c4fbea796",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/scenario_ground_truth.csv",
+    "sha256": "d93ec547f8b6c7b895c6f7a8ff9dd6e433eeac08b0f38f9957a1ffec33493761",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sip_packets.csv",
+    "sha256": "8d7a5a8fa034830690b92a52da739fc9f981f1bbc808dd57d7aeb1d5d8e4940d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_invite.log",
+    "sha256": "657f08935433af5328430f3fdbc89194f0eb6c1333b0d7c32372077fe5634549",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_register.log",
+    "sha256": "39ed99ab4f49d6c80733f29463c7742686aeff97fbc998474ad03ceb8f176148",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_uas.log",
+    "sha256": "fc0a3131e3aa24b58fe37066987670b7cf8c21a1cae1068cc3a0a33e7abb7a2b",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_wrong_01.log",
+    "sha256": "992cd3231245906ecc3e2a59c0c11d047c04042e460a199e7214f39f831f2088",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_wrong_02.log",
+    "sha256": "b1703622fc92e8f3cfc804b0ad90a34329de642c7de827ad27f936e4b77f66d1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_wrong_03.log",
+    "sha256": "8eed87d7a1cc787b150d86acbad80fab7cb8c877f65e8bce190791e69e828cd9",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_wrong_04.log",
+    "sha256": "086d2c9f1f1c8e108ac5951fb34fcd854169ad2094f87354e2561b464521bb23",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_wrong_05.log",
+    "sha256": "50ea6dceae086816fca917224cf1311af4f000471ce4189d31b3a4d726067a0b",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/sipp_wrong_06.log",
+    "sha256": "3d2bc215dbdd9c7be5eae56e6a5a0419157152af2e8cf3e04c72ab2d823f1708",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/v5/candidate_summary.json",
+    "sha256": "c247fbe2e39530e62b1dce92121d1ac2fc1dd03a06af45f11b39f0aac8e5d4fb",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C003/v5/candidate_timeline.csv",
+    "sha256": "dee6b378b88c0837fceca10ad2936c8f0702cd6fcd85165d44a3c98c7601582a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C003/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/asterisk_failed_auth_evidence.txt",
+    "sha256": "e1f893977b661c0e95fc87854a9b869c0dc232462cadb96f915a392a62590fd2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/cdr_after.csv",
+    "sha256": "bcf6ae7966801c1bf9d61f3e33a3e4b69f728a16be704519ce0bfc34273b5967",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/cdr_before.csv",
+    "sha256": "faa25e494fa8a74d528a63a75a74c60665d0438fcac848fcd2992bc36deb79dd",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/independent_verification.json",
+    "sha256": "d919ac05415c6052ec96c02c8e3f3518026e5f9716389f1324e3fbfbe940aab8",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/label_blind_predictions.json",
+    "sha256": "9cc035282a3898376b9d3c274a2746dc24c186e8f8c1cce3e8384d0cc0947a94",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/predeclared_protocol.json",
+    "sha256": "3c2ea4a949960d8ed3b9324bad124fcff3c78b5a227b2673a179329015a1110b",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/run_status.json",
+    "sha256": "712534590e3f9b96fbd3349f18d6ecb0d73a1c548260ba2ec97debde2f2b5f53",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/scenario_ground_truth.csv",
+    "sha256": "3af4650ebcf71e3a75a98e5dd146b77577f50daf3cad91885d87ae1abdb407e6",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sip_packets.csv",
+    "sha256": "d93ed68c19be99dc58af63c80999e3f63ada485a9042611dc6de33e6f1868000",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_invite.log",
+    "sha256": "cb6ddc2df1c588ad30cd38a2b5b699800ffdf1e3898a351fa0473e6764c8b0ec",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_register.log",
+    "sha256": "1e864b4cfd4600de38b4e2210043122782b75ec504de4fb9d3ed7ff2b7b2a6e3",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_uas.log",
+    "sha256": "ba9d64c22bfe64a6e8a91106b1af6fae0f88fc8935c53b3d2cfe57783312a3a8",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_wrong_01.log",
+    "sha256": "75d48fdb4ae68703c9bc419265226d6bc435cea51398da85d1a21165324fc66d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_wrong_02.log",
+    "sha256": "0acaddfe28c5ec5e92114f322cc28334d90122e80c6e35c118e25445d90852c2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_wrong_03.log",
+    "sha256": "7bd2724b3b3f0ca751836395f18b967d38d0055c3838a90208f09524faa93c93",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_wrong_04.log",
+    "sha256": "bad116e0e4d4aed66014aaa9ce4cbe4d3fc197c70032489c2fbf399ecbc5739a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_wrong_05.log",
+    "sha256": "df35c88c481234d52eed4e2c97072dd1fb28bf1cc1a7242b73f5465abf42cd4a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/sipp_wrong_06.log",
+    "sha256": "4234bb61649b38bcf7b9256616922548b04a28ae43f3bef20f6f2358378f977d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/v5/candidate_summary.json",
+    "sha256": "2a4bb6c63d1673a505821993d03b1ef4517c120fbfb0ec29a32a8d593a37ee2c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C004/v5/candidate_timeline.csv",
+    "sha256": "74e4340f999dfbb4416d354d2d09eeff41551b0a35e83fcc88b39e3391e2b2e1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C004/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/asterisk_failed_auth_evidence.txt",
+    "sha256": "01d80cf8f536d55d06286b726bbcb64236960777f4adb5096545f7a915ba293c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/cdr_after.csv",
+    "sha256": "bcf6ae7966801c1bf9d61f3e33a3e4b69f728a16be704519ce0bfc34273b5967",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/cdr_before.csv",
+    "sha256": "bcf6ae7966801c1bf9d61f3e33a3e4b69f728a16be704519ce0bfc34273b5967",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/independent_verification.json",
+    "sha256": "cb5fcca1f32a2c9535d8a2dc3216f5a686f873df5a3504ea0cab76169c1fe4e0",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/label_blind_predictions.json",
+    "sha256": "b1af521f512ae1b48200ee1b9996f47931e2814c99259724aa0ed265d6de5280",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/predeclared_protocol.json",
+    "sha256": "4ff934b8e0409bf7e17e2895feb0af3b396fa9d1ad42b4274a177a9101e01a28",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/run_status.json",
+    "sha256": "d70b377a904fe17b1a41d1e7b834861a10eb282d7a5a051243baa5559d2fa821",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/scenario_ground_truth.csv",
+    "sha256": "91d0cd6b3c272126508ee6713d81b66415fbe12797f52678454c6897e99c607c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/sip_packets.csv",
+    "sha256": "156d52471348d275c1a36b3067ed133adce087c8becaf4381bdd39b5ff5cad2e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/sipp_register.log",
+    "sha256": "2d2661dabe835dbb0c9f6dc53264f0d0ed3a73b7251e62d552b0d0763deef7ca",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/sipp_wrong_01.log",
+    "sha256": "f73112f0eaf9d9c4c1ce1242da49a118b67009c4b76050055f7c0d30f8ecc689",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/sipp_wrong_02.log",
+    "sha256": "41240e63fa5669b4504462b13dcc9e4d98ddbe1e8379486fd8b96c1a1d2e08ca",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/v5/candidate_summary.json",
+    "sha256": "0fb98995ee2a7835adac28f074fad38f656601beab8492115ade18743e0b7d7c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C005/v5/candidate_timeline.csv",
+    "sha256": "e990ecd5f0052c5f5434daf3b13934b11c81ecb22ccc349c5c0a8acb679e107b",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C005/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/asterisk_failed_auth_evidence.txt",
+    "sha256": "4918b2a695c7e341187029d6ea5236c592a4ee05ccd2eb4897be7c0de458dc11",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/cdr_after.csv",
+    "sha256": "bcf6ae7966801c1bf9d61f3e33a3e4b69f728a16be704519ce0bfc34273b5967",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/cdr_before.csv",
+    "sha256": "bcf6ae7966801c1bf9d61f3e33a3e4b69f728a16be704519ce0bfc34273b5967",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/independent_verification.json",
+    "sha256": "3d9d510f74116de6452fd37046fe260b79045ab9d91eda9e8b6085c920a21008",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/label_blind_predictions.json",
+    "sha256": "b1af521f512ae1b48200ee1b9996f47931e2814c99259724aa0ed265d6de5280",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/predeclared_protocol.json",
+    "sha256": "c0e5da6e6e69bb1a195bd9b546c359ad975046c359f405ce0599b99f84365b2e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/run_status.json",
+    "sha256": "e5e0361954a4da0b5f974707c0f62980166b40da32f28bf11a1febdaf3c80baf",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/scenario_ground_truth.csv",
+    "sha256": "444ce53b89923d6e114a9793104c921ce1a8437f9415324812208e496691d0d1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/sip_packets.csv",
+    "sha256": "f7656094d2b200951d526da464b739ec4ea73f7f3cf6912cc568c8d0f1eed858",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/sipp_wrong_01.log",
+    "sha256": "1267a2866d07bda4d8dd8d84dd2562ed82f552db7308b9569848f23c490ebb5a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/sipp_wrong_02.log",
+    "sha256": "3fc0a9565362b99e867268af120df0b5bc507d242c193277a308819f11ac9ab7",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/tcpdump.log",
+    "sha256": "3e37d1841a0c0a9bd95161df337a9d2b53762512b221b1c1fbe0a0d5acfeb6a5",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260924T062325Z/options-4/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/v5/candidate_summary.json",
+    "sha256": "7b67cd7b9250894284b2505dc1bc565efcdd7c43d30e8747717388d61de15d6f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C006/v5/candidate_timeline.csv",
+    "sha256": "ec7313474f1aba42d731b309a619d306fd99f25f2095a95396d663a7d3d6e52d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C006/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/asterisk_failed_auth_evidence.txt",
+    "sha256": "1e90fde3ce25b6a85c13d1576ddad82ab31592bddf17e154a647e22c93a5e4f2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/cdr_after.csv",
+    "sha256": "f88598a08ed8c703818f1e150bed40a53bfeb47c01787534ca6ad637fdf2bb08",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/cdr_before.csv",
+    "sha256": "bcf6ae7966801c1bf9d61f3e33a3e4b69f728a16be704519ce0bfc34273b5967",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/independent_verification.json",
+    "sha256": "9c3a8b0f449caaf76c44870463d64b2d825abc0af5fb3d10d853211cdf404d30",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/label_blind_predictions.json",
+    "sha256": "bee46fed4fa51e6a6ad414ce0009e95224b7e519725a45a6291d6834e42cc36d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/predeclared_protocol.json",
+    "sha256": "150517b888be17efcb509ce03b347d22c22f68f58d224331451216e4f5db15d4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/run_status.json",
+    "sha256": "987b4f248cc8f88ca26413a4d63df5dc81f69305a21abbe7389519b534b94b85",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/scenario_ground_truth.csv",
+    "sha256": "59a9df6aebedc71948ab9dc32dd2e71976bb5f50f9c76889f6654b8285055e44",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sip_packets.csv",
+    "sha256": "80ae1885523f934b55441dc55711a5d119164e1a67f1b0d71e37b6681a0222df",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_invite.log",
+    "sha256": "a7902a6a350a2cc050ad828a1ed32bcd039ec6c70469dd6966a96194dbf47393",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_register.log",
+    "sha256": "449f99d51a288997616d61e1a514531ae203cba3dfa3f136efcfd84ad4556f8c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_uas.log",
+    "sha256": "03322ee78979e9ed47ba602df149d4531492573b441381b2069cb22c71186e01",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_wrong_01.log",
+    "sha256": "73fef8751f853e60d12fca98ed16e960ac8a58f47e45ab430e0eaeaa3309fd98",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_wrong_02.log",
+    "sha256": "35e18a8c62a0e41aa1c185a6c2d4b0dc2d5b9e72a633cc804d6436200597058c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_wrong_03.log",
+    "sha256": "ebcbcf7bc9064c8232bbc52a58b0b6d708626ac325103ce5b0d07249d00bbb72",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_wrong_04.log",
+    "sha256": "bb46aca183c34235107c5cc601d981b74f5594128a9d5c2878bb0ba7e73b40f4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_wrong_05.log",
+    "sha256": "64caa86364d669c59e45bca3d5bc56164f196d664f590da9e2b07077c5581884",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/sipp_wrong_06.log",
+    "sha256": "8bcbb243baf1898a7c28fe4217324481c903dea630400405cf287dc02439727c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/v5/candidate_summary.json",
+    "sha256": "484ef4f2ba148cb9a6cb7887ea7733544d61d653406a121f636f643ec78fccae",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C007/v5/candidate_timeline.csv",
+    "sha256": "aba79a389c4313e4a78ecd259f3af8a84e9797825e11a5377c3c296777b818c0",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C007/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/asterisk_failed_auth_evidence.txt",
+    "sha256": "ce3e90bc74ca0aab414023e96d394053b3ac141fa5c8475dfea5419e3239685f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/cdr_after.csv",
+    "sha256": "f35295bc37f7c971326cd943196ec488bf0a3696b2b4ae7c697d36b3b1d6a9c1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/cdr_before.csv",
+    "sha256": "f88598a08ed8c703818f1e150bed40a53bfeb47c01787534ca6ad637fdf2bb08",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/independent_verification.json",
+    "sha256": "169149a42eb6031c68284608407e53fbd44263b6c5cae9b2af377557c0cd43e3",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/label_blind_predictions.json",
+    "sha256": "a28142259391e05b7f5cce3ccc9f8accef9a21e3bc8201701f39ee85eaacc214",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/predeclared_protocol.json",
+    "sha256": "658d105888f0773e85540890c9f2c0ab7e98c708f6530856e89bec068615d624",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/run_status.json",
+    "sha256": "c5686effe5597c9ca2cacd13bbcc54a7e641712d77ddf1087a84fd24ac930e37",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/scenario_ground_truth.csv",
+    "sha256": "d8663eebc6289e22af208bcdaa7e73f3ac6e750cc9eee1d8f12028f84aec446d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sip_packets.csv",
+    "sha256": "c43fa4c2a4ce7174a03af1d0594bba53ee99723558af21d022ecd1d2bf4b5b1f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_invite.log",
+    "sha256": "d50e848850357b2e2aa35037954adf8ff3823ad2b463bf10202a6023beeb9f68",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_register.log",
+    "sha256": "58e5dcac86710db80fcd526259b079f5e9b748ac060ecca8f19fee0ae2538ee2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_uas.log",
+    "sha256": "8c656cb12477688ba2db3e663c3cf19c41ab04e8056e1b4f70f975320e82aa17",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_wrong_01.log",
+    "sha256": "3c3459cb06f9c332925171294c223ca1bd4bbebc41e5464c63c8cd398a755f16",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_wrong_02.log",
+    "sha256": "ee1c8811615e95bbb9ee988163084fce6a6b7cf7f31b0df36bbadb4cd1d979b1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_wrong_03.log",
+    "sha256": "b7093bfc8e0f08083d5d32eb8214f335e0ba3ae909c1678b9270c5a758cef2e1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_wrong_04.log",
+    "sha256": "4746042ec4a4ccd4930cbacf2a817fbae3ba7d8c1f779cd11b3ce29f2e147bb4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_wrong_05.log",
+    "sha256": "6cd78391495219c404ef1d6a4711051de1f306d26d43c5fc219cbf82f8fb9a39",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/sipp_wrong_06.log",
+    "sha256": "2414e16935a406cb148030e2638b465e47accbc7ef4fed06edbef01a9a82283d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/v5/candidate_summary.json",
+    "sha256": "3034f6aa68881f46bfa6fd82ca9aedb0da5d468bee857435049dfe7d110d41a4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C008/v5/candidate_timeline.csv",
+    "sha256": "a7c47ccfed2d15c4d40a6561e5612d575954d3955a1ce6b831131acf7de89a22",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C008/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/asterisk_failed_auth_evidence.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100512Z-f08-options-targets-1001-1006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/cdr_after.csv",
+    "sha256": "a64ff54bb9a7489fb3260d79a20d19e7c8a46de22cd2442ddaf1d675bfd091c1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/cdr_before.csv",
+    "sha256": "f35295bc37f7c971326cd943196ec488bf0a3696b2b4ae7c697d36b3b1d6a9c1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/independent_verification.json",
+    "sha256": "efe3b9bc9f74b7f62f4a759e368f01f4a5e873b1868fcb7cfd7e7eb64f6f4680",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/label_blind_predictions.json",
+    "sha256": "77f309d6829c83155b7a10d3bc02c8581db8718b7a570df27d050c95b06ded0b",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/predeclared_protocol.json",
+    "sha256": "e1582cdf4fed03eefba31f2097e43f2faefab601a93b1b484271556634dd8426",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/run_status.json",
+    "sha256": "8361a0ba642cd434bb67d6e398b0b9e8caabeded04cde2086efbeee56c1bdada",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/scenario_ground_truth.csv",
+    "sha256": "f19780fc42bd1ebf6eac5037dc2aa9318977aab6416a339fe1596d1891205176",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/sip_packets.csv",
+    "sha256": "46a60c7dc2028f361793eda180077819702513dd1be6e11ba53c4727d7bcc5f5",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/sipp_invite.log",
+    "sha256": "ef1d4ac8d809501318624507a9cd2469cb32a9b723544833a556041f1b507611",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/sipp_register.log",
+    "sha256": "467df9dab77cc50f0860b1db80fa1fc04df3ea9b8147055634386210e1f8a6c6",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/sipp_uas.log",
+    "sha256": "4947e777b83caa5d599cc3015bd87fdb2fbcb084179521bf366d24d907760283",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/tcpdump.log",
+    "sha256": "808588ac3c2787606fec3be56968818f58c1f70ac341a4166c6b1c234d901b3c",
+    "identical_repository_path": "research/pbx/datasets/ml-v2-development-20261002/development/DV2003/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/v5/candidate_summary.json",
+    "sha256": "d1fb389eeabb8417ffb2da6bc772b016750a4a66e8b0836d6b8d920985280def",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C009/v5/candidate_timeline.csv",
+    "sha256": "9d38b91cfb37dac28aed33f30e7df2934a1895322533ec5a230142a008b79cb0",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C009/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/asterisk_failed_auth_evidence.txt",
+    "sha256": "7355ac9796d7163481151f79f5eaf7a258abdc5398e3c5acbe939d9c2358fa56",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/cdr_after.csv",
+    "sha256": "a64ff54bb9a7489fb3260d79a20d19e7c8a46de22cd2442ddaf1d675bfd091c1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/cdr_before.csv",
+    "sha256": "a64ff54bb9a7489fb3260d79a20d19e7c8a46de22cd2442ddaf1d675bfd091c1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/independent_verification.json",
+    "sha256": "d66c2891c74bee77fd79f879b613d0a2636e73ef2762c2b59c95b1442793962c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/label_blind_predictions.json",
+    "sha256": "fa964e14f056ab0d92a6aa85037405d0749369de7267f97d8c9de4610d737b25",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/predeclared_protocol.json",
+    "sha256": "03e40aab8e7e5478fe73a877dbf2ad365070702cd9a1c8ce013974d33c863697",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/run_status.json",
+    "sha256": "bb113daa0be860fc132f002afb1e8dec059fc1153e141dca737bfe56ae8213dd",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/scenario_ground_truth.csv",
+    "sha256": "53d7b64681cfc3324a07ead8d0857a8a7dd47b4a42c93dd6cbcf46e5785b6ba0",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sip_packets.csv",
+    "sha256": "df2bee0a319f7bf1cc41de1995991f2891d3d02c88eb95054d5e54135d0dc5b4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_01.log",
+    "sha256": "bedd52cd3e18aa06c03963128b27ae7282d1918e344d967efe255cf71ad3fcae",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_02.log",
+    "sha256": "6f0e0af88f56fa12f63a1c0e3605479424e000092ae3a8b3d65ed06be97b87cb",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_03.log",
+    "sha256": "a6397943e21dd8c3c342dd7a38afd0604f0680c6beb624f835ea985d1121877b",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_04.log",
+    "sha256": "8a10296408ca750b34a696b6a62dbfa281812886385353642a8c721a04e4adff",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_05.log",
+    "sha256": "8bdb24a71eea68651825fa9aa231b307f42745a319c6016f6a3a63b407d44355",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_06.log",
+    "sha256": "44004163732892fc6d5d0935c10da2b77e224967a4286892e033376b7814351f",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_07.log",
+    "sha256": "119805e3385b0c8868d268e77b2375c4af4b9cc9a220acd4c9f1debdd5ccdaf7",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_07.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_08.log",
+    "sha256": "18ea56f6ff916b3c4e4fabdd5f7c2c31300e5e8589be6f84d695124047131d19",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_08.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_09.log",
+    "sha256": "e5d089f42df6b3167ba9b3fe38c61c2ac637182c124c371da440fca007b60fd2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_09.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/sipp_wrong_10.log",
+    "sha256": "a43e3498134db0ca9ef8dc55e12438a4655ddd6580a96194f861198301b12ab4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/sipp_wrong_10.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/tcpdump.log",
+    "sha256": "23897fc2e4b9901d9bf7039ab3314df1503757cf0cdc188bd62b3aba7f3133fd",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100727Z-f10-slow-auth-only-1001/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/v5/candidate_summary.json",
+    "sha256": "82e7c10d249ee73f15e078b667bdcd4b9ace3e086fe1d174269d2f3c807547fc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C010/v5/candidate_timeline.csv",
+    "sha256": "4587be212c27186ffdbd94d608897773bbae58cbcc26cb0c8452cc0c40b51f4e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C010/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/asterisk_failed_auth_evidence.txt",
+    "sha256": "1dd0feda25ceee13919c7708af29c4c566d8b15f98d5e5478b95cc533c86e8c4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/cdr_after.csv",
+    "sha256": "640ae090523f0911308161545fe3f33cb937753881d358304fa230a614dbb3c4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/cdr_before.csv",
+    "sha256": "a64ff54bb9a7489fb3260d79a20d19e7c8a46de22cd2442ddaf1d675bfd091c1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/independent_verification.json",
+    "sha256": "956c68268d6c96d2a39eca55d166eb067e1d559a49239e85f6f550915d38cc24",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/label_blind_predictions.json",
+    "sha256": "087c1bc37e7fbabb201c877e3ff0ccf5586075279faf10bff8ce128bb93b9569",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/predeclared_protocol.json",
+    "sha256": "94541e6a3caa0fc0738897eeb92746bfb43c1fe8f07a2e806316e841f60a1204",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/run_status.json",
+    "sha256": "bd6d07d74c9622cc8266123d9dc24a65dcdc1c918be0bb853f5f87f55eb7f586",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/scenario_ground_truth.csv",
+    "sha256": "ecd8aee653baedecb3033ab079375b226c7bdc89d3233a13323ed74037285902",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sip_packets.csv",
+    "sha256": "c259b363ca167cb8f51e1155e437b2b382eafeea1ac57ec3521600b1b33601cc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_invite.log",
+    "sha256": "9cb5ed955440212f4c2deaf2330bc1be24411790679a0698366c1cbaf70bbd94",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_register.log",
+    "sha256": "a6630b619934aaffe9133dce382f79ccff88c7cf942295aa8e249d77de4e80d6",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_uas.log",
+    "sha256": "9fb28827e5272e55baa960cf641cf76a7f5bb4b252563bd4a4d8860133dfa2c2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_wrong_01.log",
+    "sha256": "baf99f7679ad18f1c07337c03e429a66821468e6f40f6fd93072c07f0b704904",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_wrong_02.log",
+    "sha256": "d9c915ceb13cdf30f061f15c743545eb8df36665573630e25f2d7991dcad1b95",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_wrong_03.log",
+    "sha256": "01ed47b1d92d5b0fc1177fc175c41794376792c5e21ff29fe88c4ec9dff706ff",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_wrong_04.log",
+    "sha256": "e00cefe3e699e6fef4af7967299d7898824b0393b41156baaf2d040b4eeba583",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_wrong_05.log",
+    "sha256": "62178804f14ed8a8b2b97511982492cb9418b0db13c593ef0d347d8171ff0674",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/sipp_wrong_06.log",
+    "sha256": "4eb1cad98382a630527bb906b01ad703624a29bde03e0b59876fe7e652fe3b90",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/v5/candidate_summary.json",
+    "sha256": "b93341361178707c8b2c47bc3c6e02241602f80a9c3b3bdb3edad26ec23036ef",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C011/v5/candidate_timeline.csv",
+    "sha256": "018a3b5d8259071645cda9ccfce341393cfa280e3ad1e45e77a0b087be0f3d7e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C011/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/asterisk_failed_auth_evidence.txt",
+    "sha256": "420f83518860da0cc317529b157ac3e91d056c73be213bf31413e1a3cbaa9023",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/cdr_after.csv",
+    "sha256": "8fc2ecdcf987e659221a66400a39002fae82028bc99eddf488d0a47c89268e0c",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/cdr_after.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/cdr_before.csv",
+    "sha256": "640ae090523f0911308161545fe3f33cb937753881d358304fa230a614dbb3c4",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/independent_verification.json",
+    "sha256": "bdc4ae79e22f1d6817dcba0650c6ee3a1deb7f35d049fca739108419ef8e4ca8",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/label_blind_predictions.json",
+    "sha256": "b5c3143888f23ac846447c31709f20330005ccf6f017564961462d2598eea2e1",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/label_blind_predictions.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/predeclared_protocol.json",
+    "sha256": "a080b9322e8f1de2f599cafe51ee4d4520077cdfe538804e79c2238707fef67a",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/run_status.json",
+    "sha256": "fabf24a3b8fd9e7c3a5760ff8bc3792360e51a6e5a497b8a65a591b45159c836",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/scenario_ground_truth.csv",
+    "sha256": "b5ecde167df0901262138170eceda55d4f2d94c7630003c489e5be9bedb6107d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sip_packets.csv",
+    "sha256": "fb1d37297b7c163bb4de0045d53928007fb9097c82f7cbd9cb55e79a4bf901d2",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_invite.log",
+    "sha256": "7186958ef26c931a9584d46719adec871ad4df6cbc1272c5f908404c931b72bc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_invite.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_register.log",
+    "sha256": "27bccff94559f2ed2fa467cb5bf7d7fed89a9bfd3ea73f1c550bd32a37dd906e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_uas.log",
+    "sha256": "d02cc75de5d1479498ef7939ab98e9e7c1802ba023e138a5ef7fbe2db909e2ac",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_uas.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_wrong_01.log",
+    "sha256": "19baa36c4b491fa169acd7d975c2fd88dd04849fd4ec1e5dd95d1713cf70e451",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_wrong_02.log",
+    "sha256": "cbc9cfb4b91d5ebca44ffd763c29efdfa03b1f5327557b38c08d3895c5ac86dc",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_wrong_03.log",
+    "sha256": "411b98ca5b3d056debd65d96d7e1284d5a3a01b7f7dd0e867c87088a16236840",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_wrong_04.log",
+    "sha256": "0e9d209d07c7e080b3855530891a047f439a9eb7bb30c52f85e48d3c01754f8e",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_wrong_05.log",
+    "sha256": "eaee2d4d306be1e2fea986ffd64eb75d52a8608717526dd491ea2fc7b0058482",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/sipp_wrong_06.log",
+    "sha256": "83fc461f4fe95e279bfbfa171e610d1210999c08c5e7f631ba0fcdbca9bb35fe",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/v5/candidate_summary.json",
+    "sha256": "c66a7467ec4b9aa42a294e724378fb44ad5d46cf7e86d0de659657237cd8078d",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/v5/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!runs/fresh/C012/v5/candidate_timeline.csv",
+    "sha256": "13162d1f979468cdebc320d7402043ec2c9e35e72f14ca83947cedbaebfcc949",
+    "identical_repository_path": "research/pbx/accelerated-20261012/runs/fresh/C012/v5/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!test_common_evaluator.py",
+    "sha256": "80df4b8944f4e96168225cb53a6194692726bb305eb6fbf09155b8f9eb3410df",
+    "identical_repository_path": "research/pbx/accelerated-20261012/test_common_evaluator.py"
+  },
+  {
+    "archive_member": "pbx-research/accelerated-evidence-20261012.zip!timestamped_stage_progression.csv",
+    "sha256": "12493ee59749959886811e969a797cac410d0ea0d5562247128d475f89486c01",
+    "identical_repository_path": "research/pbx/accelerated-20261012/timestamped_stage_progression.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/summary.json",
+    "sha256": "324aed12944429d83df08abb0bb4d92372c1c71bfe19c76790bb427a797b20bb",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/manifest.json",
+    "sha256": "c2a6d86edb81547a9ea9ed82c2b067dbde20d8c924c5cc9097b2e518282081c9",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/manifest.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/causal_features.csv",
+    "sha256": "0b3a6c9b617bbb1ab5e110dff9a8abd52eb3b5c574527000d6041cb192cd6667",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/causal_features.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_10.log",
+    "sha256": "f4173f2ccbf603f653d77de1edcf07a756af0faeb452acb912d691bf35d8d7d4",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_10.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_09.log",
+    "sha256": "4bf78b014a215594f30d1926315ae78d3e963c0a9456b3382ae21fa00cd3cac1",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_09.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/run_status.json",
+    "sha256": "775ca63c9f4d8721f9f791acc03a5d05c696e69344958d5be8578fc489dd31ba",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/asterisk_failed_auth_evidence.txt",
+    "sha256": "e8f0bd0f390fd681181bb1180ce7a7a34268322ea74ba5e1a95f606970e9e786",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_08.log",
+    "sha256": "0ebc71728732503d095f34aed722f9e661d3dd188592983b02aaf6ce419c341e",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_08.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_06.log",
+    "sha256": "9750dd296fbea5babdcd33ef66b89c6d9519a715211a3de06ea61062571e6e52",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_03.log",
+    "sha256": "9872dbef989ef0053f0f8c874301e9029f30aeefb666910edc8737b532bfd704",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_04.log",
+    "sha256": "13a78215a7f5c12d5dc55808e9c29829a25027b3f1bf336557f63362141dfb7c",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/frozen_ml_replay.json",
+    "sha256": "2c0f33f4b64a3659043762748a9a4c0a88082c1f75128eb734061a03a4cc1074",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_05.log",
+    "sha256": "f1b02ffe812315cea09d6d80aeee289fc15fd7f898c4b72d8574643d9724717a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_07.log",
+    "sha256": "9537d8233c8ac67225bd502ae681961093b28e684045c7a70b701505a7630d74",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_07.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/tcpdump.log",
+    "sha256": "23897fc2e4b9901d9bf7039ab3314df1503757cf0cdc188bd62b3aba7f3133fd",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100727Z-f10-slow-auth-only-1001/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/independent_verification.json",
+    "sha256": "17ebf2ef1103aad42443978b4b772a5501e8e6788a69504e5082ef6b52ca4158",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_02.log",
+    "sha256": "536dc0b7ddaa95916a8226e7045f453924c8846c535a25135c9e62a9ab964615",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sip_packets.csv",
+    "sha256": "f713f028ee1f405aebaaaf82399f440150182f45b79546f73d7fd15a2ac7b965",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/predeclared_protocol.json",
+    "sha256": "d1449b567c9cd42f71df88fec39eef9ac7205e5b4c596084d86d0b74522a0271",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/events.jsonl",
+    "sha256": "cf6f442091ebc829b0de082dafdd8fae0bfccd7b42f98c51c14e7527eb0f0988",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/sipp_wrong_01.log",
+    "sha256": "402288285a6944911153b3ff3fcb7f1f2dd49c6a3e3547a8047ba27e66a9e2b3",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/scenario_ground_truth.csv",
+    "sha256": "2558dec30cf4489caf79165b6a12b1c606b9b37b35ca7f5563baab354d90c077",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_10.log",
+    "sha256": "b26905fef17ca5170d62234adb9a3adc0723ce8e06ef052cdf88d401c6929878",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_10.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_09.log",
+    "sha256": "0e4f9b592db14b5909fb4ffbae5ba4f6a3a7ecf58c1267e869d0d1910373b724",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_09.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/run_status.json",
+    "sha256": "0751843ff1ff361465054d3c0a7a16f5de2f80364edf990930d60483584745c7",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/asterisk_failed_auth_evidence.txt",
+    "sha256": "a835d32588231f8da78bb19dffa36b513213508dff19c119ccebd65da3949a7d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_08.log",
+    "sha256": "5fc424cb5bd9ebcc8681cdc5a4146462fc0010cdb7e509647be584c029cfdf2f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_08.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_06.log",
+    "sha256": "70628bc267eefee084448d9cb19c2fc7d74dae7b911180d7776c7031cd5828cf",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_03.log",
+    "sha256": "e9ed9ba74d61f83b200fe69fe145c7f1a59eb844f3ffd50e28a0a039b904f69a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_04.log",
+    "sha256": "6dc53c53fbcdb0062f967eeb31e5cad13eeefe377c400e74b2c93cb230b8696c",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/frozen_ml_replay.json",
+    "sha256": "ba510a38a3ccc0a72f7f852a5fd8202b56de72361c41416dab653dc037a83e1d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_05.log",
+    "sha256": "361034193271a1615c5d2b4a4ad7789820f2f47f45a2952780a7d65944ff377c",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_07.log",
+    "sha256": "78dfd3af6a9ca4bda09252c56001718c8f45f9c51cbd62a7c85b19b42917b551",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_07.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_register.log",
+    "sha256": "5df3e99e322720fa87129428acceb98d08e110a38f3133e74c340ad75b2748d4",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/independent_verification.json",
+    "sha256": "839e13ec0a16ed3d5b96ca0f0c1d19c8a0940f82cd59a80861308b2f61d9e110",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_02.log",
+    "sha256": "6c4ca42d2c88138d1602d22a83532f085d57cb1af3dd7d1c01101a46920377ac",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sip_packets.csv",
+    "sha256": "317fcb1e9333f02f4d6a72f8d166711d958f016f4d8058e52dd7423c6d04846d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/predeclared_protocol.json",
+    "sha256": "fde98481ae2089afb8df3397b5050f34f2fe76a1904643925bdf41beba241474",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/events.jsonl",
+    "sha256": "2a8a39f6fd5f0b406e293597723637f8d18e673199ba90290979e9b1d8832ae3",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/sipp_wrong_01.log",
+    "sha256": "c6be6d9b9ca60f58d17f55d66b8df6a6eca5ad717ae2dfa6d5d80387971ee61f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/scenario_ground_truth.csv",
+    "sha256": "26185253141c9a9fd648c576581dbd159dcf8b6359da6155c385f7cf449408e6",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_10.log",
+    "sha256": "d70c84c14e7a680ddaec52c2333c8ec5dd8a05eecdd3910ea9627945151c27d3",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_10.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_09.log",
+    "sha256": "a80b8fd973eacbc2b54afe96a172c18a049ef7535fef97b90c7456d8e20019b9",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_09.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/run_status.json",
+    "sha256": "4403f99abef944efcf944660ed92c9da9df001b3f603d0d058c865ac7bc0982f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/asterisk_failed_auth_evidence.txt",
+    "sha256": "2a10b76784bc571076179c404d1d1273d3355a6ba1a320a0e52e92ddbdf7ba1c",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_08.log",
+    "sha256": "686cfe3ae1941f130aae9eea7ebda2bfd43479e1472081558d08d543e24d8849",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_08.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_06.log",
+    "sha256": "37034f506d33ad832f21d6be9dd4bbb4ae7e5ac6494175eb217581396fc429df",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_03.log",
+    "sha256": "b548d66bd5efb1a3f9f80db6dce56210d279bcb1d6dd5fc4a116631b03076d85",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_04.log",
+    "sha256": "14e6bf0efec53bd2e13aef032a709a7337ff3f00dac611506487e4e8a76fbaf6",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/frozen_ml_replay.json",
+    "sha256": "4402cf2ed44a770aa100d45e10d50c7e284a80c27c93e6df14d898adf27e0528",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_05.log",
+    "sha256": "3f8f0c762d8575249713e553d04bd9dc58b6084af4bfb1358180f26dff1c8f68",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_07.log",
+    "sha256": "f6c69952a21814a3bb38645ba69e7373be92004f529c9bc2ded6d95499565fa0",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_07.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/tcpdump.log",
+    "sha256": "23897fc2e4b9901d9bf7039ab3314df1503757cf0cdc188bd62b3aba7f3133fd",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100727Z-f10-slow-auth-only-1001/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/independent_verification.json",
+    "sha256": "6268b384117ff8edd8b4f717b0c13b0a38802192e4ec08a842ae5a453bd64f9d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_02.log",
+    "sha256": "275370848702067da608806d398715a7bff41933629411e2c0cc11ba6eb99231",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sip_packets.csv",
+    "sha256": "3e4d040b8f9cb95b1365279a58b4fefb2013cad4f14ccddb22660f12a8fc8ad1",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/predeclared_protocol.json",
+    "sha256": "3b989f697f5f27845af710a5a7ab01057b7f2f167653a26082f2de96b7128576",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/events.jsonl",
+    "sha256": "a9cf42c2fe27372f9dd64cc51b20bd7f9bb1ad7b2167671620fb506d912f2c1b",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/sipp_wrong_01.log",
+    "sha256": "92f4c6e7d598739eaab88d23f44d4a13953b0c0190794f609fbe8bea767887ea",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/scenario_ground_truth.csv",
+    "sha256": "42c8aa2b398428a2bc91277765ea9d91e38ff9e5539582e9796607ed17108773",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/run_status.json",
+    "sha256": "bc9bbba4c77d14b900f6e1a7cfa7f8262edc01c9ad526bcede49b7aa27a99f03",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/asterisk_failed_auth_evidence.txt",
+    "sha256": "9275899b687a6a1cefbad7befedae377882d12c97c7be7833f1e7eebe3b9fceb",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_wrong_06.log",
+    "sha256": "d96ad18358a00538ecc8d6b423d5deefb810f7753f2ae2f07fcbac554fd1277d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_wrong_03.log",
+    "sha256": "90e463143ccbd92fe4e4e4114f635fde8e52bae8f2e7a5f2a5ea5bedb9126f37",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_wrong_04.log",
+    "sha256": "47475da87b0bb440bcbb9a93ac5188d40de5da820f8cc72c8da749762ff39d3f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/frozen_ml_replay.json",
+    "sha256": "75183e25e4c542c885a3f7a88a90e0d8dac113ad7be4caaf8bfe34eabf191754",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_wrong_05.log",
+    "sha256": "1618f474ce013bf9a3de270ae4c570e38f178225901355e8cdeae1323face3e0",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_register.log",
+    "sha256": "5cee1f97eb3e6711fc0f46aa8f45be8432e5d9386bfb02aa15c088d424262748",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/tcpdump.log",
+    "sha256": "553cd77a0204ea2f66782477104e5f275f3f8dfbc57f258ad64f2014f1cc3359",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/heldout/H010/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/independent_verification.json",
+    "sha256": "d9a52b1822eabb089068cfaee0de40705e3e124d985d3ada0ec088f15cc0651a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_wrong_02.log",
+    "sha256": "2e2545de9a5f86ffe805aded5f7bcc7d69cfd7b7911c1615c5d51bf4ee5475dc",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sip_packets.csv",
+    "sha256": "37207a55ec9d894add95b48ece43f18b92e189a6294c83458e1849d04a272ead",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/predeclared_protocol.json",
+    "sha256": "096462223805123d0c5fa67f75c4ea5a6fa01660e7e3e2794b32f0a00bc22eb7",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/events.jsonl",
+    "sha256": "60d38b64d1c8ee70b4ad9cb3d0ede384583ec21dccb38f8cd27629c12bec505b",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/sipp_wrong_01.log",
+    "sha256": "0a92574ee7a1ea30f01a03c412461362483806bb7c1b0089486c17aaeb545282",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/scenario_ground_truth.csv",
+    "sha256": "21b704531e3215b8bc98b321e740864f46b45e180c9ae0ea9462f8b34b1f2b12",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/run_status.json",
+    "sha256": "98533aa032927fa3e2e0808f2b1d74e96b3cee6b37ad99b3a53d4847449a4c5a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/asterisk_failed_auth_evidence.txt",
+    "sha256": "2d663884fe695b06620cd3c991546d8d5877cf402736b98ec97847390533b0e5",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sipp_wrong_03.log",
+    "sha256": "a7fd0a6aba92cac48c0c71a6360d20e4654d040f9a0a2c514592789f01d03381",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sipp_wrong_04.log",
+    "sha256": "1b02cc4636ee20b699663c8c24907d7e5db157f8a25f29c0b994133804d144a8",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/frozen_ml_replay.json",
+    "sha256": "f0686946394c3632470bd598ec9489a29e0779e75037eaf380aed520b3b8b8a8",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sipp_wrong_05.log",
+    "sha256": "184e2b243f3a9d65ca667d92da930ffe5cf4ffa7826a8ec506dd29cb068f4cbb",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sipp_register.log",
+    "sha256": "5b6eabbe920d5cdb1eac2fa7d33ff1705c3d0b0028abdf3aa262aef03c208d3d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/tcpdump.log",
+    "sha256": "fc410048b356daf86ea553f08d0b2035c25dcc925039cbda771b92e176b030b9",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-heldout-runs/20260924T070017Z/heldout-1002-6-fast/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/independent_verification.json",
+    "sha256": "886980c15ff423ac28872f068b798e148cd323b6a5664f7292b76e09eeadd3f0",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sipp_wrong_02.log",
+    "sha256": "bdf0a7a127620fb2dbd266354f225e9a21c5d1d14bbaea5aedac821c471d387b",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sip_packets.csv",
+    "sha256": "ca9fd45d9e19cdc0f1c4c037d8e62068bf0e4ee38a610aca450d858b64c937ab",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/predeclared_protocol.json",
+    "sha256": "81f861f4a6511c3728edad4ffe21d9f8ab8bb2f6a95cdfa2bd7a9e3a8a89aa84",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/events.jsonl",
+    "sha256": "45d321a13c219a05fa5f6db21b7148e7edfc2e94e0ea9ca41b3aac6cb0702297",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/sipp_wrong_01.log",
+    "sha256": "1442fb061ca52fc02e7790732eab75c3c0443d0e12269ee04d62d4dec51ae224",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/scenario_ground_truth.csv",
+    "sha256": "a353a91abc5460f58636b857817feaea6e46959c66bdefb771439a6cad7a00df",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/run_status.json",
+    "sha256": "812bcdfa196858f9dd4febde8b925e4a42b506330c2769295391bcb550799715",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/asterisk_failed_auth_evidence.txt",
+    "sha256": "fdb1127765ec653998f9f6ac386fa64eaf8b4c1abb50c300a9068c36b702f570",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_wrong_06.log",
+    "sha256": "5931c3072d32691e706e93acf1166c9de2e6b24e56d4a673d0ce6506bd63e37e",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_wrong_03.log",
+    "sha256": "12809a73065de7f21214689283bb0c36c9f05cf0a6def046490560e1f089b0ad",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_wrong_04.log",
+    "sha256": "d7efe20af3dedd8bdc4a5faf94af8cfafa3d4ce3b06430f9f1441b9515965f05",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/frozen_ml_replay.json",
+    "sha256": "0b25a0f664aaa417efa3e8048447de6a98cdb51613faca237cc1997dc2ed2e07",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_wrong_05.log",
+    "sha256": "80533922ce43a71c95282bd548f1b00de1937bc7544f51cc46ad7fd3d3b93b6f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_register.log",
+    "sha256": "033c46d258bf7d1be7525bc01b179a0d6464e4ff73f5f1f122a92083c1d1f76d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/tcpdump.log",
+    "sha256": "553cd77a0204ea2f66782477104e5f275f3f8dfbc57f258ad64f2014f1cc3359",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/heldout/H010/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/independent_verification.json",
+    "sha256": "faf4a76e33f36a1c4b53ab7b99b404b4a87dfa08b6e1b0395f895435cd532488",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_wrong_02.log",
+    "sha256": "7d2e596753e95d1e0af15f3e1dff3b47507a3a5995d6dac4efd8c6819a8f4eb3",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sip_packets.csv",
+    "sha256": "1cbab66ca6be75fc209b8aeb8c738fbdf893049c2a24961032d74826336ca738",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/predeclared_protocol.json",
+    "sha256": "716156cd6f1a6056c521cb6308a21519df49509e1c3f4f98433429c16d51cdb7",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/events.jsonl",
+    "sha256": "d399b94fbdefeb05bb1a618c0acef357aa403717a73ec752a9f6de467cf7f9f7",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/sipp_wrong_01.log",
+    "sha256": "5cc1dde4b435d98654376e212cb7f27b2ee9d15b0ca7357d1040075474699326",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/scenario_ground_truth.csv",
+    "sha256": "68df877e3e0e0b5dd2ab244d253e696531109527bff3926424171343143f254b",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_10.log",
+    "sha256": "2da0cc7e8a5e42aecff410f3f07f4612fdcca5c93aa56cc4dcaaed46053da030",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_10.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_09.log",
+    "sha256": "04b8186480f64816eaabe35e5e933699f1d17a9ec7d225cd6e3ca20ede6e31fe",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_09.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/run_status.json",
+    "sha256": "3bf9e4059b18e835e41195f0cfc97130fb8ba6b1d1fed46097239d0ba1617af8",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/asterisk_failed_auth_evidence.txt",
+    "sha256": "1cf1fa3b7f090ee3f7cfd4208a961be3e810b6ef7c68c3e5aad773362e5f13c2",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_08.log",
+    "sha256": "eef7ca7ad426014bb1b1260dbd070bde900ab3886358059f8667c39ffd784d0c",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_08.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_06.log",
+    "sha256": "6d4d6573f215be0fb43a7849e42b4affc8baaa2584e11b056e37f91031f9632a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_06.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_03.log",
+    "sha256": "d851b445c9647f2f5351d5314803a9cb23ec71479e0c99223cfa1e018d8355d7",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_04.log",
+    "sha256": "5a709ad3fa4415b3018ac6f7251b50c08637f31c8b73168776c351a6841cddc3",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/frozen_ml_replay.json",
+    "sha256": "246aa0480af81aff8cd3ce325bdd79a8a8f144063fcea3f990292935fd31b753",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_05.log",
+    "sha256": "6d65c55f10f6ba57ce020747a52734ea61034f7d47ef4cfc53ecb48a398bc94d",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_07.log",
+    "sha256": "4e17a1f37d29127bf93379ef07bfeeae4b205ae58c4cfad6e62011ebe2281893",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_07.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_register.log",
+    "sha256": "4698f07dc97f7c485f2d6ffc1cf3f03d7e9b5ca43d11ce9aec085875e3e67b8a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/tcpdump.log",
+    "sha256": "9a53a8b19c6103858c43e58547394a8a86df19d0e82292b2f04c6b7e34d80634",
+    "identical_repository_path": "research/pbx/datasets/ml-lab-20260930/development/D020/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/independent_verification.json",
+    "sha256": "e3f775453bc4c5226ae1576c90288ec67a711eedf728049b32db6cdc6445c430",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_02.log",
+    "sha256": "020d17c507374dc6b882e3e5811d134e871099a6b673084f2721cabe1e5e8e01",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sip_packets.csv",
+    "sha256": "b2842c376050baa7e2bd883cd8c4928ca87e16f72ab29a8dd9866cf4c2e90856",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/predeclared_protocol.json",
+    "sha256": "d8898a1c0de944235724206c16733b6c8d16a53515a8ca8f9ec46198b79161fa",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/events.jsonl",
+    "sha256": "5bd448ace56286e0dab9238d6dda7c1bae29643051d89c138d1d1104540982f1",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/sipp_wrong_01.log",
+    "sha256": "3be8e46a1706cb2cec1a6e9c6d066fad24086b5676c1cef22b949313ebdec5f4",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/scenario_ground_truth.csv",
+    "sha256": "7d23edae16daa3061a363c309577f4f55f0d64fc3b2eb17d84bbd5311e5a291b",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/run_status.json",
+    "sha256": "c7604002bd0b6325ae1328035d50bd41e6a611d1ec1a8273d044d463dec0430a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/run_status.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/asterisk_failed_auth_evidence.txt",
+    "sha256": "4abb0297ff595488ef5857464a10529daad99c1718332f44a903fd2273a68979",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sipp_wrong_03.log",
+    "sha256": "07a455b0a3b167d566a9e3d709ceaf1632a2ff8f17dc37dbe3ca123c10ccfad7",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sipp_wrong_03.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sipp_wrong_04.log",
+    "sha256": "9e5b7022280c1c4ac67bb550916e538fe6f3374945ad2984a76413302dd71c5a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sipp_wrong_04.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/frozen_ml_replay.json",
+    "sha256": "856029ae1f276454fd284776967f20e31bea54bf27c383e55c1c5d21cd8c92ee",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/frozen_ml_replay.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sipp_wrong_05.log",
+    "sha256": "c2aca0acd9ffd1f864710bb993c7dc358ce4fb6cc996519014ec7d96742ed55f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sipp_wrong_05.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sipp_register.log",
+    "sha256": "dc383e9c9f4612279d922e68772db7b5dd4868dbd96da894c7ca520cf356be4f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sipp_register.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/tcpdump.log",
+    "sha256": "fc410048b356daf86ea553f08d0b2035c25dcc925039cbda771b92e176b030b9",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-heldout-runs/20260924T070017Z/heldout-1002-6-fast/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/independent_verification.json",
+    "sha256": "cfab1b0610ca08600c39f9a2c2a346ee65d7593a12c1e1841f7c856a7abba319",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/independent_verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sipp_wrong_02.log",
+    "sha256": "789386921233aca629e45f93bdd5d7301ddd86ac3158890e9c00058d0c083c87",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sipp_wrong_02.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sip_packets.csv",
+    "sha256": "199ff0dc5628042dedffab171a41772ba1966e8866909e6feaa77f1a2146c576",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/predeclared_protocol.json",
+    "sha256": "74473daa1f5f12262729ccf5af73e1331dc1bb4469ea8bb07d420497e66d54ad",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/predeclared_protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/events.jsonl",
+    "sha256": "4cf69f710ebdd842ddd34417caa4b0ee50b455b9ae639e0d3843e022cc07691a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/events.jsonl"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/sipp_wrong_01.log",
+    "sha256": "28f3661e15b8a552a8a9afa59b567f75fb9f194bea58ca64c957069414610a26",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/sipp_wrong_01.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/scenario_ground_truth.csv",
+    "sha256": "f3de614a7517202011745ab48e22fd3c373d9f1b5a4cf997e3f8a97fc7239975",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/scenario_ground_truth.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/v6_replay/progression_summary.json",
+    "sha256": "e4c0ca929efdfae0e70f2abac38abdee711e8e84c1499b1571d9cba967b3f35a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/v6_replay/progression_events.csv",
+    "sha256": "7e7374bbe886cdfb4162e1f94529f260a59a97bda08ff29a56d3f7ed2d9e2a34",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/v5_replay/candidate_summary.json",
+    "sha256": "e08fdde3608d4a7d8ccffe2bccd704f524df81a26fd02a4ea890e5d7d7296566",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL007/v5_replay/candidate_timeline.csv",
+    "sha256": "66b077ef78e5e388ac865a54a1858244046ea3fc50e942ee996884a97239b2ad",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL007/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/v6_replay/progression_summary.json",
+    "sha256": "51f81ef84bb742066746c54e70135808b8e83a0d6dc108b242100832c311a9ee",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/v6_replay/progression_events.csv",
+    "sha256": "c87d5391fe2391114b3db9ccd75fb2aa01c860980a1e4f9bfa73f915bf5086f6",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/v5_replay/candidate_summary.json",
+    "sha256": "84da9273016527edadf6050525a8e6b90850d2ca098bdc3eaf463228fff64f0f",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL005/v5_replay/candidate_timeline.csv",
+    "sha256": "8285f824d0340e2befd859a2cefabf0cc3ddda0df325bfc8a910517b0cb04833",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL005/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/v6_replay/progression_summary.json",
+    "sha256": "55e99b25ca9c8f66e68455e16aa176d7b25508942d3f464fed43cb4ababb737a",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/v6_replay/progression_events.csv",
+    "sha256": "0417d7ae54f1010656a9caf82c99096ba53496a6c0a31673b7d6294d82bebc13",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/v5_replay/candidate_summary.json",
+    "sha256": "d546eb217f6888dfc35d844e70809a10d9d087a406278da091ba6ffab6971bc8",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL001/v5_replay/candidate_timeline.csv",
+    "sha256": "1c5952b14d7bf76db08d24bdf8d1eed815561f859fef4db5e618197f0a526726",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL001/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/v6_replay/progression_summary.json",
+    "sha256": "754f2ad0d98e25b56331fa4d48ecd9de5a9a7e48c17f67e397f2d7ac561cd1b1",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/v6_replay/progression_events.csv",
+    "sha256": "8a361f7d0656f7e9f6cdcb76d065126571cb5a403cdc2f9887699e9fe820d00b",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/v5_replay/candidate_summary.json",
+    "sha256": "3ad85101c65979f8e09fab57a2f7623afe58845706d598972d75ba728aa6ddc8",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL008/v5_replay/candidate_timeline.csv",
+    "sha256": "ff6d34c3f0e2ed381d0af9eb7bffddc48e82751f364a2b31542e0341afdf4b76",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL008/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/v6_replay/progression_summary.json",
+    "sha256": "f5d8f136dd55dd4beed44a76b2d472eaab93c922849cb22351352d0960dac7a6",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/v6_replay/progression_events.csv",
+    "sha256": "25eb92ffae973fdb0f982d0e7246c94da5a744aeac932652d70ba85d5ac36e88",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/v5_replay/candidate_summary.json",
+    "sha256": "3b870e63ba543f1331e52706bbda1bde2df4258af9dadb8af64c455cb0677362",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL002/v5_replay/candidate_timeline.csv",
+    "sha256": "12c73811be88a35647fc4b9293050a0b05daa7258a8e651eeac57db76d25b213",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL002/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/v6_replay/progression_summary.json",
+    "sha256": "5a35caaf2aef4c46168b482d572fb4537ee10f4e2980c72bb5b31de84cecc5c6",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/v6_replay/progression_events.csv",
+    "sha256": "d4d287686a7ab9732e687a66b12612ec72e053a4100f8de2f15c1860c6703f82",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/v5_replay/candidate_summary.json",
+    "sha256": "cfd3ec35c3887c435cc87c5969c32be81eb3dedb1f60e57fe734826c42234185",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL003/v5_replay/candidate_timeline.csv",
+    "sha256": "58c94ac76b80dfe9c7ccf63f62c35d80c7480275b9a1378b5ea5a0d06b61efe4",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL003/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/v6_replay/progression_summary.json",
+    "sha256": "6ca669217d69a8a063a19df8e698e8b60c38828261e43e8f9f5edb8822a7a0ec",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/v6_replay/progression_events.csv",
+    "sha256": "78201a295c5834c89f3ae207cb9ef4d6e5487d8c5f61676d1eee5231464858df",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/v5_replay/candidate_summary.json",
+    "sha256": "a5c1ef5aa48b848dad177caf0fe8b48e57f2d972274fb2b26fe3af46bc38e300",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL006/v5_replay/candidate_timeline.csv",
+    "sha256": "8fa1c7c325405b485529b48c0b1a202646dd750d32117ae3670ecc5c18f34ed1",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL006/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/v6_replay/progression_summary.json",
+    "sha256": "1336ba98c3a03f7c1419fa0f22f883bfebe34a98a717b938b385623e81494351",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/v6_replay/progression_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/v6_replay/progression_events.csv",
+    "sha256": "fdba234f15b7bd7d752d46d42423013192ef460fbe0f762c3e00f910da93d272",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/v6_replay/progression_events.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/v5_replay/candidate_summary.json",
+    "sha256": "01cd58b7ff8dc1c603834b40db12cd95a370020d872fcb164a745cc5894c4525",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/literature-development-20261002/development/DL004/v5_replay/candidate_timeline.csv",
+    "sha256": "cf3811ef204a1e94789eb998cc2e27fe080a28c31f9135783697f6e4b04e8bb5",
+    "identical_repository_path": "research/pbx/datasets/literature-development-20261002/development/DL004/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/generator_sender.py",
+    "sha256": "a66e84af0966b3f77f4968010c1f6812ca559194b28a2242aa57abc45de25ac7",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/generator_sender.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/summary.json",
+    "sha256": "53b86531aabd597c46067e7942c9cfea76516fca7666ba8459b89b2b70600905",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/manifest.json",
+    "sha256": "f941d82a5ae008c7a925c676d47b25077aa14f41d29262e45b3618b03554431a",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/manifest.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/sender_stdout.json",
+    "sha256": "bc480f7f719b85191eba3505205f24184168a06a3c4813e1a9977ce78df46e75",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/sender_stdout.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/traffic.pcap",
+    "sha256": "4685e2f73848344eabf68fe5e0626326bfe939a91872c111e43f265f462e158f",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/traffic.pcap"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/sender_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100512Z-f08-options-targets-1001-1006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/verification.json",
+    "sha256": "57dbeec212103378c6132a57522513283a242f817e9e408787543a55cb9751ff",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/sip_packets.csv",
+    "sha256": "7a4cc247bead871a9a3765e8b5936dc962a13565e75e03c968d59007c1d57e68",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/asterisk_log_excerpt.txt",
+    "sha256": "deb71b4fbca5fd629753ce41ba8474b9f15e475fa152812e70274440c81f93a5",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/asterisk_log_excerpt.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/cdr_before.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/sender_stdout.json",
+    "sha256": "f770a5aa2b17182acebc82cb7a17b7247e837cd69835a36510a7ab5b361b242f",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/sender_stdout.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/traffic.pcap",
+    "sha256": "70b928980d4b6d0742f1a5a45da7d291021b23ab9cae617c6dc82afa7f3b60d4",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/traffic.pcap"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/sender_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "identical_repository_path": "research/pbx/datasets/sipp-remote-runs/20260929T100512Z-f08-options-targets-1001-1006/asterisk_failed_auth_evidence.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/verification.json",
+    "sha256": "06a2ca29374abd4540cab784bb9c70843fa1eccee8fffb67cb68c7275a9fbabe",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/verification.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/cdr_after.csv",
+    "sha256": "06e66e6ff1a0e5b18c26c1ac0e27c787fa3bb32fc30df1b241f85c7a4cdb1de3",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/cdr_before.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/tcpdump.log",
+    "sha256": "9ea504cc6f3c1f4452a2e403c4b55746098159efb211a11aae4f593824a2cd48",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/tcpdump.log"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/sip_packets.csv",
+    "sha256": "16689bc47edc0ef2641a5aae89ef2f786ffca33d1e44706ec17da449d23cd1fb",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/sip_packets.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/asterisk_log_excerpt.txt",
+    "sha256": "de3b14b02fe3030fc65cc9b0862450238b6cb425b9df8b742551c295f2915d01",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/asterisk_log_excerpt.txt"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/v5_replay/candidate_summary.json",
+    "sha256": "b46d4e82496f6ccd17f6c57e08808e43398deca67a5198d928077bfe0c9665d9",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE001/v5_replay/candidate_timeline.csv",
+    "sha256": "3f0d6a25df480946699f88d510192faa8b6bc619383ffb55e3ccabb09f3b629e",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE001/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/v5_replay/candidate_summary.json",
+    "sha256": "1acdff34396f1093f621d45ef1050c21668ab3fff32b054a95e6d2204a4c0c89",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/v5_replay/candidate_summary.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-enumeration-20261002/RE002/v5_replay/candidate_timeline.csv",
+    "sha256": "a8e870473f89c9538b97acb4bf21be698c8ca8f22387a0c9237e3658abe3a370",
+    "identical_repository_path": "research/pbx/datasets/register-enumeration-20261002/RE002/v5_replay/candidate_timeline.csv"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-diversity-candidate-20261002/results.json",
+    "sha256": "93e146172cd114246bfe862b4a0b198e46948e52c3a31f0fd390061d6d42739a",
+    "identical_repository_path": "research/pbx/datasets/register-diversity-candidate-20261002/results.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/register-diversity-candidate-20261002/protocol.json",
+    "sha256": "2414321031c9ac56a7c5bfb11ba95b110f6a63cef332944a6d2737ba621fee5d",
+    "identical_repository_path": "research/pbx/datasets/register-diversity-candidate-20261002/protocol.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/literature_development_20261002.py",
+    "sha256": "785c47c38c53cda5321b9e323d86eb91435a9403eda86de4411f771f62a163fc",
+    "identical_repository_path": "research/pbx/scripts/literature_development_20261002.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/register_enumeration_20261002.py",
+    "sha256": "49bc866c77229bdb6cd226152d5897dfc55707a5b96df4924126a4bf62cbe2a3",
+    "identical_repository_path": "research/pbx/scripts/register_enumeration_20261002.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/register_diversity_candidate_20261002.py",
+    "sha256": "21d9fc92a91ff37cb83d2ab289e33dbaff48728e1211186ad823250d489e4b79",
+    "identical_repository_path": "research/pbx/scripts/register_diversity_candidate_20261002.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/lab_batch_runner.py",
+    "sha256": "174ab62d5bb15eb853de2da19bf0d6566865cfc9236996fd14af7f9cb576a2eb",
+    "identical_repository_path": "research/pbx/scripts/lab_batch_runner.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/lab_process_batch.py",
+    "sha256": "e1725c4f462d7e5b7a145210f8b56b4a05a50903b38e778f80685cd468d697b3",
+    "identical_repository_path": "research/pbx/scripts/lab_process_batch.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/adapt_checkpoint_events.py",
+    "sha256": "84456185994ef2db90c00eb3df3d0671622d397e65d20af968caca167e7de88a",
+    "identical_repository_path": "research/pbx/scripts/adapt_checkpoint_events.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/causal_review_score.py",
+    "sha256": "5f5010b95e92264533fbb8f8714c9c49e6f0f2f0dacec283aa87fa87bedc2fa9",
+    "identical_repository_path": "research/pbx/scripts/causal_review_score.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/stream_progression_prototype.py",
+    "sha256": "4d202c3ed1bcbd8edfa567b8f2a4383d7d912ca8dc34e7a7db38b5ff1a3f1d68",
+    "identical_repository_path": "research/pbx/scripts/stream_progression_prototype.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/run_remote_sipp_challenges.py",
+    "sha256": "025f365b2e3f25991f352591a2dca804048a3d52a6ae415119fe9a7505b5b182",
+    "identical_repository_path": "research/pbx/scripts/run_remote_sipp_challenges.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/candidate_v5_replay.py",
+    "sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "identical_repository_path": "research/pbx/scripts/candidate_v5_replay.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/scripts/progression_v6_development.py",
+    "sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+    "identical_repository_path": "research/pbx/scripts/progression_v6_development.py"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/datasets/causal-review-ml-20261001/frozen_model.json",
+    "sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+    "identical_repository_path": "research/pbx/datasets/causal-review-ml-20261001/frozen_model.json"
+  },
+  {
+    "archive_member": "pbx-research/datasets/literature_evidence_20261002.zip!pi_evidence/LITERATURE_CHECKPOINT_20261002.md",
+    "sha256": "2b7d4a5f14a29ab3a4186ecdaa8930d7f0de279bd0198734a6ce0ba7a5324452",
+    "identical_repository_path": "research/pbx/LITERATURE_CHECKPOINT_20261002.md"
+  }
+]

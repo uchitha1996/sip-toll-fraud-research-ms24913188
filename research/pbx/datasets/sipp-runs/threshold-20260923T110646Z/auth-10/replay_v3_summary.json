@@ -1,0 +1,29 @@
+{
+  "replayed_utc": "2026-09-23T11:13:19.871869+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-runs/threshold-20260923T110646Z/auth-10",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "AUTH10",
+      "label": "AUTHENTICATION_ATTACK",
+      "method": "REGISTER",
+      "wrong_password_attempts": "10",
+      "initial_challenges": "10",
+      "start_utc": "2026-09-23T11:06:48.491138154Z",
+      "end_utc": "2026-09-23T11:06:51.841202967Z"
+    }
+  ],
+  "packet_rows": 40,
+  "request_events": 20,
+  "predicted_stages": {
+    "NORMAL": 9,
+    "AUTHENTICATION_ATTACK": 11
+  },
+  "first_alert_stage": "AUTHENTICATION_ATTACK",
+  "first_alert_event": 10,
+  "time_to_first_alert_seconds": 1.334717,
+  "new_cdr_rows": 0,
+  "pcap_sha256": "26586ebe8575f506c7ce5ad8d5fb596af4e017a07be69bf4c866c6c9bff4b96f",
+  "packet_csv_sha256": "af50b6d540d94291257c48cf10219791680630fa93d0f4f8ea8a7746927f9598",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

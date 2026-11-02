@@ -1,0 +1,2 @@
+scenario_id,label,source_ip,pbx_ip,extension,destination,expected_wrong_password_dialogs,expected_register_success,expected_answered_call
+B017,authorized,172.16.200.68,172.16.200.81,1002,88002,6,1,3

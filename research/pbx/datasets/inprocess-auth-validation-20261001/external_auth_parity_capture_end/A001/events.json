@@ -1,0 +1,82 @@
+[
+  {
+    "event_id": "v5:5",
+    "time_utc": "2026-10-01T11:15:20.369270Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1551@172.16.200.68"
+  },
+  {
+    "event_id": "v5:10",
+    "time_utc": "2026-10-01T11:15:22.843308Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1562@172.16.200.68"
+  },
+  {
+    "event_id": "v5:15",
+    "time_utc": "2026-10-01T11:15:25.372855Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1573@172.16.200.68"
+  },
+  {
+    "event_id": "v5:20",
+    "time_utc": "2026-10-01T11:15:28.287855Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1584@172.16.200.68"
+  },
+  {
+    "event_id": "v5:25",
+    "time_utc": "2026-10-01T11:15:30.977612Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1595@172.16.200.68"
+  },
+  {
+    "event_id": "v5:30",
+    "time_utc": "2026-10-01T11:15:33.535966Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1606@172.16.200.68"
+  },
+  {
+    "event_id": "v5:35",
+    "time_utc": "2026-10-01T11:15:36.101400Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1617@172.16.200.68"
+  },
+  {
+    "event_id": "v5:40",
+    "time_utc": "2026-10-01T11:15:38.789553Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1628@172.16.200.68"
+  },
+  {
+    "event_id": "v5:45",
+    "time_utc": "2026-10-01T11:15:41.469540Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1639@172.16.200.68"
+  },
+  {
+    "event_id": "v5:50",
+    "time_utc": "2026-10-01T11:15:44.096015Z",
+    "source_ip": "172.16.200.68",
+    "account": "1002",
+    "kind": "AUTH_REJECTION",
+    "call_id": "1-1650@172.16.200.68"
+  }
+]

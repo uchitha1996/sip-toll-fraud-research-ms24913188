@@ -1,0 +1,29 @@
+{
+  "declared_utc": "2026-10-01T11:15:05.779552+00:00",
+  "binary_sha256": "02160968346541cc7ca45b848758a269275567707dd1fb54fb1c31c518f3bb26",
+  "source_sha256": "e05d226d2c5a0e950454c39a40f401c09854729ebb6b24aa20c4fbee16eb3d0b",
+  "scope": "Registration-only lab validation; no calls, no routes, no latency comparison",
+  "cases": [
+    {
+      "id": "A000",
+      "wrong": 0,
+      "success": 1,
+      "auth_alerts": 0,
+      "review_alerts": 0
+    },
+    {
+      "id": "A001",
+      "wrong": 10,
+      "success": 0,
+      "auth_alerts": 1,
+      "review_alerts": 0
+    },
+    {
+      "id": "A002",
+      "wrong": 6,
+      "success": 1,
+      "auth_alerts": 0,
+      "review_alerts": 1
+    }
+  ]
+}

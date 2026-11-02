@@ -1,0 +1,315 @@
+{
+  "manifest_sha256": "13dd84d26470f1f063b9a2734118b490ba318e746fe00e2c521268457a2cf78d",
+  "cases": [
+    {
+      "id": "T001",
+      "mode": "OFF",
+      "block": 1,
+      "checks": {
+        "no_error": true,
+        "requests_14": true,
+        "challenges_rejections_13": true,
+        "one_success": true,
+        "six_auth_logs": true,
+        "no_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "unique_trigger_request": true,
+        "no_native_alert": true
+      },
+      "verified": true,
+      "error": null,
+      "alert_count": 0,
+      "request_to_observed_alert_ms": null,
+      "resource_window_s": 19.234648759993433,
+      "cpu_seconds_sampled": {
+        "pbx": 0.03,
+        "capture": 0.0
+      },
+      "cpu_core_percent": {
+        "pbx": 0.15596853560641907,
+        "capture": 0.0
+      },
+      "peak_rss_kib_by_role": {
+        "pbx": 94624.0,
+        "capture": 6720.0
+      },
+      "pcap_sha256": "5bc320af477ca4df5885e50f445c47cd2cd082013f5d08a875ad6be26cc2f8cd",
+      "capture_stop_utc": "2026-10-02T04:07:17.592196+00:00",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "T002",
+      "mode": "INTERNAL",
+      "block": 1,
+      "checks": {
+        "no_error": true,
+        "requests_14": true,
+        "challenges_rejections_13": true,
+        "one_success": true,
+        "six_auth_logs": true,
+        "no_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "unique_trigger_request": true,
+        "one_review": true,
+        "native_counters": true,
+        "nonnegative_latency": true
+      },
+      "verified": true,
+      "error": null,
+      "alert_count": 1,
+      "request_to_observed_alert_ms": 1.7900466918945312,
+      "resource_window_s": 19.091672524999012,
+      "cpu_seconds_sampled": {
+        "pbx": 0.03,
+        "capture": 0.0
+      },
+      "cpu_core_percent": {
+        "pbx": 0.15713657334483086,
+        "capture": 0.0
+      },
+      "peak_rss_kib_by_role": {
+        "pbx": 94624.0,
+        "capture": 6736.0
+      },
+      "pcap_sha256": "44124109373dcddfdf20d5c4d4ba026c629a5d2715d11b4423cd2940fe8854f5",
+      "capture_stop_utc": "2026-10-02T04:07:39.998056+00:00",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "T003",
+      "mode": "EXTERNAL",
+      "block": 1,
+      "checks": {
+        "no_error": true,
+        "requests_14": true,
+        "challenges_rejections_13": true,
+        "one_success": true,
+        "six_auth_logs": true,
+        "no_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "unique_trigger_request": true,
+        "external_counts": true,
+        "one_review": true,
+        "nonnegative_latency": true
+      },
+      "verified": true,
+      "error": null,
+      "alert_count": 1,
+      "request_to_observed_alert_ms": 274.6450901031494,
+      "resource_window_s": 19.636800667001808,
+      "cpu_seconds_sampled": {
+        "pbx": 0.04,
+        "collector": 0.02,
+        "service": 0.0,
+        "capture": 0.0,
+        "decoder": 0.0
+      },
+      "cpu_core_percent": {
+        "pbx": 0.20369917013628927,
+        "collector": 0.10184958506814464,
+        "service": 0.0,
+        "capture": 0.0,
+        "decoder": 0.0
+      },
+      "peak_rss_kib_by_role": {
+        "pbx": 94624.0,
+        "collector": 17808.0,
+        "service": 17360.0,
+        "capture": 13456.0,
+        "decoder": 155088.0
+      },
+      "pcap_sha256": "0defd21fe96fb508d1fc50981141a1a9ea06ee311299db752c105c9ad62d2887",
+      "capture_stop_utc": "2026-10-02T04:08:03.283207+00:00",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "T004",
+      "mode": "EXTERNAL",
+      "block": 2,
+      "checks": {
+        "no_error": true,
+        "requests_14": true,
+        "challenges_rejections_13": true,
+        "one_success": true,
+        "six_auth_logs": true,
+        "no_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "unique_trigger_request": true,
+        "external_counts": true,
+        "one_review": true,
+        "nonnegative_latency": true
+      },
+      "verified": true,
+      "error": null,
+      "alert_count": 1,
+      "request_to_observed_alert_ms": 574.066162109375,
+      "resource_window_s": 19.362943086001906,
+      "cpu_seconds_sampled": {
+        "pbx": 0.03,
+        "collector": 0.01,
+        "service": 0.0,
+        "capture": 0.0,
+        "decoder": 0.0
+      },
+      "cpu_core_percent": {
+        "pbx": 0.15493512461795111,
+        "collector": 0.05164504153931704,
+        "service": 0.0,
+        "capture": 0.0,
+        "decoder": 0.0
+      },
+      "peak_rss_kib_by_role": {
+        "pbx": 94624.0,
+        "collector": 17632.0,
+        "service": 17904.0,
+        "capture": 13456.0,
+        "decoder": 155104.0
+      },
+      "pcap_sha256": "ea178b6b76ea7622c806764a8302566d9ff22f1903a0904a58e907c11759ae1d",
+      "capture_stop_utc": "2026-10-02T04:08:26.463707+00:00",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "T005",
+      "mode": "INTERNAL",
+      "block": 2,
+      "checks": {
+        "no_error": true,
+        "requests_14": true,
+        "challenges_rejections_13": true,
+        "one_success": true,
+        "six_auth_logs": true,
+        "no_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "unique_trigger_request": true,
+        "one_review": true,
+        "native_counters": true,
+        "nonnegative_latency": true
+      },
+      "verified": true,
+      "error": null,
+      "alert_count": 1,
+      "request_to_observed_alert_ms": 1.8076896667480469,
+      "resource_window_s": 19.29122729300434,
+      "cpu_seconds_sampled": {
+        "pbx": 0.03,
+        "capture": 0.0
+      },
+      "cpu_core_percent": {
+        "pbx": 0.15551110120857384,
+        "capture": 0.0
+      },
+      "peak_rss_kib_by_role": {
+        "pbx": 94624.0,
+        "capture": 6736.0
+      },
+      "pcap_sha256": "0b51c036c8bb6e6b890c1b52f5b9f4ab488187c598d12bf03a28abded72d4396",
+      "capture_stop_utc": "2026-10-02T04:08:49.237744+00:00",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "T006",
+      "mode": "OFF",
+      "block": 2,
+      "checks": {
+        "no_error": true,
+        "requests_14": true,
+        "challenges_rejections_13": true,
+        "one_success": true,
+        "six_auth_logs": true,
+        "no_cdr": true,
+        "no_invites": true,
+        "zero_calls": true,
+        "unique_trigger_request": true,
+        "no_native_alert": true
+      },
+      "verified": true,
+      "error": null,
+      "alert_count": 0,
+      "request_to_observed_alert_ms": null,
+      "resource_window_s": 19.272182142005477,
+      "cpu_seconds_sampled": {
+        "pbx": 0.03,
+        "capture": 0.0
+      },
+      "cpu_core_percent": {
+        "pbx": 0.15566478034997536,
+        "capture": 0.0
+      },
+      "peak_rss_kib_by_role": {
+        "pbx": 94624.0,
+        "capture": 6736.0
+      },
+      "pcap_sha256": "4db58b509a20a4c1b952f332c2042e9cd52b5cf7066bc79b723f0755e0538dad",
+      "capture_stop_utc": "2026-10-02T04:09:11.916402+00:00",
+      "sipp_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "all_verified": true,
+  "latency_ms_by_mode": {
+    "INTERNAL": [
+      1.7900466918945312,
+      1.8076896667480469
+    ],
+    "EXTERNAL": [
+      274.6450901031494,
+      574.066162109375
+    ]
+  },
+  "limitations": "Two blocks, one account/device/PBX. Measured alert availability through different acquisition interfaces, not identical internal algorithms. Module-only memory not isolated. Sampled CPU can miss tails; summed RSS double-counts shared pages. No full-stage equivalence, stress or population claim.",
+  "internal_endpoint": "Observer timestamps first matching Asterisk module log line; 2ms polling, logger delay included; not internal decision timestamp",
+  "external_endpoint": "Collector timestamps service alert reply; capture/decoder/IPC delay included; no ML"
+}

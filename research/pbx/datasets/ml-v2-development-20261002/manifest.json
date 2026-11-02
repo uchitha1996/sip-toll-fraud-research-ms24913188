@@ -1,0 +1,84 @@
+{
+  "purpose": "Development only; no fresh heldout or performance claim",
+  "limitations": "One source/account/session; scripted registration recovery, not physical network reconnect; no destination context yet",
+  "scenarios": [
+    {
+      "id": "DV2001",
+      "split": "development",
+      "account": "1002",
+      "wrong": 0,
+      "interval": 1,
+      "success": 1,
+      "call": 0,
+      "post_register_pause": 1,
+      "intent": "benign_configuration_control",
+      "profile": "valid_registration_control",
+      "group": "registration_recovery_session_20261002"
+    },
+    {
+      "id": "DV2002",
+      "split": "development",
+      "account": "1002",
+      "wrong": 2,
+      "interval": 2,
+      "success": 1,
+      "call": 0,
+      "post_register_pause": 1,
+      "intent": "benign_configuration_control",
+      "profile": "two_mistakes_recovery",
+      "group": "registration_recovery_session_20261002"
+    },
+    {
+      "id": "DV2003",
+      "split": "development",
+      "account": "1002",
+      "wrong": 4,
+      "interval": 2,
+      "success": 1,
+      "call": 0,
+      "post_register_pause": 1,
+      "intent": "benign_configuration_control",
+      "profile": "below_gate_recovery",
+      "group": "registration_recovery_session_20261002"
+    },
+    {
+      "id": "DV2004",
+      "split": "development",
+      "account": "1002",
+      "wrong": 5,
+      "interval": 2,
+      "success": 1,
+      "call": 0,
+      "post_register_pause": 1,
+      "intent": "benign_configuration_control",
+      "profile": "at_gate_recovery",
+      "group": "registration_recovery_session_20261002"
+    },
+    {
+      "id": "DV2005",
+      "split": "development",
+      "account": "1002",
+      "wrong": 8,
+      "interval": 3,
+      "success": 1,
+      "call": 0,
+      "post_register_pause": 1,
+      "intent": "benign_configuration_control",
+      "profile": "extended_recovery",
+      "group": "registration_recovery_session_20261002"
+    },
+    {
+      "id": "DV2006",
+      "split": "development",
+      "account": "1002",
+      "wrong": 8,
+      "interval": 3,
+      "success": 0,
+      "call": 0,
+      "post_register_pause": 1,
+      "intent": "benign_configuration_control",
+      "profile": "stale_password_emulation",
+      "group": "registration_recovery_session_20261002"
+    }
+  ]
+}

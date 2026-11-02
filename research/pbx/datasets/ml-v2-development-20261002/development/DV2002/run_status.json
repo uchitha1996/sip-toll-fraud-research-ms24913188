@@ -1,0 +1,13 @@
+{
+  "case": "DV2002",
+  "start_utc": "2026-10-02T00:00:45.957329Z",
+  "end_utc": "2026-10-02T00:00:59.684221Z",
+  "wrong_dialog_starts_utc": [
+    "2026-10-02T00:00:49.011315Z",
+    "2026-10-02T00:00:51.011319Z"
+  ],
+  "capture_sha256": "7e66438d55e9bfb6ef1c5807c521eac053d5aa6a245c85a564ae3de888b972f7",
+  "error": null,
+  "cleanup_errors": [],
+  "status": "captured"
+}

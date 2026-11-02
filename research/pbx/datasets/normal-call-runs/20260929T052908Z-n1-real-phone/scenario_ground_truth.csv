@@ -1,0 +1,3 @@
+scenario_id,label,caller,destination,answered_cdr_count,client_call_count,source,role
+N1,NORMAL_ANSWERED_INTERNAL_CALL,1001,1002,1,1,real_softphone,development_control
+N1,NORMAL_ANSWERED_INTERNAL_CALL,1002,1001,2,2,real_softphone,development_control

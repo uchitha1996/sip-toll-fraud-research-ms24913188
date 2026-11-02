@@ -1,0 +1,13 @@
+case,truth,expected_stage,capture_duration_s,request_count,max_requests_10s,max_requests_60s,options_requests,unique_options_targets,register_requests,invite_requests,unique_invite_targets,confirmed_rejections,max_rejections_10s,max_rejections_60s,rejection_span_s,register_200,failure_then_success,seconds_first_rejection_to_success,success_then_invite,seconds_success_to_invite,cdr_new_rows,cdr_answered,cdr_unique_destinations,cdr_total_billsec,cdr_mean_billsec
+F01,BENIGN,NONE,85.389778,22,8,20,0,0,6,6,1,0,0,0,0.0,3,0,,0,,2,2,1,22,11.0
+F02,BENIGN,NONE,209.622821,35,9,30,0,0,7,9,1,0,0,0,0.0,4,0,,0,,3,3,1,11,3.667
+F03,BENIGN,NONE,1.596398,9,9,9,9,1,0,0,0,0,0,0,0.0,0,0,,0,,0,0,0,0,0.0
+F04,BENIGN,NONE,7.738634,10,10,10,0,0,2,3,1,0,0,0,0.0,1,0,,1,1.674061,1,1,1,6,6.0
+F05,BENIGN,NONE,24.06409,22,12,22,0,0,14,3,1,6,5,6,12.288135,1,1,15.292567,1,1.724312,1,1,1,6,6.0
+F06,BENIGN,NONE,125.263474,68,14,49,0,0,9,23,2,0,0,0,0.0,5,0,,1,14.413854,7,6,2,13,2.167
+F07,ATTACK,RECONNAISSANCE,4.003671,5,5,5,5,5,0,0,0,0,0,0,0.0,0,0,,0,,0,0,0,0,0.0
+F08,ATTACK,RECONNAISSANCE,6.603199,6,6,6,6,6,0,0,0,0,0,0,0.0,0,0,,0,,0,0,0,0,0.0
+F09,ATTACK,AUTHENTICATION_ATTACK,9.006044,20,20,20,0,0,20,0,0,10,10,10,8.997559,0,0,,0,,0,0,0,0,0.0
+F10,ATTACK,AUTHENTICATION_ATTACK,28.853224,20,8,20,0,0,20,0,0,10,4,10,28.779012,0,0,,0,,0,0,0,0,0.0
+F11,ATTACK,ANSWERED_EMULATED_OUTBOUND,21.371312,22,14,22,0,0,14,3,1,6,6,6,9.725873,1,1,12.61319,1,1.702789,1,1,1,6,6.0
+F12,ATTACK,ANSWERED_EMULATED_OUTBOUND,40.500886,30,12,30,0,0,22,3,1,10,4,10,28.764663,1,1,31.740737,1,1.705161,1,1,1,6,6.0

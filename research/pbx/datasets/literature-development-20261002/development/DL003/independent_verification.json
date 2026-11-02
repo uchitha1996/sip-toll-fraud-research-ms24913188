@@ -1,0 +1,13 @@
+{
+  "scenario_id": "DL003",
+  "verified": true,
+  "packets": 40,
+  "failed_auth_lines": 10,
+  "cdr_delta": 0,
+  "cdr_billsec": 0,
+  "v5_first_alert": "AUTHENTICATION_ATTACK",
+  "v6_stages": [
+    "AUTHENTICATION_ATTACK"
+  ],
+  "pcap_sha256": "e4e672d09201509bf4aee0fd761721204508f030fe10212fc226d0d163aaa1cb"
+}

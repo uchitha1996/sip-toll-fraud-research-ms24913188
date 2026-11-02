@@ -1,0 +1,2 @@
+scenario_id,label,method,attempts,unique_targets,start_utc,end_utc,source_ip,pbx_ip
+B1,SCRIPTED_BENIGN_OPTIONS_HEALTH_CHECK,OPTIONS,8,1,2026-09-29T04:53:05.109152Z,2026-09-29T04:53:11.670495Z,172.16.200.68,172.16.200.81

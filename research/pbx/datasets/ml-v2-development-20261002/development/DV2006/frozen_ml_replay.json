@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "event_id": "v5:5",
+      "time_utc": "2026-10-02T00:02:19.747734Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3215@172.16.200.68"
+    },
+    {
+      "event_id": "v5:10",
+      "time_utc": "2026-10-02T00:02:22.716258Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3226@172.16.200.68"
+    },
+    {
+      "event_id": "v5:15",
+      "time_utc": "2026-10-02T00:02:25.776340Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3237@172.16.200.68"
+    },
+    {
+      "event_id": "v5:20",
+      "time_utc": "2026-10-02T00:02:28.747366Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3248@172.16.200.68"
+    },
+    {
+      "event_id": "v5:25",
+      "time_utc": "2026-10-02T00:02:31.717115Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3259@172.16.200.68"
+    },
+    {
+      "event_id": "v5:30",
+      "time_utc": "2026-10-02T00:02:34.753689Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3270@172.16.200.68"
+    },
+    {
+      "event_id": "v5:35",
+      "time_utc": "2026-10-02T00:02:37.767337Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3281@172.16.200.68"
+    },
+    {
+      "event_id": "v5:40",
+      "time_utc": "2026-10-02T00:02:40.692989Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3293@172.16.200.68"
+    }
+  ],
+  "alerts": [],
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+}

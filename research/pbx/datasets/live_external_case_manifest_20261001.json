@@ -1,0 +1,9 @@
+{
+  "protocol": "single isolated live external-detector validation case",
+  "created_utc": "2026-10-01T04:59:48Z",
+  "planned_scope": "six confirmed wrong-password REGISTER dialogs, one valid REGISTER, three sequential answered SIPp UAS calls; exact temporary 88002@internal route only",
+  "measurement": "separate live collector on PBX Pi, bound loopback service, packet-event-to-alert timestamps; no provider or blocking",
+  "scenarios": [
+    {"id":"B005","split":"development","intent":"authorized","account":"1002","wrong":6,"interval":1.3,"success":1,"call":3,"post_register_pause":1.2,"destination_group":"lab-uas","trunk":"lab-trunk"}
+  ]
+}

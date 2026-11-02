@@ -1,0 +1,39 @@
+Resolving remote host '127.0.0.1'... Done.
+2026-09-23	16:32:08.089658	1790161328.089658: Aborted call with Call-ID '1-49475@127.0.0.1'
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Call rate (length)   Port   Total-time  Total-calls  Remote-host
+  10.0(0 ms)/1.000s   5098      10.00 s            1  127.0.0.1:5060(UDP)
+
+  Call limit 1 hit, 0.0 s period          0 ms scheduler resolution            
+  0 calls (limit 30)                      Peak was 1 calls, after 0 s
+  0 Running, 3 Paused, 39 Woken up
+  0 dead call msg (discarded)             0 out-of-call msg (discarded)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+0 :    REGISTER ---------->         1         0         0                            
+1 :         401 <----------         1         0         0         0                  
+2 :    REGISTER ---------->         1         4         0                            
+3 :         401 <----------         0         0         0         0                  
+------------------------------ Test Terminated --------------------------------
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2026-09-23	16:31:58.089179	1790161318.089179         
+  Last Reset Time        | 2026-09-23	16:32:08.089867	1790161328.089867         
+  Current Time           | 2026-09-23	16:32:08.089919	1790161328.089919         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:10:000000           | 00:00:10:000000          
+  Call Rate              |    0.000 cps              |    0.100 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming calls created |        0                  |        0                 
+  Outgoing calls created |        0                  |        1                 
+  Total Calls created    |                           |        1                 
+  Current Calls          |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |        0                 
+  Failed call            |        0                  |        1                 
+-------------------------+---------------------------+--------------------------
+  Call Length            | 00:00:09:898000           | 00:00:09:898000          
+------------------------------ Test Terminated --------------------------------

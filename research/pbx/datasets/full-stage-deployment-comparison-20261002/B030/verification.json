@@ -1,0 +1,37 @@
+{
+  "id": "B030",
+  "mode": "INTERNAL",
+  "verified": true,
+  "event_counts": {
+    "OPTIONS_REQUEST": 5,
+    "AUTH_REJECTION": 0,
+    "REGISTER_SUCCESS": 1,
+    "OUTBOUND_INVITE": 3
+  },
+  "expected_stages": [
+    "CALL_BURST"
+  ],
+  "timings": [
+    {
+      "stage": "CALL_BURST",
+      "call_id": "1-7292@172.16.200.68",
+      "packet_to_decision_ms": 0.08177757263183594,
+      "packet_to_observation_ms": 188.79079818725586
+    }
+  ],
+  "call_setup": [
+    {
+      "call_id": "1-7270@172.16.200.68",
+      "invite_to_200_ms": 15.765190124511719
+    },
+    {
+      "call_id": "1-7281@172.16.200.68",
+      "invite_to_200_ms": 14.123916625976562
+    },
+    {
+      "call_id": "1-7292@172.16.200.68",
+      "invite_to_200_ms": 30.96604347229004
+    }
+  ],
+  "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+}

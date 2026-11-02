@@ -1,0 +1,17 @@
+{
+  "id": "P001",
+  "profile": "known_single_account_repeated",
+  "policy": "allowed_account",
+  "pcap_sha256": "5caeba8781128968d567f9f21d6ce20dac76a3b4e029b342c146a6958ab2ae48",
+  "verified": true,
+  "unique_targets": 1,
+  "total_requests": 6,
+  "responses": [
+    "401"
+  ],
+  "candidate_diversity_alert_count": 0,
+  "candidate_diversity_alerts": [],
+  "requests_to_unconfigured_accounts": 0,
+  "answered_cdr_delta": 0,
+  "interpretation": "Policy status based on predeclared configured-account allowlist; NOT independently proven malicious intent"
+}

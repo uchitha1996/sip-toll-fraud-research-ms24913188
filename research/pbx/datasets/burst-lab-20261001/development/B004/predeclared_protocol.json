@@ -1,0 +1,22 @@
+{
+  "id": "B004",
+  "split": "development",
+  "intent": "simulated_unauthorized",
+  "account": "1002",
+  "wrong": 6,
+  "interval": 1.3,
+  "success": 1,
+  "call": 3,
+  "post_register_pause": 1.2,
+  "destination_group": "lab-uas",
+  "trunk": "lab-trunk",
+  "declared_utc": "2026-10-01T04:45:39.187153Z",
+  "destination": "88002",
+  "manifest_sha256": "836b25b9a7173724208ebe5e658a1b81f7226623d2a518bb86db9227a782a488",
+  "runner_sha256": "3d4c2b3f7938051c74d9fecddb43a8a1ffbe55558ec40519a98b0326696c8cbe",
+  "prep_sha256": "a02593b2f09b7ea657b178ea551b059f6c9381880f91b8e42d3b251dca98d28d",
+  "wrong_template_sha256": "610d5dce70125a4c3ed5b2acbe19bc17bd840ce2f0f204c1c872cf8889432de7",
+  "v5_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "invalid_if": "Any missing or mismatched SIP, CDR, log, or cleanup evidence"
+}

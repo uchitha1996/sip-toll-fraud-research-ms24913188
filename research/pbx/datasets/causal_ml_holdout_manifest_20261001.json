@@ -1,0 +1,18 @@
+{
+  "protocol": "new held-out stage-time ML priority evaluation after freeze; ten isolated three-call scenarios",
+  "created_utc": "2026-10-01T05:11:46Z",
+  "frozen_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "policy": "Priority only: probability <0.4 LOWER, 0.4-0.6 REVIEW, >=0.6 HIGHER. Rule alerts remain visible. Matched profiles have opposite experimenter-assigned roles, not stolen credentials.",
+  "scenarios": [
+    {"id":"B006","split":"heldout","intent":"authorized","account":"1001","wrong":5,"interval":1.6,"success":1,"call":3,"post_register_pause":0.9,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B007","split":"heldout","intent":"simulated_unauthorized","account":"1002","wrong":6,"interval":2.2,"success":1,"call":3,"post_register_pause":1.1,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B008","split":"heldout","intent":"authorized","account":"1001","wrong":7,"interval":2.8,"success":1,"call":3,"post_register_pause":0.8,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B009","split":"heldout","intent":"simulated_unauthorized","account":"1002","wrong":8,"interval":1.5,"success":1,"call":3,"post_register_pause":1.0,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B010","split":"heldout","intent":"authorized","account":"1001","wrong":10,"interval":3.0,"success":1,"call":3,"post_register_pause":1.2,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B011","split":"heldout","intent":"simulated_unauthorized","account":"1001","wrong":5,"interval":1.6,"success":1,"call":3,"post_register_pause":0.9,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B012","split":"heldout","intent":"authorized","account":"1002","wrong":6,"interval":2.2,"success":1,"call":3,"post_register_pause":1.1,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B013","split":"heldout","intent":"simulated_unauthorized","account":"1001","wrong":7,"interval":2.8,"success":1,"call":3,"post_register_pause":0.8,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B014","split":"heldout","intent":"authorized","account":"1002","wrong":8,"interval":1.5,"success":1,"call":3,"post_register_pause":1.0,"destination_group":"lab-uas","trunk":"lab-trunk"},
+    {"id":"B015","split":"heldout","intent":"simulated_unauthorized","account":"1001","wrong":10,"interval":3.0,"success":1,"call":3,"post_register_pause":1.2,"destination_group":"lab-uas","trunk":"lab-trunk"}
+  ]
+}

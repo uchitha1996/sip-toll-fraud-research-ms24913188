@@ -1,0 +1,52 @@
+{
+  "frozen_utc": "2026-10-01T05:09:38.498902+00:00",
+  "endpoint": "first REGISTER_SUCCESS after >=5 confirmed failures in 120s",
+  "feature_names": [
+    "failures_120s",
+    "peak_failures_10s",
+    "failure_span_s",
+    "first_failure_to_success_s"
+  ],
+  "mean": [
+    6.5,
+    4.7,
+    12.960280000000001,
+    16.051260000000003
+  ],
+  "scale": [
+    1.5652475842498528,
+    0.9,
+    5.638711408078977,
+    5.650308574263888
+  ],
+  "coef": [
+    0.17775209390599728,
+    0.12366751093399207,
+    0.1278862628493443,
+    0.15568323695962824
+  ],
+  "intercept": 0.0038816133580195427,
+  "priority_thresholds": [
+    0.4,
+    0.6
+  ],
+  "priority_policy": "<0.4 lower; 0.4-0.6 review; >=0.6 higher; never suppress rule evidence",
+  "training_ids": [
+    "D007",
+    "D008",
+    "D009",
+    "D010",
+    "D011",
+    "D019",
+    "D020",
+    "D021",
+    "D022",
+    "D023"
+  ],
+  "manifest_sha256": "3377f6ce41df2a224db214d7d56498b51355592312210c80f8cb58a0dedcc915",
+  "development_features_sha256": "45e498a76d9316772528b6bce58b742954cbb96261e56008c2d7ceeb496e8db5",
+  "audit_summary_sha256": "b0fe8589fd2feb2a1e26f21964a6f0325fa83371107d30a3bb827e3a2aa6cfc7",
+  "trainer_sha256": "56442e97c037353830f93397a05ce33fec541c1edd7259235552d50cf56d6e79",
+  "sklearn_version": "1.8.0",
+  "limitations": "ten labelled development episodes; paired intent ambiguity; no holdout performance yet"
+}

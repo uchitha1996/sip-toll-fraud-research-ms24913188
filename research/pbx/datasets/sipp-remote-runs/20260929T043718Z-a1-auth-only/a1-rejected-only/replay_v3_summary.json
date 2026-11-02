@@ -1,0 +1,31 @@
+{
+  "replayed_utc": "2026-09-29T04:38:10.947683+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260929T043718Z-a1-auth-only/a1-rejected-only",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "a1-rejected-only",
+      "label": "AUTHENTICATION_ATTACK_NO_CALL",
+      "method": "REGISTER",
+      "attempts": "10",
+      "unique_targets": "1",
+      "start_utc": "2026-09-29T04:37:49.580208Z",
+      "end_utc": "2026-09-29T04:38:10.687462Z",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81"
+    }
+  ],
+  "packet_rows": 40,
+  "request_events": 20,
+  "predicted_stages": {
+    "NORMAL": 9,
+    "AUTHENTICATION_ATTACK": 11
+  },
+  "first_alert_stage": "AUTHENTICATION_ATTACK",
+  "first_alert_event": 10,
+  "time_to_first_alert_seconds": 7.608834,
+  "new_cdr_rows": 0,
+  "pcap_sha256": "80a6766386c658c1f44950d5d8e643744ed5688f641367f72032e31825f2198c",
+  "packet_csv_sha256": "4fc69308187cf406281e13c66edbc4914434adecaef7231e1be96fc352a0b7f4",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

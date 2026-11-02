@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-10-12T03:51:16.673344+00:00",
+  "sha256": {
+    "common_evaluator.py": "a05f9b8e1e541a09b559207d79544cc58c89e63af54db23188fd45ef542a2888",
+    "run_lab_case.py": "5fe07c4fe6925d4913ddb8e8856fea1ac20d972e9a20478d4a03ca433ab937ec",
+    "run_batch.py": "7372c5027643edb390564b10c8486143f3ebc65d6da4efa4ec90340dc39b86f4",
+    "run_registration_controls.py": "033c1b43533e054334646c4a95611d4e542a11b004f225e3ca7e0eeac86d3f3d",
+    "register_sender.py": "1eaa37550ac0e4a3c5ef952bc050aaf6994de621c8c589ce820bc7a874ed2743",
+    "prepare_protocol.py": "799446a1c51bbf4c633fae234d4af207bca15d7821aa279e0ca23029e4447a4e",
+    "test_common_evaluator.py": "80df4b8944f4e96168225cb53a6194692726bb305eb6fbf09155b8f9eb3410df",
+    "policy.json": "132b451889a61478ac0618ad48d4e6ce2755544b613475ec1217719c6457ed3c",
+    "prospective_manifest.json": "bfd3280811832398c729e3f1ff24aa3f8e0df04df7fd05bb158f31f55d392c48"
+  },
+  "original_v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "original_v5_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004"
+}

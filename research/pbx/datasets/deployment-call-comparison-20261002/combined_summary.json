@@ -1,0 +1,428 @@
+{
+  "cases": [
+    {
+      "id": "B021",
+      "mode": "OFF",
+      "block": 1,
+      "setup": [
+        {
+          "call_id": "1-5730@172.16.200.68",
+          "first_invite_epoch": 1790918026.204951,
+          "first_invite_200_epoch": 1790918026.22483,
+          "setup_ms": 19.878864288330078
+        },
+        {
+          "call_id": "1-5741@172.16.200.68",
+          "first_invite_epoch": 1790918034.325696,
+          "first_invite_200_epoch": 1790918034.371668,
+          "setup_ms": 45.97210884094238
+        },
+        {
+          "call_id": "1-5753@172.16.200.68",
+          "first_invite_epoch": 1790918042.097682,
+          "first_invite_200_epoch": 1790918042.15342,
+          "setup_ms": 55.737972259521484
+        }
+      ],
+      "setup_ms_median": 45.97210884094238,
+      "checks": {
+        "independent_evidence": true,
+        "capture_zero_drops": true,
+        "three_setup_values": true,
+        "module_unloaded": true,
+        "no_native_alert": true
+      },
+      "verified": true,
+      "pcap_sha256": "fce5ddfbd1df35c8b69ec2cfc70eaa76d8d5c9b0d2901e59a9ebc199ba7a4000",
+      "resource_onset_epoch": 1790918009.021684,
+      "resource_end_epoch": 1790918048.673688,
+      "resources": {
+        "sample_count": 150,
+        "sampled_window_s": 39.52332125400426,
+        "cpu_seconds_sampled": {
+          "pbx": 0.08,
+          "capture": 0.0
+        },
+        "cpu_core_percent": {
+          "pbx": 0.2024121391162057,
+          "capture": 0.0
+        },
+        "peak_rss_kib_by_role": {
+          "pbx": 97008.0,
+          "capture": 6736.0
+        }
+      },
+      "case_root": "/home/astrix/sip-fraud-research/datasets/deployment-call-comparison-20261002",
+      "source_manifest_sha256": "8455a384721e6e6ec8283b5104c895774f8f5a3b2af486ce932364d118fd72ef"
+    },
+    {
+      "id": "B022",
+      "mode": "INTERNAL",
+      "block": 1,
+      "setup": [
+        {
+          "call_id": "1-5919@172.16.200.68",
+          "first_invite_epoch": 1790918080.376048,
+          "first_invite_200_epoch": 1790918080.392148,
+          "setup_ms": 16.099929809570312
+        },
+        {
+          "call_id": "1-5930@172.16.200.68",
+          "first_invite_epoch": 1790918088.185062,
+          "first_invite_200_epoch": 1790918088.269254,
+          "setup_ms": 84.19203758239746
+        },
+        {
+          "call_id": "1-5941@172.16.200.68",
+          "first_invite_epoch": 1790918095.996452,
+          "first_invite_200_epoch": 1790918096.009489,
+          "setup_ms": 13.036966323852539
+        }
+      ],
+      "setup_ms_median": 16.099929809570312,
+      "checks": {
+        "independent_evidence": true,
+        "capture_zero_drops": true,
+        "three_setup_values": true,
+        "module_unloaded": true,
+        "one_native_review": true,
+        "native_counters": true
+      },
+      "verified": true,
+      "pcap_sha256": "b0b3b5ea1e610647671819418cc6ead2b0b56e8fe0913551b49e86fb510281f3",
+      "resource_onset_epoch": 1790918063.284911,
+      "resource_end_epoch": 1790918102.543698,
+      "resources": {
+        "sample_count": 148,
+        "sampled_window_s": 38.99696766398847,
+        "cpu_seconds_sampled": {
+          "pbx": 0.09,
+          "capture": 0.0
+        },
+        "cpu_core_percent": {
+          "pbx": 0.2307871749810691,
+          "capture": 0.0
+        },
+        "peak_rss_kib_by_role": {
+          "pbx": 97008.0,
+          "capture": 6736.0
+        }
+      },
+      "case_root": "/home/astrix/sip-fraud-research/datasets/deployment-call-comparison-20261002",
+      "source_manifest_sha256": "8455a384721e6e6ec8283b5104c895774f8f5a3b2af486ce932364d118fd72ef"
+    },
+    {
+      "id": "B023",
+      "mode": "EXTERNAL",
+      "block": 1,
+      "setup": [
+        {
+          "call_id": "1-6106@172.16.200.68",
+          "first_invite_epoch": 1790918134.435998,
+          "first_invite_200_epoch": 1790918134.447085,
+          "setup_ms": 11.08694076538086
+        },
+        {
+          "call_id": "1-6117@172.16.200.68",
+          "first_invite_epoch": 1790918142.175677,
+          "first_invite_200_epoch": 1790918142.201681,
+          "setup_ms": 26.00383758544922
+        },
+        {
+          "call_id": "1-6128@172.16.200.68",
+          "first_invite_epoch": 1790918150.633923,
+          "first_invite_200_epoch": 1790918150.685821,
+          "setup_ms": 51.89800262451172
+        }
+      ],
+      "setup_ms_median": 26.00383758544922,
+      "checks": {
+        "independent_evidence": true,
+        "capture_zero_drops": true,
+        "three_setup_values": true,
+        "module_unloaded": true,
+        "no_native_alert": true,
+        "external_auth_only": true,
+        "external_capture_zero_drops": true
+      },
+      "verified": true,
+      "pcap_sha256": "77b5763fd7f4fae7682c74d601952273dfbb78c58a8dc425685d0420ff4b43db",
+      "resource_onset_epoch": 1790918117.135297,
+      "resource_end_epoch": 1790918157.227683,
+      "resources": {
+        "sample_count": 151,
+        "sampled_window_s": 39.888939248005045,
+        "cpu_seconds_sampled": {
+          "pbx": 0.09,
+          "collector": 0.02,
+          "service": 0.01,
+          "capture": 0.0,
+          "decoder": 0.01
+        },
+        "cpu_core_percent": {
+          "pbx": 0.22562645609710252,
+          "collector": 0.05013921246602278,
+          "service": 0.02506960623301139,
+          "capture": 0.0,
+          "decoder": 0.02506960623301139
+        },
+        "peak_rss_kib_by_role": {
+          "pbx": 97008.0,
+          "collector": 17824.0,
+          "service": 17888.0,
+          "capture": 13456.0,
+          "decoder": 156640.0
+        }
+      },
+      "case_root": "/home/astrix/sip-fraud-research/datasets/deployment-call-comparison-20261002",
+      "source_manifest_sha256": "8455a384721e6e6ec8283b5104c895774f8f5a3b2af486ce932364d118fd72ef"
+    },
+    {
+      "id": "B027",
+      "mode": "EXTERNAL",
+      "block": 2,
+      "setup": [
+        {
+          "call_id": "1-6484@172.16.200.68",
+          "first_invite_epoch": 1790918369.15407,
+          "first_invite_200_epoch": 1790918369.232421,
+          "setup_ms": 78.35102081298828
+        },
+        {
+          "call_id": "1-6495@172.16.200.68",
+          "first_invite_epoch": 1790918376.94512,
+          "first_invite_200_epoch": 1790918376.985764,
+          "setup_ms": 40.643930435180664
+        },
+        {
+          "call_id": "1-6507@172.16.200.68",
+          "first_invite_epoch": 1790918384.81706,
+          "first_invite_200_epoch": 1790918384.941087,
+          "setup_ms": 124.02701377868652
+        }
+      ],
+      "setup_ms_median": 78.35102081298828,
+      "checks": {
+        "independent_evidence": true,
+        "capture_zero_drops": true,
+        "three_setup_values": true,
+        "module_unloaded": true,
+        "no_native_alert": true,
+        "external_auth_only": true,
+        "external_capture_zero_drops": true
+      },
+      "verified": true,
+      "pcap_sha256": "5c3d1686ed62ca3d856f53dc4d416dad4b3da370f45a0ebe58e11ad442f2c12c",
+      "resource_onset_epoch": 1790918352.033868,
+      "resource_end_epoch": 1790918391.466778,
+      "resources": {
+        "sample_count": 149,
+        "sampled_window_s": 39.35236455600534,
+        "cpu_seconds_sampled": {
+          "pbx": 0.09,
+          "collector": 0.03,
+          "service": 0.0,
+          "capture": 0.0,
+          "decoder": 0.02
+        },
+        "cpu_core_percent": {
+          "pbx": 0.22870290264747412,
+          "collector": 0.07623430088249136,
+          "service": 0.0,
+          "capture": 0.0,
+          "decoder": 0.05082286725499425
+        },
+        "peak_rss_kib_by_role": {
+          "pbx": 98544.0,
+          "collector": 17632.0,
+          "service": 18096.0,
+          "capture": 13472.0,
+          "decoder": 155616.0
+        }
+      },
+      "case_root": "/home/astrix/sip-fraud-research/datasets/deployment-call-comparison-replacement-20261002",
+      "source_manifest_sha256": "9276878925edbcf099184e9543e07718a12b67b92cbe8ad86d40e62f227c9e53"
+    },
+    {
+      "id": "B028",
+      "mode": "INTERNAL",
+      "block": 2,
+      "setup": [
+        {
+          "call_id": "1-6672@172.16.200.68",
+          "first_invite_epoch": 1790918423.755419,
+          "first_invite_200_epoch": 1790918423.791033,
+          "setup_ms": 35.614013671875
+        },
+        {
+          "call_id": "1-6683@172.16.200.68",
+          "first_invite_epoch": 1790918431.527294,
+          "first_invite_200_epoch": 1790918431.562865,
+          "setup_ms": 35.57109832763672
+        },
+        {
+          "call_id": "1-6694@172.16.200.68",
+          "first_invite_epoch": 1790918439.487059,
+          "first_invite_200_epoch": 1790918439.501708,
+          "setup_ms": 14.648914337158203
+        }
+      ],
+      "setup_ms_median": 35.57109832763672,
+      "checks": {
+        "independent_evidence": true,
+        "capture_zero_drops": true,
+        "three_setup_values": true,
+        "module_unloaded": true,
+        "one_native_review": true,
+        "native_counters": true
+      },
+      "verified": true,
+      "pcap_sha256": "feeaa5fecae98176d2a43b7b3a765bc482d523d8ea547dda2c177bb3d7d61005",
+      "resource_onset_epoch": 1790918406.425704,
+      "resource_end_epoch": 1790918446.040176,
+      "resources": {
+        "sample_count": 149,
+        "sampled_window_s": 39.22620683499554,
+        "cpu_seconds_sampled": {
+          "pbx": 0.08,
+          "capture": 0.0
+        },
+        "cpu_core_percent": {
+          "pbx": 0.20394528672251902,
+          "capture": 0.0
+        },
+        "peak_rss_kib_by_role": {
+          "pbx": 98544.0,
+          "capture": 6736.0
+        }
+      },
+      "case_root": "/home/astrix/sip-fraud-research/datasets/deployment-call-comparison-replacement-20261002",
+      "source_manifest_sha256": "9276878925edbcf099184e9543e07718a12b67b92cbe8ad86d40e62f227c9e53"
+    },
+    {
+      "id": "B029",
+      "mode": "OFF",
+      "block": 2,
+      "setup": [
+        {
+          "call_id": "1-6860@172.16.200.68",
+          "first_invite_epoch": 1790918477.830815,
+          "first_invite_200_epoch": 1790918477.885299,
+          "setup_ms": 54.483890533447266
+        },
+        {
+          "call_id": "1-6871@172.16.200.68",
+          "first_invite_epoch": 1790918485.564836,
+          "first_invite_200_epoch": 1790918485.581586,
+          "setup_ms": 16.749858856201172
+        },
+        {
+          "call_id": "1-6882@172.16.200.68",
+          "first_invite_epoch": 1790918493.276679,
+          "first_invite_200_epoch": 1790918493.333056,
+          "setup_ms": 56.37693405151367
+        }
+      ],
+      "setup_ms_median": 54.483890533447266,
+      "checks": {
+        "independent_evidence": true,
+        "capture_zero_drops": true,
+        "three_setup_values": true,
+        "module_unloaded": true,
+        "no_native_alert": true
+      },
+      "verified": true,
+      "pcap_sha256": "54248769a187805e8b82c30f4bc37e53a91eebbf12e57dee3514c8f17e364eb1",
+      "resource_onset_epoch": 1790918460.523621,
+      "resource_end_epoch": 1790918499.853562,
+      "resources": {
+        "sample_count": 148,
+        "sampled_window_s": 38.964646057997015,
+        "cpu_seconds_sampled": {
+          "pbx": 0.09,
+          "capture": 0.0
+        },
+        "cpu_core_percent": {
+          "pbx": 0.2309786155019586,
+          "capture": 0.0
+        },
+        "peak_rss_kib_by_role": {
+          "pbx": 98544.0,
+          "capture": 6736.0
+        }
+      },
+      "case_root": "/home/astrix/sip-fraud-research/datasets/deployment-call-comparison-replacement-20261002",
+      "source_manifest_sha256": "9276878925edbcf099184e9543e07718a12b67b92cbe8ad86d40e62f227c9e53"
+    }
+  ],
+  "all_verified": true,
+  "within_block_setup_deltas": [
+    {
+      "block": 1,
+      "mode": "INTERNAL",
+      "enabled_minus_off_median_ms": -29.87217903137207
+    },
+    {
+      "block": 1,
+      "mode": "EXTERNAL",
+      "enabled_minus_off_median_ms": -19.968271255493164
+    },
+    {
+      "block": 2,
+      "mode": "INTERNAL",
+      "enabled_minus_off_median_ms": -18.912792205810547
+    },
+    {
+      "block": 2,
+      "mode": "EXTERNAL",
+      "enabled_minus_off_median_ms": 23.867130279541016
+    }
+  ],
+  "attempted_case_count": 7,
+  "accepted_case_count": 6,
+  "total_calls_attempted": 21,
+  "accepted_calls": 18,
+  "failed_case": {
+    "id": "B024",
+    "reason": "Seven auth log lines instead of six; first REGISTER Call-ID logged twice. Exact original gate retained.",
+    "verification": {
+      "id": "B024",
+      "checks": {
+        "capture_hash": true,
+        "captured_and_clean": true,
+        "three_distinct_invites": true,
+        "three_sip_completed": true,
+        "cdr_prefix": true,
+        "three_answered_cdr": true,
+        "expected_auth_log_count": false,
+        "zero_active_calls": true,
+        "route_removed": true
+      },
+      "call_ids": [
+        "1-6293@172.16.200.68",
+        "1-6304@172.16.200.68",
+        "1-6315@172.16.200.68"
+      ],
+      "sip_completed_count": 3,
+      "answered_cdr_count": 3,
+      "billsec": [
+        6,
+        6,
+        6
+      ],
+      "auth_log_count": 7,
+      "verified": false
+    },
+    "pcap_sha256": "77f1c2fc5688a593f340043da16ab6f6bc50b9fc4af7b942a95d4bdd23f547f1"
+  },
+  "unrun_original_cases": [
+    "B025",
+    "B026"
+  ],
+  "replacement_cases": [
+    "B027",
+    "B028",
+    "B029"
+  ],
+  "limitations": "Only two cases per mode; calls clustered within cases, one Pi/WLAN/account, no randomized order or load/stress control. No full-stage parity or precise causal overhead estimate. Different observation interfaces; sampled CPU may miss tails; summed RSS includes shared pages; native module memory not isolated. One failed capture excluded by prespecified evidence gate; replacement block declared after the failure. All failed evidence retained."
+}

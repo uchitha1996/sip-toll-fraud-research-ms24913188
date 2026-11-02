@@ -1,0 +1,22 @@
+V3 windowed stage detection completed
+Window: 10.0 seconds
+Matched events: 50 of 50
+
+Confusion matrix (rows=actual, columns=predicted)
+ACTUAL\PRED                     NORMAL  RECONNAISS  AUTHENTICA  FRAUD_BURS
+NORMAL                               5           0           0           0
+RECONNAISSANCE                       4           6           0           0
+AUTHENTICATION_ATTACK                9           0           6           0
+FRAUD_BURST                          0           0           4          16
+
+Binary attack metrics: precision=1.0000, recall=0.7111, F1=0.8312, false-positive-rate=0.0000
+
+Scenario detection
+NORMAL                   detected=1 TTD=N/A
+RECONNAISSANCE           detected=1 TTD=1.603118s
+AUTHENTICATION_ATTACK    detected=1 TTD=2.256941s
+FRAUD_BURST              detected=1 TTD=0.722517s
+
+Timeline: /home/astrix/sip-fraud-research/datasets/stage_detection_timeline_v3.csv
+Scenario summary: /home/astrix/sip-fraud-research/datasets/stage_detection_summary_v3.csv
+Metrics: /home/astrix/sip-fraud-research/datasets/stage_detection_metrics_v3.csv

@@ -1,0 +1,17 @@
+{
+  "case": "F03",
+  "declared_utc": "2026-09-29T05:56:38.626185Z",
+  "role": "registered F03 whole-scenario benign control",
+  "label": "SCRIPTED_BENIGN_OPTIONS_HEALTH_CHECK",
+  "stimulus": "Nine OPTIONS to the same known lab target 1002, monitor identity, no authentication/call",
+  "generator_sha256": "860fc2ab4f0869eafc9415bb95a8296e49d7e28542e4477b36140b0f34588d61",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "planned_rate_per_second": 5,
+  "expected_requests": 9,
+  "expected_401": 9,
+  "expected_failed_auth": 0,
+  "expected_register_200": 0,
+  "expected_invites": 0,
+  "expected_cdr_delta": 0,
+  "invalid_if": "Counts, source, target, PCAP, logs or CDR mismatch"
+}

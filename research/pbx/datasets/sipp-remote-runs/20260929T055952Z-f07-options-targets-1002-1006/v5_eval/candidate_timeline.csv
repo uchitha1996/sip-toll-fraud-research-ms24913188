@@ -1,0 +1,6 @@
+event_number,time_utc,event_type,entity,method,target,call_id,cseq,status,digest_present,stale_challenge,failed_digest_10s,failed_digest_60s,options_10s,predicted_stage,risk_score,reason
+1,2026-09-29T05:59:56.055793Z,REQUEST,172.16.200.68,OPTIONS,1002,1-17658@172.16.200.68,1,,0,0,0,0,1,NORMAL,0,Thresholds not reached
+2,2026-09-29T05:59:57.065718Z,REQUEST,172.16.200.68,OPTIONS,1003,1-17668@172.16.200.68,1,,0,0,0,0,2,NORMAL,0,Thresholds not reached
+3,2026-09-29T05:59:58.052029Z,REQUEST,172.16.200.68,OPTIONS,1004,1-17679@172.16.200.68,1,,0,0,0,0,3,NORMAL,0,Thresholds not reached
+4,2026-09-29T05:59:59.083649Z,REQUEST,172.16.200.68,OPTIONS,1005,1-17690@172.16.200.68,1,,0,0,0,0,4,NORMAL,0,Thresholds not reached
+5,2026-09-29T06:00:00.059464Z,REQUEST,172.16.200.68,OPTIONS,1006,1-17701@172.16.200.68,1,,0,0,0,0,5,RECONNAISSANCE,30,Rapid OPTIONS requests

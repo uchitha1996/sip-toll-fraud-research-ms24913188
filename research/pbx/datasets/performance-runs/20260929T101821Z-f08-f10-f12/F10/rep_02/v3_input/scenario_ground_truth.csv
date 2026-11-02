@@ -1,0 +1,2 @@
+scenario_id,label,method,attempts,unique_targets,start_utc,end_utc,source_ip,pbx_ip
+F10,SCRIPTED_AUTHENTICATION_ONLY,REGISTER,10,1,2026-09-29T10:07:27.926982Z,2026-09-29T10:08:01.931490Z,172.16.200.68,172.16.200.81

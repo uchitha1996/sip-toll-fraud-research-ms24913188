@@ -1,0 +1,26 @@
+{
+  "all_four_verified": true,
+  "answered_calls": 12,
+  "live_checks": [
+    {
+      "id": "B018",
+      "priority": "REVIEW",
+      "probability": 0.4710491992790473,
+      "alert_count": 5,
+      "packet_to_decision_ms_median": 231.51683807373047,
+      "service_processing_ms_median": 0.110315
+    },
+    {
+      "id": "B019",
+      "priority": "REVIEW",
+      "probability": 0.4727259319108083,
+      "alert_count": 5,
+      "packet_to_decision_ms_median": 439.0871524810791,
+      "service_processing_ms_median": 0.115353
+    }
+  ],
+  "zero_active_calls": true,
+  "temporary_routes_absent": true,
+  "summary_sha256": "542df517b394a6e49fdae796034797cbdcebd2bbfec51251f7700111f097ee53",
+  "additional_limitations": "Background source-file searches occurred during the first OFF case. Host load and WLAN conditions were not controlled; two pairs are exploratory and cannot establish causal overhead or significance."
+}

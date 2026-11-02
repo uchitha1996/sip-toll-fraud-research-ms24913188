@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "id": "T001",
+      "register_reply_ms": 8.759021759033203,
+      "latency_recomputed": false,
+      "pcap_hash_verified": true,
+      "no_capture_drops": true
+    },
+    {
+      "id": "T002",
+      "register_reply_ms": 0.7178783416748047,
+      "latency_recomputed": true,
+      "pcap_hash_verified": true,
+      "no_capture_drops": true
+    },
+    {
+      "id": "T003",
+      "register_reply_ms": 0.6740093231201172,
+      "latency_recomputed": true,
+      "pcap_hash_verified": true,
+      "no_capture_drops": true
+    },
+    {
+      "id": "T004",
+      "register_reply_ms": 8.144140243530273,
+      "latency_recomputed": true,
+      "pcap_hash_verified": true,
+      "no_capture_drops": true
+    },
+    {
+      "id": "T005",
+      "register_reply_ms": 0.6670951843261719,
+      "latency_recomputed": true,
+      "pcap_hash_verified": true,
+      "no_capture_drops": true
+    },
+    {
+      "id": "T006",
+      "register_reply_ms": 0.6401538848876953,
+      "latency_recomputed": false,
+      "pcap_hash_verified": true,
+      "no_capture_drops": true
+    }
+  ],
+  "all_checks_passed": true,
+  "summary_sha256": "8a5d9a8ae86495ea5973b060756895ef5913c49f5de1334a0ca87834837d51d6"
+}

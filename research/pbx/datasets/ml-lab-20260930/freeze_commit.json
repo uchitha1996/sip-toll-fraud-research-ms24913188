@@ -1,0 +1,8 @@
+{
+  "freeze_utc": "2026-09-30T10:59:39.179688Z",
+  "freeze_sha256": "dceed239a6316d5c76eb4153eb0e82925755cc91fdb82173eb0ff4cc3c173268",
+  "model_sha256": "092e7b025e871ff111e135d139747d62187de8e1655edaad250b3f1ab9e0cad4",
+  "manifest_sha256": "3377f6ce41df2a224db214d7d56498b51355592312210c80f8cb58a0dedcc915",
+  "development_feature_sha256": "45e498a76d9316772528b6bce58b742954cbb96261e56008c2d7ceeb496e8db5",
+  "holdout_started": false
+}

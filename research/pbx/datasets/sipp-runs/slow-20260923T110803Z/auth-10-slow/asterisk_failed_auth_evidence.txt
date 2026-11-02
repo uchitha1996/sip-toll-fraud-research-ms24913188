@@ -1,0 +1,10 @@
+[Sep 23 16:38:05] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49820@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:08] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49829@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:11] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49831@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:15] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49833@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:18] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49836@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:21] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49856@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:24] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49858@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:27] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49860@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:30] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49862@127.0.0.1) - Failed to authenticate
+[Sep 23 16:38:33] NOTICE[49821] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@127.0.0.1>' failed for '127.0.0.1:5113' (callid: 1-49874@127.0.0.1) - Failed to authenticate

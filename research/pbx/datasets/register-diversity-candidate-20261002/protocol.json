@@ -1,0 +1,8 @@
+{
+  "script_sha256": "21d9fc92a91ff37cb83d2ab289e33dbaff48728e1211186ad823250d489e4b79",
+  "window_s": 60,
+  "minimum_distinct_register_targets": 5,
+  "status": "Exploratory candidate after seeing development gap; not frozen prospective validation.",
+  "excludes": "No use of scenario labels, response success, future CDRs, or existing ML scores.",
+  "limitation": "Shared NAT/proxy sources may legitimately represent many accounts; such live benign controls pending."
+}

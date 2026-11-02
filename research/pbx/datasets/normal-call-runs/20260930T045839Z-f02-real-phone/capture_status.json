@@ -1,0 +1,79 @@
+{
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260930T045839Z-f02-real-phone",
+  "case": "F02",
+  "start_utc": "2026-09-30T04:58:39.643793Z",
+  "end_utc": "2026-09-30T05:03:40.676371Z",
+  "pcap_sha256": "00d011b75f8dfd0c8bbb66d140af99624e2e516929c9061c634a5f61cabae178",
+  "verified": {
+    "valid": true,
+    "case": "F02",
+    "answered_cdr_count": 5,
+    "answered_cdrs": [
+      {
+        "src": "1002",
+        "dst": "1001",
+        "billsec": 7
+      },
+      {
+        "src": "1002",
+        "dst": "1001",
+        "billsec": 12
+      },
+      {
+        "src": "1002",
+        "dst": "1001",
+        "billsec": 8
+      },
+      {
+        "src": "1002",
+        "dst": "1001",
+        "billsec": 15
+      },
+      {
+        "src": "1002",
+        "dst": "1001",
+        "billsec": 7
+      }
+    ],
+    "complete_client_calls": [
+      {
+        "call_id": "0e2fec62b94a4f58ba025dad2bcfc8f4",
+        "src": "1002",
+        "dst": "1001",
+        "invite_epoch": 1790744323.419762,
+        "last_bye_epoch": 1790744334.082547
+      },
+      {
+        "call_id": "088aaef4bced4418a2a8f9c8c3753630",
+        "src": "1002",
+        "dst": "1001",
+        "invite_epoch": 1790744416.683767,
+        "last_bye_epoch": 1790744431.787228
+      },
+      {
+        "call_id": "d78d37a676824f03aabd7450ab775220",
+        "src": "1002",
+        "dst": "1001",
+        "invite_epoch": 1790744444.127764,
+        "last_bye_epoch": 1790744455.788734
+      },
+      {
+        "call_id": "cfc08e2b521845a3952dd9b7cedc3969",
+        "src": "1002",
+        "dst": "1001",
+        "invite_epoch": 1790744493.599773,
+        "last_bye_epoch": 1790744510.700775
+      },
+      {
+        "call_id": "9c67330afdcb476185a1db237c95a2a5",
+        "src": "1002",
+        "dst": "1001",
+        "invite_epoch": 1790744542.573655,
+        "last_bye_epoch": 1790744552.337429
+      }
+    ],
+    "new_cdr_rows": 10,
+    "decoded_sip_packets": 204
+  },
+  "errors": []
+}

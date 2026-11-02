@@ -1,0 +1,34 @@
+{
+  "id": "A001",
+  "checks": {
+    "no_error": true,
+    "register_request_count": true,
+    "challenge_and_rejection_count": true,
+    "success_dialog_count": true,
+    "failed_auth_log_count": true,
+    "inprocess_counters": true,
+    "no_new_cdr": true,
+    "no_invites": true,
+    "zero_calls": true,
+    "other_account_unaffected": true
+  },
+  "verified": true,
+  "error": null,
+  "module_events": [
+    "[Oct  1 16:45:43] NOTICE[2452] res_sipfraud_lab.c: SIPFRAUDLAB stage=AUTHENTICATION_ATTACK risk=HIGH_SUSPICION account=1002 failures_60s=10 source=172.16.200.68"
+  ],
+  "pcap_sha256": "61d06f993bca04dee0a895efdda1452d08b3366ecd394cd77ae2759486f6b8ac",
+  "status": "account=1001 failures_window=0 auth_alerts=0 review_alerts=0\naccount=1002 failures_window=10 auth_alerts=1 review_alerts=0\n",
+  "sipp_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

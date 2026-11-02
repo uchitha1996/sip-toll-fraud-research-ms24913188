@@ -1,0 +1,110 @@
+{
+  "replayed_utc": "2026-09-24T09:57:31.525812+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260924T093525Z",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "NC20260924-01",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1001",
+      "dst": "1002",
+      "start_time_utc": "2026-09-24T09:35:30Z",
+      "answer_time_utc": "2026-09-24T09:35:36Z",
+      "end_time_utc": "2026-09-24T09:35:44Z",
+      "duration_s": "13",
+      "billsec_s": "8",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242530.24"
+    },
+    {
+      "scenario_id": "NC20260924-02",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1002",
+      "dst": "1001",
+      "start_time_utc": "2026-09-24T09:35:53Z",
+      "answer_time_utc": "2026-09-24T09:35:56Z",
+      "end_time_utc": "2026-09-24T09:36:01Z",
+      "duration_s": "7",
+      "billsec_s": "5",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242553.27"
+    },
+    {
+      "scenario_id": "NC20260924-03",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1001",
+      "dst": "1002",
+      "start_time_utc": "2026-09-24T09:36:04Z",
+      "answer_time_utc": "2026-09-24T09:36:06Z",
+      "end_time_utc": "2026-09-24T09:36:07Z",
+      "duration_s": "3",
+      "billsec_s": "1",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242564.30"
+    },
+    {
+      "scenario_id": "NC20260924-04",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1002",
+      "dst": "1001",
+      "start_time_utc": "2026-09-24T09:36:16Z",
+      "answer_time_utc": "2026-09-24T09:36:19Z",
+      "end_time_utc": "2026-09-24T09:36:22Z",
+      "duration_s": "5",
+      "billsec_s": "2",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242576.33"
+    },
+    {
+      "scenario_id": "NC20260924-05",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1001",
+      "dst": "1002",
+      "start_time_utc": "2026-09-24T09:36:25Z",
+      "answer_time_utc": "2026-09-24T09:36:27Z",
+      "end_time_utc": "2026-09-24T09:36:30Z",
+      "duration_s": "4",
+      "billsec_s": "2",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242585.36"
+    },
+    {
+      "scenario_id": "NC20260924-06",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1001",
+      "dst": "1002",
+      "start_time_utc": "2026-09-24T09:36:53Z",
+      "answer_time_utc": "2026-09-24T09:36:56Z",
+      "end_time_utc": "2026-09-24T09:36:59Z",
+      "duration_s": "6",
+      "billsec_s": "3",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242613.39"
+    },
+    {
+      "scenario_id": "NC20260924-07",
+      "label": "NORMAL_ANSWERED_CALL",
+      "src": "1001",
+      "dst": "1002",
+      "start_time_utc": "2026-09-24T09:37:11Z",
+      "answer_time_utc": "2026-09-24T09:37:19Z",
+      "end_time_utc": "2026-09-24T09:37:22Z",
+      "duration_s": "11",
+      "billsec_s": "3",
+      "disposition": "ANSWERED",
+      "cdr_uniqueid": "1790242631.42"
+    }
+  ],
+  "packet_rows": 141,
+  "request_events": 30,
+  "predicted_stages": {
+    "NORMAL": 30
+  },
+  "first_alert_stage": null,
+  "first_alert_event": null,
+  "time_to_first_alert_seconds": null,
+  "new_cdr_rows": 7,
+  "pcap_sha256": "0c78d98d7d6dc3ae110a8c2afbdac6b9e9f93171500100397cb032a2748ed1a3",
+  "packet_csv_sha256": "9efd7a1f18d86443d7e452bd55ac0a059abc268095ca252eeccc0f3ed7c188db",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

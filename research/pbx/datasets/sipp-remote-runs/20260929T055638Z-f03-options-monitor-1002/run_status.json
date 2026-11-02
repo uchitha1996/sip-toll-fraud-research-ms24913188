@@ -1,0 +1,11 @@
+{
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260929T055638Z-f03-options-monitor-1002",
+  "start_utc": "2026-09-29T05:56:38.626840Z",
+  "end_utc": "2026-09-29T05:56:44.698791Z",
+  "requests": 9,
+  "replies_401": 9,
+  "failed_auth_logs": 0,
+  "pcap_sha256": "f5f318378d82617e98117ab190dae52a5f5f995d9f6fdfbc6603bffc4b89a72c",
+  "error": null,
+  "cleanup_errors": []
+}

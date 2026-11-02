@@ -1,0 +1,1 @@
+{"stage": "CALL_BURST", "risk": "REVIEW", "source_ip": "172.16.200.68", "account": "1002", "call_id": "1-7292@172.16.200.68", "event_id": "native:11", "event_epoch": 1790926466.369128, "destination": "88002", "policy": "UNKNOWN", "decision_epoch": 1790926466.3691397, "observed_epoch": 1790926466.5578487}

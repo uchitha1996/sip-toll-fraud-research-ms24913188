@@ -1,0 +1,223 @@
+{
+  "scope": "Read-only regression, no fresh accuracy or live latency",
+  "runs_matched": 34,
+  "events": 253,
+  "alerts": 37,
+  "fixtures": 37,
+  "fixture_alerts": 11,
+  "rows": [
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D001/events.jsonl",
+      "events": 4,
+      "alerts": 0,
+      "sha256": "dda7c87befda310ec97df5449fc13dff4eceb62886a54e9aa8f57668943eb8f6"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D002/events.jsonl",
+      "events": 4,
+      "alerts": 0,
+      "sha256": "ef79bb176372162f4150125ec24ec55adbd295b78446e9142c85bb7e2159374e"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D003/events.jsonl",
+      "events": 5,
+      "alerts": 0,
+      "sha256": "ecca1929694ebacf60db496eedbcf9e6a54c11821afbd67217411ae3e3d47ec8"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D004/events.jsonl",
+      "events": 6,
+      "alerts": 0,
+      "sha256": "e0ca0ffa878b45cd72eb54bf26c383683b2437d870f6dbee7b637ff5b94a9622"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D005/events.jsonl",
+      "events": 7,
+      "alerts": 0,
+      "sha256": "927c64984616b8e8829208254c09ae6685ea1ca8b18441eb52630dc55361583a"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D006/events.jsonl",
+      "events": 8,
+      "alerts": 0,
+      "sha256": "e74e741544841fdb69ccd7a7c79df40d3ed648b62767a2cffa64d817d6f28f58"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D007/events.jsonl",
+      "events": 9,
+      "alerts": 3,
+      "sha256": "ef44572ed4a160978c20040a5b2525f896d185f3ead0bb697d88fd98f3c61538"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D008/events.jsonl",
+      "events": 10,
+      "alerts": 3,
+      "sha256": "ee32eb3927c05d6448c6cacb25c6cf39e3dcfe36f533fc1d89f1ecabd4eeb771"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D009/events.jsonl",
+      "events": 12,
+      "alerts": 3,
+      "sha256": "b6466392d23b8c24a3e9e6014b5ff9e5b52af6d5ceaf4178fdea8644c0c6b531"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D010/events.jsonl",
+      "events": 6,
+      "alerts": 1,
+      "sha256": "f99f828f6ee0f369ad7a4359ed749a24f9918da9f7b244260a1914454af9d808"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D011/events.jsonl",
+      "events": 7,
+      "alerts": 1,
+      "sha256": "4dc1494730c49e2246a589c37723d1210e262010aaa7f4447d8b13c131c00eab"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D012/events.jsonl",
+      "events": 2,
+      "alerts": 0,
+      "sha256": "bd68f210f130b2c7826c67b7a82d9d1096cdd34bc74576a41a8d1870a6bfa6c6"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D013/events.jsonl",
+      "events": 3,
+      "alerts": 0,
+      "sha256": "fd8d89480f905165e2747ddf3a4039cd1df26a822a232276cc5e78d7e69d0f65"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D014/events.jsonl",
+      "events": 4,
+      "alerts": 0,
+      "sha256": "d3a751edb222aa158f3541cec007230737d69c7e0d7da08ad304235c24d1bb3c"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D015/events.jsonl",
+      "events": 5,
+      "alerts": 0,
+      "sha256": "82a4a0b04a6fe09b3cf99083a52e9e89adac28f66c83fe04e0adf9aff46171a2"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D016/events.jsonl",
+      "events": 8,
+      "alerts": 0,
+      "sha256": "584e3b3d49cbac78a7602301fce0ffc1d9f4ff34b489dee7e6fa49e98add85c6"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D017/events.jsonl",
+      "events": 10,
+      "alerts": 1,
+      "sha256": "57af63c87432937e01f0641023afb49ad2c5100a097912c2ae9a6eeee2e85160"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D018/events.jsonl",
+      "events": 8,
+      "alerts": 0,
+      "sha256": "3338d1a488bc8ef6c3fc363a0f632e7ea7132cd386234c8b94dfce9d3f807ab1"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D019/events.jsonl",
+      "events": 9,
+      "alerts": 3,
+      "sha256": "d2f891406d0a14738a9ccb5d531f7ac7d4cbf7debad9127c860aeff829a2350a"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D020/events.jsonl",
+      "events": 10,
+      "alerts": 3,
+      "sha256": "ff2ddfed8837d0b19b826cbf01d37ec84d7f7596c0e2fe5c2c01d7f05b8ffea6"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D021/events.jsonl",
+      "events": 12,
+      "alerts": 3,
+      "sha256": "ac4c4bcafa6c3e787588492332631e10c3e41df588b2f7c251f2a986c57cbf79"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D022/events.jsonl",
+      "events": 14,
+      "alerts": 4,
+      "sha256": "239327eaad53dbcc889e77c9ef391115b8fdfa984988ba88d999afb1a0893cb7"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D023/events.jsonl",
+      "events": 7,
+      "alerts": 1,
+      "sha256": "f39dc42fde96659b55bca155fa0fe7a31ef541fc01a5de76d6ad8276926c5e39"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/development/D024/events.jsonl",
+      "events": 7,
+      "alerts": 0,
+      "sha256": "a63d6548cac2ab8567189ca79b1f89bbf71b34a9ddf94c3df2380c03d1eda9ff"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H001/events.jsonl",
+      "events": 4,
+      "alerts": 0,
+      "sha256": "83e25bb76131ae6fbe4c78d9e7e345270e79ba92ed745d24a98d229460747715"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H002/events.jsonl",
+      "events": 8,
+      "alerts": 0,
+      "sha256": "ad3469e65565aa868a40859ecc8c9c180a4017a9cd3530c5957db5394f17f5be"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H003/events.jsonl",
+      "events": 11,
+      "alerts": 3,
+      "sha256": "f497ba563858125eeb55bad966b9a416dc1b468b52bd9b4a04622a9454cd11d1"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H004/events.jsonl",
+      "events": 8,
+      "alerts": 1,
+      "sha256": "6ed11b265b8ca65e12d7aa9212636d945b507ec85a8c7d98c6cd82926b224b1c"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H005/events.jsonl",
+      "events": 2,
+      "alerts": 0,
+      "sha256": "f308a136646cccd93968ab88f4ce3ec34b1c1c989196eee28d14a821a28e5c49"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H006/events.jsonl",
+      "events": 5,
+      "alerts": 0,
+      "sha256": "2a7798d9f54ec55082974450bd70ba726390f5079fd172b1f571ff78169d74dc"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H007/events.jsonl",
+      "events": 11,
+      "alerts": 3,
+      "sha256": "0c7cba70ff4615c7dc1fba68e29497e33678f58cca8e147c2fc57850b17dc3ab"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H008/events.jsonl",
+      "events": 8,
+      "alerts": 1,
+      "sha256": "52b25b821a6c12d6d777b8823ee486ae57adcebca71b1aedc10060185a9ffdfb"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H009/events.jsonl",
+      "events": 13,
+      "alerts": 3,
+      "sha256": "21b479a0c417c1ea1bd3705db0de093654de23c8191dd07507a43c55f34a48e2"
+    },
+    {
+      "path": "datasets/online-prototype-audit-20261001/heldout/H010/events.jsonl",
+      "events": 6,
+      "alerts": 0,
+      "sha256": "61232d4dcb9a901c9eee5101b097442e343438f0c26957801fc1e0754ddb5a7b"
+    }
+  ],
+  "sources": {
+    "res_sipfraud_full_lab.c": "a76b3199ad304c4b4e3c5af5b7c8d28fd057acc6bd85d27a1738c7a75f337a2b",
+    "libprogression_core.so": "db623e0ca70bc06a79a18688d2649c96cf6e8dd80bab3e5d4b2c8e17da85861f",
+    "core_bridge.c": "5107d4767ceb97cc754ff434282ee339c6d50832bccd26e870261a38f8cb2210",
+    "progression_core.h": "6c405c324cc6b14a23171a06bd3fc42ee804c6f2729ddc8f74ca7f3ec5ca1d96",
+    "audit_native_core.py": "fae2cbf77b13d75df65b9b6cd5be3024c2cd1008183e38742da08759e631605d",
+    "progression_core.c": "634b16ce451b8a9bc0d5cefec5efbb549cd3eeb71513b26a95598ecd2a4651de",
+    "native_core.py": "4dc65079b7fb73a84fa2d9cc91ad446af9083ea8f7726139e053523ffcddbe26"
+  }
+}

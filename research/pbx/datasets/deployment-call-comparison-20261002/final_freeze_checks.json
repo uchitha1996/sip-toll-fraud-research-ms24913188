@@ -1,0 +1,9 @@
+{
+  "all_frozen_hashes_match": true,
+  "sha256": {
+    "scripts/candidate_v5_replay.py": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "scripts/progression_v6_development.py": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+    "datasets/causal-review-ml-20261001/frozen_model.json": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+    "/usr/lib/asterisk/modules/res_sipfraud_lab.so": "02160968346541cc7ca45b848758a269275567707dd1fb54fb1c31c518f3bb26"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "declared_utc": "2026-09-29T10:18:21.428286Z",
+  "kind": "offline replay resource measurement",
+  "script_sha256": "8c1b9959d2319e9b00a15d58e6aab659a2ccf32875115871b2beae4d197f4390",
+  "source_hashes": {
+    "/home/astrix/sip-fraud-research/datasets/runs/20260923T094044Z/stage_detector_v3.py": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+    "/home/astrix/sip-fraud-research/scripts/candidate_v5_replay.py": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "/home/astrix/sip-fraud-research/scripts/progression_v6_development.py": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4"
+  },
+  "pcap_hashes": {
+    "F08": "3f7fe5026e4d4decc25f8e31f231f5b47aa2f0c5ce4b048e16b724b0732f4d31",
+    "F10": "67f614b547553523f61922ac69348625d9ce24b5bd9d48734d3726f6c67e2059",
+    "F12": "99cfec70185fd02633c5b3b9f5f7f56fe1b8c6864eaeaba42e564730f6691d84"
+  },
+  "repetitions_per_case": 3,
+  "unit": "one complete scenario per replay",
+  "incomparability": "V3 reads pre-extracted SIP CSV; V5 includes tshark extraction; V6 is incremental after V5. No live PBX or alert-delivery measurement.",
+  "load_before": "0.15 0.20 0.22 1/581 78955",
+  "mem_available_kib_before": "MemAvailable:    7007856 kB",
+  "active_calls_before": "0 active channels\n0 active calls\n32 calls processed"
+}

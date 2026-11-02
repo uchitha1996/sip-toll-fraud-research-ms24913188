@@ -1,0 +1,6 @@
+[Oct  2 10:44:23] NOTICE[6162] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-5841@172.16.200.68) - Failed to authenticate
+[Oct  2 10:44:25] NOTICE[6162] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-5852@172.16.200.68) - Failed to authenticate
+[Oct  2 10:44:27] NOTICE[6162] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-5864@172.16.200.68) - Failed to authenticate
+[Oct  2 10:44:29] NOTICE[6162] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-5875@172.16.200.68) - Failed to authenticate
+[Oct  2 10:44:31] NOTICE[6162] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-5886@172.16.200.68) - Failed to authenticate
+[Oct  2 10:44:33] NOTICE[6162] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-5897@172.16.200.68) - Failed to authenticate

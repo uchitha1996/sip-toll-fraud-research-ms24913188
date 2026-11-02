@@ -1,0 +1,32 @@
+{
+  "id": "P104",
+  "original_reference": "P004",
+  "end_utc": "2026-10-12T03:52:07.527593+00:00",
+  "error": null,
+  "verified": true,
+  "elapsed_seconds": 8.512,
+  "pcap_sha256": "70833575e2617f059e189da9089bc64271d4cfee0e6ba27dda2276ef0bc61f22",
+  "requests": 6,
+  "response_transactions": 6,
+  "unique_targets": 6,
+  "unknown_account_requests": 6,
+  "candidate_diversity_alerts": [
+    {
+      "stage": "REGISTER_TARGET_DIVERSITY_REVIEW",
+      "source": "172.16.200.68",
+      "decisive_epoch": 1791777124.335473,
+      "window_s": 60,
+      "unique_targets": 5,
+      "targets": [
+        "9001",
+        "9002",
+        "9003",
+        "9004",
+        "9005"
+      ],
+      "elapsed_from_first_window_request_s": 3.008164,
+      "meaning": "Many attempted REGISTER identities; not verified valid IDs or proven attack."
+    }
+  ],
+  "cdr_delta": 0
+}

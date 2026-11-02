@@ -1,0 +1,890 @@
+{
+  "D001": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D001",
+    "start_utc": "2026-09-30T10:42:53.322877Z",
+    "end_utc": "2026-09-30T10:43:15.710430Z",
+    "pcap_sha256": "651b72ef476bbe97f7607aad462761f66b87c63343e85730393b9a741f23b413",
+    "verification": {
+      "scenario_id": "D001",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 0,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "651b72ef476bbe97f7607aad462761f66b87c63343e85730393b9a741f23b413"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "911fa695dc6fc65214e39d9f371d09dfbcd918e3f92ddf16e29e015619ef52b6",
+    "v6_summary_sha256": "cbceef3aa855dc66b8d14fabbc3c4b9dbecfcf445291c4fd7b176d9293841757"
+  },
+  "D002": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D002",
+    "start_utc": "2026-09-30T10:46:45.333638Z",
+    "end_utc": "2026-09-30T10:47:08.641594Z",
+    "pcap_sha256": "33454d96fa09c0abfaf079529aef590ec64568297016fbb011f7b97055ae4f04",
+    "verification": {
+      "scenario_id": "D002",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 0,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "33454d96fa09c0abfaf079529aef590ec64568297016fbb011f7b97055ae4f04"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "3e6989dac488644f0820958d2cbc419aad633e411afa5a77dcf3bdb5cfa66d25",
+    "v6_summary_sha256": "900b4321088c9d9cfa19314eddbb3249ddf51fcfc81d11c1eaf6a8ec202289ab"
+  },
+  "D003": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D003",
+    "start_utc": "2026-09-30T10:47:10.626251Z",
+    "end_utc": "2026-09-30T10:47:36.701585Z",
+    "pcap_sha256": "52924b14552c64be3c01c27cec0f60a73ed3e4ca36e650ef018233c6f7b89f05",
+    "verification": {
+      "scenario_id": "D003",
+      "verified": true,
+      "packets": 24,
+      "failed_auth_lines": 1,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "52924b14552c64be3c01c27cec0f60a73ed3e4ca36e650ef018233c6f7b89f05"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "1ba2d372aa9b5425ec23e8e980c66f3888fca4f14e8db9ecfdab11403451d8fc",
+    "v6_summary_sha256": "9b3355a9ef96279648cd27e2c557b7be3c5ab0edf51aa3c42e2417aa9e72aeda"
+  },
+  "D004": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D004",
+    "start_utc": "2026-09-30T10:47:38.722661Z",
+    "end_utc": "2026-09-30T10:48:08.790874Z",
+    "pcap_sha256": "45e86b17b11f12629282db72834b0922e893b6dae8f7c0abe3f4e0722fa79cf8",
+    "verification": {
+      "scenario_id": "D004",
+      "verified": true,
+      "packets": 28,
+      "failed_auth_lines": 2,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "45e86b17b11f12629282db72834b0922e893b6dae8f7c0abe3f4e0722fa79cf8"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "087e1c7681fe77416db7b0272ca1c0bba22834c47b985c2bb38658ff49738425",
+    "v6_summary_sha256": "6e8b85b4cca4d48b7ffae8a0cd93af16304b01cb6c45b5ed23c1f130fde4384e"
+  },
+  "D005": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D005",
+    "start_utc": "2026-09-30T10:48:11.149002Z",
+    "end_utc": "2026-09-30T10:48:40.835509Z",
+    "pcap_sha256": "61a566c2d06342168c0155fb74fcfe51a5809ab2f6224aedf15cce5d4829a324",
+    "verification": {
+      "scenario_id": "D005",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 3,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "61a566c2d06342168c0155fb74fcfe51a5809ab2f6224aedf15cce5d4829a324"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "a85b2e7552d24f783565a35030be2e2e02cee5eb88351ae9a9429e3f4438c111",
+    "v6_summary_sha256": "1913d2f7e5fd04a5d555b8c5a5de3f80d32b001298e2b434384386fff22fff70"
+  },
+  "D006": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D006",
+    "start_utc": "2026-09-30T10:48:42.597775Z",
+    "end_utc": "2026-09-30T10:49:17.264083Z",
+    "pcap_sha256": "6860ead6a00f30470f68235a2e71ddf5913e9847dc6bed5ba3cfc58d0722f19a",
+    "verification": {
+      "scenario_id": "D006",
+      "verified": true,
+      "packets": 36,
+      "failed_auth_lines": 4,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "6860ead6a00f30470f68235a2e71ddf5913e9847dc6bed5ba3cfc58d0722f19a"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "6f25d1cf67e607ff3bbdaf58bd99b112fc82acf1bf3a46a093a84d0f9b470b25",
+    "v6_summary_sha256": "57f4080c4a617fbb7aa66408bd16ed58041a9e54bb4d01b2279f248bab16d740"
+  },
+  "D007": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D007",
+    "start_utc": "2026-09-30T10:49:18.944420Z",
+    "end_utc": "2026-09-30T10:49:53.139407Z",
+    "pcap_sha256": "a6a8f9f65c1dae713901945a708f9a487c84c72382dd40b5a3d66324db6c6962",
+    "verification": {
+      "scenario_id": "D007",
+      "verified": true,
+      "packets": 40,
+      "failed_auth_lines": 5,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "a6a8f9f65c1dae713901945a708f9a487c84c72382dd40b5a3d66324db6c6962"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "0fb2fe957809c811da445f40685a56bedd690b299c93dc22e87b7d5bf0a5843e",
+    "v6_summary_sha256": "ba5382b1f786cb7f8b70a7aa834089c557e18042a2c68904cef905ae958c867d"
+  },
+  "D008": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D008",
+    "start_utc": "2026-09-30T10:49:54.982420Z",
+    "end_utc": "2026-09-30T10:50:31.673058Z",
+    "pcap_sha256": "e4847ddec9d058d683db6d5f4644b7c0d868a48bf77fd72922592f6a68ddc5e2",
+    "verification": {
+      "scenario_id": "D008",
+      "verified": true,
+      "packets": 44,
+      "failed_auth_lines": 6,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "e4847ddec9d058d683db6d5f4644b7c0d868a48bf77fd72922592f6a68ddc5e2"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "26ef985324a5ebbb2ee48a6a847321d16538eef8b45dcb545d9d48f7ded7bdb1",
+    "v6_summary_sha256": "f0ae9fa51f067d9a838570603fa05f413ec3515568da919841a157f766600bb9"
+  },
+  "D009": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D009",
+    "start_utc": "2026-09-30T10:50:34.037187Z",
+    "end_utc": "2026-09-30T10:51:12.007587Z",
+    "pcap_sha256": "4ed37868036ef8e1d2c39195710b5e8f6e4c10e193f1aacd5a9a1a331a8aa5be",
+    "verification": {
+      "scenario_id": "D009",
+      "verified": true,
+      "packets": 52,
+      "failed_auth_lines": 8,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "4ed37868036ef8e1d2c39195710b5e8f6e4c10e193f1aacd5a9a1a331a8aa5be"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "db113b22110e120ae8241912db8303edea97310ef549c4af3193ee4e8b2c132c",
+    "v6_summary_sha256": "65e0cdc7af83501a39ddb5b2f9e28b809b84e09742b242a6e52f5f8257adf63c"
+  },
+  "D010": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D010",
+    "start_utc": "2026-09-30T10:51:13.761205Z",
+    "end_utc": "2026-09-30T10:51:40.216513Z",
+    "pcap_sha256": "940a6e18df8a18c13dcf7ad8820f7981b415c1d84a97d17b5f161f5ddf82ce6e",
+    "verification": {
+      "scenario_id": "D010",
+      "verified": true,
+      "packets": 24,
+      "failed_auth_lines": 5,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "940a6e18df8a18c13dcf7ad8820f7981b415c1d84a97d17b5f161f5ddf82ce6e"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE"
+    ],
+    "v5_timeline_sha256": "35a5dbf7656d506c0391cce5b0dd5d2ee8858a6a1a9b21d99e35ddd26a7d3c89",
+    "v6_summary_sha256": "4800fbb7237bcb1968e9f69a55b2a26b9f69f512bd45a657682f1dde151400e5"
+  },
+  "D011": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D011",
+    "start_utc": "2026-09-30T10:51:42.371603Z",
+    "end_utc": "2026-09-30T10:52:07.358710Z",
+    "pcap_sha256": "8c1289d398262dda1de99572e5f2a4ac8b5b4fa8a99609a71a4c060dd92b9ec9",
+    "verification": {
+      "scenario_id": "D011",
+      "verified": true,
+      "packets": 28,
+      "failed_auth_lines": 6,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "8c1289d398262dda1de99572e5f2a4ac8b5b4fa8a99609a71a4c060dd92b9ec9"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE"
+    ],
+    "v5_timeline_sha256": "0e1fbb6ce2aafbd927263e688308c2f268821cd2494beb9e677337d58586a24b",
+    "v6_summary_sha256": "a9ae35e94d937d1459dd99e39c683dd3bc7f676d01cdd4eca73fa0f904a74f1b"
+  },
+  "D012": {
+    "split": "development",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D012",
+    "start_utc": "2026-09-30T10:52:09.203567Z",
+    "end_utc": "2026-09-30T10:52:19.995988Z",
+    "pcap_sha256": "1d906c9301e767bf2b1b2b76d2d4311f067da239c5f23d6f471a85fc1ead506a",
+    "verification": {
+      "scenario_id": "D012",
+      "verified": true,
+      "packets": 8,
+      "failed_auth_lines": 2,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "1d906c9301e767bf2b1b2b76d2d4311f067da239c5f23d6f471a85fc1ead506a"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "3ccf6f48f1de51497f06052a84e4b07d9edc3e712686519cdba7bed0244d861e",
+    "v6_summary_sha256": "21e71e8138895c225d4e4d020f950b03908a15776b86a64b2656c65989f89b1f"
+  },
+  "D013": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D013",
+    "start_utc": "2026-09-30T10:52:21.725314Z",
+    "end_utc": "2026-09-30T10:52:33.186693Z",
+    "pcap_sha256": "3bc4df67032a67c188a025b2afe8c3c762592bbe343cff93caf8a8cd2ba5ef96",
+    "verification": {
+      "scenario_id": "D013",
+      "verified": true,
+      "packets": 12,
+      "failed_auth_lines": 3,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "3bc4df67032a67c188a025b2afe8c3c762592bbe343cff93caf8a8cd2ba5ef96"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "411a12978192f05e270788a9705c820841792a74eec6c54c569a1aeb06b8f4cf",
+    "v6_summary_sha256": "7b760a31bdd012eb058110002eeef73dabc3d51940cab46b16ce69bdf830b007"
+  },
+  "D014": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D014",
+    "start_utc": "2026-09-30T10:52:34.859764Z",
+    "end_utc": "2026-09-30T10:52:50.179812Z",
+    "pcap_sha256": "f998ef887c90d31f8bba2abf7752b7bb702121b2b8181e88dbea178d3857615b",
+    "verification": {
+      "scenario_id": "D014",
+      "verified": true,
+      "packets": 16,
+      "failed_auth_lines": 4,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "f998ef887c90d31f8bba2abf7752b7bb702121b2b8181e88dbea178d3857615b"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "26e8dc3d062315bfaaccd6852335518220c9365987a120856f5bd8feb583bcc2",
+    "v6_summary_sha256": "d15224331fe317681e67378fff342d222dd3676e75cdb63d86d61ea1e7aa2d6e"
+  },
+  "D015": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D015",
+    "start_utc": "2026-09-30T10:52:51.946957Z",
+    "end_utc": "2026-09-30T10:53:07.073017Z",
+    "pcap_sha256": "340f5b201dc1e69ab8e5f938025a0ea8af93d055f9b1d44e43adb4e6b51dc793",
+    "verification": {
+      "scenario_id": "D015",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 5,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "340f5b201dc1e69ab8e5f938025a0ea8af93d055f9b1d44e43adb4e6b51dc793"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "ee88856e259e82812a9a79251e225e60b28853befd01c593a0b003b4e09c29c6",
+    "v6_summary_sha256": "2440cacbe160833abdac35b062fda871f89d2cd6b563abf5a869bd05c243c7c5"
+  },
+  "D016": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D016",
+    "start_utc": "2026-09-30T10:53:08.737174Z",
+    "end_utc": "2026-09-30T10:53:31.343524Z",
+    "pcap_sha256": "e897e6448f6ac95421505051d40a03c8a21bda94d65ef41f0430c8f1cfcd1311",
+    "verification": {
+      "scenario_id": "D016",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 8,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "e897e6448f6ac95421505051d40a03c8a21bda94d65ef41f0430c8f1cfcd1311"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "5686c91d5a08c9cd3c683190519d739caeac96f5860e2fb96080428f316277a7",
+    "v6_summary_sha256": "0c0c4a7a28ef3971689bed57d0c939481b6ff39dfd3f3ba94ab44460c6e2c395"
+  },
+  "D017": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D017",
+    "start_utc": "2026-09-30T10:53:33.274273Z",
+    "end_utc": "2026-09-30T10:53:57.355968Z",
+    "pcap_sha256": "e6db403d8630211e884ecef64815b3aad7e523a05ab5fce88b3add0eae8286ff",
+    "verification": {
+      "scenario_id": "D017",
+      "verified": true,
+      "packets": 40,
+      "failed_auth_lines": 10,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": "AUTHENTICATION_ATTACK",
+      "v6_stages": [
+        "AUTHENTICATION_ATTACK"
+      ],
+      "pcap_sha256": "e6db403d8630211e884ecef64815b3aad7e523a05ab5fce88b3add0eae8286ff"
+    },
+    "v5_first_alert": "AUTHENTICATION_ATTACK",
+    "v6_stages": [
+      "AUTHENTICATION_ATTACK"
+    ],
+    "v5_timeline_sha256": "adafe6fe308ff7a5c574a6484b4deb78f72d85009a258b59b271c01c2067e381",
+    "v6_summary_sha256": "2f0f1ff04a3d4811210efe2d74da39bfc6d491b4508fb6f34c87d635d9b2f2f4"
+  },
+  "D018": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D018",
+    "start_utc": "2026-09-30T10:53:59.040609Z",
+    "end_utc": "2026-09-30T10:54:30.940142Z",
+    "pcap_sha256": "a492971352f394ef76ee185c5d3a611a88c0015e4918a0d96a3902f8303aadd6",
+    "verification": {
+      "scenario_id": "D018",
+      "verified": true,
+      "packets": 36,
+      "failed_auth_lines": 4,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "a492971352f394ef76ee185c5d3a611a88c0015e4918a0d96a3902f8303aadd6"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "6e3f5948e20dce1c052bd7250c232891627774ec805f3873e251c06edc0f9eea",
+    "v6_summary_sha256": "3825a66bfd6cad2672ce987aeb2687e988393e66c7d9ca36b3eb08a271d8162f"
+  },
+  "D019": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D019",
+    "start_utc": "2026-09-30T10:54:32.715365Z",
+    "end_utc": "2026-09-30T10:55:07.606953Z",
+    "pcap_sha256": "eeddc95e125e0e53421ab799bba0bdfb8c0deaf39a537ce9c852a1173c43d2a4",
+    "verification": {
+      "scenario_id": "D019",
+      "verified": true,
+      "packets": 41,
+      "failed_auth_lines": 5,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "eeddc95e125e0e53421ab799bba0bdfb8c0deaf39a537ce9c852a1173c43d2a4"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "2c8d02c75190fc407d2c895c01542506871d520d5ac07ddd68e019d779f802cf",
+    "v6_summary_sha256": "97f7a4672a0e40eab835de6998c48c43ed878cfc78e0fe9a82922492b93910e2"
+  },
+  "D020": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D020",
+    "start_utc": "2026-09-30T10:55:09.253246Z",
+    "end_utc": "2026-09-30T10:55:45.794177Z",
+    "pcap_sha256": "856a069caedf4fa8983acdf72856f3be71492d9063ce36ac7a05ee4010b92537",
+    "verification": {
+      "scenario_id": "D020",
+      "verified": true,
+      "packets": 44,
+      "failed_auth_lines": 6,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "856a069caedf4fa8983acdf72856f3be71492d9063ce36ac7a05ee4010b92537"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "161a52e7b7c6a7330d189ca9232e563fd7961e2f28c445493574de056fa250c9",
+    "v6_summary_sha256": "f502d7dd47fe2f421f88ad434b1cf5b369c1f4b5c9498dc8151da9eb64e21d19"
+  },
+  "D021": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D021",
+    "start_utc": "2026-09-30T10:55:47.552350Z",
+    "end_utc": "2026-09-30T10:56:25.967976Z",
+    "pcap_sha256": "a0e4891495bd71c8c6ad4e94d96a221d5988ce5139e0199ca7345e82e81ba1c7",
+    "verification": {
+      "scenario_id": "D021",
+      "verified": true,
+      "packets": 52,
+      "failed_auth_lines": 8,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "a0e4891495bd71c8c6ad4e94d96a221d5988ce5139e0199ca7345e82e81ba1c7"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "f9d380d619583a98ba81d55205a941187e237f0030d49266b7dd13c4ee80a672",
+    "v6_summary_sha256": "c15044d285a4543d00d557ff58fb8aed828ccc9526149cc698790bbe8525ea5b"
+  },
+  "D022": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D022",
+    "start_utc": "2026-09-30T10:56:27.647547Z",
+    "end_utc": "2026-09-30T10:57:23.589472Z",
+    "pcap_sha256": "0b21108cfdd5f18ad635cd33f3873a83b33fcc22ab4d3c5c6368a068ee23c184",
+    "verification": {
+      "scenario_id": "D022",
+      "verified": true,
+      "packets": 60,
+      "failed_auth_lines": 10,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": "AUTHENTICATION_ATTACK",
+      "v6_stages": [
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "0b21108cfdd5f18ad635cd33f3873a83b33fcc22ab4d3c5c6368a068ee23c184"
+    },
+    "v5_first_alert": "AUTHENTICATION_ATTACK",
+    "v6_stages": [
+      "AUTHENTICATION_ATTACK",
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "985fcb089db3fe93a5c9b1e85190dca2263e27f977947c0d1980f4d142cbbae9",
+    "v6_summary_sha256": "841d52e25467def21f013db42ff67af1193d31e813be2f7c5238057bf4e8730e"
+  },
+  "D023": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D023",
+    "start_utc": "2026-09-30T10:57:25.314866Z",
+    "end_utc": "2026-09-30T10:57:51.334673Z",
+    "pcap_sha256": "85a1d9ee27d53b851a6b91f3411b8617963f792d038454edfd575f6eacc96021",
+    "verification": {
+      "scenario_id": "D023",
+      "verified": true,
+      "packets": 28,
+      "failed_auth_lines": 6,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "85a1d9ee27d53b851a6b91f3411b8617963f792d038454edfd575f6eacc96021"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE"
+    ],
+    "v5_timeline_sha256": "0e5ea61ad5b71ce619a9ef22e6fa2672ce5e7127b7a1cb630504ec17276229b2",
+    "v6_summary_sha256": "55021dba152c3c592d72e2860c5e95ca750371f2e46c063ba9e9c4a94341d0aa"
+  },
+  "D024": {
+    "split": "development",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/development/D024",
+    "start_utc": "2026-09-30T10:57:53.091475Z",
+    "end_utc": "2026-09-30T10:58:24.536216Z",
+    "pcap_sha256": "1a1c46ec54820ec21fdc9394b14fe8c04a522197becd1ce74960676dfb32f8b4",
+    "verification": {
+      "scenario_id": "D024",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 3,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "1a1c46ec54820ec21fdc9394b14fe8c04a522197becd1ce74960676dfb32f8b4"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "14a81b8209b632b8ecd63fb8220f18b194e0bea833533ede0168878c9167d2d2",
+    "v6_summary_sha256": "f9750ba04dd0737098eda96bcbcbd5673227801dd4fc99610bfac590015895ac"
+  },
+  "H001": {
+    "split": "heldout",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H001",
+    "start_utc": "2026-09-30T11:01:00.195163Z",
+    "end_utc": "2026-09-30T11:01:22.795639Z",
+    "pcap_sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576",
+    "verification": {
+      "scenario_id": "H001",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 0,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "6f05868e83e8936288cf630d9673dcae4a3cdfdd2f34c478a2d14d3e9ba3260c",
+    "v6_summary_sha256": "e2ed09a4fd1c7abd27a407eefbf08446d2b49d1f7fa990eec5975b948fdcf61d"
+  },
+  "H002": {
+    "split": "heldout",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H002",
+    "start_utc": "2026-09-30T11:01:24.567869Z",
+    "end_utc": "2026-09-30T11:01:57.615071Z",
+    "pcap_sha256": "feeee14ba5ed29f0a25a6c8973b6be319f7cb9fb604165cfdc99e88aab64c049",
+    "verification": {
+      "scenario_id": "H002",
+      "verified": true,
+      "packets": 36,
+      "failed_auth_lines": 4,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "feeee14ba5ed29f0a25a6c8973b6be319f7cb9fb604165cfdc99e88aab64c049"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "b95a76e0098093f4395062d1883da973752fc8a0a8fa06e5f4572dd92eda1f92",
+    "v6_summary_sha256": "59eb6251bad57037e8cd5129b30579ccc76c50deb7ae1eca21065f961a4e75bc"
+  },
+  "H003": {
+    "split": "heldout",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H003",
+    "start_utc": "2026-09-30T11:01:59.270563Z",
+    "end_utc": "2026-09-30T11:02:38.955479Z",
+    "pcap_sha256": "8db626eb7ad30def383ca2935c2312ed4382fb2aa9128dcb9fd0c621b7e9b5a7",
+    "verification": {
+      "scenario_id": "H003",
+      "verified": true,
+      "packets": 48,
+      "failed_auth_lines": 7,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "8db626eb7ad30def383ca2935c2312ed4382fb2aa9128dcb9fd0c621b7e9b5a7"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "32f3738460726bdc536585e3f9aeec052624c5566e71c98575e5a8121b6b6dd7",
+    "v6_summary_sha256": "6bca008e7b8b4a38bada00b95b3647119b527cc57d575bd53b672b8e76f4d173"
+  },
+  "H004": {
+    "split": "heldout",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H004",
+    "start_utc": "2026-09-30T11:02:40.811962Z",
+    "end_utc": "2026-09-30T11:03:03.470122Z",
+    "pcap_sha256": "3b89a348d76b58e19ab9de93e00f72a0e2f345359b888eae779e036dcf676f1e",
+    "verification": {
+      "scenario_id": "H004",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 7,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "3b89a348d76b58e19ab9de93e00f72a0e2f345359b888eae779e036dcf676f1e"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE"
+    ],
+    "v5_timeline_sha256": "5e0b7df7547596b22e0bdfa20da2013125afd8396a0cb50f0f75e156ee176517",
+    "v6_summary_sha256": "00031f549ca736a90823364366efdd6f27d1f061974854d3e29764ff5c0cfe08"
+  },
+  "H005": {
+    "split": "heldout",
+    "assigned_intent": "BENIGN",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H005",
+    "start_utc": "2026-09-30T11:03:05.180822Z",
+    "end_utc": "2026-09-30T11:03:15.654287Z",
+    "pcap_sha256": "06d26b0ebeb123d2f200a3bcecd7fe0c5d4b63a8cdbda8ae3e442d5cc3bfb323",
+    "verification": {
+      "scenario_id": "H005",
+      "verified": true,
+      "packets": 8,
+      "failed_auth_lines": 2,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "06d26b0ebeb123d2f200a3bcecd7fe0c5d4b63a8cdbda8ae3e442d5cc3bfb323"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "4288bc0d51763a1fd3f7904972647880393b067267024a2cd449cfbff782cf70",
+    "v6_summary_sha256": "a8da2ecd30523ec5b747b6be6b137d44e4733e75dc80ff60e9d37c7b3c824867"
+  },
+  "H006": {
+    "split": "heldout",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H006",
+    "start_utc": "2026-09-30T11:03:17.332651Z",
+    "end_utc": "2026-09-30T11:03:32.821521Z",
+    "pcap_sha256": "f2fa2194c3577ff863cf7c9c318871054f31d09d5a744f3ac6e6b0ab5456111f",
+    "verification": {
+      "scenario_id": "H006",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 5,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "f2fa2194c3577ff863cf7c9c318871054f31d09d5a744f3ac6e6b0ab5456111f"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "671c7e25837d98dcbbbecfc008f3225ec00a9368ceb84ccea8eac1dc51146c5c",
+    "v6_summary_sha256": "198a8c6af0911e0f8be40d61424fb364b62e4291b2d5a8000ed2ea1224feadaa"
+  },
+  "H007": {
+    "split": "heldout",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H007",
+    "start_utc": "2026-09-30T11:03:37.067589Z",
+    "end_utc": "2026-09-30T11:04:16.880994Z",
+    "pcap_sha256": "15014e82559ea32b624d6d9496cc454d13813096f7aa540a0456dbb728dfc1c9",
+    "verification": {
+      "scenario_id": "H007",
+      "verified": true,
+      "packets": 48,
+      "failed_auth_lines": 7,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "15014e82559ea32b624d6d9496cc454d13813096f7aa540a0456dbb728dfc1c9"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "5137f0019d98902665045b8541d3881ff256b4582955a5259c99374679878e69",
+    "v6_summary_sha256": "2c8be4f0c1702278d69f9d4745ef2b5edef9dc02aa005e9f1a327c9af07b5aae"
+  },
+  "H008": {
+    "split": "heldout",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H008",
+    "start_utc": "2026-09-30T11:04:18.568528Z",
+    "end_utc": "2026-09-30T11:04:42.378703Z",
+    "pcap_sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd",
+    "verification": {
+      "scenario_id": "H008",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 7,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE"
+    ],
+    "v5_timeline_sha256": "e777b9a09a116044488260e428034743a8906000f7d2a1cf198f61ec56423871",
+    "v6_summary_sha256": "e66e13773d9ae1ac7c984863e31bd72c3b4875751a0ae598ea457c3f85629817"
+  },
+  "H009": {
+    "split": "heldout",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H009",
+    "start_utc": "2026-09-30T11:04:44.161448Z",
+    "end_utc": "2026-09-30T11:05:32.261250Z",
+    "pcap_sha256": "bb7f77e8c2f4621cb09c1da95e6bfe76fe8366de4f7546b218a5c3ddc28dbf62",
+    "verification": {
+      "scenario_id": "H009",
+      "verified": true,
+      "packets": 56,
+      "failed_auth_lines": 9,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "bb7f77e8c2f4621cb09c1da95e6bfe76fe8366de4f7546b218a5c3ddc28dbf62"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [
+      "SUSPECTED_COMPROMISE",
+      "SUSPECTED_OUTBOUND_ATTEMPT",
+      "ANSWERED_EMULATED_OUTBOUND"
+    ],
+    "v5_timeline_sha256": "12f3a855baab1aab53a73c229f6ea02feaec0b64919461b6e387806d8eea9dbe",
+    "v6_summary_sha256": "2add67b0ee699e29fc214a86b4a69d3eadfd3ab42ff84c0c41e27e2ae9a50797"
+  },
+  "H010": {
+    "split": "heldout",
+    "assigned_intent": "SIMULATED_ABUSE",
+    "run_dir": "/home/astrix/sip-fraud-research/datasets/ml-lab-20260930/heldout/H010",
+    "start_utc": "2026-09-30T11:05:34.171687Z",
+    "end_utc": "2026-09-30T11:06:03.163833Z",
+    "pcap_sha256": "3ce2946468ae707ef5a294032e79c648bd63692ed6008568b0c234aec0f34d15",
+    "verification": {
+      "scenario_id": "H010",
+      "verified": true,
+      "packets": 28,
+      "failed_auth_lines": 2,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "3ce2946468ae707ef5a294032e79c648bd63692ed6008568b0c234aec0f34d15"
+    },
+    "v5_first_alert": null,
+    "v6_stages": [],
+    "v5_timeline_sha256": "a6903fa53faf17e3d308d085e4b8d6a2ddf8f36061c75660e157acebcedebfbe",
+    "v6_summary_sha256": "c957ed8fa8c1ebf2eca39d97bfef2e3540d339ef05940d65dbf8f0ce9a5ecdb0"
+  }
+}

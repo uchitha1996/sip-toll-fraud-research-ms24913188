@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-09-30T09:49:22.075445Z",
+  "scenario_count": 12,
+  "truth_counts": {
+    "BENIGN": 6,
+    "ATTACK": 6
+  },
+  "binary_metrics": {
+    "V3": {
+      "TP": 4,
+      "FP": 2,
+      "TN": 4,
+      "FN": 2,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "fpr": 0.3333333333333333,
+      "accuracy": 0.6666666666666666
+    },
+    "V5": {
+      "TP": 5,
+      "FP": 1,
+      "TN": 5,
+      "FN": 1,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "fpr": 0.16666666666666666,
+      "accuracy": 0.8333333333333334
+    },
+    "V6": {
+      "TP": 6,
+      "FP": 1,
+      "TN": 5,
+      "FN": 0,
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923,
+      "fpr": 0.16666666666666666,
+      "accuracy": 0.9166666666666666
+    }
+  },
+  "v6_stage_pass_count": 11,
+  "v6_stage_pass_rate": 0.9166666666666666,
+  "source_hashes": {
+    "aggregator": "8faeb83d7d97a3b4f39466fe8c0b904d698fb4b5ebc1973c589fc0c6fd0047cd",
+    "v3": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+    "v5": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "v6": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4"
+  },
+  "interpretation_limit": "Registered small lab scenario set; V6 is a development/refinement detector. Do not present these 12 scenarios as production or population accuracy."
+}

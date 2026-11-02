@@ -1,0 +1,397 @@
+{
+  "frozen_utc": "2026-09-30T10:59:39.179688Z",
+  "target": "assigned simulated-abuse intent; unobservable in matched traces",
+  "endpoint": "retrospective whole-scenario, CDR-inclusive",
+  "model": "tree_depth2_leaf3",
+  "selection": "4-fold stratified grouped CV; highest balanced accuracy; logistic tie break",
+  "features": [
+    "confirmed_rejections",
+    "max_rejections_10s",
+    "rejection_span_s",
+    "register_200",
+    "client_invite_requests",
+    "client_options_requests",
+    "capture_request_span_s",
+    "rejection_to_success_s",
+    "success_to_invite_s",
+    "cdr_answered",
+    "cdr_billsec"
+  ],
+  "positive_label": "SIMULATED_ABUSE",
+  "threshold": 0.5,
+  "uncertain_band": [
+    0.4,
+    0.6
+  ],
+  "cv": {
+    "logistic_l2_c03": {
+      "metrics": {
+        "tp": 5,
+        "fp": 4,
+        "tn": 8,
+        "fn": 7,
+        "balanced_accuracy": 0.5417
+      },
+      "predictions": [
+        {
+          "id": "D001",
+          "fold": 3,
+          "truth": 0,
+          "p_abuse": 0.076084,
+          "predicted": 0
+        },
+        {
+          "id": "D002",
+          "fold": 3,
+          "truth": 0,
+          "p_abuse": 0.075694,
+          "predicted": 0
+        },
+        {
+          "id": "D003",
+          "fold": 1,
+          "truth": 0,
+          "p_abuse": 0.22882,
+          "predicted": 0
+        },
+        {
+          "id": "D004",
+          "fold": 2,
+          "truth": 0,
+          "p_abuse": 0.277984,
+          "predicted": 0
+        },
+        {
+          "id": "D005",
+          "fold": 1,
+          "truth": 0,
+          "p_abuse": 0.347988,
+          "predicted": 0
+        },
+        {
+          "id": "D006",
+          "fold": 2,
+          "truth": 0,
+          "p_abuse": 0.502648,
+          "predicted": 1
+        },
+        {
+          "id": "D007",
+          "fold": 3,
+          "truth": 0,
+          "p_abuse": 0.436823,
+          "predicted": 0
+        },
+        {
+          "id": "D008",
+          "fold": 0,
+          "truth": 0,
+          "p_abuse": 0.446288,
+          "predicted": 0
+        },
+        {
+          "id": "D009",
+          "fold": 2,
+          "truth": 0,
+          "p_abuse": 0.768638,
+          "predicted": 1
+        },
+        {
+          "id": "D010",
+          "fold": 0,
+          "truth": 0,
+          "p_abuse": 0.69193,
+          "predicted": 1
+        },
+        {
+          "id": "D011",
+          "fold": 1,
+          "truth": 0,
+          "p_abuse": 0.486678,
+          "predicted": 0
+        },
+        {
+          "id": "D012",
+          "fold": 0,
+          "truth": 0,
+          "p_abuse": 0.700914,
+          "predicted": 1
+        },
+        {
+          "id": "D013",
+          "fold": 2,
+          "truth": 1,
+          "p_abuse": 0.479762,
+          "predicted": 0
+        },
+        {
+          "id": "D014",
+          "fold": 3,
+          "truth": 1,
+          "p_abuse": 0.649791,
+          "predicted": 1
+        },
+        {
+          "id": "D015",
+          "fold": 1,
+          "truth": 1,
+          "p_abuse": 0.76521,
+          "predicted": 1
+        },
+        {
+          "id": "D016",
+          "fold": 0,
+          "truth": 1,
+          "p_abuse": 0.911688,
+          "predicted": 1
+        },
+        {
+          "id": "D017",
+          "fold": 2,
+          "truth": 1,
+          "p_abuse": 0.90065,
+          "predicted": 1
+        },
+        {
+          "id": "D018",
+          "fold": 0,
+          "truth": 1,
+          "p_abuse": 0.318952,
+          "predicted": 0
+        },
+        {
+          "id": "D019",
+          "fold": 3,
+          "truth": 1,
+          "p_abuse": 0.437542,
+          "predicted": 0
+        },
+        {
+          "id": "D020",
+          "fold": 0,
+          "truth": 1,
+          "p_abuse": 0.44614,
+          "predicted": 0
+        },
+        {
+          "id": "D021",
+          "fold": 2,
+          "truth": 1,
+          "p_abuse": 0.769696,
+          "predicted": 1
+        },
+        {
+          "id": "D022",
+          "fold": 1,
+          "truth": 1,
+          "p_abuse": 0.461795,
+          "predicted": 0
+        },
+        {
+          "id": "D023",
+          "fold": 1,
+          "truth": 1,
+          "p_abuse": 0.478933,
+          "predicted": 0
+        },
+        {
+          "id": "D024",
+          "fold": 3,
+          "truth": 1,
+          "p_abuse": 0.24453,
+          "predicted": 0
+        }
+      ]
+    },
+    "tree_depth2_leaf3": {
+      "metrics": {
+        "tp": 7,
+        "fp": 4,
+        "tn": 8,
+        "fn": 5,
+        "balanced_accuracy": 0.625
+      },
+      "predictions": [
+        {
+          "id": "D001",
+          "fold": 3,
+          "truth": 0,
+          "p_abuse": 0.0,
+          "predicted": 0
+        },
+        {
+          "id": "D002",
+          "fold": 3,
+          "truth": 0,
+          "p_abuse": 0.0,
+          "predicted": 0
+        },
+        {
+          "id": "D003",
+          "fold": 1,
+          "truth": 0,
+          "p_abuse": 0.0,
+          "predicted": 0
+        },
+        {
+          "id": "D004",
+          "fold": 2,
+          "truth": 0,
+          "p_abuse": 0.0,
+          "predicted": 0
+        },
+        {
+          "id": "D005",
+          "fold": 1,
+          "truth": 0,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D006",
+          "fold": 2,
+          "truth": 0,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D007",
+          "fold": 3,
+          "truth": 0,
+          "p_abuse": 0.444444,
+          "predicted": 0
+        },
+        {
+          "id": "D008",
+          "fold": 0,
+          "truth": 0,
+          "p_abuse": 0.5,
+          "predicted": 1
+        },
+        {
+          "id": "D009",
+          "fold": 2,
+          "truth": 0,
+          "p_abuse": 0.428571,
+          "predicted": 0
+        },
+        {
+          "id": "D010",
+          "fold": 0,
+          "truth": 0,
+          "p_abuse": 0.5,
+          "predicted": 1
+        },
+        {
+          "id": "D011",
+          "fold": 1,
+          "truth": 0,
+          "p_abuse": 0.375,
+          "predicted": 0
+        },
+        {
+          "id": "D012",
+          "fold": 0,
+          "truth": 0,
+          "p_abuse": 0.0,
+          "predicted": 0
+        },
+        {
+          "id": "D013",
+          "fold": 2,
+          "truth": 1,
+          "p_abuse": 0.0,
+          "predicted": 0
+        },
+        {
+          "id": "D014",
+          "fold": 3,
+          "truth": 1,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D015",
+          "fold": 1,
+          "truth": 1,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D016",
+          "fold": 0,
+          "truth": 1,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D017",
+          "fold": 2,
+          "truth": 1,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D018",
+          "fold": 0,
+          "truth": 1,
+          "p_abuse": 1.0,
+          "predicted": 1
+        },
+        {
+          "id": "D019",
+          "fold": 3,
+          "truth": 1,
+          "p_abuse": 0.444444,
+          "predicted": 0
+        },
+        {
+          "id": "D020",
+          "fold": 0,
+          "truth": 1,
+          "p_abuse": 0.5,
+          "predicted": 1
+        },
+        {
+          "id": "D021",
+          "fold": 2,
+          "truth": 1,
+          "p_abuse": 0.428571,
+          "predicted": 0
+        },
+        {
+          "id": "D022",
+          "fold": 1,
+          "truth": 1,
+          "p_abuse": 0.375,
+          "predicted": 0
+        },
+        {
+          "id": "D023",
+          "fold": 1,
+          "truth": 1,
+          "p_abuse": 0.375,
+          "predicted": 0
+        },
+        {
+          "id": "D024",
+          "fold": 3,
+          "truth": 1,
+          "p_abuse": 1.0,
+          "predicted": 1
+        }
+      ]
+    }
+  },
+  "development_rows": 24,
+  "development_feature_sha256": "45e498a76d9316772528b6bce58b742954cbb96261e56008c2d7ceeb496e8db5",
+  "manifest_sha256": "3377f6ce41df2a224db214d7d56498b51355592312210c80f8cb58a0dedcc915",
+  "training_source_sha256": "71a1fd711ef38f078e9831f4df11780c07498c63998a7b02893701afe527d189",
+  "model_sha256": "092e7b025e871ff111e135d139747d62187de8e1655edaad250b3f1ab9e0cad4",
+  "versions": {
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "limitations": "One PBX, one SIPp source, two lab accounts/destinations; pair labels can be observationally identical."
+}

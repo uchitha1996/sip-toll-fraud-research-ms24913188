@@ -1,0 +1,3 @@
+stage,time_utc,source_ip,account,destination,call_id,evidence
+AUTHENTICATION_ATTACK,2026-10-02T00:14:34.121051Z,172.16.200.68,1001,,1-4062@172.16.200.68,10 confirmed authenticated rejections in 60 s
+SUSPECTED_COMPROMISE,2026-10-02T00:14:37.154132Z,172.16.200.68,1001,,,10 confirmed rejections then REGISTER 200

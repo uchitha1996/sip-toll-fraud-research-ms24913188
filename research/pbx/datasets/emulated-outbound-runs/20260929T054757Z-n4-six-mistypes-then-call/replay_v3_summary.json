@@ -1,0 +1,30 @@
+{
+  "replayed_utc": "2026-09-29T05:49:18.029484+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/emulated-outbound-runs/20260929T054757Z-n4-six-mistypes-then-call",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "N4-six-mistypes-then-call",
+      "label": "SCRIPTED_BENIGN_RECOVERY_WITH_CALL",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81",
+      "extension": "1001",
+      "destination": "88001",
+      "expected_wrong_password_dialogs": "6",
+      "expected_register_success": "1",
+      "expected_answered_call": "1"
+    }
+  ],
+  "packet_rows": 44,
+  "request_events": 17,
+  "predicted_stages": {
+    "NORMAL": 17
+  },
+  "first_alert_stage": null,
+  "first_alert_event": null,
+  "time_to_first_alert_seconds": null,
+  "new_cdr_rows": 1,
+  "pcap_sha256": "4130437a7cbdf6486cf85aa8489e6c29429c7a8f0e741da66d18968110c8581c",
+  "packet_csv_sha256": "a0676bbfe64c7990c575ff70a4a2ccfeb29af806039cdac9cbb50f362b549909",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

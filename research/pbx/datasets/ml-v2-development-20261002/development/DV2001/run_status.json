@@ -1,0 +1,10 @@
+{
+  "case": "DV2001",
+  "start_utc": "2026-10-02T00:00:36.740367Z",
+  "end_utc": "2026-10-02T00:00:44.396901Z",
+  "wrong_dialog_starts_utc": [],
+  "capture_sha256": "e51cf55ccba4f15cefb7b99bdb66a5ddb2ba451e622bcb97a97e81feadbb3d13",
+  "error": null,
+  "cleanup_errors": [],
+  "status": "captured"
+}

@@ -1,0 +1,31 @@
+{
+  "replayed_utc": "2026-09-28T10:10:30.313910+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/emulated-outbound-runs/20260928T100747Z-six-fail-then-call",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "A2-six-fail-then-call",
+      "label": "EMULATED_CREDENTIAL_ABUSE_WITH_CALL",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81",
+      "extension": "1001",
+      "destination": "88001",
+      "expected_wrong_password_dialogs": "6",
+      "expected_register_success": "1",
+      "expected_answered_call": "1"
+    }
+  ],
+  "packet_rows": 44,
+  "request_events": 17,
+  "predicted_stages": {
+    "NORMAL": 14,
+    "AUTHENTICATION_ATTACK": 3
+  },
+  "first_alert_stage": "AUTHENTICATION_ATTACK",
+  "first_alert_event": 10,
+  "time_to_first_alert_seconds": 2.665918,
+  "new_cdr_rows": 1,
+  "pcap_sha256": "b6089c0bcaf2dd8bf8667b38c6c05fa5eb9ef1f99443bd0d7e4faac5e4aacf2b",
+  "packet_csv_sha256": "010604fd894c1cbff7f8fc78c53dae43b70ed08ef01cc080cbd7f41a28a6b229",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

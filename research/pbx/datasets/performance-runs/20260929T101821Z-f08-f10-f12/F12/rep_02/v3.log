@@ -1,0 +1,1 @@
+{"run_dir": "/home/astrix/sip-fraud-research/datasets/performance-runs/20260929T101821Z-f08-f10-f12/F12/rep_02/v3_input", "requests": 25, "first_alert_stage": null, "first_alert_event": null, "time_to_first_alert_seconds": null, "new_cdr_rows": 1}

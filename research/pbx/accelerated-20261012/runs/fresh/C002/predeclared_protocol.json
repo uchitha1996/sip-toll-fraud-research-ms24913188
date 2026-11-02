@@ -1,0 +1,21 @@
+{
+  "id": "C002",
+  "split": "fresh",
+  "intent": "BENIGN",
+  "account": "1002",
+  "wrong": 0,
+  "success": 1,
+  "call": 1,
+  "destination": "88002",
+  "interval": 1.8,
+  "post_register_pause": 1.2,
+  "profile": "second_account_allowed_call",
+  "declared_utc": "2026-10-12T03:53:25.601495Z",
+  "manifest_sha256": "bfd3280811832398c729e3f1ff24aa3f8e0df04df7fd05bb158f31f55d392c48",
+  "runner_sha256": "5fe07c4fe6925d4913ddb8e8856fea1ac20d972e9a20478d4a03ca433ab937ec",
+  "prep_sha256": "a02593b2f09b7ea657b178ea551b059f6c9381880f91b8e42d3b251dca98d28d",
+  "wrong_template_sha256": "610d5dce70125a4c3ed5b2acbe19bc17bd840ce2f0f204c1c872cf8889432de7",
+  "v5_sha256": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "invalid_if": "Any missing or mismatched SIP, CDR, log, or cleanup evidence"
+}

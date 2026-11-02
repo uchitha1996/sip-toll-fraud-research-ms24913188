@@ -1,0 +1,278 @@
+{
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "manifest_sha256": "652e68d674fa5bac4909cc407206bcb991b60301bba8aab75eef145790afdaa5",
+  "count": 10,
+  "positive": 5,
+  "negative": 5,
+  "higher_priority_tp": 1,
+  "higher_priority_fp": 1,
+  "lower_priority_benign": 1,
+  "lower_priority_abuse": 1,
+  "pairs": [
+    [
+      "B006",
+      "B011"
+    ],
+    [
+      "B007",
+      "B012"
+    ],
+    [
+      "B008",
+      "B013"
+    ],
+    [
+      "B009",
+      "B014"
+    ],
+    [
+      "B010",
+      "B015"
+    ]
+  ],
+  "results": [
+    {
+      "id": "B006",
+      "assigned_intent": "authorized",
+      "label": 0,
+      "probability": 0.39691372468319835,
+      "priority": "LOWER",
+      "features": [
+        5,
+        5,
+        7.1756,
+        10.1751
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "1fd1f7690617ddffce875e63313c1d32e82b61e49bb6aed78c75f06835ab6b27",
+      "events_sha256": "7286f557c7a233e88778390476fd16e83c672ebbedb3b9fa32b49ee896e30db8",
+      "alerts_sha256": "a290110cebc5e6c32a34b918915d94759b36f447bd2cb5101fc008c8ef9a2923"
+    },
+    {
+      "id": "B007",
+      "assigned_intent": "simulated_unauthorized",
+      "label": 1,
+      "probability": 0.47162130369333083,
+      "priority": "REVIEW",
+      "features": [
+        6,
+        5,
+        11.0433,
+        13.9287
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "3b3beb2ec995fa1f2d172aeabc567be8de2c6adc2537cecb2e13d85426474caf",
+      "events_sha256": "6cda87bfb93205d44e3ca2e3b23c96790e8b85fa9530b58fd605bd7172cb5d6c",
+      "alerts_sha256": "8bd2064aa30f2960628ff3e14f3f8689eb119032e0dc3f9a258664bba822887d"
+    },
+    {
+      "id": "B008",
+      "assigned_intent": "authorized",
+      "label": 0,
+      "probability": 0.5384752228970902,
+      "priority": "REVIEW",
+      "features": [
+        7,
+        4,
+        16.7899,
+        19.7849
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "cbb01987613c454e39f740c610e5705f74bf83f8370ef8618382943dae84ec52",
+      "events_sha256": "db1fc7aadd7750a2af2eb6bf870fc2f47646d1eb02f708490534f91af0c35849",
+      "alerts_sha256": "48b337db80e2a8fb9e1de094bbe3ba727b78598cffcae4c5680287e42da27fe9"
+    },
+    {
+      "id": "B009",
+      "assigned_intent": "simulated_unauthorized",
+      "label": 1,
+      "probability": 0.5829808668754615,
+      "priority": "REVIEW",
+      "features": [
+        8,
+        6,
+        12.6825,
+        15.6327
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "e0285670f7dd26840bdd51030af0dae9434913f4b3e87afc5f1a683ab8a3659a",
+      "events_sha256": "0d0c8332bb57d0752d11ad1b17dcbe8115eb028df48efc78e31bf8efd4efa460",
+      "alerts_sha256": "07ddc2121c460e5892b9677a4dbfc7cdb9afd276c7b5fca3fbf347f7154113c4"
+    },
+    {
+      "id": "B010",
+      "assigned_intent": "authorized",
+      "label": 0,
+      "probability": 0.7336331747123357,
+      "priority": "HIGHER",
+      "features": [
+        10,
+        4,
+        27.1063,
+        30.102
+      ],
+      "stages": [
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "9b23292bf490d743a4ba800a062eca335f4fb96165b2b0780a8edc074c0625d0",
+      "events_sha256": "4c65c9c752d44586f63624f7abe6979d2229899e81700c3f8de60f53bd2ce6fe",
+      "alerts_sha256": "915ccbc8e38a01fb87d5f246548d644978ac4f48657ee17cf630c50de1a436ea"
+    },
+    {
+      "id": "B011",
+      "assigned_intent": "simulated_unauthorized",
+      "label": 1,
+      "probability": 0.3971179239815187,
+      "priority": "LOWER",
+      "features": [
+        5,
+        5,
+        7.1781,
+        10.204
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "c78560a0c0a27abce73996b494b8bd90019223e982e8007b79f18df5358b81b4",
+      "events_sha256": "2b02bbc0aaf1f664009e98aab3cce2d0dbaafa0546abfd6f6c81f24110813440",
+      "alerts_sha256": "a8255abf7f7c5c198de736adff056a9728bc80dbbd5e6bf344a80fb9ecbbc1cc"
+    },
+    {
+      "id": "B012",
+      "assigned_intent": "authorized",
+      "label": 0,
+      "probability": 0.47082297928393163,
+      "priority": "REVIEW",
+      "features": [
+        6,
+        5,
+        10.9352,
+        13.9014
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "c3b725a3caa75beeea93f319ccb15fd3b2df3428c6cfd23333154327a1ccbf27",
+      "events_sha256": "39fcaa1dc31b02f010aca46b713e18280ec9a4e03120731c7fab33bfc4ac0eab",
+      "alerts_sha256": "31a669195c4ae07a8b8ecde95052b5bca045066137d2e80df73fb0b55b6d153a"
+    },
+    {
+      "id": "B013",
+      "assigned_intent": "simulated_unauthorized",
+      "label": 1,
+      "probability": 0.5382052672008854,
+      "priority": "REVIEW",
+      "features": [
+        7,
+        4,
+        16.7872,
+        19.7477
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "cfa828c780a38635a49b5e6c93a8c4e8a3dfa95bc4044be081e008c635f00e0e",
+      "events_sha256": "3e600f62f871a2c2f67e0618e12e919ff087039f1d2d8b4c9fe567f46fcb4c97",
+      "alerts_sha256": "9201794b996bc49f21fbdd7e20b8601973e3d4dbf41f90d48b082ff220993bef"
+    },
+    {
+      "id": "B014",
+      "assigned_intent": "authorized",
+      "label": 0,
+      "probability": 0.576027494861382,
+      "priority": "REVIEW",
+      "features": [
+        8,
+        6,
+        12.0535,
+        15.1148
+      ],
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "cac698d2dcc43730fe541e8b2d17fb1b9243fce915b33a232a5744c3fccab96a",
+      "events_sha256": "8d03c2cb6566e215013713c5b43f29c8ec3bbddc36ae0f4e48e7e8ba3539cbb8",
+      "alerts_sha256": "750aa3588de2c214260a50c86a78af97160e98245d46929605cc170cc10fa5fa"
+    },
+    {
+      "id": "B015",
+      "assigned_intent": "simulated_unauthorized",
+      "label": 1,
+      "probability": 0.7326839811413568,
+      "priority": "HIGHER",
+      "features": [
+        10,
+        4,
+        26.9892,
+        30.0223
+      ],
+      "stages": [
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "answered_cdr_count_independently_verified": 3,
+      "pcap_sha256": "fcc5e2d8876bc0064765483602017c6e53f6771d751e5e6755c2926ed3f64d58",
+      "events_sha256": "3e1aa2f1f02bea6eb341c8d342c6bd1377745a33e6ce3781ab6261cabe69b11b",
+      "alerts_sha256": "1f80baa70827b503e1b1869f48ab9283e02986b11382cb5e331b1ea277cc1994"
+    }
+  ],
+  "warning": "Single-generator assigned-intent lab holdout; no automated suppression or population accuracy claim."
+}

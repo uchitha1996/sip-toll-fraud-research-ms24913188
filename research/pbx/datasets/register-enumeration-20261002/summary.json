@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "id": "RE001",
+      "label": "MISCONFIGURATION_CONTROL",
+      "verified": true,
+      "unique_register_targets": 1,
+      "request_dialogs": 6,
+      "response_codes": [
+        "401"
+      ],
+      "pcap_sha256": "70b928980d4b6d0742f1a5a45da7d291021b23ab9cae617c6dc82afa7f3b60d4",
+      "v5_counts": {
+        "request_events": 6,
+        "initial_unauthenticated_challenges_ignored": 6,
+        "unresolved_at_observation_end": 0
+      },
+      "current_progression_stages": [],
+      "cdr_delta": 0,
+      "limitation": "Unauthenticated unused-account probe; no confirmed guessing, compromise, DoS or demonstrated valid-ID discovery."
+    },
+    {
+      "id": "RE002",
+      "label": "RECONNAISSANCE_PROBE",
+      "verified": true,
+      "unique_register_targets": 6,
+      "request_dialogs": 6,
+      "response_codes": [
+        "401"
+      ],
+      "pcap_sha256": "4685e2f73848344eabf68fe5e0626326bfe939a91872c111e43f265f462e158f",
+      "v5_counts": {
+        "request_events": 6,
+        "initial_unauthenticated_challenges_ignored": 6,
+        "unresolved_at_observation_end": 0
+      },
+      "current_progression_stages": [],
+      "cdr_delta": 0,
+      "limitation": "Unauthenticated unused-account probe; no confirmed guessing, compromise, DoS or demonstrated valid-ID discovery."
+    }
+  ],
+  "postflight": "0 active channels\n0 active calls\n0 calls processed",
+  "manifest_sha256": "f941d82a5ae008c7a925c676d47b25077aa14f41d29262e45b3618b03554431a",
+  "wrapper_sha256": "49bc866c77229bdb6cd226152d5897dfc55707a5b96df4924126a4bf62cbe2a3"
+}

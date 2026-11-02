@@ -1,0 +1,113 @@
+{
+  "events": [
+    {
+      "event_id": "v5:5",
+      "time_utc": "2026-10-02T00:01:47.486433Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3082@172.16.200.68"
+    },
+    {
+      "event_id": "v5:10",
+      "time_utc": "2026-10-02T00:01:50.508901Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3094@172.16.200.68"
+    },
+    {
+      "event_id": "v5:15",
+      "time_utc": "2026-10-02T00:01:53.540241Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3105@172.16.200.68"
+    },
+    {
+      "event_id": "v5:20",
+      "time_utc": "2026-10-02T00:01:56.497992Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3116@172.16.200.68"
+    },
+    {
+      "event_id": "v5:25",
+      "time_utc": "2026-10-02T00:01:59.479895Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3127@172.16.200.68"
+    },
+    {
+      "event_id": "v5:30",
+      "time_utc": "2026-10-02T00:02:02.502149Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3138@172.16.200.68"
+    },
+    {
+      "event_id": "v5:35",
+      "time_utc": "2026-10-02T00:02:05.669933Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3149@172.16.200.68"
+    },
+    {
+      "event_id": "v5:40",
+      "time_utc": "2026-10-02T00:02:08.477247Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "AUTH_REJECTION",
+      "call_id": "1-3160@172.16.200.68"
+    },
+    {
+      "event_id": "v5:44",
+      "time_utc": "2026-10-02T00:02:11.452456Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "kind": "REGISTER_SUCCESS",
+      "call_id": "1-3171@172.16.200.68"
+    }
+  ],
+  "alerts": [
+    {
+      "stage": "SUSPECTED_COMPROMISE",
+      "risk": "REVIEW",
+      "event_time_utc": "2026-10-02T00:02:11.452456Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "destination": "",
+      "destination_group": "",
+      "trunk": "",
+      "call_id": "1-3171@172.16.200.68",
+      "event_id": "v5:44",
+      "evidence_event_ids": [
+        "v5:5",
+        "v5:10",
+        "v5:15",
+        "v5:20",
+        "v5:25",
+        "v5:30",
+        "v5:35",
+        "v5:40",
+        "v5:44"
+      ],
+      "policy": "UNKNOWN",
+      "reason": "ambiguous_recovery",
+      "ml_probability": 0.6173336258034904,
+      "ml_priority": "HIGHER",
+      "ml_feature_values": [
+        8,
+        4,
+        20.9908,
+        23.966
+      ],
+      "ml_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+    }
+  ],
+  "model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d"
+}

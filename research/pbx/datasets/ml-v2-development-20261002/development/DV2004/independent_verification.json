@@ -1,0 +1,13 @@
+{
+  "scenario_id": "DV2004",
+  "verified": true,
+  "packets": 24,
+  "failed_auth_lines": 5,
+  "cdr_delta": 0,
+  "cdr_billsec": 0,
+  "v5_first_alert": null,
+  "v6_stages": [
+    "SUSPECTED_COMPROMISE"
+  ],
+  "pcap_sha256": "ab2e0304c656f09dd5c2d5c7d9535fb089bf09cb2bdcf074d867ee0baf001ff7"
+}

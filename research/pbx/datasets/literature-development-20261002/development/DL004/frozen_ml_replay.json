@@ -1,0 +1,28 @@
+[
+  {
+    "stage": "AUTHENTICATION_ATTACK",
+    "risk": "HIGH_SUSPICION",
+    "event_time_utc": "2026-10-02T00:13:55.630653Z",
+    "source_ip": "172.16.200.68",
+    "account": "1001",
+    "destination": "",
+    "destination_group": "",
+    "trunk": "",
+    "call_id": "1-3886@172.16.200.68",
+    "event_id": "v5:50",
+    "evidence_event_ids": [
+      "v5:5",
+      "v5:10",
+      "v5:15",
+      "v5:20",
+      "v5:25",
+      "v5:30",
+      "v5:35",
+      "v5:40",
+      "v5:45",
+      "v5:50"
+    ],
+    "policy": "UNKNOWN",
+    "reason": "10 confirmed digest rejections in 60 s"
+  }
+]

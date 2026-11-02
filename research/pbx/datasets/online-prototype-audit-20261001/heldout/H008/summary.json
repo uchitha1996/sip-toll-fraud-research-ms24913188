@@ -1,0 +1,17 @@
+{
+  "id": "H008",
+  "split": "heldout",
+  "event_count": 8,
+  "stages": [
+    "SUSPECTED_COMPROMISE"
+  ],
+  "v6_stages": [
+    "SUSPECTED_COMPROMISE"
+  ],
+  "stage_match": true,
+  "processing_ns": 3287509,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd",
+  "events_sha256": "52b25b821a6c12d6d777b8823ee486ae57adcebca71b1aedc10060185a9ffdfb",
+  "alerts_sha256": "43279ac8ea7372fa46bc4648c0e32ecd7fc5be6315b1a869be115958f0840153"
+}

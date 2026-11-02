@@ -1,0 +1,28 @@
+V4 robustness stage detection completed
+Window: 10.0 seconds
+Matched events: 68 of 68
+
+Confusion matrix (rows=actual, columns=predicted)
+ACTUAL\PRED                     NORMAL  RECONNAISS  AUTHENTICA  FRAUD_BURS
+NORMAL                              16           0           0           0
+RECONNAISSANCE                      13           1           0           0
+AUTHENTICATION_ATTACK               28           0           1           0
+FRAUD_BURST                          8           0           0           1
+
+Binary attack metrics: precision=1.0000, recall=0.0577, F1=0.1091, false-positive-rate=0.0000
+
+Scenario detection
+NORMAL                   detected=1 TTD=N/A
+RECONNAISSANCE           detected=0 TTD=N/A
+NORMAL                   detected=1 TTD=N/A
+RECONNAISSANCE           detected=1 TTD=1.603098s
+AUTHENTICATION_ATTACK    detected=0 TTD=N/A
+NORMAL                   detected=1 TTD=N/A
+AUTHENTICATION_ATTACK    detected=1 TTD=2.256846s
+FRAUD_BURST              detected=0 TTD=N/A
+NORMAL                   detected=1 TTD=N/A
+FRAUD_BURST              detected=1 TTD=0.803202s
+
+Timeline: /home/astrix/sip-fraud-research/datasets/stage_detection_timeline_v4.csv
+Scenario summary: /home/astrix/sip-fraud-research/datasets/stage_detection_summary_v4.csv
+Metrics: /home/astrix/sip-fraud-research/datasets/stage_detection_metrics_v4.csv

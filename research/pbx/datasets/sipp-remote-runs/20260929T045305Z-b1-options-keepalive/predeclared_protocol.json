@@ -1,0 +1,14 @@
+{
+  "case": "B1",
+  "declared_utc": "2026-09-29T04:53:05.108608Z",
+  "role": "development benign-burst stress",
+  "label": "SCRIPTED_BENIGN_OPTIONS_HEALTH_CHECK",
+  "stimulus": "Eight OPTIONS to the same known lab target 1001, monitor identity, no authentication/call",
+  "expected_requests": 8,
+  "expected_401": 8,
+  "expected_failed_auth": 0,
+  "expected_register_200": 0,
+  "expected_invites": 0,
+  "expected_cdr_delta": 0,
+  "invalid_if": "Counts, source, target, PCAP, logs or CDR mismatch"
+}

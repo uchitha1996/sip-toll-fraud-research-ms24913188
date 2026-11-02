@@ -1,0 +1,30 @@
+{
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260929T052908Z-n1-real-phone",
+  "start_utc": "2026-09-29T05:29:08.924177Z",
+  "end_utc": "2026-09-29T05:34:09.988942Z",
+  "decoded_sip_packets": 77,
+  "new_cdr_rows": 3,
+  "relevant_cdrs": [
+    {
+      "src": "1001",
+      "dst": "1002",
+      "billsec": "12",
+      "disposition": "ANSWERED"
+    },
+    {
+      "src": "1002",
+      "dst": "1001",
+      "billsec": "13",
+      "disposition": "ANSWERED"
+    },
+    {
+      "src": "1002",
+      "dst": "1001",
+      "billsec": "10",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "pcap_sha256": "32036f72988364392e7262ad372134b4dfff40fd939bb93d88338a4137664998",
+  "tcpdump_tail": "tcpdump: listening on wlan0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n107 packets captured\n107 packets received by filter\n0 packets dropped by kernel\n",
+  "error": null
+}

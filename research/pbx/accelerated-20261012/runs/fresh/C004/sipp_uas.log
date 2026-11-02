@@ -1,0 +1,43 @@
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Port   Total-time  Total-calls  Transport
+  5090      29.98 s            1  UDP
+
+  Call limit 1 hit, 0.0 s period          0 ms scheduler resolution            
+  0 calls                                 Peak was 1 calls, after 19 s
+  0 Running, 2 Paused, 103 Woken up
+  0 dead call msg (discarded)           
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+0 :  ----------> INVITE             1         0         0         0                  
+
+1 :  <---------- 180                1         0                                      
+2 :  <---------- 200                1         0         0                            
+3 :  ----------> ACK         E-RTD1 1         0         0         0                  
+
+4 :  ----------> BYE                1         0         0         0                  
+5 :  <---------- 200                1         0                                      
+6 :  [   4000ms] Pause              1                             0        
+------------------------------ Test Terminated --------------------------------
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2026-10-12	09:24:32.604898	1791777272.604898         
+  Last Reset Time        | 2026-10-12	09:25:02.597218	1791777302.597218         
+  Current Time           | 2026-10-12	09:25:02.597512	1791777302.597512         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:29:992000           | 00:00:29:992000          
+  Call Rate              |    0.000 cps              |    0.033 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming calls created |        0                  |        1                 
+  Outgoing calls created |        0                  |        0                 
+  Total Calls created    |                           |        1                 
+  Current Calls          |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |        1                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Response Time 1        | 00:00:00:020000           | 00:00:00:020000          
+  Call Length            | 00:00:10:080000           | 00:00:10:080000          
+------------------------------ Test Terminated --------------------------------

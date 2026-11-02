@@ -1,0 +1,194 @@
+{
+  "H001": {
+    "verification": {
+      "scenario_id": "H001",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 0,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576"
+    },
+    "v6": {
+      "stages": []
+    }
+  },
+  "H002": {
+    "verification": {
+      "scenario_id": "H002",
+      "verified": true,
+      "packets": 36,
+      "failed_auth_lines": 4,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "feeee14ba5ed29f0a25a6c8973b6be319f7cb9fb604165cfdc99e88aab64c049"
+    },
+    "v6": {
+      "stages": []
+    }
+  },
+  "H003": {
+    "verification": {
+      "scenario_id": "H003",
+      "verified": true,
+      "packets": 48,
+      "failed_auth_lines": 7,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "8db626eb7ad30def383ca2935c2312ed4382fb2aa9128dcb9fd0c621b7e9b5a7"
+    },
+    "v6": {
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ]
+    }
+  },
+  "H004": {
+    "verification": {
+      "scenario_id": "H004",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 7,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "3b89a348d76b58e19ab9de93e00f72a0e2f345359b888eae779e036dcf676f1e"
+    },
+    "v6": {
+      "stages": [
+        "SUSPECTED_COMPROMISE"
+      ]
+    }
+  },
+  "H005": {
+    "verification": {
+      "scenario_id": "H005",
+      "verified": true,
+      "packets": 8,
+      "failed_auth_lines": 2,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "06d26b0ebeb123d2f200a3bcecd7fe0c5d4b63a8cdbda8ae3e442d5cc3bfb323"
+    },
+    "v6": {
+      "stages": []
+    }
+  },
+  "H006": {
+    "verification": {
+      "scenario_id": "H006",
+      "verified": true,
+      "packets": 20,
+      "failed_auth_lines": 5,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "f2fa2194c3577ff863cf7c9c318871054f31d09d5a744f3ac6e6b0ab5456111f"
+    },
+    "v6": {
+      "stages": []
+    }
+  },
+  "H007": {
+    "verification": {
+      "scenario_id": "H007",
+      "verified": true,
+      "packets": 48,
+      "failed_auth_lines": 7,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "15014e82559ea32b624d6d9496cc454d13813096f7aa540a0456dbb728dfc1c9"
+    },
+    "v6": {
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ]
+    }
+  },
+  "H008": {
+    "verification": {
+      "scenario_id": "H008",
+      "verified": true,
+      "packets": 32,
+      "failed_auth_lines": 7,
+      "cdr_delta": 0,
+      "cdr_billsec": 0,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "pcap_sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd"
+    },
+    "v6": {
+      "stages": [
+        "SUSPECTED_COMPROMISE"
+      ]
+    }
+  },
+  "H009": {
+    "verification": {
+      "scenario_id": "H009",
+      "verified": true,
+      "packets": 56,
+      "failed_auth_lines": 9,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ],
+      "pcap_sha256": "bb7f77e8c2f4621cb09c1da95e6bfe76fe8366de4f7546b218a5c3ddc28dbf62"
+    },
+    "v6": {
+      "stages": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "ANSWERED_EMULATED_OUTBOUND"
+      ]
+    }
+  },
+  "H010": {
+    "verification": {
+      "scenario_id": "H010",
+      "verified": true,
+      "packets": 28,
+      "failed_auth_lines": 2,
+      "cdr_delta": 1,
+      "cdr_billsec": 6,
+      "v5_first_alert": null,
+      "v6_stages": [],
+      "pcap_sha256": "3ce2946468ae707ef5a294032e79c648bd63692ed6008568b0c234aec0f34d15"
+    },
+    "v6": {
+      "stages": []
+    }
+  }
+}

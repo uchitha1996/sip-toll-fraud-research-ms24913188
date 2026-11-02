@@ -1,0 +1,13 @@
+{
+  "scenario_id": "H008",
+  "verified": true,
+  "packets": 32,
+  "failed_auth_lines": 7,
+  "cdr_delta": 0,
+  "cdr_billsec": 0,
+  "v5_first_alert": null,
+  "v6_stages": [
+    "SUSPECTED_COMPROMISE"
+  ],
+  "pcap_sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd"
+}

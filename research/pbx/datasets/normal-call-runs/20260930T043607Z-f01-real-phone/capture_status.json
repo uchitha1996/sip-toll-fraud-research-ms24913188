@@ -1,0 +1,11 @@
+{
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260930T043607Z-f01-real-phone",
+  "case": "F01",
+  "start_utc": "2026-09-30T04:36:07.215508Z",
+  "end_utc": "2026-09-30T04:41:08.248189Z",
+  "pcap_sha256": "a6200c59e55e99d1e40ef57500373021b08e4b2ffdf14fa3aff059552ff3a351",
+  "verified": null,
+  "errors": [
+    "verification: ValueError: Fewer than required completed SIP calls or positive-billsec ANSWERED CDRs"
+  ]
+}

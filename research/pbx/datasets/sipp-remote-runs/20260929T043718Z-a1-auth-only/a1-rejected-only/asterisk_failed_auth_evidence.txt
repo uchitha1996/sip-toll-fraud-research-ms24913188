@@ -1,0 +1,10 @@
+[Sep 29 10:07:52] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17039@172.16.200.68) - Failed to authenticate
+[Sep 29 10:07:54] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17050@172.16.200.68) - Failed to authenticate
+[Sep 29 10:07:56] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17061@172.16.200.68) - Failed to authenticate
+[Sep 29 10:07:58] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17072@172.16.200.68) - Failed to authenticate
+[Sep 29 10:08:00] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17083@172.16.200.68) - Failed to authenticate
+[Sep 29 10:08:01] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17094@172.16.200.68) - Failed to authenticate
+[Sep 29 10:08:03] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17105@172.16.200.68) - Failed to authenticate
+[Sep 29 10:08:05] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17116@172.16.200.68) - Failed to authenticate
+[Sep 29 10:08:07] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17127@172.16.200.68) - Failed to authenticate
+[Sep 29 10:08:09] NOTICE[74263] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1001@172.16.200.81>' failed for '172.16.200.68:5121' (callid: 1-17138@172.16.200.68) - Failed to authenticate

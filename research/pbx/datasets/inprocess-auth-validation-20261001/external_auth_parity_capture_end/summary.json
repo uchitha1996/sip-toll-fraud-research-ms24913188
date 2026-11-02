@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "id": "A000",
+      "events": 1,
+      "external_replay_stages": [],
+      "live_inprocess_stages": [],
+      "match": true,
+      "pcap_sha256": "3af04b532da141d260a88fc2f3d38dc367dd85331cb4a5a5bbce4b112ed3da23"
+    },
+    {
+      "id": "A001",
+      "events": 10,
+      "external_replay_stages": [
+        "AUTHENTICATION_ATTACK"
+      ],
+      "live_inprocess_stages": [
+        "AUTHENTICATION_ATTACK"
+      ],
+      "match": true,
+      "pcap_sha256": "61d06f993bca04dee0a895efdda1452d08b3366ecd394cd77ae2759486f6b8ac"
+    },
+    {
+      "id": "A002",
+      "events": 7,
+      "external_replay_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "live_inprocess_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "match": true,
+      "pcap_sha256": "d6ef78b6767af9025fa96abdc0d02e5b9f5df7644b50ee944537110fa27a9fd1"
+    }
+  ],
+  "all_match": true,
+  "scope": "Auth stage subset only. External side is archived replay; not simultaneous live delivery or latency/overhead comparison."
+}

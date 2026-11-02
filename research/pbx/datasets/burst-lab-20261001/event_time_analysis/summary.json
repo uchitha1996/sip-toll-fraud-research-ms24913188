@@ -1,0 +1,98 @@
+{
+  "manifest_sha256": "836b25b9a7173724208ebe5e658a1b81f7226623d2a518bb86db9227a782a488",
+  "count": 4,
+  "verified_pairs_with_same_stages": [
+    [
+      "B001",
+      "B002"
+    ],
+    [
+      "B003",
+      "B004"
+    ]
+  ],
+  "median_offline_analysis_ms": 1.641785,
+  "results": [
+    {
+      "id": "B001",
+      "assigned_intent": "authorized",
+      "account": "1001",
+      "wrong": 0,
+      "event_count": 7,
+      "stage_sequence": [
+        "CALL_BURST"
+      ],
+      "burst_event_span_s": 15.922205924987793,
+      "burst_risk": "REVIEW",
+      "analysis_ns": 1569137,
+      "pcap_sha256": "90ac887e45d61d8a12fa592a3391d79b72a3bd8df91b2c49fb03ef8643b6c957",
+      "events_sha256": "169f8eaa7929e12d98634c07cc0581a67ae90d27ea377851ebdb2aba83b89d33",
+      "alerts_sha256": "4157e0722d2c84582ee2a675265b4b1deb86ef41e234212195e835d2c919c2c2",
+      "cdr_count_independently_verified": 3,
+      "cdr_stage": "omitted because SIP Call-ID cannot be uniquely linked to three same-account CDRs"
+    },
+    {
+      "id": "B002",
+      "assigned_intent": "simulated_unauthorized",
+      "account": "1001",
+      "wrong": 0,
+      "event_count": 7,
+      "stage_sequence": [
+        "CALL_BURST"
+      ],
+      "burst_event_span_s": 17.714365005493164,
+      "burst_risk": "REVIEW",
+      "analysis_ns": 1756899,
+      "pcap_sha256": "e0aa0feb015cfa8b2b4f5030c9cc5a3a633d0a7acadf670858c277ae120640d8",
+      "events_sha256": "981769484750d3736ede5ed7a7b5207ca46d29ac885305fd8c99ea0456bcab91",
+      "alerts_sha256": "68d5dd84b002f4bdc265dca18559f45a0da38481d5af7ab10014073ee8fb1af6",
+      "cdr_count_independently_verified": 3,
+      "cdr_stage": "omitted because SIP Call-ID cannot be uniquely linked to three same-account CDRs"
+    },
+    {
+      "id": "B003",
+      "assigned_intent": "authorized",
+      "account": "1002",
+      "wrong": 6,
+      "event_count": 13,
+      "stage_sequence": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "burst_event_span_s": 15.649186849594116,
+      "burst_risk": "REVIEW",
+      "analysis_ns": 1659415,
+      "pcap_sha256": "9e36bf32877a84e227e95787bd2ba00e3dce6dc5a5f9ec77542cc1dd8f86dcbb",
+      "events_sha256": "bc623e6ac73bc56699111b75aba0a312bb4dcbbb451bdd964192ec8e1d2829e2",
+      "alerts_sha256": "8ead2f0617d76c132d8061db95b4a752524d8232ee83237309f4eb2469e2cc19",
+      "cdr_count_independently_verified": 3,
+      "cdr_stage": "omitted because SIP Call-ID cannot be uniquely linked to three same-account CDRs"
+    },
+    {
+      "id": "B004",
+      "assigned_intent": "simulated_unauthorized",
+      "account": "1002",
+      "wrong": 6,
+      "event_count": 13,
+      "stage_sequence": [
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "burst_event_span_s": 15.892877101898193,
+      "burst_risk": "REVIEW",
+      "analysis_ns": 1624155,
+      "pcap_sha256": "40ec4efd2382c3cb4ae1ceadbbf4d8812ff20ba3b5c31317fde858c0a67d4f17",
+      "events_sha256": "6575f509104d54414adf70573c38b35145c8f66e236489b57c047cbd07d6f042",
+      "alerts_sha256": "9efbd5bd1e3dd69f3574fc48d64f80c0afc1c4691d91b4e722026227cecaac0f",
+      "cdr_count_independently_verified": 3,
+      "cdr_stage": "omitted because SIP Call-ID cannot be uniquely linked to three same-account CDRs"
+    }
+  ],
+  "warning": "development cases, not live detection latency or fresh ML holdout"
+}

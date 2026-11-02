@@ -1,0 +1,91 @@
+{
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/normal-call-runs/20260930T050420Z-f06-real-phone",
+  "case": "F06",
+  "start_utc": "2026-09-30T05:04:20.310686Z",
+  "end_utc": "2026-09-30T05:07:21.343372Z",
+  "pcap_sha256": "aaee948873636a41fb5491db6ac7421bb6818ee374e624e63c92fd795dea49fe",
+  "verified": {
+    "valid": true,
+    "case": "F06",
+    "answered_cdr_count": 6,
+    "answered_cdrs": [
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 3
+      },
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 2
+      },
+      {
+        "src": "1002",
+        "dst": "1001",
+        "billsec": 2
+      },
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 3
+      },
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 1
+      },
+      {
+        "src": "1001",
+        "dst": "1002",
+        "billsec": 2
+      }
+    ],
+    "complete_client_calls": [
+      {
+        "call_id": "gfWsmguIllDjOcfKBaNmLw..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790744690.71954,
+        "last_bye_epoch": 1790744697.542377
+      },
+      {
+        "call_id": "5HFQkXXAJ6cav53TfgNaZQ..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790744712.987602,
+        "last_bye_epoch": 1790744718.206812
+      },
+      {
+        "call_id": "0a1b3a93e63f4996b2c6005b28507b3e",
+        "src": "1002",
+        "dst": "1001",
+        "invite_epoch": 1790744726.851195,
+        "last_bye_epoch": 1790744734.098979
+      },
+      {
+        "call_id": "XzvPf6QzLpaPUjOaJcqgGw..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790744737.249968,
+        "last_bye_epoch": 1790744743.666809
+      },
+      {
+        "call_id": "99G2abbyyTo7HXBNyUuqZA..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790744753.285152,
+        "last_bye_epoch": 1790744760.630492
+      },
+      {
+        "call_id": "HmPkMh8N2dK8goLan3ik2w..",
+        "src": "1001",
+        "dst": "1002",
+        "invite_epoch": 1790744763.546236,
+        "last_bye_epoch": 1790744767.594074
+      }
+    ],
+    "new_cdr_rows": 7,
+    "decoded_sip_packets": 143
+  },
+  "errors": []
+}

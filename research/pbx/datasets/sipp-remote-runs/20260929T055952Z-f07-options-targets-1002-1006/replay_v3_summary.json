@@ -1,0 +1,31 @@
+{
+  "replayed_utc": "2026-09-29T06:00:17.577942+00:00",
+  "run_dir": "/home/astrix/sip-fraud-research/datasets/sipp-remote-runs/20260929T055952Z-f07-options-targets-1002-1006",
+  "scenario_ground_truth": [
+    {
+      "scenario_id": "F07",
+      "label": "SCRIPTED_VARIED_TARGET_RECONNAISSANCE",
+      "method": "OPTIONS",
+      "attempts": "5",
+      "unique_targets": "5",
+      "start_utc": "2026-09-29T05:59:52.705547Z",
+      "end_utc": "2026-09-29T06:00:01.791889Z",
+      "source_ip": "172.16.200.68",
+      "pbx_ip": "172.16.200.81"
+    }
+  ],
+  "packet_rows": 10,
+  "request_events": 5,
+  "predicted_stages": {
+    "NORMAL": 4,
+    "RECONNAISSANCE": 1
+  },
+  "first_alert_stage": "RECONNAISSANCE",
+  "first_alert_event": 5,
+  "time_to_first_alert_seconds": 4.003671,
+  "new_cdr_rows": 0,
+  "pcap_sha256": "d4130d42dec7d3bbe8852ecac3509b3d56975c2f86729643edcde96d27bfe1ad",
+  "packet_csv_sha256": "87a1011859ebe04a612d9ead14ebff926853250c18ed7a4fee5270be02a63420",
+  "detector_sha256": "579cdc61a40d1a0c8e340fc24109bb7097ed3de60296d5e58bbbee5d437d5d6a",
+  "note": "Scenario labels are independent of detector output. Event-level precision/recall is not calculated from these scenario-level ground-truth labels."
+}

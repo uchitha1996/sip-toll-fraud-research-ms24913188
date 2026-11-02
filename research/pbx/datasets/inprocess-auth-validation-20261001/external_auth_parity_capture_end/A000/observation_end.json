@@ -1,0 +1,4 @@
+{
+  "end_utc": "2026-10-01T11:15:14.216615+00:00",
+  "source": "tcpdump termination-log filesystem mtime; PCAP mtime is last flush, not capture stop"
+}

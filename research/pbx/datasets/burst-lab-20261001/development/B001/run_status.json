@@ -1,0 +1,10 @@
+{
+  "case": "B001",
+  "start_utc": "2026-10-01T04:42:55.125601Z",
+  "end_utc": "2026-10-01T04:43:37.215076Z",
+  "wrong_dialog_starts_utc": [],
+  "capture_sha256": "90ac887e45d61d8a12fa592a3391d79b72a3bd8df91b2c49fb03ef8643b6c957",
+  "error": null,
+  "cleanup_errors": [],
+  "status": "captured"
+}

@@ -1,0 +1,6 @@
+event_number,request_epoch,decision_epoch,entity,method,target,response_status,options_count,failed_register_count,invite_count,outside_invite_count,predicted_stage,risk_score,reason
+1,1790161547.703365,1790161547.703365,scanner,OPTIONS,9101,401,1,0,0,0,NORMAL,0,Thresholds not reached
+2,1790161547.813356,1790161547.813356,scanner,OPTIONS,9102,401,2,0,0,0,NORMAL,0,Thresholds not reached
+3,1790161547.923333,1790161547.923333,scanner,OPTIONS,9103,401,3,0,0,0,NORMAL,0,Thresholds not reached
+4,1790161548.035647,1790161548.035647,scanner,OPTIONS,9104,401,4,0,0,0,NORMAL,0,Thresholds not reached
+5,1790161548.145832,1790161548.145832,scanner,OPTIONS,9105,401,5,0,0,0,RECONNAISSANCE,30,Rapid OPTIONS scan across SIP targets

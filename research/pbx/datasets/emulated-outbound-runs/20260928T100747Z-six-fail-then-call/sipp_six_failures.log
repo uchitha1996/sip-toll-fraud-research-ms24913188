@@ -1,0 +1,38 @@
+Resolving remote host '172.16.200.81'... Done.
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Call rate (length)   Port   Total-time  Total-calls  Remote-host
+  3.0(0 ms)/1.000s   5130       3.36 s            6  172.16.200.81:5060(UDP)
+
+  Call limit 6 hit, 0.0 s period          0 ms scheduler resolution            
+  0 calls (limit 1)                       Peak was 1 calls, after 0 s
+  0 Running, 9 Paused, 23 Woken up
+  0 dead call msg (discarded)             0 out-of-call msg (discarded)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+  0 open sockets                          0/0/0 UDP errors (send/recv/cong)
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+0 :    REGISTER ---------->         6         2         0                            
+1 :         401 <----------         6         0         0         0                  
+2 :    REGISTER ---------->         6         0         0                            
+3 :         401 <----------         6         0         0         0                  
+------------------------------ Test Terminated --------------------------------
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2026-09-28	15:38:34.776456	1790590114.776456         
+  Last Reset Time        | 2026-09-28	15:38:38.144294	1790590118.144294         
+  Current Time           | 2026-09-28	15:38:38.144538	1790590118.144538         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:03:368000           | 00:00:03:368000          
+  Call Rate              |    0.000 cps              |    1.781 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming calls created |        0                  |        0                 
+  Outgoing calls created |        0                  |        6                 
+  Total Calls created    |                           |        6                 
+  Current Calls          |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |        6                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Call Length            | 00:00:00:250000           | 00:00:00:250000          
+------------------------------ Test Terminated --------------------------------

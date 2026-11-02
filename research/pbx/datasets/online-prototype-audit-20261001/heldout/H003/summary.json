@@ -1,0 +1,21 @@
+{
+  "id": "H003",
+  "split": "heldout",
+  "event_count": 11,
+  "stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "v6_stages": [
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT",
+    "ANSWERED_EMULATED_OUTBOUND"
+  ],
+  "stage_match": true,
+  "processing_ns": 3858305,
+  "max_rss_kib_process": 30944,
+  "pcap_sha256": "8db626eb7ad30def383ca2935c2312ed4382fb2aa9128dcb9fd0c621b7e9b5a7",
+  "events_sha256": "f497ba563858125eeb55bad966b9a416dc1b468b52bd9b4a04622a9454cd11d1",
+  "alerts_sha256": "fb752a3527d5a30394646102cfea43f23ab52a0fc17c26f56ee86bda1b8fa4f7"
+}

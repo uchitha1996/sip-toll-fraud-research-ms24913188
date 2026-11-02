@@ -1,0 +1,2 @@
+scenario_id,label,answered_cdr_count,complete_client_calls,evaluation_unit,source
+F01,BENIGN_REAL_PHONE,2,2,one_full_session,real_softphones

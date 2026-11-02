@@ -1,0 +1,6 @@
+[Sep 30 15:46:12] NOTICE[84975] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-21002@172.16.200.68) - Failed to authenticate
+[Sep 30 15:46:14] NOTICE[84975] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-21013@172.16.200.68) - Failed to authenticate
+[Sep 30 15:46:16] NOTICE[84975] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-21024@172.16.200.68) - Failed to authenticate
+[Sep 30 15:46:18] NOTICE[84975] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-21035@172.16.200.68) - Failed to authenticate
+[Sep 30 15:46:20] NOTICE[84975] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-21046@172.16.200.68) - Failed to authenticate
+[Sep 30 15:46:22] NOTICE[84975] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:1002@172.16.200.81>' failed for '172.16.200.68:5114' (callid: 1-21057@172.16.200.68) - Failed to authenticate

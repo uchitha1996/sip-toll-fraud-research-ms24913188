@@ -1,0 +1,9 @@
+{
+  "protocol": "isolated development validation of frozen ML score inside live loopback service",
+  "created_utc": "2026-10-01T05:19:29Z",
+  "frozen_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "scope": "six wrong REGISTER dialogs, valid REGISTER, three answered exact-route SIPp UAS calls; priority metadata only",
+  "scenarios": [
+    {"id":"B016","split":"development","intent":"authorized","account":"1002","wrong":6,"interval":2.1,"success":1,"call":3,"post_register_pause":1.0,"destination_group":"lab-uas","trunk":"lab-trunk"}
+  ]
+}

@@ -1,0 +1,1 @@
+[Oct  1 16:45:43] NOTICE[2452] res_sipfraud_lab.c: SIPFRAUDLAB stage=AUTHENTICATION_ATTACK risk=HIGH_SUSPICION account=1002 failures_60s=10 source=172.16.200.68

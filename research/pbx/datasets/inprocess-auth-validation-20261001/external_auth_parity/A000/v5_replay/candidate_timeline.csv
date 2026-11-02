@@ -1,0 +1,5 @@
+event_number,time_utc,event_type,entity,method,target,call_id,cseq,status,digest_present,stale_challenge,failed_digest_10s,failed_digest_60s,options_10s,predicted_stage,risk_score,reason
+1,2026-10-01T11:15:12.159242Z,REQUEST,172.16.200.68,REGISTER,1002,1-1529@172.16.200.68,1,,0,0,0,0,0,NORMAL,0,Thresholds not reached
+2,2026-10-01T11:15:12.159703Z,REGISTER_FINAL_RESPONSE,172.16.200.68,REGISTER,1002,1-1529@172.16.200.68,1,401,0,0,0,0,0,NORMAL,0,Thresholds not reached
+3,2026-10-01T11:15:12.164978Z,REQUEST,172.16.200.68,REGISTER,1002,1-1529@172.16.200.68,2,,1,0,0,0,0,NORMAL,0,Thresholds not reached
+4,2026-10-01T11:15:12.173677Z,REGISTER_FINAL_RESPONSE,172.16.200.68,REGISTER,1002,1-1529@172.16.200.68,2,200,1,0,0,0,0,NORMAL,0,Thresholds not reached

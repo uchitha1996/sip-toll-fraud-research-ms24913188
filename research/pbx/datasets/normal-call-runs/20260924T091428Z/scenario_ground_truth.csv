@@ -1,0 +1,2 @@
+scenario_id,label,src,dst,start_utc,registration_ok_utc,end_utc,cdr_delta,basis
+REG1002-01,NORMAL_SUCCESSFUL_REGISTRATION,172.16.200.39,172.16.200.81,2026-09-24T09:17:53.571764Z,2026-09-24T09:17:53.575869Z,2026-09-24T09:20:11Z,0,Observed matching REGISTER 401 then 200; CDR unchanged; no captured INVITE

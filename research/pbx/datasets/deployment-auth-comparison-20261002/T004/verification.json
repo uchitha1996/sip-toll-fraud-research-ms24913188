@@ -1,0 +1,56 @@
+{
+  "id": "T004",
+  "mode": "EXTERNAL",
+  "block": 2,
+  "checks": {
+    "no_error": true,
+    "requests_14": true,
+    "challenges_rejections_13": true,
+    "one_success": true,
+    "six_auth_logs": true,
+    "no_cdr": true,
+    "no_invites": true,
+    "zero_calls": true,
+    "unique_trigger_request": true,
+    "external_counts": true,
+    "one_review": true,
+    "nonnegative_latency": true
+  },
+  "verified": true,
+  "error": null,
+  "alert_count": 1,
+  "request_to_observed_alert_ms": 574.066162109375,
+  "resource_window_s": 19.362943086001906,
+  "cpu_seconds_sampled": {
+    "pbx": 0.03,
+    "collector": 0.01,
+    "service": 0.0,
+    "capture": 0.0,
+    "decoder": 0.0
+  },
+  "cpu_core_percent": {
+    "pbx": 0.15493512461795111,
+    "collector": 0.05164504153931704,
+    "service": 0.0,
+    "capture": 0.0,
+    "decoder": 0.0
+  },
+  "peak_rss_kib_by_role": {
+    "pbx": 94624.0,
+    "collector": 17632.0,
+    "service": 17904.0,
+    "capture": 13456.0,
+    "decoder": 155104.0
+  },
+  "pcap_sha256": "ea178b6b76ea7622c806764a8302566d9ff22f1903a0904a58e907c11759ae1d",
+  "capture_stop_utc": "2026-10-02T04:08:26.463707+00:00",
+  "sipp_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

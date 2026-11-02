@@ -1,0 +1,226 @@
+{
+  "status": "complete",
+  "completed": 8,
+  "finished_utc": "2026-10-02T00:16:01.143493+00:00",
+  "manifest_sha256": "c2a6d86edb81547a9ea9ed82c2b067dbde20d8c924c5cc9097b2e518282081c9",
+  "wrapper_sha256": "785c47c38c53cda5321b9e323d86eb91435a9403eda86de4411f771f62a163fc",
+  "frozen_model_sha256": "ece43b48eb1d98115c2796735c67fc80589f8ff85d51765e78d373e3079ee30d",
+  "cases": [
+    {
+      "id": "DL001",
+      "intent": "AUTHORIZED",
+      "profile_group": "slow_recovery",
+      "session_group": "literature20261002",
+      "wrong": 6,
+      "interval": 6,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "eligible": true,
+      "score": 0.6060894647447382,
+      "priority": "HIGHER",
+      "values": [
+        6,
+        2,
+        30.0291,
+        33.0252
+      ],
+      "pcap_sha256": "f32ac7749421576b501c41a122721e6830e148e3f31138090381feca205d57e0"
+    },
+    {
+      "id": "DL002",
+      "intent": "SIMULATED_ABUSE",
+      "profile_group": "slow_recovery",
+      "session_group": "literature20261002",
+      "wrong": 6,
+      "interval": 6,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "eligible": true,
+      "score": 0.6051902480974846,
+      "priority": "HIGHER",
+      "values": [
+        6,
+        2,
+        30.0186,
+        32.8972
+      ],
+      "pcap_sha256": "e944e50aa6933d57feb15f8bcdfba08181b28d76d573131dfc24a942d97d9659"
+    },
+    {
+      "id": "DL003",
+      "intent": "AUTHORIZED",
+      "profile_group": "slow_no_success",
+      "session_group": "literature20261002",
+      "wrong": 10,
+      "interval": 6,
+      "success": 0,
+      "verified": true,
+      "v6_stages": [
+        "AUTHENTICATION_ATTACK"
+      ],
+      "eligible": false,
+      "score": null,
+      "priority": null,
+      "values": null,
+      "pcap_sha256": "e4e672d09201509bf4aee0fd761721204508f030fe10212fc226d0d163aaa1cb"
+    },
+    {
+      "id": "DL004",
+      "intent": "SIMULATED_ABUSE",
+      "profile_group": "slow_no_success",
+      "session_group": "literature20261002",
+      "wrong": 10,
+      "interval": 6,
+      "success": 0,
+      "verified": true,
+      "v6_stages": [
+        "AUTHENTICATION_ATTACK"
+      ],
+      "eligible": false,
+      "score": null,
+      "priority": null,
+      "values": null,
+      "pcap_sha256": "0f90e6730c1f5539a07954eb5fd2696d5762f62c012fcaca2c39276a33900ff4"
+    },
+    {
+      "id": "DL005",
+      "intent": "AUTHORIZED",
+      "profile_group": "paced_success",
+      "session_group": "literature20261002",
+      "wrong": 10,
+      "interval": 3,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE"
+      ],
+      "eligible": true,
+      "score": 0.7326879165481885,
+      "priority": "HIGHER",
+      "values": [
+        10,
+        4,
+        26.9896,
+        30.0227
+      ],
+      "pcap_sha256": "1f1093e3369c77cada6f766a610c2b791fea40b8c3b6331a3400ef44008d8102"
+    },
+    {
+      "id": "DL006",
+      "intent": "SIMULATED_ABUSE",
+      "profile_group": "paced_success",
+      "session_group": "literature20261002",
+      "wrong": 10,
+      "interval": 3,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE"
+      ],
+      "eligible": true,
+      "score": 0.7325338329480691,
+      "priority": "HIGHER",
+      "values": [
+        10,
+        4,
+        26.991,
+        29.993
+      ],
+      "pcap_sha256": "f7b2872db7aab7597b5af466c36adb062a293ebdecf6a247b09e686f63777a88"
+    },
+    {
+      "id": "DL007",
+      "intent": "AUTHORIZED",
+      "profile_group": "gate_boundary",
+      "session_group": "literature20261002",
+      "wrong": 5,
+      "interval": 1,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "eligible": true,
+      "score": 0.39251826296394315,
+      "priority": "LOWER",
+      "values": [
+        5,
+        5,
+        6.7573,
+        9.8517
+      ],
+      "pcap_sha256": "328f3fd09938ade3ea22b9031d8eebfec602322d97580faedf094b1dd200b199"
+    },
+    {
+      "id": "DL008",
+      "intent": "SIMULATED_ABUSE",
+      "profile_group": "gate_boundary",
+      "session_group": "literature20261002",
+      "wrong": 5,
+      "interval": 1,
+      "success": 1,
+      "verified": true,
+      "v6_stages": [
+        "SUSPECTED_COMPROMISE"
+      ],
+      "eligible": true,
+      "score": 0.39302889599207574,
+      "priority": "LOWER",
+      "values": [
+        5,
+        5,
+        6.8517,
+        9.8517
+      ],
+      "pcap_sha256": "09d82ee063863e6e2a15b8eb8c9d787acff5f412dcc8b9f76278758b185e8f7b"
+    }
+  ],
+  "pairs": [
+    {
+      "ids": [
+        "DL001",
+        "DL002"
+      ],
+      "same_stages": true,
+      "same_priority": true
+    },
+    {
+      "ids": [
+        "DL003",
+        "DL004"
+      ],
+      "same_stages": true,
+      "same_priority": true
+    },
+    {
+      "ids": [
+        "DL005",
+        "DL006"
+      ],
+      "same_stages": true,
+      "same_priority": true
+    },
+    {
+      "ids": [
+        "DL007",
+        "DL008"
+      ],
+      "same_stages": true,
+      "same_priority": true
+    }
+  ],
+  "postflight": {
+    "calls": "0 active channels\n0 active calls\n0 calls processed",
+    "route1001": "There is no existence of 88001@internal extension\nCommand 'dialplan show 88001@internal' failed.",
+    "route1002": "There is no existence of 88002@internal extension\nCommand 'dialplan show 88002@internal' failed."
+  },
+  "limitation": "Live collection then offline replay. Assigned intent is unobservable in SIP; no new model or heldout result."
+}

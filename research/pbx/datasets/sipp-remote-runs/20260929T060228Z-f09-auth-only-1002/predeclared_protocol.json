@@ -1,0 +1,17 @@
+{
+  "case": "F09",
+  "declared_utc": "2026-09-29T06:02:28.526989Z",
+  "role": "registered F09 whole-scenario authentication-only",
+  "label": "SCRIPTED_AUTHENTICATION_ONLY",
+  "stimulus": "Ten wrong-password digest REGISTER dialogs for account 1002 at planned 1/s, no success/call",
+  "generator_sha256": "0d25336d71aab4dae11880f4a426768d40eae380380e11d7de822fb73118132d",
+  "v6_sha256": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+  "planned_rate_per_second": 1,
+  "expected_requests": 20,
+  "expected_401": 20,
+  "expected_failed_auth": 10,
+  "expected_register_200": 0,
+  "expected_invites": 0,
+  "expected_cdr_delta": 0,
+  "invalid_if": "Counts, source, target, PCAP, logs or CDR mismatch"
+}

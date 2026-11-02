@@ -1,0 +1,431 @@
+{
+  "manifest_sha256": "577073aee03c783591dc98a3de70daa9958a40b3fdcebf2f6bce8acb226425f7",
+  "accepted": [
+    {
+      "id": "B030",
+      "mode": "INTERNAL",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 0,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "CALL_BURST"
+      ],
+      "timings": [
+        {
+          "stage": "CALL_BURST",
+          "call_id": "1-7292@172.16.200.68",
+          "packet_to_decision_ms": 0.08177757263183594,
+          "packet_to_observation_ms": 188.79079818725586
+        }
+      ],
+      "call_setup": [
+        {
+          "call_id": "1-7270@172.16.200.68",
+          "invite_to_200_ms": 15.765190124511719
+        },
+        {
+          "call_id": "1-7281@172.16.200.68",
+          "invite_to_200_ms": 14.123916625976562
+        },
+        {
+          "call_id": "1-7292@172.16.200.68",
+          "invite_to_200_ms": 30.96604347229004
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    },
+    {
+      "id": "B031",
+      "mode": "OFF",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 10,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "RECONNAISSANCE",
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "timings": [],
+      "call_setup": [
+        {
+          "call_id": "1-7559@172.16.200.68",
+          "invite_to_200_ms": 49.50308799743652
+        },
+        {
+          "call_id": "1-7570@172.16.200.68",
+          "invite_to_200_ms": 11.995077133178711
+        },
+        {
+          "call_id": "1-7581@172.16.200.68",
+          "invite_to_200_ms": 15.709877014160156
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    },
+    {
+      "id": "B032",
+      "mode": "INTERNAL",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 10,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "RECONNAISSANCE",
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "timings": [
+        {
+          "stage": "RECONNAISSANCE",
+          "call_id": "1-7712@172.16.200.68",
+          "packet_to_decision_ms": 0.08559226989746094,
+          "packet_to_observation_ms": 66.1618709564209
+        },
+        {
+          "stage": "AUTHENTICATION_ATTACK",
+          "call_id": "1-7824@172.16.200.68",
+          "packet_to_decision_ms": 1013.9706134796143,
+          "packet_to_observation_ms": 1115.7350540161133
+        },
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "call_id": "1-7835@172.16.200.68",
+          "packet_to_decision_ms": 0.5543231964111328,
+          "packet_to_observation_ms": 162.94217109680176
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-7848@172.16.200.68",
+          "packet_to_decision_ms": 0.080108642578125,
+          "packet_to_observation_ms": 62.06917762756348
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-7859@172.16.200.68",
+          "packet_to_decision_ms": 0.09036064147949219,
+          "packet_to_observation_ms": 232.6829433441162
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-7870@172.16.200.68",
+          "packet_to_decision_ms": 0.09107589721679688,
+          "packet_to_observation_ms": 54.808616638183594
+        },
+        {
+          "stage": "CALL_BURST",
+          "call_id": "1-7870@172.16.200.68",
+          "packet_to_decision_ms": 0.09107589721679688,
+          "packet_to_observation_ms": 54.808616638183594
+        }
+      ],
+      "call_setup": [
+        {
+          "call_id": "1-7848@172.16.200.68",
+          "invite_to_200_ms": 60.53900718688965
+        },
+        {
+          "call_id": "1-7859@172.16.200.68",
+          "invite_to_200_ms": 31.334877014160156
+        },
+        {
+          "call_id": "1-7870@172.16.200.68",
+          "invite_to_200_ms": 65.43803215026855
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    },
+    {
+      "id": "B033",
+      "mode": "EXTERNAL",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 10,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "RECONNAISSANCE",
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "timings": [
+        {
+          "stage": "RECONNAISSANCE",
+          "call_id": "1-8001@172.16.200.68",
+          "packet_to_decision_ms": 628.5912990570068,
+          "packet_to_observation_ms": 628.7350654602051
+        },
+        {
+          "stage": "AUTHENTICATION_ATTACK",
+          "call_id": "1-8112@172.16.200.68",
+          "packet_to_decision_ms": 1992.1159744262695,
+          "packet_to_observation_ms": 1992.253065109253
+        },
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "call_id": "1-8123@172.16.200.68",
+          "packet_to_decision_ms": 47.68848419189453,
+          "packet_to_observation_ms": 47.84870147705078
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8135@172.16.200.68",
+          "packet_to_decision_ms": 609.8496913909912,
+          "packet_to_observation_ms": 609.9846363067627
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8146@172.16.200.68",
+          "packet_to_decision_ms": 686.6741180419922,
+          "packet_to_observation_ms": 686.8174076080322
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8157@172.16.200.68",
+          "packet_to_decision_ms": 846.9550609588623,
+          "packet_to_observation_ms": 847.1081256866455
+        },
+        {
+          "stage": "CALL_BURST",
+          "call_id": "1-8157@172.16.200.68",
+          "packet_to_decision_ms": 846.9550609588623,
+          "packet_to_observation_ms": 847.1081256866455
+        }
+      ],
+      "call_setup": [
+        {
+          "call_id": "1-8135@172.16.200.68",
+          "invite_to_200_ms": 38.099050521850586
+        },
+        {
+          "call_id": "1-8146@172.16.200.68",
+          "invite_to_200_ms": 15.050888061523438
+        },
+        {
+          "call_id": "1-8157@172.16.200.68",
+          "invite_to_200_ms": 56.964874267578125
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    },
+    {
+      "id": "B034",
+      "mode": "EXTERNAL",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 10,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "RECONNAISSANCE",
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "timings": [
+        {
+          "stage": "RECONNAISSANCE",
+          "call_id": "1-8290@172.16.200.68",
+          "packet_to_decision_ms": 628.4077167510986,
+          "packet_to_observation_ms": 628.5474300384521
+        },
+        {
+          "stage": "AUTHENTICATION_ATTACK",
+          "call_id": "1-8401@172.16.200.68",
+          "packet_to_decision_ms": 1822.2520351409912,
+          "packet_to_observation_ms": 1822.3865032196045
+        },
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "call_id": "1-8413@172.16.200.68",
+          "packet_to_decision_ms": 740.3461933135986,
+          "packet_to_observation_ms": 740.5035495758057
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8424@172.16.200.68",
+          "packet_to_decision_ms": 100.14104843139648,
+          "packet_to_observation_ms": 100.2817153930664
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8435@172.16.200.68",
+          "packet_to_decision_ms": 224.59983825683594,
+          "packet_to_observation_ms": 224.75361824035645
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8446@172.16.200.68",
+          "packet_to_decision_ms": 434.3740940093994,
+          "packet_to_observation_ms": 434.5278739929199
+        },
+        {
+          "stage": "CALL_BURST",
+          "call_id": "1-8446@172.16.200.68",
+          "packet_to_decision_ms": 434.3740940093994,
+          "packet_to_observation_ms": 434.5278739929199
+        }
+      ],
+      "call_setup": [
+        {
+          "call_id": "1-8424@172.16.200.68",
+          "invite_to_200_ms": 19.613027572631836
+        },
+        {
+          "call_id": "1-8435@172.16.200.68",
+          "invite_to_200_ms": 16.777992248535156
+        },
+        {
+          "call_id": "1-8446@172.16.200.68",
+          "invite_to_200_ms": 65.54412841796875
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    },
+    {
+      "id": "B035",
+      "mode": "INTERNAL",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 10,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "RECONNAISSANCE",
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "timings": [
+        {
+          "stage": "RECONNAISSANCE",
+          "call_id": "1-8579@172.16.200.68",
+          "packet_to_decision_ms": 0.08368492126464844,
+          "packet_to_observation_ms": 146.33846282958984
+        },
+        {
+          "stage": "AUTHENTICATION_ATTACK",
+          "call_id": "1-8690@172.16.200.68",
+          "packet_to_decision_ms": 1018.0037021636963,
+          "packet_to_observation_ms": 1133.2337856292725
+        },
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "call_id": "1-8701@172.16.200.68",
+          "packet_to_decision_ms": 8.864641189575195,
+          "packet_to_observation_ms": 247.13540077209473
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8712@172.16.200.68",
+          "packet_to_decision_ms": 0.07796287536621094,
+          "packet_to_observation_ms": 218.54257583618164
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8723@172.16.200.68",
+          "packet_to_decision_ms": 0.0896453857421875,
+          "packet_to_observation_ms": 179.61645126342773
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "call_id": "1-8734@172.16.200.68",
+          "packet_to_decision_ms": 0.091552734375,
+          "packet_to_observation_ms": 180.3152561187744
+        },
+        {
+          "stage": "CALL_BURST",
+          "call_id": "1-8734@172.16.200.68",
+          "packet_to_decision_ms": 0.091552734375,
+          "packet_to_observation_ms": 180.3152561187744
+        }
+      ],
+      "call_setup": [
+        {
+          "call_id": "1-8712@172.16.200.68",
+          "invite_to_200_ms": 43.3499813079834
+        },
+        {
+          "call_id": "1-8723@172.16.200.68",
+          "invite_to_200_ms": 11.575937271118164
+        },
+        {
+          "call_id": "1-8734@172.16.200.68",
+          "invite_to_200_ms": 97.78809547424316
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    },
+    {
+      "id": "B036",
+      "mode": "OFF",
+      "verified": true,
+      "event_counts": {
+        "OPTIONS_REQUEST": 5,
+        "AUTH_REJECTION": 10,
+        "REGISTER_SUCCESS": 1,
+        "OUTBOUND_INVITE": 3
+      },
+      "expected_stages": [
+        "RECONNAISSANCE",
+        "AUTHENTICATION_ATTACK",
+        "SUSPECTED_COMPROMISE",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "SUSPECTED_OUTBOUND_ATTEMPT",
+        "CALL_BURST"
+      ],
+      "timings": [],
+      "call_setup": [
+        {
+          "call_id": "1-8998@172.16.200.68",
+          "invite_to_200_ms": 15.018939971923828
+        },
+        {
+          "call_id": "1-9009@172.16.200.68",
+          "invite_to_200_ms": 12.900114059448242
+        },
+        {
+          "call_id": "1-9021@172.16.200.68",
+          "invite_to_200_ms": 12.078046798706055
+        }
+      ],
+      "scope": "Development delivery/overhead comparison; no new fraud accuracy or live CDR-stage claim"
+    }
+  ],
+  "complete": true
+}

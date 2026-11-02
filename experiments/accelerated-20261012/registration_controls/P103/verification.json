@@ -1,0 +1,15 @@
+{
+  "id": "P103",
+  "original_reference": "P003",
+  "end_utc": "2026-10-12T03:51:58.786785+00:00",
+  "error": null,
+  "verified": true,
+  "elapsed_seconds": 8.571,
+  "pcap_sha256": "6a50f29a5e51c12d5a3ed1dca4bf1c5b153883d1b911bff9afa500bb20153f0d",
+  "requests": 6,
+  "response_transactions": 6,
+  "unique_targets": 1,
+  "unknown_account_requests": 6,
+  "candidate_diversity_alerts": [],
+  "cdr_delta": 0
+}

@@ -1,0 +1,4 @@
+processed_time,start_time,src,dst,context,duration,billsec,disposition,dst_digit_length,is_internal_call,is_external_like_call,is_short_call,is_no_answer,is_off_hours,stage,risk,risk_score,reason
+2026-09-23 12:58:09,2026-09-23 05:46:42,1001,1002,internal,1,0,NO ANSWER,4,1,0,1,1,1,NORMAL,LOW,10,Internal extension call; Off-hours activity
+2026-09-23 12:58:09,2026-09-23 06:07:40,1001,1002,internal,14,8,ANSWERED,4,1,0,0,0,1,NORMAL,LOW,10,Internal extension call; Off-hours activity
+2026-09-23 12:58:09,2026-09-23 06:08:05,1002,1001,internal,8,4,ANSWERED,4,1,0,0,0,1,NORMAL,LOW,10,Internal extension call; Off-hours activity

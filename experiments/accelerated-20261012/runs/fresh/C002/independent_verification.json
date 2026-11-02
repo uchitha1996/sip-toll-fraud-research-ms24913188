@@ -1,0 +1,14 @@
+{
+  "case": "C002",
+  "verified": true,
+  "pcap_sha256": "9431a10b8eb9613a38fd9e1de05667596328e74bb165f729706810872206c5ff",
+  "v5_timeline_sha256": "62d689c5f2fc353954134160f2ae2917709df73fad04f4d439006e4830fba6ce",
+  "confirmed_rejections": 0,
+  "successful_register": 1,
+  "answered_cdr_delta": 1,
+  "call_ids": [
+    "1-4809@172.16.200.68"
+  ],
+  "capture_end_utc": "2026-10-12T03:53:47.640012Z",
+  "cleanup": "idle and both temporary routes absent"
+}

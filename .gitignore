@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+Thumbs.db
+.DS_Store
+~$*

@@ -1,0 +1,4 @@
+source_ip,first_seen,last_seen,options_count,invite_count,register_count,unique_targets,no_matching_endpoint_count,failed_auth_count,stage,risk,reason
+127.0.0.1,Sep 23 13:27:29,Sep 23 13:40:01,30,13,38,14,80,1,AUTHENTICATION_ATTEMPT,MEDIUM,Multiple REGISTER attempts observed
+127.0.0.2,Sep 23 15:06:44,Sep 23 15:06:45,0,0,10,1,0,10,AUTHENTICATION_ATTACK,HIGH,Repeated failed REGISTER/authentication attempts
+127.0.0.3,Sep 23 15:06:45,Sep 23 15:06:45,5,0,0,1,5,0,RECONNAISSANCE,MEDIUM,Repeated probing or unknown endpoint attempts

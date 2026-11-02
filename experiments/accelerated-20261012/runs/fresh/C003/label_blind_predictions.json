@@ -1,0 +1,99 @@
+{
+  "predictions": {
+    "baseline_10": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": 1791777254.261478,
+      "alerts": []
+    },
+    "baseline_5_sensitivity": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:54:05.188315Z",
+      "first_stage": "FAILED_AUTH_THRESHOLD",
+      "ttd_seconds": 8.114377,
+      "lead_time_seconds": 9.073163,
+      "alert_strictly_before_first_invite": 1,
+      "first_outbound_attempt_epoch": 1791777254.261478,
+      "alerts": [
+        {
+          "stage": "FAILED_AUTH_THRESHOLD",
+          "time_utc": "2026-10-12T03:54:05.188315Z",
+          "source_ip": "172.16.200.68",
+          "account": "1001",
+          "destination": "",
+          "call_id": "1-4941@172.16.200.68",
+          "evidence": "5 confirmed failures / 60s"
+        }
+      ]
+    },
+    "V6": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:54:11.338491Z",
+      "first_stage": "SUSPECTED_COMPROMISE",
+      "ttd_seconds": 14.264553,
+      "lead_time_seconds": 2.922987,
+      "alert_strictly_before_first_invite": 1,
+      "first_outbound_attempt_epoch": 1791777254.261478,
+      "alerts": [
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "time_utc": "2026-10-12T03:54:11.338491Z",
+          "source_ip": "172.16.200.68",
+          "account": "1001",
+          "destination": "",
+          "call_id": "",
+          "evidence": "6 confirmed rejections then REGISTER 200"
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "time_utc": "2026-10-12T03:54:14.261478Z",
+          "source_ip": "172.16.200.68",
+          "account": "1001",
+          "destination": "88001",
+          "call_id": "1-4975@172.16.200.68",
+          "evidence": "linked INVITE after suspicious REGISTER"
+        }
+      ]
+    },
+    "V6_context": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": 1791777254.261478,
+      "alerts": []
+    }
+  },
+  "context_decisions": [
+    {
+      "stage": "SUSPECTED_COMPROMISE",
+      "time_utc": "2026-10-12T03:54:11.338491Z",
+      "source_ip": "172.16.200.68",
+      "account": "1001",
+      "destination": "",
+      "call_id": "",
+      "evidence": "6 confirmed rejections then REGISTER 200",
+      "policy_outcome": "allowed",
+      "recovery_permission_observed": true,
+      "disposition": "authorized_recovery_review"
+    },
+    {
+      "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+      "time_utc": "2026-10-12T03:54:14.261478Z",
+      "source_ip": "172.16.200.68",
+      "account": "1001",
+      "destination": "88001",
+      "call_id": "1-4975@172.16.200.68",
+      "evidence": "linked INVITE after suspicious REGISTER",
+      "policy_outcome": "allowed",
+      "recovery_permission_observed": true,
+      "disposition": "authorized_recovery_review"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "predictions": {
+    "baseline_10": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": []
+    },
+    "baseline_5_sensitivity": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": []
+    },
+    "V6": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": []
+    },
+    "V6_context": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": []
+    }
+  },
+  "context_decisions": []
+}

@@ -1,0 +1,124 @@
+{
+  "predictions": {
+    "baseline_10": {
+      "predicted": 0,
+      "first_alert_utc": null,
+      "first_stage": null,
+      "ttd_seconds": null,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": 1791777533.764497,
+      "alerts": []
+    },
+    "baseline_5_sensitivity": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:58:45.411857Z",
+      "first_stage": "FAILED_AUTH_THRESHOLD",
+      "ttd_seconds": 8.24295,
+      "lead_time_seconds": 8.35264,
+      "alert_strictly_before_first_invite": 1,
+      "first_outbound_attempt_epoch": 1791777533.764497,
+      "alerts": [
+        {
+          "stage": "FAILED_AUTH_THRESHOLD",
+          "time_utc": "2026-10-12T03:58:45.411857Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "1-6168@172.16.200.68",
+          "evidence": "5 confirmed failures / 60s"
+        }
+      ]
+    },
+    "V6": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:58:50.800306Z",
+      "first_stage": "SUSPECTED_COMPROMISE",
+      "ttd_seconds": 13.631399,
+      "lead_time_seconds": 2.964191,
+      "alert_strictly_before_first_invite": 1,
+      "first_outbound_attempt_epoch": 1791777533.764497,
+      "alerts": [
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "time_utc": "2026-10-12T03:58:50.800306Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "",
+          "evidence": "6 confirmed rejections then REGISTER 200"
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "time_utc": "2026-10-12T03:58:53.764497Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "88002",
+          "call_id": "1-6201@172.16.200.68",
+          "evidence": "linked INVITE after suspicious REGISTER"
+        }
+      ]
+    },
+    "V6_context": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:58:50.800306Z",
+      "first_stage": "SUSPECTED_COMPROMISE",
+      "ttd_seconds": 13.631399,
+      "lead_time_seconds": 2.964191,
+      "alert_strictly_before_first_invite": 1,
+      "first_outbound_attempt_epoch": 1791777533.764497,
+      "alerts": [
+        {
+          "stage": "SUSPECTED_COMPROMISE",
+          "time_utc": "2026-10-12T03:58:50.800306Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "",
+          "evidence": "6 confirmed rejections then REGISTER 200",
+          "policy_outcome": "allowed",
+          "recovery_permission_observed": false,
+          "disposition": "actionable_review"
+        },
+        {
+          "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+          "time_utc": "2026-10-12T03:58:53.764497Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "88002",
+          "call_id": "1-6201@172.16.200.68",
+          "evidence": "linked INVITE after suspicious REGISTER",
+          "policy_outcome": "allowed",
+          "recovery_permission_observed": false,
+          "disposition": "actionable_review"
+        }
+      ]
+    }
+  },
+  "context_decisions": [
+    {
+      "stage": "SUSPECTED_COMPROMISE",
+      "time_utc": "2026-10-12T03:58:50.800306Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "destination": "",
+      "call_id": "",
+      "evidence": "6 confirmed rejections then REGISTER 200",
+      "policy_outcome": "allowed",
+      "recovery_permission_observed": false,
+      "disposition": "actionable_review"
+    },
+    {
+      "stage": "SUSPECTED_OUTBOUND_ATTEMPT",
+      "time_utc": "2026-10-12T03:58:53.764497Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "destination": "88002",
+      "call_id": "1-6201@172.16.200.68",
+      "evidence": "linked INVITE after suspicious REGISTER",
+      "policy_outcome": "allowed",
+      "recovery_permission_observed": false,
+      "disposition": "actionable_review"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "predictions": {
+    "baseline_10": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:57:45.643121Z",
+      "first_stage": "FAILED_AUTH_THRESHOLD",
+      "ttd_seconds": 19.054145,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": [
+        {
+          "stage": "FAILED_AUTH_THRESHOLD",
+          "time_utc": "2026-10-12T03:57:45.643121Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "1-5872@172.16.200.68",
+          "evidence": "10 confirmed failures / 60s"
+        }
+      ]
+    },
+    "baseline_5_sensitivity": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:57:35.294823Z",
+      "first_stage": "FAILED_AUTH_THRESHOLD",
+      "ttd_seconds": 8.705847,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": [
+        {
+          "stage": "FAILED_AUTH_THRESHOLD",
+          "time_utc": "2026-10-12T03:57:35.294823Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "1-5817@172.16.200.68",
+          "evidence": "5 confirmed failures / 60s"
+        }
+      ]
+    },
+    "V6": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:57:45.643121Z",
+      "first_stage": "AUTHENTICATION_ATTACK",
+      "ttd_seconds": 19.054145,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": [
+        {
+          "stage": "AUTHENTICATION_ATTACK",
+          "time_utc": "2026-10-12T03:57:45.643121Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "1-5872@172.16.200.68",
+          "evidence": "10 confirmed authenticated rejections in 60 s"
+        }
+      ]
+    },
+    "V6_context": {
+      "predicted": 1,
+      "first_alert_utc": "2026-10-12T03:57:45.643121Z",
+      "first_stage": "AUTHENTICATION_ATTACK",
+      "ttd_seconds": 19.054145,
+      "lead_time_seconds": null,
+      "alert_strictly_before_first_invite": 0,
+      "first_outbound_attempt_epoch": null,
+      "alerts": [
+        {
+          "stage": "AUTHENTICATION_ATTACK",
+          "time_utc": "2026-10-12T03:57:45.643121Z",
+          "source_ip": "172.16.200.68",
+          "account": "1002",
+          "destination": "",
+          "call_id": "1-5872@172.16.200.68",
+          "evidence": "10 confirmed authenticated rejections in 60 s",
+          "policy_outcome": "allowed",
+          "recovery_permission_observed": false,
+          "disposition": "actionable_review"
+        }
+      ]
+    }
+  },
+  "context_decisions": [
+    {
+      "stage": "AUTHENTICATION_ATTACK",
+      "time_utc": "2026-10-12T03:57:45.643121Z",
+      "source_ip": "172.16.200.68",
+      "account": "1002",
+      "destination": "",
+      "call_id": "1-5872@172.16.200.68",
+      "evidence": "10 confirmed authenticated rejections in 60 s",
+      "policy_outcome": "allowed",
+      "recovery_permission_observed": false,
+      "disposition": "actionable_review"
+    }
+  ]
+}

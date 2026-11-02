@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-10-12T03:59:07.049759+00:00",
+  "hashes": {
+    "final_results.json": "7a4fa96227bce13788f8c1ecb7efea0261b63764b232160849db1ca9debe812e",
+    "per_case_metrics.csv": "1db1970132de1ff1277fbc228efcafdcc216d6f4fb90421d83b750d74d96fc8f",
+    "evaluation_freeze.json": "a20d8f48608346c3aa2e52fec6ba639358354bbac102319e5a6ab949e5052158",
+    "policy.json": "132b451889a61478ac0618ad48d4e6ce2755544b613475ec1217719c6457ed3c",
+    "prospective_manifest.json": "bfd3280811832398c729e3f1ff24aa3f8e0df04df7fd05bb158f31f55d392c48"
+  },
+  "original_v6_unchanged": true
+}

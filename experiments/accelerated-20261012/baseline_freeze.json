@@ -1,0 +1,68 @@
+{
+  "frozen_utc": "2026-10-12T03:40:56.044053+00:00",
+  "existing_files": {
+    "scripts/progression_v6_development.py": "c4b9231a89a815e93f1264119e229df1a563d574ba4b6a7e357d8125983eb2b4",
+    "scripts/candidate_v5_replay.py": "e23ffd00ef931c23b1e2a4e9b0fccb6731d57025f94dbdc3a9045a75de825004",
+    "datasets/ml-lab-20260930/ml_protocol_manifest.json": "3377f6ce41df2a224db214d7d56498b51355592312210c80f8cb58a0dedcc915",
+    "datasets/ml-lab-20260930/freeze.json": "dceed239a6316d5c76eb4153eb0e82925755cc91fdb82173eb0ff4cc3c173268",
+    "datasets/ml-lab-20260930/model.joblib": "092e7b025e871ff111e135d139747d62187de8e1655edaad250b3f1ab9e0cad4",
+    "datasets/ml-lab-20260930/evidence_index.json": "befb7d6d96cc7a75baf629d5023fc4c3098b119a2217b244918cfbdc7fab8604",
+    "datasets/causal-ml-holdout-20261001/summary.json": "442d5bb558858b53c30184174a202d642c5deeb02a1e454e668943082a58dcd3"
+  },
+  "historical_split": "24 development / 10 heldout; no reuse as fresh",
+  "baseline": {
+    "confirmed_rejections": 10,
+    "window_seconds": 60,
+    "entity": [
+      "source_ip",
+      "account"
+    ]
+  },
+  "sensitivity_baseline": {
+    "confirmed_rejections": 5,
+    "window_seconds": 60
+  },
+  "online_stages": [
+    "RECONNAISSANCE",
+    "AUTHENTICATION_ATTACK",
+    "SUSPECTED_COMPROMISE",
+    "SUSPECTED_OUTBOUND_ATTEMPT"
+  ],
+  "no_cdr_prediction_features": true,
+  "archive_integrity": {
+    "D001": true,
+    "D002": true,
+    "D003": true,
+    "D004": true,
+    "D005": true,
+    "D006": true,
+    "D007": true,
+    "D008": true,
+    "D009": true,
+    "D010": true,
+    "D011": true,
+    "D012": true,
+    "D013": true,
+    "D014": true,
+    "D015": true,
+    "D016": true,
+    "D017": true,
+    "D018": true,
+    "D019": true,
+    "D020": true,
+    "D021": true,
+    "D022": true,
+    "D023": true,
+    "D024": true,
+    "H001": true,
+    "H002": true,
+    "H003": true,
+    "H004": true,
+    "H005": true,
+    "H006": true,
+    "H007": true,
+    "H008": true,
+    "H009": true,
+    "H010": true
+  }
+}

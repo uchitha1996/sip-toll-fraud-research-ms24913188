@@ -1,0 +1,134 @@
+{
+  "freeze_sha256": "dceed239a6316d5c76eb4153eb0e82925755cc91fdb82173eb0ff4cc3c173268",
+  "model_sha256": "092e7b025e871ff111e135d139747d62187de8e1655edaad250b3f1ab9e0cad4",
+  "heldout_features_sha256": "d692ec59ce3392f29c8466ba92a13782e771ad8d15ad62c72e4ab6bccb3b5017",
+  "n": 10,
+  "ml": {
+    "tp": 1,
+    "fp": 0,
+    "tn": 5,
+    "fn": 4,
+    "balanced_accuracy": 0.6
+  },
+  "ml_auc": 0.66,
+  "ml_brier": 0.2512,
+  "ml_review_count": 6,
+  "v6_any_stage": {
+    "tp": 3,
+    "fp": 2,
+    "tn": 3,
+    "fn": 2,
+    "balanced_accuracy": 0.6
+  },
+  "v6_answered_stage": {
+    "tp": 2,
+    "fp": 1,
+    "tn": 4,
+    "fn": 3,
+    "balanced_accuracy": 0.6
+  },
+  "majority_accuracy": 0.5,
+  "individual": [
+    {
+      "scenario_id": "H001",
+      "truth": "BENIGN",
+      "p_simulated_abuse": 0.0,
+      "ml_decision": "BENIGN",
+      "ml_binary": 0,
+      "v6_any_alert": 0,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "68e9e50a2886f6222ce6ac1160c5b7926d06fb0d4403c03c5d00d2a3fe847576"
+    },
+    {
+      "scenario_id": "H002",
+      "truth": "BENIGN",
+      "p_simulated_abuse": 0.454545,
+      "ml_decision": "REVIEW",
+      "ml_binary": 0,
+      "v6_any_alert": 0,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "feeee14ba5ed29f0a25a6c8973b6be319f7cb9fb604165cfdc99e88aab64c049"
+    },
+    {
+      "scenario_id": "H003",
+      "truth": "BENIGN",
+      "p_simulated_abuse": 0.454545,
+      "ml_decision": "REVIEW",
+      "ml_binary": 0,
+      "v6_any_alert": 1,
+      "v6_answered_stage": 1,
+      "pcap_sha256": "8db626eb7ad30def383ca2935c2312ed4382fb2aa9128dcb9fd0c621b7e9b5a7"
+    },
+    {
+      "scenario_id": "H004",
+      "truth": "BENIGN",
+      "p_simulated_abuse": 0.454545,
+      "ml_decision": "REVIEW",
+      "ml_binary": 0,
+      "v6_any_alert": 1,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "3b89a348d76b58e19ab9de93e00f72a0e2f345359b888eae779e036dcf676f1e"
+    },
+    {
+      "scenario_id": "H005",
+      "truth": "BENIGN",
+      "p_simulated_abuse": 0.0,
+      "ml_decision": "BENIGN",
+      "ml_binary": 0,
+      "v6_any_alert": 0,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "06d26b0ebeb123d2f200a3bcecd7fe0c5d4b63a8cdbda8ae3e442d5cc3bfb323"
+    },
+    {
+      "scenario_id": "H006",
+      "truth": "SIMULATED_ABUSE",
+      "p_simulated_abuse": 1.0,
+      "ml_decision": "SIMULATED_ABUSE",
+      "ml_binary": 1,
+      "v6_any_alert": 0,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "f2fa2194c3577ff863cf7c9c318871054f31d09d5a744f3ac6e6b0ab5456111f"
+    },
+    {
+      "scenario_id": "H007",
+      "truth": "SIMULATED_ABUSE",
+      "p_simulated_abuse": 0.454545,
+      "ml_decision": "REVIEW",
+      "ml_binary": 0,
+      "v6_any_alert": 1,
+      "v6_answered_stage": 1,
+      "pcap_sha256": "15014e82559ea32b624d6d9496cc454d13813096f7aa540a0456dbb728dfc1c9"
+    },
+    {
+      "scenario_id": "H008",
+      "truth": "SIMULATED_ABUSE",
+      "p_simulated_abuse": 0.454545,
+      "ml_decision": "REVIEW",
+      "ml_binary": 0,
+      "v6_any_alert": 1,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "6442f0f417f29a514c8448ed30efc8a285b5243e84878394c75808c33a7d52fd"
+    },
+    {
+      "scenario_id": "H009",
+      "truth": "SIMULATED_ABUSE",
+      "p_simulated_abuse": 0.454545,
+      "ml_decision": "REVIEW",
+      "ml_binary": 0,
+      "v6_any_alert": 1,
+      "v6_answered_stage": 1,
+      "pcap_sha256": "bb7f77e8c2f4621cb09c1da95e6bfe76fe8366de4f7546b218a5c3ddc28dbf62"
+    },
+    {
+      "scenario_id": "H010",
+      "truth": "SIMULATED_ABUSE",
+      "p_simulated_abuse": 0.0,
+      "ml_decision": "BENIGN",
+      "ml_binary": 0,
+      "v6_any_alert": 0,
+      "v6_answered_stage": 0,
+      "pcap_sha256": "3ce2946468ae707ef5a294032e79c648bd63692ed6008568b0c234aec0f34d15"
+    }
+  ],
+  "note": "Assigned intent is indistinguishable for matched signalling; this is a small, single-source lab result."
+}

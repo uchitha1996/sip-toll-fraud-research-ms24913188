@@ -1,0 +1,247 @@
+{
+  "created_utc": "2026-10-12T03:51:16.672401+00:00",
+  "fixed_before_traffic": true,
+  "role_endpoint": "Assigned BENIGN versus SIMULATED_ABUSE role; permission violation is separate observable evidence",
+  "evaluation_unit": "One complete isolated case; failed/incomplete cases excluded with explicit accounting",
+  "methods": [
+    "baseline_10",
+    "baseline_5_sensitivity",
+    "V6",
+    "V6_context"
+  ],
+  "observation_boundary": "All causal SIP events through capture end, zero future CDR inputs; early means strictly before first client INVITE",
+  "primary_baseline": "10 confirmed failures in 60s per source/account",
+  "sensitivity": "5 confirmed failures in 60s, predeclared to avoid favorable baseline selection",
+  "historical_data_use": "Previously inspected archives are integrity checks and demonstrations only",
+  "label_blindness": "Policy and predictions functions accept events only. Attach assigned roles after predicting",
+  "scope": "Isolated two-Pi lab, no PSTN, one case at a time, native observer remains unloaded",
+  "max_answered_lab_calls": 9,
+  "max_wrong_password_dialogs": 50,
+  "registration_controls": [
+    {
+      "id": "P101",
+      "original_reference": "P001",
+      "targets": [
+        "1001",
+        "1001",
+        "1001",
+        "1001",
+        "1001",
+        "1001"
+      ]
+    },
+    {
+      "id": "P102",
+      "original_reference": "P002",
+      "targets": [
+        "1001",
+        "1002",
+        "1001",
+        "1002",
+        "1001",
+        "1002"
+      ]
+    },
+    {
+      "id": "P103",
+      "original_reference": "P003",
+      "targets": [
+        "9001",
+        "9001",
+        "9001",
+        "9001",
+        "9001",
+        "9001"
+      ]
+    },
+    {
+      "id": "P104",
+      "original_reference": "P004",
+      "targets": [
+        "9001",
+        "9002",
+        "9003",
+        "9004",
+        "9005",
+        "9006"
+      ]
+    }
+  ],
+  "control_request_cap": 24,
+  "p002_troubleshooting_seconds": 120,
+  "control_boundary": "Revised send-only generator; verify request and response transactions independently from PBX PCAP. Original P002 remains incomplete",
+  "scenarios": [
+    {
+      "id": "C001",
+      "split": "fresh",
+      "intent": "BENIGN",
+      "account": "1001",
+      "wrong": 0,
+      "success": 1,
+      "call": 1,
+      "destination": "88001",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "normal_allowed_call"
+    },
+    {
+      "id": "C002",
+      "split": "fresh",
+      "intent": "BENIGN",
+      "account": "1002",
+      "wrong": 0,
+      "success": 1,
+      "call": 1,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "second_account_allowed_call"
+    },
+    {
+      "id": "C003",
+      "split": "fresh",
+      "intent": "BENIGN",
+      "account": "1001",
+      "wrong": 6,
+      "success": 1,
+      "call": 1,
+      "destination": "88001",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "authorized_recovery_with_predeclared_permission"
+    },
+    {
+      "id": "C004",
+      "split": "fresh",
+      "intent": "BENIGN",
+      "account": "1002",
+      "wrong": 6,
+      "success": 1,
+      "call": 1,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "legitimate_recovery_without_observed_maintenance_permission"
+    },
+    {
+      "id": "C005",
+      "split": "fresh",
+      "intent": "BENIGN",
+      "account": "1001",
+      "wrong": 2,
+      "success": 1,
+      "call": 0,
+      "destination": "88001",
+      "interval": 1.8,
+      "post_register_pause": 0,
+      "profile": "mistype_then_register_no_call"
+    },
+    {
+      "id": "C006",
+      "split": "fresh",
+      "intent": "BENIGN",
+      "account": "1002",
+      "wrong": 2,
+      "success": 0,
+      "call": 0,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 0,
+      "profile": "two_wrong_dialogs_no_success"
+    },
+    {
+      "id": "C007",
+      "split": "fresh",
+      "intent": "SIMULATED_ABUSE",
+      "account": "1001",
+      "wrong": 6,
+      "success": 1,
+      "call": 1,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "recovery_followed_by_forbidden_destination"
+    },
+    {
+      "id": "C008",
+      "split": "fresh",
+      "intent": "SIMULATED_ABUSE",
+      "account": "1002",
+      "wrong": 6,
+      "success": 1,
+      "call": 1,
+      "destination": "88001",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "recovery_without_permission_then_forbidden_destination"
+    },
+    {
+      "id": "C009",
+      "split": "fresh",
+      "intent": "SIMULATED_ABUSE",
+      "account": "1001",
+      "wrong": 0,
+      "success": 1,
+      "call": 1,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "direct_forbidden_destination_without_auth_attack"
+    },
+    {
+      "id": "C010",
+      "split": "fresh",
+      "intent": "SIMULATED_ABUSE",
+      "account": "1002",
+      "wrong": 10,
+      "success": 0,
+      "call": 0,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 0,
+      "profile": "ten_failed_auth_dialogs_no_call"
+    },
+    {
+      "id": "C011",
+      "split": "fresh",
+      "intent": "SIMULATED_ABUSE",
+      "account": "1001",
+      "wrong": 6,
+      "success": 1,
+      "call": 1,
+      "destination": "88001",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "matched_hidden_role_within_allowed_policy"
+    },
+    {
+      "id": "C012",
+      "split": "fresh",
+      "intent": "SIMULATED_ABUSE",
+      "account": "1002",
+      "wrong": 6,
+      "success": 1,
+      "call": 1,
+      "destination": "88002",
+      "interval": 1.8,
+      "post_register_pause": 1.2,
+      "profile": "matched_hidden_role_without_recovery_permission"
+    }
+  ],
+  "matched_groups": [
+    [
+      "C003",
+      "C011"
+    ],
+    [
+      "C004",
+      "C012"
+    ]
+  ],
+  "limits": [
+    "One source/PBX/day/two accounts",
+    "Two-account shared-source control is not five-account NAT validation",
+    "Assigned intent cannot be inferred when policy-observable evidence is identical",
+    "Replay event-clock lead time excludes online capture/delivery/processing latency"
+  ]
+}

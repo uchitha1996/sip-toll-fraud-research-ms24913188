@@ -1,0 +1,32 @@
+[
+  {
+    "target": "1001",
+    "call_id": "pp2b-44b115bc5dcd429f8c5abf903be15f31",
+    "sender_bytes": 386
+  },
+  {
+    "target": "1002",
+    "call_id": "pp2b-6aece72a065a4b96914fcc2b3f7e03d7",
+    "sender_bytes": 386
+  },
+  {
+    "target": "1001",
+    "call_id": "pp2b-6af8ab8cc7d4433192c588a64822eb02",
+    "sender_bytes": 386
+  },
+  {
+    "target": "1002",
+    "call_id": "pp2b-2dfa43383c2a4ecaad198d1f6b83d8a5",
+    "sender_bytes": 386
+  },
+  {
+    "target": "1001",
+    "call_id": "pp2b-4832becc7ffc4faeb1ddd7c531e83c36",
+    "sender_bytes": 386
+  },
+  {
+    "target": "1002",
+    "call_id": "pp2b-0615ce924e5e4f73b642f287f608cb64",
+    "sender_bytes": 386
+  }
+]

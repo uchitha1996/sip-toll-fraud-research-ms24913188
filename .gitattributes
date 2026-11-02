@@ -1,0 +1,11 @@
+*.docx binary
+*.pptx binary
+*.pdf binary
+*.pcap binary
+*.joblib binary
+*.png binary
+*.py -text
+*.json -text
+*.csv -text
+*.log -text
+*.txt -text

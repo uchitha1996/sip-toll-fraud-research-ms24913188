@@ -29,7 +29,7 @@
   ],
   "objective_list": "Reference SLIIT_List numbering; five original objectives retained",
   "captions": "Calibri 9 pt italic, colour #44546A; single spacing",
-  "figure_captions": "Below figures, left aligned, following explicit template guidance",
+  "figure_captions": "Below figures, centred, as requested by the author",
   "table_captions": "Above tables, centred; separated from adjacent tables",
   "page_numbers": "Unnumbered cover; Roman preliminaries; Arabic from 1 as shown in reference",
   "all_93_pages_visually_reviewed": true,
@@ -39,5 +39,6 @@
   "supervisor": "Dr. Nimal Rathnayake",
   "repository_visibility": "public",
   "anonymous_evidence_access_verified": true,
-  "review_scope": "Formatting, navigation and evidence access. Institutional approval signatures and a similarity report were not generated."
+  "review_scope": "Formatting, navigation and evidence access. Institutional approval signatures and a similarity report were not generated.",
+  "figure_caption_alignment_preference": "The author explicitly requested centred figure captions; this overrides the left-alignment instruction in the template prose."
 }

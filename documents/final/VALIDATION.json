@@ -17,5 +17,22 @@
   "repository_visibility": "public",
   "anonymous_repository_access_verified": true,
   "six_linked_files_readable_without_signing_in": true,
-  "visual_review": "Passed; all 93 pages reviewed"
+  "visual_review": "Passed; all 11 changed figure pages reviewed and 82 unchanged pages match the previously reviewed rendering",
+  "figure_captions_centered": 11,
+  "figure_caption_centering_verified_in_pdf": true,
+  "all_pdf_page_text_preserved": true,
+  "changed_pages_visually_reviewed": [
+    34,
+    39,
+    42,
+    53,
+    55,
+    58,
+    61,
+    69,
+    72,
+    76,
+    79
+  ],
+  "unchanged_pages_pixel_identical": 82
 }

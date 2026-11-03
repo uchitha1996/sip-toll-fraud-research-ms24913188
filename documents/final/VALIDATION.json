@@ -1,15 +1,21 @@
 {
-  "pages": 89,
+  "checked_on": "2026-11-03",
+  "pages": 93,
   "navigation_entries_checked": 146,
+  "navigation_label_mismatches": 0,
   "navigation_target_mismatches": 0,
   "navigation_display_mismatches": 0,
   "pdf_links": 404,
   "broken_pdf_destinations": 0,
   "broken_docx_anchors": [],
   "all_26_result_tables_preserved": true,
+  "original_media_preserved": true,
   "evidence_snapshot_commit": "d7efaefb693d29b6a189a9eddce819e1767630ab",
   "direct_appendix_file_links": 6,
   "six_file_hashes_match_cited_snapshot": true,
-  "visual_review": "Passed",
-  "six_linked_files_verified_on_github": true
+  "six_linked_files_verified_on_github": true,
+  "repository_visibility": "public",
+  "anonymous_repository_access_verified": true,
+  "six_linked_files_readable_without_signing_in": true,
+  "visual_review": "Passed; all 93 pages reviewed"
 }

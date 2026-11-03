@@ -1,6 +1,6 @@
 # Research repository inventory
 
-Updated 2 November 2026 for MS24913188.
+Updated 3 November 2026 for MS24913188.
 
 ## Current coverage
 
@@ -11,6 +11,8 @@ The source locations are `/home/astrix/sip-fraud-research` and `/home/astrix/sip
 ## Documents and initial supplied evidence
 
 `documents/final/` contains the current revised Word/PDF pair. Their identities are recorded separately in `documents/final/FILES.json`, and navigation checks in `documents/final/VALIDATION.json`. The funding narrative is removed, the laboratory history is stated neutrally, and reference 19 identifies the immutable GitHub evidence snapshot.
+
+The current 93-page thesis was checked against the supplied MSc Thesis template 2026-Jan.docx, including all 11 figures and 26 tables. `documents/final/TEMPLATE_FORMATTING_CHECK.json` records the formatting comparison. The repository and the six linked evidence files are publicly readable without signing in.
 
 - `documents/baseline/`: thesis retained before the next editorial revision.
 - `documents/drafts/`: supplied earlier thesis versions with original filenames.

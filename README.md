@@ -4,7 +4,7 @@
 
 MSc in Information Systems research by K.M.U.P. Kosgoda, registration MS24913188, Sri Lanka Institute of Information Technology. Supervisor: Dr. Nimal Rathnayake.
 
-This private repository brings together the available thesis documents, experimental source, recorded results and laboratory evidence. It preserves the distinction between observable SIP progression, an assigned experimental role, learned review priority and independently declared permission context.
+This public repository brings together the available thesis documents, experimental source, recorded results and laboratory evidence. It preserves the distinction between observable SIP progression, an assigned experimental role, learned review priority and independently declared permission context.
 
 ## Repository status
 
@@ -20,7 +20,7 @@ Current thesis: [linked PDF](documents/final/MS24913188_Final_Thesis_November_20
 
 | Directory or file | Contents |
 | --- | --- |
-| [documents/final](documents/final) | Revised linked Word/PDF thesis, file identities and navigation validation |
+| [documents/final](documents/final) | Revised linked Word/PDF thesis, file identities, navigation validation and template formatting check |
 | [documents/baseline](documents/baseline) | Thesis version retained before the next editorial changes |
 | [documents/drafts](documents/drafts) | Supplied earlier drafts with their original filenames |
 | [documents/proposal](documents/proposal) | Approved research proposal supplied in the earlier research chats |
@@ -69,6 +69,6 @@ The excluded originals are listed by path and hash in [research/EXCLUDED_ORIGINA
 
 The single sanitized template is under [research/sanitized](research/sanitized), with its changes recorded in [research/SANITIZED_SOURCE_MANIFEST.json](research/SANITIZED_SOURCE_MANIFEST.json). Safe members of the withheld archives are already included at identical hashes elsewhere; [research/ARCHIVE_MEMBER_INDEX.json](research/ARCHIVE_MEMBER_INDEX.json) maps those identities.
 
-Thesis documents will be revised separately from the frozen experiment source and results. Subsequent thesis citations should identify the repository version or commit used, so an evolving branch is not confused with the evidence supporting a submitted document.
+Thesis documents are versioned separately from the frozen experiment source and results. Subsequent thesis citations should identify the repository version or commit used, so an evolving branch is not confused with the evidence supporting a submitted document.
 
-No software or data redistribution license is granted by this initial private import. Third-party material retains its original ownership and terms.
+No software or data redistribution license is granted by making this repository public. Third-party material retains its original ownership and terms.

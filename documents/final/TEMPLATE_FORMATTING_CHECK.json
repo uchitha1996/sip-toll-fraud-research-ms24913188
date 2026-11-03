@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-11-03",
+  "reference_template": "MSc Thesis template 2026-Jan.docx",
+  "reference_sha256": "069fcfc25b074c971bc23cfe4536f1b7497d3b5052e0a0a47ed5845278b2be63",
+  "pages": 93,
+  "research_figures": 11,
+  "tables": 26,
+  "table_format": "Times New Roman 12 pt; white cells; black 0.5 pt grid; bold centred repeating headers; no fixed-height clipping",
+  "body_words_excluding_tables_and_references": 20632,
+  "abstract_words": 208,
+  "page_size": "A4 portrait",
+  "cover_margins_inches": {
+    "top": 1,
+    "bottom": 1,
+    "left": 1,
+    "right": 1
+  },
+  "later_margins_inches": {
+    "top": 1,
+    "bottom": 1,
+    "left": 1,
+    "right": 0.75
+  },
+  "body": "Times New Roman 12 pt; 1.5 line spacing; reference paragraph spacing and indent; justified",
+  "heading_levels_pt": [
+    20,
+    16,
+    14
+  ],
+  "objective_list": "Reference SLIIT_List numbering; five original objectives retained",
+  "captions": "Calibri 9 pt italic, colour #44546A; single spacing",
+  "figure_captions": "Below figures, left aligned, following explicit template guidance",
+  "table_captions": "Above tables, centred; separated from adjacent tables",
+  "page_numbers": "Unnumbered cover; Roman preliminaries; Arabic from 1 as shown in reference",
+  "all_93_pages_visually_reviewed": true,
+  "original_images_and_result_table_contents_preserved": true,
+  "navigation_entries_verified": 146,
+  "submission_month": "November 2026",
+  "supervisor": "Dr. Nimal Rathnayake",
+  "repository_visibility": "public",
+  "anonymous_evidence_access_verified": true,
+  "review_scope": "Formatting, navigation and evidence access. Institutional approval signatures and a similarity report were not generated."
+}

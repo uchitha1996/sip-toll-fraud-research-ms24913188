@@ -40,5 +40,9 @@
   "repository_visibility": "public",
   "anonymous_evidence_access_verified": true,
   "review_scope": "Formatting, navigation and evidence access. Institutional approval signatures and a similarity report were not generated.",
-  "figure_caption_alignment_preference": "The author explicitly requested centred figure captions; this overrides the left-alignment instruction in the template prose."
+  "figure_caption_alignment_preference": "The author explicitly requested centred figure captions; this overrides the left-alignment instruction in the template prose.",
+  "contents": "Native Word table of contents; two native caption-generated lists of figures and tables; page numbers and links verified against destination footers",
+  "native_word_update_after_reopening_verified": true,
+  "sequence_caption_fields": 37,
+  "research_prose_unchanged_after_contents_repair": true
 }

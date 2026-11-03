@@ -16,7 +16,7 @@ The standalone SIPp generator folder `/home/sipp/sip-fraud-lab` is outside this 
 
 ## Find the material
 
-Current thesis: [linked PDF](documents/final/MS24913188_Final_Thesis_November_2026_Revised.pdf) · [editable Word document](documents/final/MS24913188_Final_Thesis_November_2026_Revised.docx). The PDF supports ordinary single-click navigation; Word editing mode normally uses Ctrl+click. The current files cite the immutable evidence snapshot `d7efaefb693d29b6a189a9eddce819e1767630ab`.
+Current thesis: [linked PDF](documents/final/MS24913188_Final_Thesis_November_2026_Revised.pdf) · [editable Word document](documents/final/MS24913188_Final_Thesis_November_2026_Revised.docx). The PDF supports ordinary single-click navigation; Word editing mode normally uses Ctrl+click. The Word file contains a native table of contents and native lists of figures and tables. After editing, update each list using Update Table/Update Field and choose Update entire table. All three lists were tested again after closing and reopening the file. The current files cite the immutable evidence snapshot `d7efaefb693d29b6a189a9eddce819e1767630ab`.
 
 | Directory or file | Contents |
 | --- | --- |
